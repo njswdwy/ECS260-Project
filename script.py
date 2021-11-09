@@ -7,7 +7,7 @@ import requests
 import datetime
 import time
 
-access_token = "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"
+access_token = "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"
 projectList = pd.read_csv("Cleaned_Project_List(1)(1).csv")
 projectList['full Name'] = projectList['GitHub Link']
 for i in range(len(projectList)):
@@ -170,12 +170,14 @@ def extract_projects(projectList):
     df['Forks'] = 0
     df['size'] = 0
     df['contributor'] = 0
+    # shape = df.shape
 
-    for i in range(1):
+
+    for i in range(181,len(df)):
         print(str(i + 1) + ' ' + df['Project Full Name'][i])
         f.write(str(i + 1) + ' ' + df['Project Full Name'][i] + '\n')
-        # project_name = df['Project Full Name'][i]
-        project_name = 'apache/aries'
+        project_name = df['Project Full Name'][i]
+        # project_name = 'apache/aries'
         try:
             g = Github(access_token, retry=10, timeout=15, per_page=100)
             repo = g.get_repo(project_name)
@@ -183,13 +185,13 @@ def extract_projects(projectList):
             pr_number = pr_list.totalCount
             df['PR Number'][i] = pr_number
             df['size'][i] = repo.size
-            df['contributor'] = repo.get_contributors().totalCount
+            df['contributor'][i] = repo.get_contributors().totalCount
+
             # merged_pr_number =0
 
-            prs, merged_pr = extract_project_PRs(pr_list)
-            prs.to_csv('PRs_dataset/' + project_name + '.csv', sep=',', encoding='utf-8', index=True)
-            # for i in range(pr_number):
-            #         merged_pr_number += pr_list[i].is_merged()
+            # prs, merged_pr = extract_project_PRs(pr_list)
+            # prs.to_csv('PRs_dataset/' + project_name + '.csv', sep=',', encoding='utf-8', index=True)
+
             if pr_number > 0:
                 df['First PR Created Time'][i] = pr_list[0].created_at
             #     PRs_comment = repo.get_pulls_comments(sort='created').totalCount
@@ -198,7 +200,8 @@ def extract_projects(projectList):
             df['Commits number'][i] = repo.get_commits().totalCount
             df['Forks'][i] = repo.forks
             df['Stars'][i] = repo.get_stargazers().totalCount
-            df['Merged PR Number'][i] = merged_pr
+            # df['Merged PR Number'][i] = merged_pr
+            df['Merged PR Number'][i] = 0
 
         except RateLimitExceededException as e:
             f.write(str(e.status))
