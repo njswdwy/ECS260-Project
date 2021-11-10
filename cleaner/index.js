@@ -6,6 +6,7 @@ var stringify = require('csv-stringify');
 (async function () {
     const fileContent = await fs.readFile('../PRs_dataset/project_list.csv');
     const records = parse(fileContent, {columns: true});
+    let index = 0;
     const cleanedData = records.reduce((acc, item) => {
         if (!item['PR Number'] || item['PR Number'] === '0' || item['PR Number'] === 0) {
             return acc;
@@ -20,6 +21,8 @@ var stringify = require('csv-stringify');
         const prDay = parseInt(prDate[2]);
         if (prYear < endYear || (prYear === endYear && prMonth < endMonth) ||
         (prYear === endYear && prMonth === endMonth && prDay < endDay)) {
+            index++;
+            item[''] = index;
             return [...acc, item];
         }
         return acc;
