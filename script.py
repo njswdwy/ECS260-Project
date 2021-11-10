@@ -6,15 +6,13 @@ import pandas as pd
 import requests
 import datetime
 import time
+from urllib3 import Retry
 
-access_token = "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"
+access_token = "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"
 projectList = pd.read_csv("Cleaned_Project_List(1)(1).csv")
 projectList['full Name'] = projectList['GitHub Link']
 for i in range(len(projectList)):
     projectList['full Name'][i] = '/'.join(projectList['full Name'][i].split('/')[-2:])
-
-
-
 
 
 f = open('log.txt','a')
@@ -173,13 +171,13 @@ def extract_projects(projectList):
     # shape = df.shape
 
 
-    for i in range(181,len(df)):
+    for i in range(0, len(projectList)):
         print(str(i + 1) + ' ' + df['Project Full Name'][i])
         f.write(str(i + 1) + ' ' + df['Project Full Name'][i] + '\n')
         project_name = df['Project Full Name'][i]
         # project_name = 'apache/aries'
         try:
-            g = Github(access_token, retry=10, timeout=15, per_page=100)
+            g = Github(access_token, retry = Retry (total = 15, status_forcelist = (500, 502, 504), backoff_factor = 0.3), timeout=6000, per_page=100)
             repo = g.get_repo(project_name)
             pr_list = repo.get_pulls(state='closed',sort='created')
             pr_number = pr_list.totalCount
@@ -202,6 +200,7 @@ def extract_projects(projectList):
             df['Stars'][i] = repo.get_stargazers().totalCount
             # df['Merged PR Number'][i] = merged_pr
             df['Merged PR Number'][i] = 0
+            print('Complete')
 
         except RateLimitExceededException as e:
             f.write(str(e.status))
@@ -219,6 +218,11 @@ def extract_projects(projectList):
             f.write('Unknown object exception')
             f.write('\n')
             break
+        except requests.exceptions.Timeout as e:
+            print(str(e))
+            print('Timeout exception')
+            time.sleep(10)
+            continue
         except GithubException as e:
 
             f.write(str(e.status))
