@@ -1,0 +1,17 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,10657663.0,V2base,1.0,848.0,0.0,8.0,4.0,0.0,0.0,2013-12-09 19:31:29,2013-12-09 19:54:18,Mark Chu-Carroll,705448.0,0.0,
+1,10827424.0,Fix bad indentation causing bad layout in deploying-aurora-scheduler.md,2.0,1.0,1.0,1.0,1.0,1.0,0.0,2013-12-14 01:45:23,2018-07-30 19:27:53,Perry Lorier,11703.0,0.0,
+2,10997104.0,Added a dummy Tutorial heading,3.0,4.0,0.0,1.0,1.0,1.0,1.0,2013-12-20 00:34:08,2014-12-16 19:55:04,Marko Gargenta,660693.0,0.0,
+3,12454951.0,Formatted table of contents,4.0,56.0,56.0,3.0,1.0,3.0,0.0,2014-02-12 09:44:44,2015-01-07 06:27:21,Mohit Soni,102390.0,0.0,
+4,12699190.0,Use the correct IP for the scheduler URL,5.0,1.0,1.0,1.0,1.0,3.0,0.0,2014-02-19 14:18:52,2017-11-19 16:26:49,Brian McCallister,1291.0,0.0,
+5,12700119.0,Correct python executable name,6.0,1.0,1.0,1.0,1.0,1.0,0.0,2014-02-19 14:42:50,2017-11-19 16:26:18,Brian McCallister,1291.0,0.0,
+6,13373992.0,vagrant example on exoscale Open Cloud,7.0,326.0,0.0,6.0,1.0,1.0,0.0,2014-03-10 14:37:24,2018-07-30 19:28:01,Antoine Coetsier,1295273.0,0.0,
+7,15442935.0,Change usage comment to match actual argument,8.0,1.0,1.0,1.0,1.0,1.0,0.0,2014-05-02 18:02:36,2014-05-02 18:24:10,Dominic Hamon,510002.0,0.0,
+8,15832484.0,Add support for custom project to list-missing-shipits,9.0,18.0,4.0,1.0,1.0,2.0,0.0,2014-05-13 16:31:14,2014-05-13 17:49:35,Dominic Hamon,510002.0,0.0,
+9,16300094.0,Aurora 475 Remove Copyright Apache Software Foundation from the source files license header,10.0,7.0,551.0,541.0,3.0,3.0,0.0,2014-05-23 23:54:09,2015-01-07 05:31:00,Henry Saputra,105434.0,0.0,
+10,17852203.0,Fix TaskObserver for json endpoint usage,11.0,0.0,0.0,0.0,0.0,1.0,0.0,2014-07-01 20:10:47,2014-07-01 22:10:48,Kevin Burg,1740682.0,1.0,2014-07-01 22:10:48
+11,17858218.0,Fix TaskObserver for json endpoint usage.,12.0,6.0,3.0,4.0,2.0,0.0,0.0,2014-07-01 22:19:06,2014-07-14 18:22:34,Kevin Burg,1740682.0,0.0,
+12,20715088.0,Add information about log initialisation step.,13.0,11.0,0.0,1.0,1.0,2.0,0.0,2014-09-04 00:12:29,2014-09-05 15:29:53,Joseph Glanville,605591.0,0.0,
+13,26677847.0,[AURORA-986] RequestLoggerTest failed for Locale.FRANCE,14.0,11.0,2.0,1.0,1.0,1.0,0.0,2014-12-30 08:59:43,2015-01-06 20:18:42,Issam El-atif,900456.0,0.0,
+14,27982781.0,Fix markdown syntax for 'receiving offers',15.0,1.0,1.0,1.0,1.0,1.0,0.0,2015-01-24 21:39:01,2015-01-24 21:50:26,Jeff Schroeder,4603.0,0.0,
+15,28778524.0,add mesos role feature,16.0,0.0,0.0,0.0,0.0,3.0,0.0,2015-02-06 01:37:02,2015-02-25 18:06:56,,10806826.0,1.0,2015-02-25 18:06:56

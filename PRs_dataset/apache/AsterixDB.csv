@@ -1,0 +1,12 @@
+,pr_id,pr_title,pr_number,pr_url,pr_state,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at,pr_normal_comment,pr_review_comment
+0,55981126.0,Steven/procedures,1.0,https://api.github.com/repos/apache/asterixdb/pulls/1,closed,7430.0,2207.0,221.0,73.0,0.0,0.0,2016-01-14 01:21:11,2016-01-14 01:21:47,,566118.0,0.0,,[],[]
+1,67546043.0,Apr 22 Merge pull request #1 from apache/master,2.0,https://api.github.com/repos/apache/asterixdb/pulls/2,closed,0.0,0.0,0.0,1.0,0.0,0.0,2016-04-22 17:30:09,2016-04-22 17:30:45,,1617407.0,0.0,,[],[]
+2,131011670.0,Shivaj,5.0,https://api.github.com/repos/apache/asterixdb/pulls/5,closed,1364.0,301.0,18.0,7.0,0.0,0.0,2017-07-18 06:33:40,2017-07-18 06:33:55,Shiva Jahangiri,9000098.0,0.0,,[],[]
+3,183264989.0,"ASTERIXDB-2370: Modify the inconsistent method name ""isFull"".",7.0,https://api.github.com/repos/apache/asterixdb/pulls/7,closed,2.0,2.0,2.0,1.0,2.0,0.0,2018-04-22 09:55:09,2018-05-03 17:49:05,Kui LIU,17425450.0,0.0,,[],[]
+4,407638823.0,added full-text config and filter definitions,9.0,https://api.github.com/repos/apache/asterixdb/pulls/9,closed,737.0,0.0,11.0,1.0,0.0,0.0,2020-04-23 02:11:42,2020-04-24 22:42:45,,41367284.0,0.0,,[],[]
+5,453606120.0,Update substr(),10.0,https://api.github.com/repos/apache/asterixdb/pulls/10,closed,95.0,17.0,9.0,6.0,0.0,0.0,2020-07-20 16:15:51,2020-07-20 16:15:55,,41367284.0,0.0,,[],[]
+6,453606345.0,Ruigguo/update func substr,11.0,https://api.github.com/repos/apache/asterixdb/pulls/11,closed,137.0,17.0,9.0,11.0,0.0,0.0,2020-07-20 16:16:08,2020-07-22 09:31:02,,41367284.0,0.0,,[],[]
+7,454816338.0,Ruiguo/update func trim,12.0,https://api.github.com/repos/apache/asterixdb/pulls/12,closed,180.0,90.0,8.0,22.0,0.0,0.0,2020-07-22 00:43:28,2020-07-22 09:30:58,,41367284.0,0.0,,[],[]
+8,454995710.0,Ruiguo/update func reverse,13.0,https://api.github.com/repos/apache/asterixdb/pulls/13,closed,364.0,108.0,15.0,24.0,0.0,0.0,2020-07-22 09:29:19,2020-07-22 09:30:37,,41367284.0,0.0,,[],[]
+9,457490102.0,Ruiguo/update func codepoint to string,14.0,https://api.github.com/repos/apache/asterixdb/pulls/14,closed,42.0,66.0,6.0,42.0,0.0,0.0,2020-07-28 01:47:08,2020-07-31 04:22:48,,41367284.0,0.0,,[],[]
+10,633289841.0,Unofficial pull request for PBSM implementation,16.0,https://api.github.com/repos/apache/asterixdb/pulls/16,closed,5013.0,74.0,75.0,186.0,0.0,0.0,2021-05-07 19:17:30,2021-05-07 19:19:29,,3014363.0,0.0,,[],[]
