@@ -1,0 +1,52 @@
+2021-11-16 15:11:39.398365apache/Sqoop
+apache/Storm
+apache/Stratos
+apache/Streams
+apache/Superset
+403Rate limit exceeded
+403Rate limit exceeded
+403Rate limit exceeded
+apache/SystemML
+apache/phoenix-tephra
+apache/Tez
+apache/TinkerPop
+apache/trafficcontrol
+403Rate limit exceeded
+apache/Trafodion
+403Rate limit exceeded
+apache/TVM
+403Rate limit exceeded
+403Rate limit exceeded
+apache/Twill
+apache/Unomi
+apache/Usergrid
+apache/Whirr
+apache/Zeppelin
+403Rate limit exceeded
+apache/incubator-retired-amaterasu
+apache/incubator-ariatosca
+apache/incubator-retired-blur
+apache/incubator-retired-concerted
+apache/incubator-retired-edgent
+apache/incubator-retired-gearpump
+403Rate limit exceeded
+apache/incubator-retired-gossip
+apache/incubator-retired-horn
+apache/incubator-retired-htrace
+apache/incubator-retired-iota
+apache/incubator-retired-mrql
+apache/incubator-myriad
+apache/incubator-retired-openaz
+apache/incubator-retired-pirk
+apache/incubator-retired-quickstep
+apache/incubator-retired-ripple
+apache/incubator-s2graph
+apache/incubator-retired-s4
+apache/incubator-samoa
+apache/Sirona
+apache/incubator-retired-slider
+apache/incubator-retired-tamaya
+apache/incubator-retired-wave
+apache/incubator-weex
+403Rate limit exceeded
+403Rate limit exceeded

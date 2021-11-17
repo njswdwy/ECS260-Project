@@ -1,0 +1,406 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,189868636.0,RATIS-244. Skip snapshot file if MD5 file does not exist,2.0,0.0,0.0,0.0,0.0,0.0,1.0,2018-05-23 06:29:43,2018-12-17 21:37:28,AW,11225287.0,0.0,
+1,191568526.0,"RATIS-251: Adding documentation for example, removing unused variables/imports",3.0,68.0,5.0,3.0,1.0,0.0,0.0,2018-05-30 20:17:37,2019-01-02 16:24:37,Ambud,9707358.0,0.0,
+2,208996733.0,RATIS-272 logservice api,4.0,1094.0,0.0,16.0,8.0,12.0,78.0,2018-08-16 22:01:40,2019-02-01 02:36:19,Josh Elser,67863.0,0.0,
+3,213842197.0,[RATIS-311] DeadLock between AppendEntries request and RaftLogWorker,5.0,4.0,2.0,1.0,1.0,3.0,0.0,2018-09-07 07:39:51,2019-04-26 23:07:10,Zhendong Liu,8434428.0,0.0,
+4,243394431.0,"RATIS-470. De-couple the LogService ""index"" from the RaftLog ""index""",7.0,185.0,49.0,6.0,2.0,5.0,5.0,2019-01-09 16:26:10,2019-01-30 18:37:28,Josh Elser,67863.0,0.0,
+5,243460373.0,RATIS-472. Clean up output for `read` logservice shell command,8.0,2.0,2.0,1.0,1.0,3.0,0.0,2019-01-09 19:58:51,2019-01-28 19:32:36,Josh Elser,67863.0,1.0,2019-01-28 19:32:36
+6,243472093.0,RATIS-473. Clarify size and length methods on LogStream,9.0,87.0,24.0,6.0,1.0,3.0,3.0,2019-01-09 20:31:31,2019-01-28 21:08:43,Josh Elser,67863.0,0.0,
+7,248976214.0,RATIS-XXX. Trying to test the PR contributions,10.0,2.0,0.0,1.0,1.0,0.0,0.0,2019-01-30 18:10:21,2019-02-01 01:57:07,Josh Elser,67863.0,0.0,
+8,249463292.0,RATIS-XXX. Trying to test the PR contributions,11.0,2.0,0.0,1.0,1.0,0.0,0.0,2019-02-01 01:57:41,2019-02-01 02:35:53,Josh Elser,67863.0,0.0,
+9,251640635.0,RATIS-481. Encapsulate the RaftLog reading in its own class,12.0,290.0,103.0,8.0,1.0,1.0,0.0,2019-02-09 00:59:33,2019-02-11 23:28:31,Josh Elser,67863.0,0.0,
+10,254963316.0,RATIS-478. Support custom grpc interceptors.,14.0,106.0,23.0,4.0,1.0,1.0,0.0,2019-02-21 10:19:17,2021-06-10 12:23:07,"Elek, Márton",170549.0,0.0,
+11,261322199.0,RATIS-500. Change GrpcClientProtocolClient request schedule log from …,16.0,0.0,1.0,1.0,2.0,0.0,0.0,2019-03-14 20:12:32,2019-03-18 06:49:46,Xiaoyu Yao,7039184.0,1.0,2019-03-18 06:49:45
+12,265100196.0,RATIS-243 purge commit logs after persisting snapshots,17.0,183.0,4.0,8.0,1.0,4.0,1.0,2019-03-27 21:02:00,2019-04-24 00:13:43,AW,11225287.0,0.0,
+13,269388723.0,RATIS-523 RATIS-524 RATIS-525 RATIS-526 RATIS-527 RATIS-533 Lots of cleanup on the LogService,18.0,373.0,75.0,15.0,6.0,5.0,6.0,2019-04-11 01:13:48,2019-05-03 18:07:22,Josh Elser,67863.0,0.0,
+14,278488709.0,"RATIS-549,RATIS-550,RATIS-552,RATIS-553 Metric Framework for Ratis",19.0,1380.0,104.0,31.0,1.0,3.0,23.0,2019-05-14 01:28:30,2019-05-29 16:02:56,Ankit Singhal,2297609.0,0.0,
+15,278865080.0,RATIS-546. Configurable value sizes on VerificationTool,20.0,136.0,12.0,2.0,1.0,1.0,0.0,2019-05-14 21:51:27,2019-05-16 13:19:58,Josh Elser,67863.0,1.0,2019-05-16 13:19:58
+16,282936863.0,RATIS-564. Add raft group Id to install snapshot notification.,21.0,104.0,38.0,5.0,3.0,0.0,0.0,2019-05-28 18:00:07,2019-06-12 05:33:40,Siddharth,3011545.0,0.0,
+17,283750476.0,RATIS-574. Configured sleep interval in RetryPolicy should not be used on NotLeaderException,22.0,87.0,34.0,5.0,7.0,1.0,0.0,2019-05-30 17:54:07,2019-06-07 02:37:40,Siddharth,3011545.0,0.0,
+18,284309106.0,RATIS-581. Add some logservice content to the website,23.0,156.0,3.0,7.0,1.0,2.0,0.0,2019-06-02 01:33:56,2019-06-07 19:44:49,Josh Elser,67863.0,0.0,
+19,285094102.0,RATIS-582 Update website instructions,24.0,85.0,11.0,3.0,1.0,1.0,2.0,2019-06-04 18:36:01,2019-06-07 18:43:52,Josh Elser,67863.0,0.0,
+20,287615745.0,RATIS-588 LogStream StateMachine export,25.0,1748.0,117.0,33.0,11.0,4.0,68.0,2019-06-12 17:59:46,2019-07-18 00:18:52,Ankit Singhal,2297609.0,0.0,
+21,289043559.0,RATIS-594 RATIS-593 RATIS-551 Add HadoopMetrics2Adaptor for dropwizard metrics and Graphite container for log service,26.0,673.0,91.0,28.0,7.0,9.0,0.0,2019-06-17 22:29:58,2019-07-09 19:17:24,Ankit Singhal,2297609.0,0.0,
+22,296646763.0,RATIS-621. Metrics subproject is not included in the release tar,27.0,2.0,0.0,2.0,1.0,2.0,0.0,2019-07-11 13:19:45,2019-07-26 01:49:47,"Elek, Márton",170549.0,1.0,2019-07-26 01:49:47
+23,296654029.0,RATIS-307. Improve make_rc script with additional step of the release…,28.0,131.0,44.0,1.0,2.0,2.0,0.0,2019-07-11 13:36:00,2019-07-17 15:58:59,"Elek, Márton",170549.0,0.0,
+24,299669704.0,RATIS-629. Vagrant loadgen does not run,29.0,3.0,3.0,2.0,1.0,0.0,0.0,2019-07-21 22:21:33,2019-08-26 23:47:43,Clay B.,4192761.0,0.0,
+25,301313399.0,RATIS-639. Inconsistent pattern for variable names in Arithmetic example,30.0,65.0,27.0,4.0,1.0,0.0,0.0,2019-07-25 21:15:19,2020-05-03 05:55:42,"Doroszlai, Attila",6454655.0,0.0,
+26,310187323.0,RATIS-667 Provide a visual for the LogService lifecycle,31.0,229.0,0.0,3.0,1.0,3.0,1.0,2019-08-23 00:12:27,2019-08-27 02:55:31,Clay B.,4192761.0,0.0,
+27,311148399.0,RATIS-667 Provide a visual for the LogService lifecycle,32.0,298.0,8.0,4.0,4.0,9.0,5.0,2019-08-27 00:26:35,2019-08-30 21:44:16,Josh Elser,67863.0,0.0,
+28,311619164.0,RATIS-669. Allow Ratis gRPCTlsConfig to take Java Key/Cert Object in …,33.0,71.0,23.0,4.0,1.0,1.0,0.0,2019-08-28 00:14:35,2019-08-29 02:38:59,Xiaoyu Yao,7039184.0,1.0,2019-08-29 02:38:59
+29,313801282.0,RATIS-672. Vagrant test's Maven 404's ,34.0,84.0,14.0,4.0,3.0,7.0,0.0,2019-09-03 23:20:56,2019-10-01 03:17:34,Clay B.,4192761.0,0.0,
+30,315124361.0,RATIS-674 Correct the service loader entry for MetricRegistries,35.0,0.0,0.0,1.0,1.0,1.0,0.0,2019-09-06 21:47:45,2019-09-09 03:53:40,Josh Elser,67863.0,1.0,2019-09-09 03:53:40
+31,320796419.0,GitHub actions,36.0,328.0,0.0,11.0,2.0,0.0,0.0,2019-09-24 14:21:01,2019-09-24 14:21:26,"Elek, Márton",170549.0,0.0,
+32,322314760.0,RATIS-691. Fix checkstyle violations in ratis-logservice,37.0,174.0,140.0,23.0,2.0,1.0,4.0,2019-09-27 20:26:07,2019-10-18 02:29:54,Dinesh Chitlangia,7876939.0,0.0,
+33,322825005.0,RATIS-697. Provide helper scripts for code quality checks.,38.0,522.0,4.0,12.0,10.0,1.0,2.0,2019-09-30 14:51:54,2020-04-23 14:39:42,"Elek, Márton",170549.0,1.0,2020-04-23 14:39:42
+34,326170451.0,RATIS-702. Make metrics reporting implementation pluggable,39.0,122.0,283.0,18.0,2.0,3.0,2.0,2019-10-09 10:03:26,2020-02-28 14:57:05,"Elek, Márton",170549.0,0.0,
+35,328643211.0,RATIS-390. Fix java package structure.,40.0,16.0,21.0,16.0,2.0,1.0,0.0,2019-10-16 08:51:12,2019-10-21 16:55:27,Yi-Sheng Lien,38711101.0,0.0,
+36,334385140.0,Bump checkstyle from 8.16 to 8.18,41.0,1.0,1.0,1.0,1.0,0.0,0.0,2019-10-30 16:49:22,2019-10-30 17:05:25,,49699333.0,1.0,2019-10-30 17:05:25
+37,335251183.0,RATIS-740. Fix checkstyle violations in ratis-common,42.0,87.0,113.0,8.0,3.0,4.0,0.0,2019-11-01 02:15:47,2020-05-19 02:30:39,Dinesh Chitlangia,7876939.0,0.0,
+38,335259899.0,RATIS-730. Fix checkstyle violations in ratis-examples,43.0,105.0,72.0,20.0,1.0,2.0,0.0,2019-11-01 03:01:52,2020-04-09 04:18:25,Dinesh Chitlangia,7876939.0,0.0,
+39,335269478.0,RATIS-741. Create a Github PR template,44.0,15.0,0.0,1.0,1.0,1.0,0.0,2019-11-01 03:55:11,2019-11-18 20:30:05,Dinesh Chitlangia,7876939.0,1.0,2019-11-18 20:30:05
+40,340245201.0,RATIS-753. Mark o.a.r.protocol.Message as @FunctionalInterface,46.0,1.0,0.0,1.0,1.0,6.0,0.0,2019-11-13 05:15:13,2021-06-10 12:27:11,tison,18818196.0,0.0,
+41,342372852.0,"Revert ""RATIS-741. Create a Github PR template""",47.0,0.0,15.0,1.0,1.0,3.0,0.0,2019-11-18 21:34:18,2019-11-18 21:35:03,Tsz-Wo Nicholas Sze,907380.0,1.0,2019-11-18 21:35:03
+42,343247283.0,RATIS-758. Illegal state transition in LeaderElection: RUNNING to CLOSED,48.0,79.0,4.0,2.0,3.0,5.0,0.0,2019-11-20 09:14:50,2019-11-22 06:45:52,"Doroszlai, Attila",6454655.0,0.0,
+43,362627815.0,RATIS-792. NPE. ServerOpts.metaQuorum should be required,49.0,1.0,1.0,1.0,2.0,7.0,0.0,2020-01-14 13:13:19,2020-07-31 17:34:34,maobaolong,17329931.0,1.0,2020-07-31 17:34:34
+44,363471583.0,RATIS-796. Add watch time out for Ratis Client.,50.0,22.0,2.0,2.0,1.0,0.0,0.0,2020-01-16 06:04:25,2020-02-01 00:50:40,Bharat Viswanadham,8586345.0,0.0,
+45,370596961.0,RATIS-807. ratis-tools subproject is not included in the release jar.,51.0,18.0,0.0,4.0,1.0,1.0,0.0,2020-02-04 01:04:06,2020-02-04 01:43:20,Xiaoyu Yao,7039184.0,1.0,2020-02-04 01:43:20
+46,371203170.0,RATIS-808. Ratis top plevel pom.xml misses distributionManagement and…,52.0,35.0,0.0,1.0,1.0,1.0,0.0,2020-02-05 06:20:46,2020-02-06 21:45:49,Xiaoyu Yao,7039184.0,1.0,2020-02-06 21:45:49
+47,373417970.0,RATIS-820. [SECURITY] Use HTTPS to resolve dependencies in Maven Build,53.0,2.0,2.0,1.0,1.0,0.0,0.0,2020-02-11 00:14:37,2020-02-28 14:54:34,Jonathan Leitschuh,1323708.0,0.0,
+48,377442526.0,RATIS-817. Bump the copyright year of the NOTICE.txt.,54.0,2.0,2.0,2.0,1.0,0.0,0.0,2020-02-19 23:06:24,2020-02-28 14:38:13,Xiaoyu Yao,7039184.0,0.0,
+49,377929523.0,RATIS-818. New releases not listed in website.,55.0,56.0,2.0,4.0,1.0,0.0,0.0,2020-02-20 19:20:07,2020-02-28 14:55:35,Xiaoyu Yao,7039184.0,0.0,
+50,382209541.0,RATIS-821. Fix high processor load for ScheduledThreadPoolExecutor with 0 core threads,56.0,1.0,1.0,1.0,1.0,1.0,0.0,2020-03-02 07:00:30,2020-03-02 13:50:06,,51938049.0,0.0,
+51,399365914.0,RATIS-832. Add Metrics for retry cache,58.0,188.0,1.0,4.0,1.0,3.0,0.0,2020-04-06 04:00:10,2020-04-06 04:57:36,,51938049.0,0.0,
+52,399690491.0,RATIS-843: create ratis-docs module,59.0,1371.0,1.0,36.0,5.0,5.0,0.0,2020-04-06 14:34:32,2020-04-15 11:29:44,Isa Hekmatizadeh,894391.0,0.0,
+53,401384112.0,"RATIS-846: create simplest possible example, a replicated counter",60.0,535.0,1.0,6.0,9.0,3.0,6.0,2020-04-09 12:02:36,2020-05-14 16:32:03,Isa Hekmatizadeh,894391.0,1.0,2020-05-14 16:32:03
+54,408361147.0,RATIS-879. Fix TestRaftAsyncWithGrpc#testNoRetryWaitOnNotLeaderException,61.0,2.0,5.0,1.0,4.0,1.0,0.0,2020-04-24 06:41:07,2020-04-27 05:22:56,Lokesh Jain,9255455.0,1.0,2020-04-27 05:22:56
+55,408423351.0,RATIS-880. Update github description and disable merge options apart from Squash and merge,62.0,26.0,0.0,1.0,2.0,1.0,1.0,2020-04-24 09:00:03,2020-04-25 09:23:30,Mukul Kumar Singh,4317412.0,0.0,
+56,408551644.0,RATIS-882. Implement ExponentialBackoffRetry.,63.0,180.0,0.0,3.0,3.0,2.0,3.0,2020-04-24 13:28:33,2020-04-29 07:46:32,Lokesh Jain,9255455.0,1.0,2020-04-29 07:46:32
+57,409312740.0,RATIS-883. Fix Failed UT: testStateMachineMetrics.checkFollowerCommitLagsLeader,64.0,6.0,1.0,1.0,1.0,2.0,0.0,2020-04-27 07:41:21,2020-05-18 05:50:36,,51938049.0,0.0,
+58,409316864.0,RATIS-881. Fix Failed unit test because test before MiniRaftCluster ready,65.0,15.0,5.0,2.0,2.0,2.0,2.0,2020-04-27 07:49:53,2020-04-28 05:24:31,,51938049.0,0.0,
+59,409323767.0,RATIS-884. Fix Failed UT: TestRaftLogMetrics.testRaftLogMetrics,66.0,5.0,1.0,1.0,1.0,3.0,0.0,2020-04-27 08:03:29,2020-04-30 17:39:12,,51938049.0,0.0,
+60,409326252.0,RATIS-849. Fix Failed UT: GroupManagementBaseTest.runMultiGroupTest,67.0,10.0,0.0,1.0,1.0,0.0,0.0,2020-04-27 08:08:24,2020-04-27 10:06:06,,51938049.0,1.0,2020-04-27 10:06:06
+61,409331711.0,RATIS-885. Fix Failed UT because error use of attemptRepeatedly to check boolean condition,68.0,36.0,18.0,4.0,1.0,0.0,0.0,2020-04-27 08:19:17,2020-04-27 10:37:41,,51938049.0,1.0,2020-04-27 10:37:41
+62,409358947.0,RATIS-840. memory leak of log appender,69.0,50.0,23.0,3.0,3.0,3.0,2.0,2020-04-27 09:09:01,2020-04-29 09:47:08,,51938049.0,0.0,
+63,409381435.0,RATIS-876. Introduce max timeout in RequestTypeDependentRetryPolicy.,70.0,113.0,45.0,7.0,2.0,1.0,0.0,2020-04-27 09:46:42,2020-04-27 11:49:03,Lokesh Jain,9255455.0,0.0,
+64,410012044.0,RATIS-911. Fix Failed UT: testRestartLogAppender,71.0,1.0,1.0,1.0,1.0,0.0,0.0,2020-04-28 09:59:00,2020-04-28 11:50:15,,51938049.0,1.0,2020-04-28 11:50:15
+65,410053953.0,RATIS-910. Update Ratis-thirdparty to 0.4.0.,72.0,3.0,3.0,1.0,1.0,1.0,0.0,2020-04-28 11:22:15,2020-04-28 12:12:30,Mukul Kumar Singh,4317412.0,0.0,
+66,410069166.0,"Revert ""RATIS-991. Fix Failed UT: testRestartLogAppender""",73.0,1.0,1.0,1.0,1.0,0.0,0.0,2020-04-28 11:54:27,2020-04-28 11:54:49,,31469764.0,1.0,2020-04-28 11:54:49
+67,410640549.0,RATIS-913. Fix remaining (new) checkstyle violations,74.0,22.0,12.0,6.0,2.0,1.0,0.0,2020-04-29 11:02:39,2020-04-30 04:04:47,"Doroszlai, Attila",6454655.0,1.0,2020-04-30 04:04:47
+68,410697605.0,RATIS-912. Netty tests fail with RejectedExecutionException on channel close.,75.0,2.0,2.0,1.0,1.0,0.0,0.0,2020-04-29 12:59:46,2020-04-29 15:04:02,Lokesh Jain,9255455.0,1.0,2020-04-29 15:04:02
+69,411171001.0,RATIS-845. Fix memory leak of RaftServerImpl  for no unregister from reporter,76.0,107.0,8.0,6.0,3.0,4.0,11.0,2020-04-30 06:10:43,2020-05-15 09:04:16,,51938049.0,1.0,2020-05-15 09:04:16
+70,411171972.0,RATIS-914. Fix Failed UT: can not mock final class,77.0,2.0,1.0,1.0,1.0,0.0,0.0,2020-04-30 06:12:53,2020-05-03 05:18:10,,51938049.0,1.0,2020-05-03 05:18:10
+71,411338552.0,RATIS-833. Add metrics for raft log cache count and size in bytes,78.0,88.0,4.0,3.0,3.0,3.0,0.0,2020-04-30 10:47:23,2020-06-25 16:37:24,,51938049.0,1.0,2020-06-25 16:37:24
+72,411352880.0,RATIS-915. Improve output of tests,79.0,2.0,1.0,2.0,1.0,3.0,0.0,2020-04-30 11:06:42,2020-05-05 05:38:10,"Doroszlai, Attila",6454655.0,1.0,2020-05-05 05:38:10
+73,411423250.0,RATIS-848. Fix Failed UT: TestRaftSnapshotWithGrpc.testBasicInstallSnapshot,80.0,1.0,1.0,1.0,1.0,0.0,0.0,2020-04-30 12:24:30,2020-04-30 13:25:32,,51938049.0,0.0,
+74,411487088.0,RATIS-889. Fix TestRaftSnapshotWithGrpc and TestRaftSnapshotWithSimulatedRpc,81.0,13.0,3.0,1.0,1.0,2.0,0.0,2020-04-30 13:22:56,2020-05-03 05:12:02,"Doroszlai, Attila",6454655.0,1.0,2020-05-03 05:12:02
+75,411718184.0,RATIS-900. Fix Failed UT: RaftExceptionBaseTest.testHandleNotLeaderAndIOException,82.0,1.0,1.0,1.0,1.0,0.0,0.0,2020-04-30 17:01:40,2020-05-01 12:47:51,,51938049.0,0.0,
+76,411960222.0,RATIS-901. Fix Failed UT: WatchRequestTests.testWatchRequestClientTimeout,83.0,11.0,7.0,1.0,3.0,0.0,4.0,2020-05-01 03:36:24,2020-05-08 09:05:18,,51938049.0,1.0,2020-05-08 09:05:17
+77,412462201.0,RATIS-917. Set storage dir properties for testServerRestartOnException,84.0,4.0,1.0,2.0,1.0,0.0,0.0,2020-05-02 14:51:10,2020-05-04 15:16:37,,51938049.0,1.0,2020-05-04 15:16:37
+78,412567558.0,RATIS-639. Inconsistent pattern for variable names,85.0,57.0,18.0,4.0,2.0,1.0,0.0,2020-05-03 08:19:24,2020-05-14 09:21:44,"Doroszlai, Attila",6454655.0,1.0,2020-05-14 09:21:44
+79,412903226.0,RATIS-919. Exclude unwanted dependencies from hadoop dependency.,86.0,74.0,4.0,3.0,1.0,0.0,1.0,2020-05-04 11:49:03,2020-10-05 05:45:52,Lokesh Jain,9255455.0,0.0,
+80,413405700.0,RATIS-920. Fix error use of onCompleted in onError,87.0,5.0,1.0,1.0,2.0,4.0,0.0,2020-05-05 09:33:26,2020-05-08 11:58:50,,51938049.0,0.0,
+81,413657501.0,RATIS-873. Fix Install Snapshot Notification,88.0,55.0,13.0,5.0,6.0,3.0,19.0,2020-05-05 17:37:33,2020-05-08 18:49:09,Hanisha Koneru,10237377.0,1.0,2020-05-08 18:49:09
+82,413661530.0,RATIS-874. Fix AppendEntry validity checks to take the SnapshotIndex into account,89.0,66.0,20.0,8.0,7.0,3.0,15.0,2020-05-05 17:46:15,2020-05-12 20:16:19,Hanisha Koneru,10237377.0,1.0,2020-05-12 20:16:19
+83,413891737.0,RATIS-925. Fix memory leak of RaftServerImpl for no remove from static RaftServerMetrics::metricsMap,90.0,8.0,0.0,2.0,1.0,0.0,0.0,2020-05-06 05:52:34,2020-05-07 07:46:10,,51938049.0,1.0,2020-05-07 07:46:10
+84,413921144.0,RATIS-927. Improve the log of remove group,91.0,5.0,0.0,1.0,1.0,0.0,0.0,2020-05-06 07:20:57,2020-05-06 09:06:45,,51938049.0,1.0,2020-05-06 09:06:45
+85,414414401.0,RATIS-929. Shutdown EventLoopGroup faster,92.0,2.0,2.0,1.0,1.0,0.0,0.0,2020-05-07 01:38:38,2020-05-08 08:58:46,,51938049.0,1.0,2020-05-08 08:58:46
+86,414625260.0,RATIS-932. Avoid usage of ratis-thirdparty-hadoop in ratis-hadoop module.,94.0,5.0,635.0,7.0,1.0,5.0,0.0,2020-05-07 11:27:48,2020-05-11 05:14:39,Mukul Kumar Singh,4317412.0,1.0,2020-05-11 05:14:39
+87,415466450.0,RATIS-923. Cache evicted before RollSegment completes,95.0,36.0,12.0,4.0,2.0,3.0,6.0,2020-05-08 22:56:12,2020-06-02 18:36:31,Hanisha Koneru,10237377.0,1.0,2020-06-02 18:36:31
+88,415907379.0,RATIS-934. Make ExceptionDependentRetry setters public.,96.0,3.0,3.0,1.0,1.0,1.0,0.0,2020-05-11 06:58:38,2020-05-11 07:25:50,Lokesh Jain,9255455.0,0.0,
+89,416055757.0,RATIS-935. Fix memory leak by ungister metrics,97.0,145.0,116.0,20.0,2.0,7.0,0.0,2020-05-11 11:51:52,2020-06-02 09:15:29,,51938049.0,1.0,2020-06-02 09:15:29
+90,416228084.0,RATIS-936. Fix ratis-hadoop with non shaded protobuf dependency.,98.0,260.0,113.0,10.0,3.0,1.0,0.0,2020-05-11 17:02:55,2020-07-06 05:49:08,Mukul Kumar Singh,4317412.0,0.0,
+91,418094470.0,RATIS-921. Fix resource leak by closing thousands  of gRPC clients after use,99.0,667.0,565.0,21.0,2.0,6.0,0.0,2020-05-14 16:03:35,2020-06-11 07:56:45,,51938049.0,1.0,2020-06-11 07:56:45
+92,418188175.0,RATIS-937. Loading of open segments always throws corrupted segment warning,100.0,7.0,1.0,1.0,2.0,1.0,3.0,2020-05-14 18:58:15,2020-05-23 16:12:48,Hanisha Koneru,10237377.0,1.0,2020-05-23 16:12:48
+93,418413447.0,RATIS-930. Fix failed to remove RaftStorageDirectory,101.0,19.0,7.0,1.0,1.0,1.0,0.0,2020-05-15 07:00:38,2020-05-18 05:50:57,,51938049.0,1.0,2020-05-18 05:50:57
+94,419121079.0,RATIS-939. Fix Failed UT: testRaftServerMetrics,102.0,31.0,0.0,5.0,3.0,4.0,3.0,2020-05-17 14:26:28,2020-06-03 07:00:32,,51938049.0,1.0,2020-06-03 07:00:32
+95,419219765.0,RATIS-757. Remove native library,103.0,1.0,6083.0,33.0,5.0,10.0,2.0,2020-05-18 02:16:36,2020-07-21 09:24:15,Dinesh Chitlangia,7876939.0,0.0,
+96,419535001.0,RATIS-941. fix error handing,104.0,5.0,5.0,2.0,1.0,1.0,0.0,2020-05-18 14:21:18,2020-06-03 06:45:53,DK.Pino,17047853.0,0.0,
+97,419838323.0,RATIS-741. Create a Github PR template,105.0,17.0,0.0,2.0,1.0,2.0,0.0,2020-05-19 02:28:27,2020-05-25 13:29:20,Dinesh Chitlangia,7876939.0,1.0,2020-05-25 13:29:20
+98,419998937.0,RATIS-942. Fix can not create raftLogMetrics in multi-raft,106.0,13.0,13.0,5.0,4.0,2.0,0.0,2020-05-19 09:37:48,2020-05-28 09:38:59,,51938049.0,1.0,2020-05-28 09:38:59
+99,422306201.0,RATIS-867. Fix failed UT: TestMetaServer#testListLogs,107.0,53.0,18.0,3.0,3.0,3.0,1.0,2020-05-23 17:54:05,2020-06-02 11:36:35,,51938049.0,1.0,2020-06-02 11:36:35
+100,422471775.0,RATIS-940. Add sonar check for ratis,108.0,27.0,0.0,2.0,3.0,6.0,2.0,2020-05-24 21:16:55,2020-05-27 13:49:26,Dinesh Chitlangia,7876939.0,1.0,2020-05-27 13:49:26
+101,422553105.0,RATIS-943. Remove unused import in LogSegment,109.0,0.0,1.0,1.0,1.0,1.0,0.0,2020-05-25 05:30:07,2020-05-28 09:02:16,Dinesh Chitlangia,7876939.0,1.0,2020-05-28 09:02:16
+102,422589391.0,RATIS-892. Fix failed UT: TestMetaServer.testReadWritetoLog,110.0,1.0,1.0,1.0,1.0,1.0,0.0,2020-05-25 07:20:56,2020-05-29 07:01:47,,51938049.0,1.0,2020-05-29 07:01:47
+103,422598470.0,RATIS-945. Fix exception in RaftClientReply was ignored,111.0,39.0,0.0,3.0,2.0,2.0,0.0,2020-05-25 07:44:14,2020-09-07 11:35:22,,51938049.0,0.0,
+104,422603411.0,RATIS-900. Fix Failed UT: RaftExceptionBaseTest.testHandleNotLeaderAndIOException,112.0,2.0,15.0,1.0,1.0,1.0,0.0,2020-05-25 07:55:57,2020-05-28 08:59:52,,51938049.0,1.0,2020-05-28 08:59:52
+105,424369421.0,RATIS-947. RequestTypeDependentRetryPolicy should have timeout per request type.,113.0,30.0,22.0,3.0,1.0,0.0,0.0,2020-05-28 09:39:09,2020-05-28 10:22:24,Lokesh Jain,9255455.0,1.0,2020-05-28 10:22:24
+106,424393824.0,"RATIS-948. Update Sonar statistics only from the Apache repo, not from the forks",114.0,1.0,0.0,1.0,1.0,2.0,0.0,2020-05-28 10:26:24,2020-06-02 11:57:10,"Elek, Márton",170549.0,1.0,2020-06-02 11:57:10
+107,424742943.0,RATIS-950. Handle Exceptions appropriately,115.0,124.0,80.0,48.0,1.0,4.0,0.0,2020-05-28 21:22:57,2020-11-05 05:54:03,Dinesh Chitlangia,7876939.0,1.0,2020-11-05 05:54:03
+108,424874112.0,RATIS-957. Update .asf.yaml to define jira notifications strategy,116.0,2.0,0.0,1.0,1.0,2.0,0.0,2020-05-29 04:15:29,2020-06-03 06:00:36,Dinesh Chitlangia,7876939.0,1.0,2020-06-03 06:00:36
+109,425645441.0,RATIS-963. Update gRPC to 1.29.0.,117.0,1.0,1.0,1.0,1.0,0.0,0.0,2020-05-31 17:44:26,2020-06-23 19:37:53,Mukul Kumar Singh,4317412.0,1.0,2020-06-23 19:37:53
+110,426941233.0,RATIS-964. Fix failed UT: testRestartLogAppender,118.0,16.0,6.0,3.0,1.0,1.0,0.0,2020-06-03 03:33:28,2020-06-03 05:52:16,,51938049.0,1.0,2020-06-03 05:52:16
+111,427042321.0,RATIS-959. Refactor xxxStateMachineData methods.,119.0,68.0,73.0,8.0,1.0,1.0,0.0,2020-06-03 08:23:24,2020-06-03 15:07:29,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-06-03 15:07:29
+112,431557914.0,RATIS-966. Track commit metrics for different type of entries in RaftLog.,120.0,56.0,11.0,5.0,7.0,3.0,0.0,2020-06-09 06:05:29,2020-06-11 07:41:58,,54566284.0,1.0,2020-06-11 07:41:58
+113,433269891.0,RATIS-960. Add APIs to support streaming state machine data.,121.0,52.0,0.0,1.0,1.0,0.0,0.0,2020-06-11 18:52:12,2020-06-12 09:19:08,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-06-12 09:19:08
+114,433615247.0,RATIS-975. Fix failed UT: testRaftLogMetrics,122.0,2.0,4.0,1.0,1.0,4.0,0.0,2020-06-12 11:03:02,2020-06-12 14:02:02,,51938049.0,1.0,2020-06-12 14:02:02
+115,433653344.0,RATIS-904. Fix Failed UT: testFileStoreAsync,123.0,11.0,4.0,3.0,4.0,1.0,0.0,2020-06-12 12:32:51,2020-06-13 08:21:49,,51938049.0,1.0,2020-06-13 08:21:48
+116,433797466.0,RATIS-957. Update .asf.yaml to define jira notifications strategy,124.0,5.0,2.0,1.0,1.0,2.0,0.0,2020-06-12 17:13:46,2020-06-15 06:51:19,"Doroszlai, Attila",6454655.0,1.0,2020-06-15 06:51:19
+117,434112394.0,[WIP]RATIS-976. Fix Failed UT: runTestUpdateViaHeartbeat,125.0,1.0,1.0,1.0,1.0,2.0,0.0,2020-06-14 08:25:29,2020-06-14 10:05:50,,51938049.0,0.0,
+118,434346505.0,RATIS-953. XML Parsers should not be vulnerable to XXE attacks,126.0,12.0,2.0,1.0,3.0,4.0,0.0,2020-06-15 07:33:54,2020-12-03 01:14:21,"Doroszlai, Attila",6454655.0,1.0,2020-12-03 01:14:21
+119,434448474.0,RATIS-977. Fix gRPC failed to read message,127.0,1.0,1.0,1.0,5.0,5.0,1.0,2020-06-15 10:38:00,2020-06-22 05:50:26,,51938049.0,0.0,
+120,434964827.0,RATIS-978. Fix failed UT: testAddNewFollowers,128.0,1.0,3.0,1.0,3.0,4.0,0.0,2020-06-16 04:24:14,2020-06-22 06:36:04,,51938049.0,0.0,
+121,435870521.0,RATIS-868. Fix Failed UT: TestRaftWithSimulatedRpc#testWithLoad,129.0,14.0,10.0,1.0,5.0,2.0,2.0,2020-06-17 13:57:35,2020-07-10 08:03:27,,51938049.0,0.0,
+122,436193695.0,RATIS-980. Fix leader election happens too fast,130.0,3.0,2.0,1.0,1.0,1.0,0.0,2020-06-18 02:43:29,2020-06-19 01:03:11,,51938049.0,1.0,2020-06-19 01:03:11
+123,436240168.0,RATIS-895. Fix Failed UT: runTestRetryOnStateMachineException,131.0,8.0,7.0,1.0,1.0,0.0,0.0,2020-06-18 05:38:05,2020-06-18 14:43:36,,51938049.0,1.0,2020-06-18 14:43:36
+124,436262969.0,RATIS-958. Support multiple requests in a single MessageOutputStream.,132.0,53.0,36.0,9.0,1.0,1.0,0.0,2020-06-18 06:43:06,2020-06-18 14:40:28,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-06-18 14:40:28
+125,436864099.0,RATIS-903. Fix Failed UT: RaftSnapshotBaseTest.testBasicInstallSnapshot,133.0,5.0,1.0,1.0,3.0,2.0,0.0,2020-06-19 03:14:38,2020-06-24 08:32:28,,51938049.0,1.0,2020-06-24 08:32:28
+126,437061200.0,RATIS-982. Fix RaftServerImpl illegal transition from RUNNING to RUNNING,134.0,14.0,5.0,1.0,5.0,1.0,2.0,2020-06-19 11:58:46,2020-06-24 08:29:29,,51938049.0,1.0,2020-06-24 08:29:29
+127,437532123.0,RATIS-983. Check follower state before ask for votes,135.0,3.0,0.0,1.0,2.0,2.0,0.0,2020-06-21 11:29:45,2020-06-22 04:07:08,,51938049.0,1.0,2020-06-22 04:07:08
+128,438465920.0,RATIS-974. Build fails on Windows machine,136.0,2.0,1.0,1.0,1.0,2.0,0.0,2020-06-23 10:08:46,2020-06-25 09:50:13,Cyrus Jackson,20659664.0,1.0,2020-06-25 09:50:13
+129,439040359.0,RATIS-987. Fix Infinite install snapshot,137.0,22.0,17.0,1.0,1.0,1.0,0.0,2020-06-24 08:15:14,2020-06-24 08:45:15,,51938049.0,1.0,2020-06-24 08:45:15
+130,441322295.0,RATIS-989. Avoid change state from CLOSING to EXCEPTION in LogAppender,138.0,28.0,14.0,2.0,3.0,2.0,2.0,2020-06-29 11:06:29,2020-06-30 10:42:57,,51938049.0,0.0,
+131,441639274.0,RATIS-997: Benchmarking protobuffers and flatbuffers for streaming in GRPC,139.0,811.0,0.0,12.0,19.0,2.0,6.0,2020-06-29 20:43:14,2020-07-17 18:51:09,,54566284.0,1.0,2020-07-17 18:51:09
+132,441794954.0,RATIS-965. Adds new JMX metric for getting Groups a server is part of,140.0,13.0,0.0,3.0,2.0,4.0,0.0,2020-06-30 05:39:42,2020-07-30 07:58:51,Cyrus Jackson,20659664.0,0.0,
+133,442522172.0,RATIS-991. Update Ratis Thirdparty version to 0.5.0,141.0,1.0,1.0,1.0,2.0,1.0,0.0,2020-07-01 08:11:58,2020-07-01 11:10:22,Lokesh Jain,9255455.0,0.0,
+134,443451926.0,RATIS-992. Avoid foreach in hot spot newAppendEntriesRequestProto,142.0,8.0,3.0,1.0,5.0,2.0,0.0,2020-07-02 11:21:17,2020-07-09 11:38:00,,51938049.0,0.0,
+135,445217012.0,RATIS-996. Include ratis-docs in source and binary tar.,143.0,20.0,2.0,4.0,2.0,3.0,2.0,2020-07-07 07:35:14,2020-07-08 06:26:57,Lokesh Jain,9255455.0,0.0,
+136,446689797.0,RATIS-999. Update Ratis version to 1.1.0-SNAPSHOT.,145.0,17.0,17.0,17.0,1.0,1.0,0.0,2020-07-09 08:03:01,2020-07-09 09:12:32,Lokesh Jain,9255455.0,0.0,
+137,447285863.0,RATIS-981: Step-down stale leader in case of split-brain,146.0,104.0,4.0,9.0,1.0,1.0,0.0,2020-07-10 07:52:24,2020-07-13 06:16:39,Glen Geng,8412672.0,0.0,
+138,447675384.0,Implement support for role tracking per raft-group,147.0,131.0,0.0,5.0,1.0,0.0,0.0,2020-07-10 22:57:47,2020-08-07 18:39:27,Göktürk Gezer,4190144.0,0.0,
+139,447882093.0,RATIS-924: rename raft group dir on disk when remove group is invoked,148.0,229.0,39.0,17.0,11.0,5.0,14.0,2020-07-12 10:40:34,2020-08-10 10:53:13,Cyrus Jackson,20659664.0,0.0,
+140,448059614.0,RATIS-981: Step-down stale leader in case of split-brain,149.0,104.0,4.0,9.0,1.0,0.0,0.0,2020-07-13 06:20:03,2020-07-13 06:48:25,Glen Geng,8412672.0,0.0,
+141,448106455.0,RATIS-981: Step-down stale leader in case of split-brain,150.0,123.0,4.0,6.0,6.0,2.0,23.0,2020-07-13 08:51:16,2020-07-31 05:43:41,Glen Geng,8412672.0,0.0,
+142,448747875.0,RATIS-1001: add currentTerm to LeaderInfoProto for supporting SCM-HA.,151.0,2.0,0.0,2.0,1.0,3.0,0.0,2020-07-14 08:59:27,2020-07-15 09:15:45,Glen Geng,8412672.0,0.0,
+143,450961180.0,RATIS-1006. Exclude Netty 3.10 from Ratis dependencies.,152.0,30.0,0.0,2.0,1.0,0.0,0.0,2020-07-17 09:31:01,2020-07-17 10:06:56,Mukul Kumar Singh,4317412.0,1.0,2020-07-17 10:06:56
+144,451105993.0,RATIS-1007. Add try catch in AutoCloseableLock to avoid can not unlock,153.0,7.0,2.0,1.0,1.0,7.0,0.0,2020-07-17 12:55:53,2020-07-31 02:44:19,,51938049.0,0.0,
+145,455684473.0,RATIS-1008: SimpleStateMachine4Testing#blockWriteStateMachineData should not block heartbeats,154.0,28.0,17.0,3.0,3.0,3.0,5.0,2020-07-23 12:48:36,2020-07-27 13:01:34,Glen Geng,8412672.0,0.0,
+146,456524411.0,RATIS-1009 - Zero-copy semantics in Netty.,155.0,659.0,5.0,12.0,10.0,1.0,3.0,2020-07-24 23:07:31,2020-07-30 17:28:20,,54566284.0,1.0,2020-07-30 17:28:20
+147,456728412.0,RATIS-1005. Upgrade log4j to log4j2,157.0,72.0,131.0,21.0,1.0,2.0,0.0,2020-07-26 09:57:14,2020-07-31 02:43:59,,51938049.0,0.0,
+148,457648254.0,RATIS-1010. List release 1.0.0 in website,158.0,29.0,1.0,2.0,1.0,1.0,0.0,2020-07-28 08:31:25,2020-07-28 13:37:50,Lokesh Jain,9255455.0,1.0,2020-07-28 13:37:50
+149,458644681.0,RATIS-805 - Metrics for GRPC messages,159.0,482.0,3.0,10.0,19.0,5.0,6.0,2020-07-29 19:39:04,2020-08-04 11:20:28,,54566284.0,1.0,2020-08-04 11:20:28
+150,459897579.0,[No need review] test CI pass ratio,160.0,0.0,0.0,0.0,22.0,0.0,0.0,2020-07-31 08:06:45,2020-07-31 09:52:00,,51938049.0,0.0,
+151,461744472.0,RATIS-993. Support pre vote,161.0,246.0,56.0,9.0,2.0,14.0,7.0,2020-08-02 05:36:05,2021-01-06 14:31:15,,51938049.0,1.0,2021-01-06 14:31:15
+152,462037543.0,RATIS-1015. Fix Failed UT: testBasicInstallSnapshot,162.0,13.0,1.0,2.0,2.0,2.0,0.0,2020-08-03 08:43:18,2020-08-03 13:29:54,,51938049.0,1.0,2020-08-03 13:29:54
+153,462642282.0,RATIS-1018. Fix Failed UT: testGroupInfo,163.0,1.0,3.0,1.0,1.0,1.0,0.0,2020-08-04 09:22:13,2020-08-04 11:18:17,,51938049.0,1.0,2020-08-04 11:18:17
+154,462879817.0,"RATIS-1011 - Interfaces for client, server for netty streaming",164.0,554.0,0.0,15.0,10.0,3.0,19.0,2020-08-04 16:39:22,2020-08-06 16:37:13,,54566284.0,1.0,2020-08-06 16:37:12
+155,463067118.0,[No need review] test CI pass ratio,165.0,0.0,0.0,0.0,34.0,0.0,0.0,2020-08-04 23:51:11,2020-08-05 00:37:14,,51938049.0,0.0,
+156,463088129.0,RATIS-1021. Fix failed UT: testMultipleLinearRandomRetry,166.0,2.0,1.0,1.0,1.0,4.0,0.0,2020-08-05 01:14:29,2020-08-05 05:01:16,,51938049.0,1.0,2020-08-05 05:01:15
+157,463100130.0,RATIS-1022. Clear servers when shutdown MiniRaftCluster,167.0,3.0,0.0,1.0,1.0,1.0,0.0,2020-08-05 02:05:28,2020-08-05 04:36:36,,51938049.0,0.0,
+158,463178247.0,"RATIS-1023.During installing snapshot, when snapshot file is corrup…",168.0,55.0,4.0,5.0,4.0,6.0,4.0,2020-08-05 06:39:05,2020-08-12 10:13:38,Rui Wang,1938382.0,1.0,2020-08-12 10:13:38
+159,463829936.0,RATIS-1024.Unit Tests for MemoryRaftLog entry truncation,169.0,97.0,2.0,3.0,1.0,5.0,0.0,2020-08-06 07:05:44,2020-08-10 17:04:35,Rui Wang,1938382.0,1.0,2020-08-10 17:04:35
+160,464526086.0,RATIS-1025. Ratis logs may not be purged completely,170.0,8.0,9.0,2.0,4.0,13.0,0.0,2020-08-07 10:27:01,2020-09-08 06:58:33,Lokesh Jain,9255455.0,0.0,
+161,464749819.0,RATIS-1012 - Netty Streaming Implementation,171.0,485.0,97.0,13.0,4.0,0.0,0.0,2020-08-07 18:22:12,2020-08-10 23:01:48,,54566284.0,0.0,
+162,464917118.0,RATIS-1027. Implement un-finished tests in TestLogServiceProtoUtil,172.0,79.0,31.0,2.0,1.0,3.0,0.0,2020-08-08 01:00:33,2020-08-11 00:21:14,Rui Wang,1938382.0,0.0,
+163,465111606.0,RATIS-1029. NPE at MetricServerInterceptor.interceptCall,174.0,5.0,3.0,2.0,4.0,5.0,1.0,2020-08-09 05:56:51,2020-08-12 10:46:26,Rui Wang,1938382.0,1.0,2020-08-12 10:46:26
+164,465454964.0,[WIP]RATIS-967. Transfer leadership from leader to follower,175.0,523.0,30.0,36.0,1.0,2.0,0.0,2020-08-10 11:57:41,2020-12-14 01:26:16,,51938049.0,0.0,
+165,465773559.0,RATIS-1030 -  Netty Streaming Implementation Client,176.0,551.0,77.0,12.0,6.0,0.0,3.0,2020-08-10 23:03:13,2020-08-11 08:12:37,,54566284.0,0.0,
+166,465874488.0,RATIS-1031- Netty Streaming server + tests,177.0,304.0,1.0,6.0,23.0,2.0,0.0,2020-08-11 05:28:09,2020-08-17 18:46:32,,54566284.0,1.0,2020-08-17 18:46:32
+167,467123184.0,RATIS-1030: Netty streaming Client changes,179.0,770.0,66.0,18.0,13.0,0.0,0.0,2020-08-13 03:26:14,2020-08-13 19:56:43,,54566284.0,1.0,2020-08-13 19:56:43
+168,469094489.0,RATIS-1039. Update ratis-thirdparty version in order to use the latest netty.,180.0,3.0,2.0,2.0,27.0,1.0,0.0,2020-08-17 22:16:00,2020-08-18 23:04:30,,54566284.0,1.0,2020-08-18 23:04:29
+169,473143957.0,RATIS-1032. Change RaftPeer and proto to support priority,181.0,74.0,4.0,5.0,1.0,1.0,0.0,2020-08-25 11:40:44,2020-08-25 17:13:06,,51938049.0,1.0,2020-08-25 17:13:06
+170,473592280.0,RATIS-1033. Change leader election to add priority consideration,182.0,136.0,10.0,4.0,2.0,2.0,2.0,2020-08-26 01:42:16,2020-08-27 05:59:49,,51938049.0,1.0,2020-08-27 05:59:49
+171,473704213.0,RATIS-624. RaftServer should support pause/ unpause in its LifeCycle state,183.0,140.0,2.0,12.0,1.0,4.0,0.0,2020-08-26 07:16:18,2020-08-27 21:54:52,Rui Wang,1938382.0,0.0,
+172,474486372.0,RATIS-1034. Change leader heartbeat to yield to a higher priority leader,184.0,94.0,19.0,5.0,4.0,1.0,5.0,2020-08-27 06:40:12,2020-08-31 04:52:20,,51938049.0,1.0,2020-08-31 04:52:20
+173,474512520.0,RATIS-1042. Watch for commit calls are blocked for a long if no other message,185.0,38.0,23.0,3.0,4.0,4.0,9.0,2020-08-27 07:36:05,2020-09-23 05:43:08,Lokesh Jain,9255455.0,1.0,2020-09-23 05:43:08
+174,475853859.0,RATIS-1041. Change client to try the servers according to the priority,186.0,27.0,2.0,3.0,1.0,0.0,0.0,2020-08-30 02:42:14,2020-08-31 04:56:52,,51938049.0,1.0,2020-08-31 04:56:52
+175,476274343.0,RATIS-1047. Fix can not elect leader when higher priority server crash,187.0,11.0,1.0,2.0,1.0,1.0,0.0,2020-08-31 12:44:01,2020-08-31 18:35:41,,51938049.0,1.0,2020-08-31 18:35:41
+176,476632676.0,RATIS-1043. Add Pause/Resume to RaftServerImpl,188.0,253.0,4.0,7.0,14.0,19.0,22.0,2020-08-31 23:17:58,2020-09-24 23:58:05,Rui Wang,1938382.0,1.0,2020-09-24 23:58:05
+177,481112604.0,RATIS-1050. Include build version descriptor in Ratis jars,189.0,17.0,0.0,1.0,1.0,3.0,0.0,2020-09-07 07:06:31,2020-09-07 11:33:56,"Elek, Márton",170549.0,0.0,
+178,481878937.0,RATIS-1051. Use try-resource-block when saveMd5File,190.0,4.0,3.0,1.0,1.0,2.0,0.0,2020-09-08 08:34:12,2020-09-08 13:10:33,maobaolong,17329931.0,1.0,2020-09-08 13:10:33
+179,481892660.0,RATIS-1052. Fix the testDisconnectLeader assertion,191.0,1.0,1.0,1.0,1.0,4.0,0.0,2020-09-08 08:57:20,2020-09-08 11:21:15,maobaolong,17329931.0,0.0,
+180,481907257.0,RATIS-1053. Math operands should be cast before assignment,192.0,5.0,5.0,5.0,1.0,2.0,0.0,2020-09-08 09:23:23,2020-09-08 13:12:29,maobaolong,17329931.0,1.0,2020-09-08 13:12:29
+181,482103062.0,"RATIS-1055. Switch cases should end with an unconditional ""break"" statement",193.0,4.0,0.0,1.0,2.0,2.0,2.0,2020-09-08 14:53:49,2020-09-09 05:53:46,maobaolong,17329931.0,1.0,2020-09-09 05:53:46
+182,483185517.0,RATIS-1058. Avoid NPE when response is null in CombinedClientProtocolServerSideTranslatorPB.sendClient,194.0,1.0,1.0,1.0,4.0,6.0,0.0,2020-09-09 22:52:50,2020-09-14 07:12:27,Rui Wang,1938382.0,0.0,
+183,483194381.0,RATIS-1059. Avoid NPE when exportInfo is NULL in LogStateMachine.processArchiveLog,195.0,8.0,5.0,1.0,2.0,8.0,0.0,2020-09-09 23:12:02,2020-09-10 00:20:55,Rui Wang,1938382.0,1.0,2020-09-10 00:20:55
+184,484255011.0,[DO NOT MERGE] use this PR to trigger CL and find flaky tests.,196.0,1.0,0.0,1.0,1.0,1.0,0.0,2020-09-10 19:38:15,2020-09-14 06:54:22,Rui Wang,1938382.0,0.0,
+185,486332852.0,RATIS-1063. Failed UT: testOldLeaderCommit: expected leader is different than actual leader,197.0,13.0,7.0,1.0,1.0,2.0,0.0,2020-09-14 05:13:39,2020-09-14 14:11:05,Rui Wang,1938382.0,1.0,2020-09-14 14:11:05
+186,486376270.0,RATIS-1060. Fix TestRaftReconfiguration.testRestorePriority,198.0,54.0,2.0,2.0,1.0,4.0,0.0,2020-09-14 06:42:07,2021-01-20 07:28:02,Rui Wang,1938382.0,0.0,
+187,486505803.0,RATIS-769. Ratis RaftGroupId should also include number of nodes in the log output.,199.0,11.0,1.0,2.0,2.0,3.0,1.0,2020-09-14 10:23:52,2021-01-06 14:19:45,Mukul Kumar Singh,4317412.0,0.0,
+188,487107424.0,RATIS-1066. Fixed example filestore client run failed,200.0,1.0,1.0,1.0,1.0,2.0,2.0,2020-09-15 07:49:13,2020-12-02 12:57:20,Lei Zhang,4271525.0,1.0,2020-12-02 12:57:20
+189,487607546.0,RATIS-1064. Fix TestGrpcOutputStream.testSimpleWrite,201.0,4.0,2.0,2.0,4.0,3.0,6.0,2020-09-15 22:12:42,2020-09-22 15:32:24,Rui Wang,1938382.0,1.0,2020-09-22 15:32:24
+190,487740306.0,RATIS-1067. Peer's support IPv6 address,202.0,136.0,11.0,4.0,4.0,0.0,0.0,2020-09-16 05:35:43,2020-11-26 02:53:17,Lei Zhang,4271525.0,0.0,
+191,487775439.0,RATIS-455. Move exception classes to org.apache.ratis.protocol.exceptions,203.0,124.0,67.0,60.0,3.0,1.0,0.0,2020-09-16 06:56:58,2020-09-16 20:31:29,Rui Wang,1938382.0,1.0,2020-09-16 20:31:29
+192,489964938.0,RATIS-830. Add a metric for tracking failed client requests on a server,205.0,147.0,2.0,4.0,2.0,5.0,0.0,2020-09-20 22:02:02,2020-09-23 05:30:38,Rui Wang,1938382.0,1.0,2020-09-23 05:30:38
+193,490014964.0,RATIS-1072: Should not shutdown and re-create channel/stub in GrpcServerProtocolClient when StreamObserver::onError() is called.,206.0,11.0,1.0,2.0,4.0,5.0,4.0,2020-09-21 03:31:51,2020-09-28 11:25:58,Glen Geng,8412672.0,1.0,2020-09-28 11:25:58
+194,491721130.0,"RATIS-1074:  GrpcLogAppender improperly decrease nextIndex to 1, which may trigger a installSnapshot request to follower.",207.0,12.0,5.0,1.0,1.0,2.0,4.0,2020-09-23 11:54:18,2020-09-25 04:57:41,Glen Geng,8412672.0,1.0,2020-09-25 04:57:41
+195,492820822.0,"RATIS-1075. Classes that implement AutoCloseable should call ""close()"" when it should be terminated",208.0,38.0,36.0,1.0,6.0,4.0,3.0,2020-09-25 04:09:21,2020-09-25 05:58:11,Rui Wang,1938382.0,1.0,2020-09-25 05:58:10
+196,493464824.0,RATIS-1077. Unify metric name convention,209.0,9.0,9.0,2.0,3.0,3.0,0.0,2020-09-26 01:32:45,2021-01-19 22:32:42,Rui Wang,1938382.0,0.0,
+197,494116391.0,RATIS-1078. Refactor DataStream classes.,210.0,36.0,62.0,10.0,1.0,5.0,14.0,2020-09-28 12:45:40,2020-09-29 01:07:26,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-09-29 01:07:26
+198,495367336.0,RATIS-1080. Rename StreamApi to MessageStreamApi.,211.0,69.0,45.0,9.0,2.0,2.0,0.0,2020-09-30 09:13:47,2020-09-30 10:23:36,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-09-30 10:23:36
+199,496240088.0,RATIS-1081. Change NettyServerStreamRpc to write data to StateMachine.,212.0,185.0,75.0,6.0,4.0,4.0,4.0,2020-10-01 12:59:28,2020-10-06 00:42:53,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-10-06 00:42:53
+200,497230000.0,RATIS-1082. Netty stream server should forward the data to the other servers in the group,213.0,192.0,46.0,8.0,12.0,5.0,73.0,2020-10-03 07:08:59,2020-10-20 02:23:37,Rui Wang,1938382.0,1.0,2020-10-20 02:23:37
+201,500282109.0,RATIS-1087. Add setConfiguration tests with single node clusters.,214.0,27.0,5.0,1.0,1.0,1.0,0.0,2020-10-09 01:22:20,2020-10-09 21:21:06,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-10-09 21:21:06
+202,501147272.0,RATIS-1089. Add getDataStreamApi() to RaftClient.,215.0,68.0,7.0,4.0,3.0,4.0,5.0,2020-10-11 14:33:37,2020-10-12 08:40:01,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-10-12 08:40:01
+203,501162537.0,RATIS-1036. ratis_leader_election_electionCount metric is similar to …,216.0,39.0,29.0,5.0,1.0,1.0,0.0,2020-10-11 16:09:57,2020-10-23 11:21:50,,14299376.0,0.0,
+204,501213519.0,RATIS-1088. SegmentedRaftLogWorker#closeLogSegment should also roll the open segment maintained in the cache.,217.0,31.0,11.0,7.0,4.0,4.0,4.0,2020-10-11 22:05:18,2020-10-20 07:50:08,,14299376.0,1.0,2020-10-20 07:50:08
+205,501489558.0,RATIS-1092. Move the group management methods from RaftClient to a new interface,218.0,175.0,83.0,11.0,1.0,2.0,0.0,2020-10-12 10:42:04,2020-10-12 11:22:19,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-10-12 11:22:19
+206,501851645.0,RATIS-1093. Move blocking methods from RaftClient to a new BlockingApi interface,219.0,203.0,132.0,37.0,3.0,2.0,6.0,2020-10-12 22:22:18,2020-10-13 05:51:32,Rui Wang,1938382.0,1.0,2020-10-13 05:51:31
+207,501885314.0,RATIS-1094. Move async methods from RaftClient to a new AsyncApi interface,220.0,170.0,94.0,16.0,4.0,1.0,6.0,2020-10-12 23:52:30,2020-10-13 04:08:17,Rui Wang,1938382.0,1.0,2020-10-13 04:08:17
+208,501994436.0,RATIS-1085. Encode a RaftClientRequest as the head of a stream request,221.0,43.0,14.0,4.0,6.0,8.0,13.0,2020-10-13 05:32:59,2020-10-14 01:43:40,,51938049.0,1.0,2020-10-14 01:43:40
+209,502012783.0,RATIS-1095. Move the related methods from RaftClientImpl to the corresponding impls.,222.0,181.0,114.0,7.0,4.0,1.0,0.0,2020-10-13 06:17:06,2020-10-13 10:56:09,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-10-13 10:56:09
+210,503456429.0,RATIS-1097. DataStreamOutputImpl should use streamOffset instead of messageId,224.0,209.0,188.0,17.0,4.0,6.0,9.0,2020-10-14 15:25:18,2020-10-15 07:16:22,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-10-15 07:16:22
+211,506456764.0,RATIS-1099. DataStreamServerRpc should connect other peers automatically,225.0,161.0,158.0,9.0,3.0,5.0,8.0,2020-10-20 04:30:03,2020-10-21 00:25:13,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-10-21 00:25:13
+212,507119390.0,RATIS-1102. Fix typo in MetricRegistriesImpl#create warning message,226.0,1.0,1.0,1.0,1.0,7.0,0.0,2020-10-20 21:56:00,2020-10-23 04:54:26,Siyao Meng,50227127.0,1.0,2020-10-23 04:54:26
+213,507187028.0,RATIS-1103. Add an interface for adding RaftPeers.,227.0,44.0,49.0,20.0,1.0,1.0,0.0,2020-10-21 01:25:49,2020-10-21 01:57:43,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-10-21 01:57:43
+214,507220118.0,RATIS-1098. DataStreamReply should include byteWritten and isSuccess.,228.0,249.0,39.0,11.0,2.0,2.0,3.0,2020-10-21 03:19:53,2020-10-21 23:17:35,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-10-21 23:17:35
+215,507240012.0,RATIS-1101. Fix Failed UT: RaftBasicTests.runTestOldLeaderNotCommit:IndexOutOfBounds,229.0,8.0,3.0,1.0,2.0,1.0,0.0,2020-10-21 04:28:57,2020-10-21 14:37:47,Rui Wang,1938382.0,1.0,2020-10-21 14:37:47
+216,508003451.0,"RATIS-1104.Should check ""bytewritten"" from remote writes to peers to determine whether current stream write is successful",230.0,39.0,6.0,1.0,5.0,4.0,3.0,2020-10-22 04:27:47,2020-10-22 07:41:21,Rui Wang,1938382.0,1.0,2020-10-22 07:41:21
+217,508791974.0,RATIS-1105. Refactor Netty streaming encoder and decoder.,231.0,191.0,190.0,14.0,5.0,13.0,3.0,2020-10-23 08:01:26,2020-10-24 01:37:53,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-10-24 01:37:53
+218,509707617.0,RATIS-1106. Add type for DataStream,232.0,206.0,119.0,18.0,2.0,5.0,8.0,2020-10-26 01:43:25,2020-10-27 03:56:51,,51938049.0,1.0,2020-10-27 03:56:51
+219,510530650.0,RATIS-1107. Start NettyServerStreamRpc when create RaftServerProxy,233.0,78.0,4.0,6.0,2.0,2.0,10.0,2020-10-27 07:09:29,2020-10-27 09:59:43,,51938049.0,1.0,2020-10-27 09:59:43
+220,511045348.0,RATIS-1108. Add SupportedDataStreamType.DISABLED,234.0,197.0,28.0,5.0,14.0,7.0,27.0,2020-10-27 20:40:04,2020-10-29 10:12:10,Rui Wang,1938382.0,1.0,2020-10-29 10:12:10
+221,511450474.0,RATIS-1110. Fix DataStreamReply out of order.,235.0,9.0,9.0,2.0,1.0,5.0,0.0,2020-10-28 10:45:07,2020-10-28 13:00:21,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-10-28 13:00:21
+222,511748002.0,RATIS-1114. Change NettyServerStreamRpc to use only one ConcurrentMap.,236.0,73.0,64.0,1.0,1.0,3.0,2.0,2020-10-28 18:19:21,2020-10-28 23:57:45,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-10-28 23:57:45
+223,512081591.0,RATIS-1083. Create transaction once stream data replicated to all servers,237.0,242.0,15.0,6.0,10.0,9.0,31.0,2020-10-29 07:38:29,2020-11-04 14:54:26,,51938049.0,1.0,2020-11-04 14:54:26
+224,512195846.0,RATIS-1116. Add DataStreamType.,238.0,153.0,46.0,11.0,2.0,2.0,5.0,2020-10-29 11:09:01,2020-10-29 13:12:06,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-10-29 13:12:05
+225,512325303.0,RATIS-1117. Remove DataStreamClient.start() and DataStreamClientRpc.startClient().,239.0,36.0,59.0,7.0,1.0,1.0,0.0,2020-10-29 14:40:42,2020-10-30 01:55:05,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-10-30 01:55:05
+226,512483713.0,RATIS-1118. Remove DataStreamServerRpc.start(),240.0,6.0,20.0,5.0,2.0,3.0,0.0,2020-10-29 18:41:09,2020-10-30 02:33:10,Rui Wang,1938382.0,0.0,
+227,512727281.0,RATIS-1120. Terminate election in advance if majority peers reject,241.0,90.0,0.0,4.0,1.0,4.0,5.0,2020-10-30 03:08:10,2020-11-04 05:27:53,dengziming,26023240.0,1.0,2020-11-04 05:27:52
+228,512728710.0,RATIS-1119. StateMachine is not closed when StateMachineUpdater encou…,242.0,10.0,10.0,1.0,1.0,1.0,0.0,2020-10-30 03:13:05,2020-11-03 08:15:41,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-03 08:15:41
+229,512812478.0,RATIS-1121. Support multiple streams.,243.0,67.0,33.0,4.0,2.0,4.0,11.0,2020-10-30 07:25:29,2020-10-31 01:13:50,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-10-31 01:13:50
+230,513373570.0,RATIS-1123. Support multiple DataStream clients.,244.0,117.0,47.0,7.0,1.0,1.0,6.0,2020-10-31 04:56:21,2020-10-31 06:45:24,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-10-31 06:45:24
+231,513381875.0,RATIS-1084. Support multiple groups in Streaming,245.0,11.0,6.0,2.0,1.0,3.0,11.0,2020-10-31 06:21:01,2020-11-03 02:39:29,Rui Wang,1938382.0,1.0,2020-11-03 02:39:29
+232,513395655.0,RATIS-1124. NettyServerStreamRpc should get stateMachine from RaftServer,246.0,179.0,74.0,10.0,1.0,2.0,2.0,2020-10-31 08:28:43,2020-10-31 10:05:56,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-10-31 10:05:56
+233,513668208.0,RATIS-1125. Fix TestDataStream,247.0,3.0,8.0,1.0,2.0,5.0,0.0,2020-11-01 18:16:17,2020-11-02 01:39:53,Rui Wang,1938382.0,1.0,2020-11-02 01:39:53
+234,513738865.0,RATIS-1127. Add a stream(RaftGroupId) method to DataStreamApi.,248.0,94.0,53.0,9.0,3.0,1.0,3.0,2020-11-02 01:55:10,2020-11-02 07:21:56,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-02 07:21:56
+235,513766293.0,RATIS-1126. Fix can not support more than 10 streams,249.0,29.0,6.0,3.0,1.0,2.0,0.0,2020-11-02 03:49:52,2020-11-02 08:23:31,,51938049.0,1.0,2020-11-02 08:23:31
+236,513847997.0,RATIS-1122. Use thenApplyAsync instead of thenApply,250.0,5.0,5.0,1.0,1.0,2.0,16.0,2020-11-02 07:14:26,2020-11-04 11:25:10,,51938049.0,1.0,2020-11-04 11:25:10
+237,514482797.0,RATIS-1109. Notify StateMachine on Configuration change,251.0,21.0,4.0,2.0,1.0,0.0,0.0,2020-11-03 05:03:21,2020-11-03 09:10:36,Hanisha Koneru,10237377.0,1.0,2020-11-03 09:10:36
+238,514896593.0,RATIS-1112. Ensure a node doesn't get reelected as a leader if it vol…,252.0,97.0,30.0,7.0,2.0,0.0,6.0,2020-11-03 17:44:23,2020-11-04 14:52:04,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-04 14:52:04
+239,515020077.0,RATIS-1128. Update Configuration on InstallSnapshot,253.0,40.0,10.0,4.0,1.0,0.0,1.0,2020-11-03 22:15:20,2020-11-04 06:50:27,Hanisha Koneru,10237377.0,1.0,2020-11-04 06:50:27
+240,515467616.0,RATIS-1129. Move out the RPC related APIs from DataStreamOutput.,254.0,61.0,39.0,6.0,1.0,1.0,0.0,2020-11-04 15:39:36,2020-11-04 23:48:05,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-04 23:48:05
+241,515730135.0,RATIS-1090. Implement RaftClient.getDataStreamApi,255.0,60.0,24.0,8.0,2.0,2.0,2.0,2020-11-05 01:20:41,2020-11-05 07:15:22,,51938049.0,1.0,2020-11-05 07:15:21
+242,515783963.0,RATIS-1131. Refactor the notifyXxx() methods in StateMachine.,256.0,187.0,143.0,12.0,3.0,4.0,0.0,2020-11-05 04:23:48,2020-11-05 14:41:03,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-05 14:41:02
+243,515875355.0,RATIS-1132. Primary and peer should use the same streamId,257.0,59.0,17.0,6.0,3.0,6.0,4.0,2020-11-05 08:10:05,2020-11-06 02:36:36,,51938049.0,1.0,2020-11-06 02:36:36
+244,516461119.0,RATIS-1133. Primary and peer should use the same RaftClientReques,258.0,20.0,27.0,4.0,3.0,2.0,3.0,2020-11-06 02:58:11,2020-11-06 08:01:14,,51938049.0,1.0,2020-11-06 08:01:14
+245,516585284.0,RATIS-1134. Remove DataStreamApi.stream(RaftGroupId).,259.0,19.0,30.0,6.0,2.0,3.0,0.0,2020-11-06 08:21:38,2020-11-06 11:32:45,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-06 11:32:45
+246,517052686.0,RATIS-1135. Initialize DataStreamServer after RaftServerProxy id is set,260.0,3.0,1.0,1.0,2.0,3.0,0.0,2020-11-07 01:44:26,2020-11-07 03:27:05,Rui Wang,1938382.0,1.0,2020-11-07 03:27:05
+247,517091278.0,RATIS-1137. Rename StreamRequestTypeProto to MessageStreamRequestTypeProto,261.0,43.0,42.0,8.0,2.0,2.0,0.0,2020-11-07 05:40:16,2020-11-07 12:41:40,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-07 12:41:40
+248,517167992.0,RATIS-1138. Add dataStreamAddress to RaftPeer.,262.0,193.0,86.0,13.0,2.0,6.0,0.0,2020-11-07 17:33:34,2020-11-09 04:05:06,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-09 04:05:06
+249,517543951.0,RATIS-1139. Use RaftPeer.Bulider instead of the constructors.,263.0,51.0,91.0,15.0,2.0,2.0,0.0,2020-11-09 07:21:39,2020-11-09 12:24:52,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-09 12:24:52
+250,518118102.0,RATIS-1140. Do not create DataStreamOutput for non-primary server,264.0,10.0,7.0,2.0,2.0,10.0,4.0,2020-11-10 00:01:59,2020-11-10 07:34:34,Rui Wang,1938382.0,1.0,2020-11-10 07:34:34
+251,518297771.0,RATIS-1142. Remove STREAM_CLOSE_FORWARD,265.0,18.0,19.0,4.0,1.0,2.0,0.0,2020-11-10 07:56:41,2020-11-10 09:28:58,,51938049.0,1.0,2020-11-10 09:28:58
+252,518423057.0,RATIS-1144. Default disable datastream when start a MiniRaftCluster,266.0,2.0,1.0,2.0,1.0,1.0,4.0,2020-11-10 11:31:36,2020-11-10 16:50:49,,51938049.0,1.0,2020-11-10 16:50:49
+253,518632461.0,"RATIS-1145. In NettyServerStreamRpc, the local/remote writes should only wait for the previous write.",267.0,166.0,120.0,4.0,1.0,2.0,4.0,2020-11-10 17:01:54,2020-11-11 01:18:12,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-11 01:18:12
+254,519136908.0,RATIS-1141. Class.getSimpleName() has a 4% overhead in the SegmentedRaftLogWriter thread.,268.0,197.0,153.0,68.0,2.0,3.0,0.0,2020-11-11 11:28:27,2020-11-11 14:51:49,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-11 14:51:49
+255,519170551.0,"RATIS-1148. In NettyServerStreamRpc, each remote stream should not wait for its own previous write.",269.0,6.0,9.0,1.0,1.0,2.0,0.0,2020-11-11 12:35:29,2020-11-11 13:17:19,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-11 13:17:19
+256,519190271.0,RATIS-1143. Return exception of submitClientRequestAsync to client,270.0,86.0,25.0,3.0,2.0,2.0,4.0,2020-11-11 13:14:03,2020-11-12 06:00:15,,51938049.0,1.0,2020-11-12 06:00:15
+257,519246180.0,RATIS-1146. Does not build with newer JDK,271.0,35.0,5.0,5.0,2.0,2.0,3.0,2020-11-11 14:47:03,2020-11-12 06:29:09,"Doroszlai, Attila",6454655.0,1.0,2020-11-12 06:29:09
+258,519439000.0,RATIS-1130. Add E2E test for Ratis streaming based on MiniRaftCluster,272.0,190.0,4.0,8.0,9.0,10.0,33.0,2020-11-11 20:40:04,2020-11-15 03:24:53,Rui Wang,1938382.0,1.0,2020-11-15 03:24:53
+259,519782325.0,RATIS-1151. Move the DateStream requests handling code from NettyServerStreamRpc to a new class.,273.0,434.0,370.0,2.0,2.0,1.0,1.0,2020-11-12 10:27:46,2020-11-12 12:20:07,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-12 12:20:07
+260,520077681.0,RATIS-1152. Update gRPC to 1.33.0 for Ratis.,274.0,2.0,2.0,1.0,1.0,1.0,0.0,2020-11-12 18:34:59,2021-02-17 11:26:15,Mukul Kumar Singh,4317412.0,0.0,
+261,520466133.0,RATIS-1149. Leader should step down and initiate a stateMachine action in case of jvm pauses.,275.0,193.0,2.0,4.0,4.0,3.0,20.0,2020-11-13 09:35:30,2020-11-17 09:39:28,,31469764.0,1.0,2020-11-17 09:39:28
+262,520775130.0,RATIS-1155. Add a builder for DataStreamReplyByteBuffer.,276.0,142.0,63.0,11.0,2.0,3.0,3.0,2020-11-13 18:41:06,2020-11-15 01:28:09,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-15 01:28:09
+263,521137035.0,RATIS-1150. Return DataStreamException to client,277.0,152.0,35.0,7.0,4.0,2.0,3.0,2020-11-15 03:18:56,2020-11-15 11:06:10,,51938049.0,1.0,2020-11-15 11:06:10
+264,521138455.0,RATIS-1153. Implement ChannelInboundHandler.exceptionCaught in NettyServerStreamRpc,278.0,133.0,45.0,9.0,1.0,8.0,9.0,2020-11-15 03:37:34,2020-11-16 08:57:30,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-16 08:57:30
+265,521182243.0,"RATIS-1158. Use the same proto for StateMachineExceptionProto, AlreadyClosedExceptionProto and DataStreamExceptionProto.",279.0,77.0,136.0,6.0,2.0,2.0,1.0,2020-11-15 11:38:35,2020-11-16 02:05:28,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-16 02:05:28
+266,521385997.0,RATIS-1159. Wait ChannelFuture be completed before getting the local address,280.0,1.0,0.0,1.0,1.0,1.0,0.0,2020-11-16 06:16:31,2020-11-16 07:00:55,Rui Wang,1938382.0,1.0,2020-11-16 07:00:55
+267,521719475.0,RATIS-1160. DataStreamClientImpl.closeAsync() should be idempotent.,281.0,119.0,65.0,6.0,1.0,1.0,1.0,2020-11-16 15:00:25,2020-11-16 23:47:19,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-16 23:47:19
+268,522416009.0,RATIS-1162. Enable testing clusters with Netty data stream and gRPC.,282.0,222.0,60.0,8.0,2.0,0.0,3.0,2020-11-17 13:36:50,2020-11-18 04:00:14,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-18 04:00:13
+269,522529366.0,RATIS-610. Add a builder for RaftClientReply.,283.0,244.0,127.0,16.0,2.0,2.0,0.0,2020-11-17 16:13:08,2020-11-18 03:46:04,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-18 03:46:04
+270,522878777.0,RATIS-1154. Add sync flag when write stream data,284.0,51.0,19.0,6.0,3.0,1.0,2.0,2020-11-18 03:11:34,2020-11-18 05:41:56,,51938049.0,1.0,2020-11-18 05:41:56
+271,523022172.0,RATIS-1163. RefCountingMap is not thread-safe.,285.0,31.0,23.0,2.0,1.0,0.0,0.0,2020-11-18 08:49:57,2020-11-18 23:44:00,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-18 23:44:00
+272,523133328.0,RATIS-1164. Remove deprecated RaftServerConstants.INVALID_LOG_INDEX.,286.0,33.0,47.0,12.0,2.0,0.0,0.0,2020-11-18 11:58:00,2020-11-18 23:42:25,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-18 23:42:24
+273,523323627.0,RATIS-1136. Add DataStreamRequestTypeProto.,287.0,70.0,28.0,8.0,1.0,0.0,0.0,2020-11-18 16:51:24,2020-11-18 23:40:55,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-18 23:40:54
+274,523619244.0,RATIS-1165. Add ClientInvocationId.,288.0,138.0,153.0,11.0,1.0,1.0,0.0,2020-11-19 01:47:07,2020-11-19 06:12:13,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-19 06:12:13
+275,523708839.0,RATIS-1161. Updating commit index of follower does not require term check,289.0,22.0,9.0,5.0,3.0,4.0,5.0,2020-11-19 06:26:36,2020-11-26 10:36:23,Tsz-Wo Nicholas Sze,907380.0,0.0,
+276,523961114.0,RATIS-1166. Link DataStream with LogEntryProto.,290.0,239.0,36.0,13.0,1.0,3.0,0.0,2020-11-19 13:39:39,2020-11-20 01:42:48,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-20 01:42:48
+277,524011450.0,RATIS-1167. Fix the link to raft main page,291.0,1.0,1.0,1.0,1.0,2.0,0.0,2020-11-19 14:54:40,2020-11-20 00:38:04,Yi-Sheng Lien,38711101.0,1.0,2020-11-20 00:38:04
+278,524599462.0,RATIS-1168. Move the utils from DataStreamBaseTest to a new file.,292.0,295.0,211.0,4.0,1.0,0.0,0.0,2020-11-20 10:15:50,2020-11-21 02:16:00,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-21 02:16:00
+279,525267397.0,RATIS-1169. Move the DataStream tests from TestDataStreamNetty to DataStreamClusterTests,293.0,147.0,93.0,7.0,1.0,1.0,0.0,2020-11-22 11:15:54,2020-11-22 23:36:06,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-22 23:36:06
+280,525625587.0,RATIS-1171. Allow null for the stream parameter in StateMachine.DataApi.link,294.0,119.0,37.0,9.0,2.0,0.0,4.0,2020-11-23 10:29:34,2020-11-24 01:44:11,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-24 01:44:11
+281,526147496.0,RATIS-1173. Rename StateMachineDataChannel to DataChannel.,295.0,88.0,60.0,7.0,1.0,0.0,0.0,2020-11-24 03:28:34,2020-11-24 06:29:47,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-24 06:29:47
+282,526363756.0,RATIS-1175. DataStreamOutput should support FileChannel#transferTo.,296.0,197.0,37.0,8.0,2.0,12.0,2.0,2020-11-24 10:10:49,2020-11-24 14:00:42,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-24 14:00:42
+283,526803883.0,RATIS-1177. NPE when RaftServerJmxAdapter queries getLeaderId.,297.0,6.0,1.0,1.0,1.0,0.0,0.0,2020-11-24 21:42:23,2020-11-25 00:59:30,Hanisha Koneru,10237377.0,1.0,2020-11-25 00:59:30
+284,526851016.0,RATIS-1111. Change the FileStore example to use Streaming,298.0,327.0,0.0,9.0,4.0,13.0,44.0,2020-11-24 23:31:28,2020-12-04 02:49:30,Rui Wang,1938382.0,1.0,2020-12-04 02:49:30
+285,527559477.0,RATIS-1179. Add a new API to DataStreamOutput for sending a File.,299.0,300.0,77.0,14.0,1.0,7.0,0.0,2020-11-25 16:21:52,2020-11-26 02:12:42,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-26 02:12:42
+286,527738137.0,RATIS-1180. Expose RaftServer status with Status Info,300.0,24.0,0.0,1.0,1.0,3.0,7.0,2020-11-25 23:26:03,2020-12-10 20:15:45,Bharat Viswanadham,8586345.0,0.0,
+287,527861474.0,RATIS-1182. Move RaftServerProxy/RaftServerImpl LOG to RaftServer.,301.0,55.0,43.0,25.0,1.0,0.0,0.0,2020-11-26 06:40:56,2020-11-26 07:41:13,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-26 07:41:13
+288,527938240.0,RATIS-1183. Add getId() and getPeer() to RaftServer/RaftServer.Division.,302.0,161.0,93.0,19.0,1.0,0.0,0.0,2020-11-26 09:16:59,2020-11-26 23:47:12,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-26 23:47:12
+289,528379852.0,RATIS-1184. Move RaftServerMetrics to org.apache.ratis.server.metrics.,303.0,221.0,212.0,16.0,3.0,0.0,2.0,2020-11-27 03:57:47,2020-11-27 15:56:51,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-27 15:56:51
+290,528752979.0,RATIS-1185. Avoid directly using RaftServerProxy in JvmPauseMonitor.,304.0,224.0,219.0,10.0,1.0,0.0,0.0,2020-11-27 19:11:51,2020-11-29 01:05:23,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-29 01:05:23
+291,529119054.0,RATIS-1187. Avoid directly using RaftServerImpl in LeaderElectionMetrics,305.0,38.0,56.0,7.0,1.0,0.0,0.0,2020-11-29 14:36:51,2020-11-29 23:36:10,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-29 23:36:09
+292,529365139.0,Ratis 1188. Change MiniRaftCluster.getLeader() to return RaftServer.Division.,306.0,144.0,164.0,18.0,1.0,0.0,0.0,2020-11-30 07:58:54,2020-11-30 12:08:20,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-11-30 12:08:20
+293,529557364.0,RATIS-1189. Change other MiniRaftCluster methods to return RaftServerDivision,307.0,134.0,145.0,23.0,1.0,0.0,0.0,2020-11-30 13:40:08,2020-12-01 05:35:59,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-01 05:35:59
+294,529564113.0,RATIS-1178. Use RaftClient to submit request,308.0,221.0,178.0,16.0,4.0,2.0,11.0,2020-11-30 13:51:59,2020-12-01 14:29:32,,51938049.0,1.0,2020-12-01 14:29:32
+295,530098477.0,RATIS-1190. Remove the abstract newRaftServer method in MiniRaftCluster.,309.0,85.0,127.0,65.0,1.0,0.0,0.0,2020-12-01 07:52:25,2020-12-01 08:26:58,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-01 08:26:58
+296,530116119.0,RATIS-1174. Test leader change when close stream,310.0,55.0,18.0,3.0,2.0,1.0,4.0,2020-12-01 08:24:26,2020-12-02 11:55:09,,51938049.0,1.0,2020-12-02 11:55:09
+297,530437569.0,RATIS-1191. Define an interface for FollowerInfo.,311.0,215.0,102.0,14.0,1.0,0.0,0.0,2020-12-01 16:48:50,2020-12-02 01:21:03,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-02 01:21:03
+298,530807608.0,RATIS-1001. Make RaftServerImpl#getRoleInfoProto() public,312.0,1.0,1.0,1.0,1.0,4.0,0.0,2020-12-02 07:14:42,2020-12-02 08:32:02,Glen Geng,8412672.0,1.0,2020-12-02 08:32:02
+299,530831365.0,RATIS-1192. Add a public API to get server states.,313.0,240.0,164.0,22.0,1.0,0.0,0.0,2020-12-02 08:05:15,2020-12-02 11:15:22,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-02 11:15:22
+300,531028427.0,RATIS-1193. Add getRaftLog() to RaftServer.Division.,314.0,90.0,82.0,21.0,2.0,0.0,0.0,2020-12-02 13:47:15,2020-12-03 01:17:17,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-03 01:17:17
+301,531321531.0,RATIS-1194. SegmentedRaftLog syncWithSnapshot should not create a new open segment.,315.0,1.0,1.0,1.0,1.0,2.0,0.0,2020-12-02 22:13:15,2020-12-03 06:05:48,,14299376.0,0.0,
+302,531532991.0,RATIS-1197. Add getRoleInfoProto() and other methods to DivisionInfo.,316.0,91.0,65.0,18.0,1.0,0.0,0.0,2020-12-03 06:10:52,2020-12-03 07:10:46,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-03 07:10:46
+303,531586765.0,RATIS-1198. Fix OOM when use FileStore to write 1GB file,317.0,123.0,57.0,8.0,3.0,2.0,12.0,2020-12-03 08:02:17,2020-12-04 10:31:48,,51938049.0,1.0,2020-12-04 10:31:48
+304,531593214.0,RATIS-1199. Change RaftServerProxy/RaftServerImpl to package private.,318.0,143.0,115.0,19.0,2.0,0.0,0.0,2020-12-03 08:15:19,2020-12-03 10:50:28,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-03 10:50:28
+305,531988095.0,RATIS-1200. Refactor LogAppender.SnapshotRequestIter.,319.0,283.0,180.0,11.0,2.0,0.0,0.0,2020-12-03 18:27:49,2020-12-04 06:24:33,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-04 06:24:33
+306,532263435.0,RATIS-1201. Enhance FileStore steaming tests,320.0,390.0,228.0,4.0,5.0,1.0,5.0,2020-12-04 03:43:37,2020-12-07 05:05:17,Rui Wang,1938382.0,1.0,2020-12-07 05:05:17
+307,532280102.0,RATIS-1203. Fix flaky tests caused by TestRetryCacheMetrics#retryCache,321.0,7.0,3.0,1.0,2.0,1.0,0.0,2020-12-04 04:39:50,2020-12-04 05:49:27,Kelly Shao,24410016.0,1.0,2020-12-04 05:49:27
+308,532341563.0,RATIS-1195. Log Entry Validation in appendEntry can fail after log purge.,322.0,105.0,35.0,8.0,6.0,3.0,8.0,2020-12-04 07:11:28,2020-12-08 08:23:20,,14299376.0,1.0,2020-12-08 08:23:20
+309,532436916.0,RATIS-1205. Change LogAppender to use RaftServer.Division and LeaderState,323.0,237.0,83.0,13.0,1.0,0.0,0.0,2020-12-04 10:23:42,2020-12-04 13:04:14,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-04 13:04:14
+310,532885549.0,RATIS-1206. Use atomic update instead of synchronized in AppenderDaemon.,324.0,191.0,95.0,4.0,1.0,0.0,0.0,2020-12-05 03:22:49,2020-12-06 00:46:52,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-06 00:46:52
+311,533146679.0,RATIS-1186. Change the FileStore CLI to use Streaming,325.0,305.0,48.0,7.0,2.0,4.0,2.0,2020-12-06 06:03:51,2020-12-06 10:21:18,,51938049.0,1.0,2020-12-06 10:21:18
+312,533146691.0,RATIS-1208. Separate LogAppender interface from the implementation.,326.0,223.0,146.0,19.0,2.0,0.0,0.0,2020-12-06 06:03:59,2020-12-07 05:34:15,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-07 05:34:14
+313,533184593.0,Replaced by #328,327.0,28.0,15.0,1.0,2.0,7.0,0.0,2020-12-06 11:58:18,2020-12-07 00:44:13,Tsz-Wo Nicholas Sze,907380.0,0.0,
+314,533303931.0,RATIS-1209. Compare the performance between DataStreamApi and AsyncApi.,328.0,27.0,17.0,1.0,1.0,0.0,0.0,2020-12-07 00:46:41,2020-12-07 01:22:19,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-07 01:22:19
+315,533310836.0,RATIS-1212. Remove steams from StreamMap when close stream,329.0,11.0,0.0,2.0,2.0,1.0,0.0,2020-12-07 01:12:58,2020-12-07 03:22:28,,51938049.0,1.0,2020-12-07 03:22:28
+316,533342005.0,RATIS-1213. Provide a default implementation for DataStreamApi.stream(),330.0,3.0,8.0,2.0,2.0,2.0,0.0,2020-12-07 03:21:11,2020-12-07 06:05:36,Rui Wang,1938382.0,1.0,2020-12-07 06:05:36
+317,533467615.0,RATIS-1214. Separate the default LogAppender implementation from LogAppenderBase,331.0,261.0,203.0,8.0,1.0,1.0,0.0,2020-12-07 07:59:52,2020-12-07 08:49:19,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-07 08:49:19
+318,533509916.0,RATIS-1211. Fix TestLogAppenderWithSimulatedRpc.testUnlimitedElementBuffer throw NPE,332.0,10.0,3.0,1.0,1.0,0.0,0.0,2020-12-07 09:05:27,2020-12-07 12:00:52,,51938049.0,1.0,2020-12-07 12:00:52
+319,533602440.0,RATIS-1215. Allow put duplicate key into LogSegment#entryCache,333.0,6.0,2.0,1.0,1.0,1.0,0.0,2020-12-07 11:33:30,2020-12-07 13:29:22,,51938049.0,1.0,2020-12-07 13:29:22
+320,533827220.0,RATIS-1210. Expose RetryCache.,334.0,276.0,135.0,14.0,2.0,0.0,0.0,2020-12-07 17:21:46,2020-12-08 05:27:43,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-08 05:27:43
+321,534161665.0,RATIS-1217. Fix filestore failed readStateMachineData when use AsyncApi,335.0,41.0,17.0,6.0,1.0,1.0,0.0,2020-12-08 06:34:21,2020-12-08 08:27:25,,51938049.0,1.0,2020-12-08 08:27:25
+322,534253542.0,RATIS-1219. Define an interface for RaftConfiguration.,336.0,152.0,101.0,15.0,1.0,0.0,0.0,2020-12-08 08:19:17,2020-12-09 03:45:09,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-09 03:45:08
+323,534402159.0,RATIS-1218. Add sync option when test filestore performance,337.0,80.0,84.0,11.0,1.0,0.0,0.0,2020-12-08 12:00:35,2020-12-08 14:48:36,,51938049.0,1.0,2020-12-08 14:48:36
+324,534639458.0,RATIS-1220. FileStore stream to send small packets for MappedByteBuffer and NettyFileRegion.,338.0,167.0,58.0,4.0,4.0,0.0,4.0,2020-12-08 18:27:09,2020-12-09 03:52:40,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-09 03:52:40
+325,534869198.0,RATIS-1196. Save STREAM_CLOSE RPC call,339.0,193.0,73.0,15.0,2.0,1.0,13.0,2020-12-09 03:27:12,2020-12-17 15:24:44,,51938049.0,1.0,2020-12-17 15:24:44
+326,534932435.0,RATIS-1223. FileStore write file in parallel,340.0,96.0,51.0,3.0,2.0,1.0,6.0,2020-12-09 06:12:08,2020-12-09 12:04:46,,51938049.0,1.0,2020-12-09 12:04:46
+327,535027742.0,RATIS-1224. Define a CallId class.,341.0,83.0,48.0,13.0,1.0,0.0,0.0,2020-12-09 09:10:39,2020-12-09 10:39:10,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-09 10:39:10
+328,535093370.0,RATIS-1225. Remove RaftServerConstants.,342.0,50.0,83.0,9.0,1.0,0.0,0.0,2020-12-09 10:58:13,2020-12-09 12:52:24,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-09 12:52:24
+329,535244716.0,RATIS-1226. The primary server should get the other peers from the current RaftConfiguration.,343.0,68.0,63.0,17.0,2.0,1.0,0.0,2020-12-09 15:05:08,2020-12-09 23:35:24,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-09 23:35:24
+330,535271766.0,RATIS-1216. State machine preAppend callback can throw exception without having leader to step down.,344.0,241.0,1.0,8.0,6.0,2.0,4.0,2020-12-09 15:42:46,2020-12-11 01:15:52,Ethan Rose,33912936.0,1.0,2020-12-11 01:15:52
+331,535556076.0,RATIS-1227. RaftServerRpcWithProxy constructor and the abstract impl methods should be protected.,345.0,34.0,48.0,14.0,1.0,1.0,0.0,2020-12-10 00:36:13,2020-12-10 05:32:39,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-10 05:32:39
+332,535589053.0,RATIS-1228. FileStore support multi disk,346.0,38.0,16.0,3.0,1.0,0.0,0.0,2020-12-10 02:19:07,2020-12-10 02:58:27,,51938049.0,1.0,2020-12-10 02:58:27
+333,535857741.0,RATIS-1229. FileStore client generate files in parallel,347.0,127.0,52.0,7.0,3.0,0.0,3.0,2020-12-10 11:12:46,2020-12-11 07:50:58,,51938049.0,1.0,2020-12-11 07:50:58
+334,536005493.0,RATIS-1230. Move out the LogEntryProto methods from ServerProtoUtils.,348.0,159.0,128.0,23.0,1.0,0.0,0.0,2020-12-10 15:09:44,2020-12-11 07:18:25,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-11 07:18:25
+335,536223312.0,RATIS-1232. Change error log message in initGroups.,349.0,11.0,3.0,1.0,3.0,1.0,3.0,2020-12-10 20:11:24,2020-12-11 10:03:18,Bharat Viswanadham,8586345.0,1.0,2020-12-11 10:03:18
+336,536764383.0,RATIS-1233. Move the StateMachineData methods from ServerProtoUtils to LogProtoUtils,350.0,123.0,141.0,10.0,2.0,0.0,0.0,2020-12-11 10:11:21,2020-12-13 09:25:45,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-13 09:25:45
+337,538931159.0,RATIS-1236. Move out the leader only methods from ServerProtoUtils.,351.0,125.0,84.0,11.0,2.0,0.0,0.0,2020-12-13 10:50:46,2020-12-13 23:31:54,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-13 23:31:54
+338,539072014.0,RATIS-1237. Move out the string method from ServerProtoUtils.,352.0,158.0,96.0,10.0,1.0,0.0,0.0,2020-12-14 01:39:07,2020-12-14 06:22:44,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-14 06:22:44
+339,539171103.0,RATIS-1238. Seperate request and write executor,353.0,36.0,22.0,5.0,1.0,1.0,0.0,2020-12-14 06:19:23,2020-12-14 07:00:25,,51938049.0,1.0,2020-12-14 07:00:25
+340,539293893.0,RATIS-1239. Move the TermIndex implementation to TermIndex.,354.0,82.0,123.0,16.0,1.0,0.0,0.0,2020-12-14 09:23:11,2020-12-14 12:43:06,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-14 12:43:06
+341,539354964.0,RATIS-1235. Update slack invite in ratis website,355.0,1.0,2.0,1.0,1.0,0.0,0.0,2020-12-14 10:52:18,2020-12-15 06:36:32,Lokesh Jain,9255455.0,1.0,2020-12-15 06:36:32
+342,539358136.0,RATIS-1235. Update slack invite in ratis website,356.0,2.0,4.0,2.0,1.0,0.0,0.0,2020-12-14 10:57:21,2020-12-14 10:58:37,Lokesh Jain,9255455.0,1.0,2020-12-14 10:58:37
+343,541045604.0,RATIS-1243. Create ratis-server-api module.,357.0,89.0,44.0,22.0,1.0,0.0,0.0,2020-12-16 10:08:15,2020-12-16 13:21:10,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-16 13:21:10
+344,541314364.0,RATIS-1244. Move MetaFile and RaftLog.Metadata to ratis-server-api.,358.0,371.0,258.0,13.0,1.0,0.0,0.0,2020-12-16 17:08:40,2020-12-16 23:37:00,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-16 23:37:00
+345,541665049.0,RATIS-1245. Support change priority dynamically,359.0,30.0,14.0,3.0,1.0,2.0,0.0,2020-12-17 07:24:41,2020-12-17 08:25:24,,51938049.0,1.0,2020-12-17 08:25:24
+346,541670472.0,RATIS-1241. Leader unable to append logs to a recovering follower when its logs have been purged.,360.0,5.0,0.0,1.0,2.0,1.0,7.0,2020-12-17 07:37:00,2020-12-22 03:23:09,,14299376.0,1.0,2020-12-22 03:23:09
+347,541688887.0,RATIS-1246. Move out LogPathAndIndex from RaftStorageDirectory.,361.0,362.0,197.0,15.0,1.0,0.0,0.0,2020-12-17 08:16:25,2020-12-18 00:57:41,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-18 00:57:41
+348,542249372.0,RATIS-1250. Move RaftStorage classes to ratis-server-api.,362.0,154.0,86.0,13.0,1.0,0.0,0.0,2020-12-18 02:35:49,2020-12-18 05:16:23,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-18 05:16:23
+349,542710864.0,RATIS-1251. Move StateMachine and TransactionContext to ratis-server-api,363.0,110.0,98.0,16.0,2.0,0.0,0.0,2020-12-18 18:39:46,2020-12-20 01:09:31,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-20 01:09:30
+350,542851302.0,RATIS-1248. Support network topology,364.0,351.0,54.0,20.0,5.0,5.0,21.0,2020-12-19 01:06:10,2020-12-21 08:57:09,,51938049.0,1.0,2020-12-21 08:57:09
+351,543008474.0,RATIS-1252. Refactor RaftLogMetrics.,365.0,216.0,139.0,23.0,2.0,0.0,0.0,2020-12-20 02:58:09,2020-12-20 23:33:49,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-20 23:33:49
+352,543179537.0,RATIS-1254. Add transfer leadership request and proto,366.0,181.0,0.0,23.0,2.0,3.0,2.0,2020-12-21 02:19:37,2020-12-22 06:38:40,,51938049.0,1.0,2020-12-22 06:38:40
+353,543198209.0,RATIS-1255. Move RaftLog to raft-server-api.,367.0,223.0,155.0,13.0,1.0,0.0,0.0,2020-12-21 03:37:29,2020-12-21 05:29:18,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-21 05:29:18
+354,543353789.0,RATIS-1253. FileStore support routing table,368.0,45.0,19.0,5.0,1.0,0.0,0.0,2020-12-21 09:19:11,2020-12-22 10:29:57,,51938049.0,1.0,2020-12-22 10:29:57
+355,543355122.0,RATIS-1256. Leader updateCommit should use the updated index.,369.0,200.0,132.0,17.0,2.0,0.0,0.0,2020-12-21 09:21:48,2020-12-22 02:41:25,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-22 02:41:25
+356,544125619.0,RATIS-1257. Refactor RaftServerMetrics.,370.0,81.0,48.0,12.0,1.0,0.0,0.0,2020-12-22 13:31:44,2020-12-22 23:37:13,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-22 23:37:13
+357,544449694.0,RATIS-1259. Move RaftServer and the related interfaces to raft-server-api,371.0,59.0,20.0,11.0,1.0,1.0,0.0,2020-12-23 01:16:16,2020-12-23 06:06:44,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-23 06:06:44
+358,544457196.0,RATIS-1260. Implement transferLeaderShip in server,372.0,353.0,24.0,12.0,3.0,8.0,8.0,2020-12-23 01:50:33,2020-12-24 00:50:06,,51938049.0,1.0,2020-12-24 00:50:06
+359,545131915.0,RATIS-1261. Add timeout in TransferLeadershipRequest,373.0,144.0,49.0,16.0,3.0,8.0,7.0,2020-12-24 04:31:13,2020-12-25 11:07:53,,51938049.0,1.0,2020-12-25 11:07:53
+360,545282405.0,RATIS-1263. Refactor RaftClientRequest to use Builder,374.0,134.0,32.0,8.0,1.0,0.0,0.0,2020-12-24 11:57:54,2020-12-24 15:43:49,,51938049.0,1.0,2020-12-24 15:43:49
+361,545482357.0,RATIS-1264. Move routingTable to RaftRpcRequestProto,375.0,18.0,15.0,2.0,2.0,1.0,1.0,2020-12-24 23:50:53,2020-12-25 01:31:12,,51938049.0,1.0,2020-12-25 01:31:12
+362,545580437.0,RATIS-1266. Leader send StartLeaderElectionRequest to higher priority peer,376.0,265.0,20.0,21.0,4.0,1.0,7.0,2020-12-25 11:39:42,2020-12-27 04:39:22,,51938049.0,1.0,2020-12-27 04:39:22
+363,545586775.0,RATIS-1267. Fix ratis examples after supporting streaming,377.0,16.0,9.0,5.0,3.0,2.0,0.0,2020-12-25 12:35:34,2020-12-28 09:43:23,Hui Fei,2336003.0,1.0,2020-12-28 09:43:23
+364,545757071.0,RATIS-1268. Fix leader can not vote for candidate,378.0,5.0,1.0,1.0,2.0,3.0,2.0,2020-12-27 03:00:32,2021-01-05 09:54:50,,51938049.0,0.0,
+365,545775539.0,RATIS-1269. Add a new AdminApi for RaftClient.,379.0,140.0,63.0,9.0,1.0,0.0,0.0,2020-12-27 07:36:52,2020-12-27 09:11:48,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-27 09:11:48
+366,545831906.0,RATIS-1270. Set default primary DataStreamServer in RaftClient.Builder.,380.0,47.0,339.0,4.0,1.0,0.0,0.0,2020-12-27 16:55:31,2020-12-27 23:32:02,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-27 23:32:02
+367,545840199.0,RATIS-1271. Bump mockito version.,381.0,39.0,45.0,15.0,2.0,0.0,0.0,2020-12-27 18:09:05,2020-12-28 01:13:01,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-28 01:13:01
+368,546045009.0,RATIS-1272. Remove unused slf4j-log4j12 dependency.,382.0,22.0,74.0,14.0,1.0,0.0,0.0,2020-12-28 11:00:42,2020-12-28 11:36:17,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-28 11:36:17
+369,546384810.0,RATIS-1274. Close DataStreamClient when close RaftClient,384.0,7.0,2.0,2.0,1.0,1.0,0.0,2020-12-29 08:27:37,2020-12-29 10:48:29,,51938049.0,1.0,2020-12-29 10:48:29
+370,546710120.0,RATIS-1207. Fix duplicated StreamMap#Key,385.0,70.0,36.0,17.0,1.0,4.0,3.0,2020-12-30 03:23:11,2020-12-30 08:59:21,,51938049.0,1.0,2020-12-30 08:59:20
+371,546850063.0,RATIS-1275. Add slf4j-log4j12 runtime dependency to ratis-example.,386.0,6.0,1.0,2.0,1.0,0.0,0.0,2020-12-30 08:29:39,2020-12-30 09:48:36,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-30 09:48:36
+372,546915266.0,RATIS-1276. Use ClientInvocationId as key instead of StreamMap.Key,387.0,10.0,47.0,2.0,1.0,1.0,0.0,2020-12-30 11:48:25,2020-12-30 14:21:11,,51938049.0,1.0,2020-12-30 14:21:11
+373,546949709.0,RATIS-1278. Resource leak when decoding DataStreamReplyByteBuffer.,388.0,7.0,1.0,1.0,1.0,2.0,0.0,2020-12-30 13:40:01,2020-12-31 03:25:12,Tsz-Wo Nicholas Sze,907380.0,1.0,2020-12-31 03:25:12
+374,547283666.0,RATIS-1277. Fix FileStore write failed because reply out of order,389.0,20.0,5.0,2.0,1.0,0.0,0.0,2020-12-31 08:04:59,2020-12-31 10:41:06,,51938049.0,1.0,2020-12-31 10:41:06
+375,547606434.0,RATIS-1280. Validate RoutingTable before building it.,390.0,216.0,25.0,7.0,4.0,1.0,0.0,2021-01-01 10:12:44,2021-01-04 07:03:47,Tsz-Wo Nicholas Sze,907380.0,1.0,2021-01-04 07:03:47
+376,550896008.0,RATIS-1282. Refactor the code for preVote and vote in LeaderElection.,391.0,132.0,129.0,3.0,1.0,1.0,0.0,2021-01-07 08:04:17,2021-01-07 12:00:16,Tsz-Wo Nicholas Sze,907380.0,1.0,2021-01-07 12:00:16
+377,551107318.0,RATIS-1283. Refactor the code for preVote and vote in RaftServerImpl.,392.0,181.0,138.0,3.0,2.0,1.0,2.0,2021-01-07 14:55:13,2021-01-08 02:55:03,Tsz-Wo Nicholas Sze,907380.0,1.0,2021-01-08 02:55:03
+378,551657544.0,RATIS-1281. TestRetryCacheWithGrpc#testRetryOnResourceUnavailableException fails,393.0,5.0,2.0,1.0,1.0,5.0,1.0,2021-01-08 10:46:33,2021-01-19 06:10:34,Hui Fei,2336003.0,0.0,
+379,554068266.0,RATIS-1286. Move setConfiguration and transferLeadership to admin GRPC calls,394.0,39.0,42.0,9.0,1.0,0.0,0.0,2021-01-13 10:06:11,2021-01-13 12:38:34,"Elek, Márton",170549.0,1.0,2021-01-13 12:38:34
+380,556454759.0,RATIS-1288. Add summary of failures to CI checks ,395.0,3.0,0.0,1.0,1.0,6.0,0.0,2021-01-18 01:25:10,2021-01-18 06:08:52,Rui Wang,1938382.0,1.0,2021-01-18 06:08:52
+381,557374412.0,RATIS-1289. Support skip the storagedir with multiple volumes which cause by bad disk,396.0,13.0,5.0,1.0,4.0,4.0,0.0,2021-01-19 11:47:54,2021-01-20 10:52:26,,38814843.0,1.0,2021-01-20 10:52:26
+382,557485674.0,RATIS-1287. Incompatible proto changes due to RATIS-1158.,397.0,88.0,6.0,2.0,1.0,2.0,0.0,2021-01-19 14:51:13,2021-01-19 23:42:04,Tsz-Wo Nicholas Sze,907380.0,1.0,2021-01-19 23:42:04
+383,558106316.0,RATIS-1285. Fix the wrong links from Ratis website,399.0,286.0,137.0,28.0,1.0,0.0,0.0,2021-01-20 09:49:41,2021-01-20 09:52:02,,51938049.0,0.0,
+384,558109116.0,RATIS-1285. Fix the wrong links from Ratis website,400.0,39.0,63.0,28.0,1.0,3.0,1.0,2021-01-20 09:54:05,2021-01-20 12:40:51,,51938049.0,1.0,2021-01-20 12:40:51
+385,559364547.0,RATIS-1290. Allow separate admin and client service,401.0,444.0,77.0,20.0,7.0,4.0,23.0,2021-01-21 16:11:44,2021-01-23 09:08:47,"Doroszlai, Attila",6454655.0,1.0,2021-01-23 09:08:47
+386,561055633.0,RATIS-1295. Use a config to enable/disable pre vote,402.0,21.0,1.0,3.0,2.0,5.0,5.0,2021-01-25 12:48:14,2021-01-26 03:36:04,,51938049.0,1.0,2021-01-26 03:36:04
+387,561757203.0,RATIS-1296. Remove System.out.println() from RetryCacheImpl,403.0,0.0,1.0,1.0,3.0,2.0,2.0,2021-01-26 12:41:05,2021-01-27 03:44:27,"Elek, Márton",170549.0,1.0,2021-01-27 03:44:27
+388,561761727.0,RATIS-1297. Adjust Github nofications settings to use issues@ mailing list,404.0,2.0,2.0,1.0,1.0,2.0,0.0,2021-01-26 12:50:06,2021-01-27 11:41:00,"Elek, Márton",170549.0,1.0,2021-01-27 11:41:00
+389,562503590.0,RATIS-1285. Fix download link point to mirror links instead of download area directly,405.0,217.0,69.0,11.0,2.0,2.0,5.0,2021-01-27 13:24:29,2021-01-28 02:07:40,,51938049.0,1.0,2021-01-28 02:07:40
+390,562504134.0,RATIS-1285. Fix download link point to mirror links instead of download area directly,406.0,462.0,365.0,24.0,2.0,3.0,0.0,2021-01-27 13:25:19,2021-01-28 11:12:32,,51938049.0,1.0,2021-01-28 11:12:32
+391,563194661.0,RATIS-1299. Fix version 0.4.0 can not download,407.0,6.0,6.0,1.0,1.0,1.0,0.0,2021-01-28 11:42:16,2021-01-28 13:12:15,,51938049.0,1.0,2021-01-28 13:12:15
+392,563195128.0,RATIS-1299. Fix version 0.4.0 can not download,408.0,6.0,6.0,1.0,1.0,0.0,0.0,2021-01-28 11:43:06,2021-01-28 13:17:36,,51938049.0,1.0,2021-01-28 13:17:36
+393,564134565.0,RATIS-1302. JvmPauseMonitor logs multi-line message,410.0,2.0,2.0,1.0,2.0,3.0,0.0,2021-01-29 17:39:44,2021-02-02 02:50:41,"Doroszlai, Attila",6454655.0,1.0,2021-02-02 02:50:41
+394,564628542.0,RATIS-1303. Upgrade Ratis Thirdparty to 0.6.0,412.0,1.0,1.0,1.0,1.0,1.0,0.0,2021-01-31 10:15:36,2021-01-31 11:36:18,"Doroszlai, Attila",6454655.0,1.0,2021-01-31 11:36:18
+395,564720611.0,RATIS-1303. Upgrade Ratis Thirdparty to 0.6.0 - addendum,413.0,2.0,2.0,1.0,1.0,2.0,0.0,2021-01-31 20:10:55,2021-02-01 01:41:40,"Doroszlai, Attila",6454655.0,1.0,2021-02-01 01:41:40
+396,565825374.0,RATIS-1304. Do not print error if ratis log is not yet created,414.0,2.0,0.0,1.0,2.0,1.0,2.0,2021-02-02 10:05:38,2021-02-04 23:46:25,"Elek, Márton",170549.0,1.0,2021-02-04 23:46:25
+397,567672088.0,RATIS-1306. Eliminate duplicated GitHub Actions workflow,415.0,5.0,93.0,2.0,1.0,2.0,0.0,2021-02-04 14:32:56,2021-02-04 23:44:44,"Doroszlai, Attila",6454655.0,1.0,2021-02-04 23:44:44
+398,567854854.0,RATIS-1309. Clarify ApplyTransaction Javadoc,416.0,5.0,3.0,1.0,2.0,1.0,2.0,2021-02-04 19:12:47,2021-02-05 05:47:44,Rui Wang,1938382.0,1.0,2021-02-05 05:47:44
+399,568014005.0,RATIS-1300. Fix NPE from SegmentedRaftLogCache#getOpenSegmentSizeInBytes,417.0,1.0,1.0,1.0,1.0,3.0,0.0,2021-02-05 01:03:14,2021-02-05 05:04:32,,51938049.0,1.0,2021-02-05 05:04:32
+400,568232659.0,RATIS-1307. Cache Maven dependencies in CI workflow,418.0,55.0,0.0,1.0,6.0,2.0,0.0,2021-02-05 09:50:03,2021-02-08 00:59:12,"Doroszlai, Attila",6454655.0,1.0,2021-02-08 00:59:12
+401,568321129.0,RATIS-1311. Upgrade Java for Sonar check,419.0,25.0,5.0,1.0,16.0,2.0,5.0,2021-02-05 12:27:29,2021-02-17 07:19:35,"Doroszlai, Attila",6454655.0,1.0,2021-02-17 07:19:35
+402,568628119.0,RATIS-1305. Leader stuck in infinite install snapshot cycle when logs have been purged,420.0,113.0,3.0,2.0,7.0,5.0,2.0,2021-02-05 21:40:56,2021-02-12 00:00:21,Ethan Rose,33912936.0,1.0,2021-02-12 00:00:21
+403,569576671.0,RATIS-1308. Findbugs check is failing silently,421.0,260.0,74.0,61.0,10.0,2.0,0.0,2021-02-08 15:54:48,2021-02-22 15:13:10,"Doroszlai, Attila",6454655.0,1.0,2021-02-22 15:13:10
+404,570653125.0,RATIS-1313. Use matrix build for unit tests to reduce CI time,422.0,63.0,5.0,3.0,23.0,7.0,0.0,2021-02-09 22:12:16,2021-03-12 01:44:19,"Doroszlai, Attila",6454655.0,1.0,2021-03-12 01:44:18

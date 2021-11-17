@@ -1,0 +1,207 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,64411438.0,"GUACAMOLE-1: Update guacamole-client regarding naming, LICENSE, NOTICE, DISCLAIMER.",1.0,15187.0,16694.0,816.0,19.0,0.0,0.0,2016-03-29 04:10:58,2016-03-29 04:20:23,Mike Jumper,4632905.0,1.0,2016-03-29 04:20:23
+1,64674549.0,GUAC-1511: Add client-side support for audio input.,2.0,569.0,202.0,5.0,4.0,0.0,0.0,2016-03-30 18:29:24,2016-03-30 20:20:47,Mike Jumper,4632905.0,1.0,2016-03-30 20:20:47
+2,64869021.0,GUAC-1517: Maintain singleton instance of AudioContext.,3.0,85.0,42.0,3.0,1.0,0.0,0.0,2016-03-31 22:24:05,2016-03-31 22:30:40,Mike Jumper,4632905.0,1.0,2016-03-31 22:30:40
+3,65182487.0,GUAC-1511: Fix audio input bugs in initial client implementation.,4.0,29.0,18.0,2.0,6.0,0.0,0.0,2016-04-04 17:30:09,2016-04-04 20:34:20,Mike Jumper,4632905.0,1.0,2016-04-04 20:34:20
+4,70473985.0,GUACAMOLE-2 Added Missing translations for screen recording etc in Dutch,5.0,45.0,12.0,1.0,1.0,4.0,0.0,2016-05-18 06:16:51,2016-05-18 07:55:23,nrbrt,5767870.0,1.0,2016-05-18 07:55:23
+5,70476779.0,GUACAMOLE-3: Bring CONTRIBUTING up-to-date with the migration to Apache.,6.0,15.0,29.0,1.0,1.0,0.0,0.0,2016-05-18 06:51:29,2016-05-18 06:56:11,Mike Jumper,4632905.0,1.0,2016-05-18 06:56:11
+6,70921921.0,GUACAMOLE-27: Add Docker image from old guacamole-docker repository.,7.0,846.0,0.0,9.0,1.0,0.0,0.0,2016-05-20 21:48:07,2016-05-20 22:37:58,Mike Jumper,4632905.0,1.0,2016-05-20 22:37:58
+7,71129540.0,GUACAMOLE-25: Address quality issues with audio input,8.0,167.0,11.0,1.0,5.0,0.0,0.0,2016-05-23 22:15:38,2016-05-24 03:28:05,Mike Jumper,4632905.0,1.0,2016-05-24 03:28:05
+8,71155343.0,GUACAMOLE-25: Only stream audio when requested.,9.0,161.0,30.0,4.0,6.0,0.0,2.0,2016-05-24 04:10:15,2016-05-24 04:30:09,Mike Jumper,4632905.0,1.0,2016-05-24 04:30:09
+9,71967553.0,GUACAMOLE-41: Add LDAP section to readme.,11.0,49.0,2.0,1.0,3.0,8.0,23.0,2016-05-31 07:09:17,2017-06-13 17:35:45,James Muehlner,4633119.0,0.0,
+10,72272665.0,"GUACAMOLE-25: Add ""enable-audio-input"" parameter for RDP.",12.0,6.0,0.0,2.0,1.0,0.0,0.0,2016-06-02 00:17:37,2016-06-02 21:08:09,Mike Jumper,4632905.0,1.0,2016-06-02 21:08:09
+11,72406913.0,GUACAMOLE-44: Implement tunnel REST endpoint,13.0,727.0,21.0,12.0,5.0,0.0,0.0,2016-06-02 19:53:21,2016-06-02 21:51:59,Mike Jumper,4632905.0,1.0,2016-06-02 21:51:59
+12,72431509.0,GUACAMOLE-44: Slice uploaded files into chunks (DO NOT slurp entire file into memory),14.0,333.0,77.0,3.0,4.0,0.0,3.0,2016-06-02 23:02:01,2016-06-02 23:17:56,Mike Jumper,4632905.0,1.0,2016-06-02 23:17:56
+13,72548051.0,GUACAMOLE-44: ManagedFileUpload.getInstance() must not directly invoke $apply(),15.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-06-03 18:17:19,2016-06-06 16:19:36,Mike Jumper,4632905.0,1.0,2016-06-06 16:19:36
+14,72643999.0,GUACAMOLE-44: Implement uploads within tunnel REST endpoint,16.0,1435.0,269.0,14.0,8.0,0.0,8.0,2016-06-05 23:33:34,2016-06-06 21:59:13,Mike Jumper,4632905.0,1.0,2016-06-06 21:59:13
+15,73285912.0,GUACAMOLE-44: Use new REST service for both uploads and downloads.,17.0,51.0,241.0,6.0,3.0,0.0,0.0,2016-06-09 21:06:24,2016-06-10 04:32:24,Mike Jumper,4632905.0,1.0,2016-06-10 04:32:24
+16,73301647.0,"GUACAMOLE-1: Interface should say ""Apache Guacamole"", not ""Guacamole"".",18.0,35.0,16.0,8.0,3.0,1.0,0.0,2016-06-09 23:17:57,2016-06-10 04:28:29,Mike Jumper,4632905.0,1.0,2016-06-10 04:28:29
+17,73787138.0,Update Docker Container to use Java 8,19.0,1.0,1.0,1.0,1.0,1.0,0.0,2016-06-14 18:11:04,2016-06-14 18:50:55,T M,1225999.0,0.0,
+18,73797629.0,GUACAMOLE-50: Update Docker container to use Java 8,20.0,1.0,1.0,1.0,1.0,1.0,0.0,2016-06-14 19:19:10,2016-06-14 21:27:32,T M,1225999.0,1.0,2016-06-14 21:27:32
+19,73850847.0,GUACAMOLE-52: Ensure history records remain when users/connections are deleted.,21.0,225.0,39.0,7.0,1.0,0.0,0.0,2016-06-15 04:34:49,2016-06-15 04:44:09,Mike Jumper,4632905.0,1.0,2016-06-15 04:44:09
+20,73851670.0,GUACAMOLE-53: Implement session affinity for balancing groups,22.0,208.0,29.0,11.0,2.0,0.0,1.0,2016-06-15 04:50:55,2016-06-15 05:17:24,Mike Jumper,4632905.0,1.0,2016-06-15 05:17:24
+21,75057619.0,GUACAMOLE-55: Refactor FileWriter to BlobWriter.,23.0,32.0,32.0,1.0,1.0,0.0,0.0,2016-06-24 02:52:09,2016-06-24 06:33:24,Mike Jumper,4632905.0,1.0,2016-06-24 06:33:24
+22,75558924.0,GUACAMOLE-55: Add interface-level support for image clipboard contents,24.0,1002.0,246.0,15.0,17.0,1.0,7.0,2016-06-28 22:08:20,2016-06-29 06:13:59,Mike Jumper,4632905.0,0.0,
+23,75760257.0,GUACAMOLE-55: Add interface-level support for image clipboard contents,25.0,964.0,207.0,17.0,31.0,0.0,0.0,2016-06-30 05:00:47,2016-06-30 05:37:08,Mike Jumper,4632905.0,1.0,2016-06-30 05:37:08
+24,77200177.0,GUACAMOLE-5: Refactor /api/data/... REST services into resources,26.0,3307.0,2241.0,57.0,23.0,0.0,7.0,2016-07-12 22:07:11,2016-07-13 05:09:51,Mike Jumper,4632905.0,1.0,2016-07-13 05:09:51
+25,77400999.0,"GUACAMOLE-5: Remove path from tunnel collection resource, as it is no longer a root resource.",27.0,0.0,1.0,1.0,1.0,0.0,0.0,2016-07-14 05:17:53,2016-07-14 16:39:59,Mike Jumper,4632905.0,1.0,2016-07-14 16:39:59
+26,77531272.0,GUACAMOLE-5: Fix regression introduced by recent refactor of the REST API,28.0,172.0,18.0,7.0,2.0,1.0,0.0,2016-07-14 21:43:37,2016-07-14 21:46:32,Mike Jumper,4632905.0,1.0,2016-07-14 21:46:32
+27,77704089.0,GUACAMOLE-5: Move common equals() / hashCode() of Identifiable implementations to base class,29.0,92.0,174.0,6.0,1.0,0.0,1.0,2016-07-16 08:19:45,2016-07-16 18:18:57,Mike Jumper,4632905.0,1.0,2016-07-16 18:18:57
+28,77717113.0,GUACAMOLE-5: Add concept of sharing profiles to guacamole-ext and REST API.,30.0,2517.0,44.0,53.0,18.0,0.0,9.0,2016-07-16 19:09:41,2016-07-17 22:28:40,Mike Jumper,4632905.0,1.0,2016-07-17 22:28:40
+29,78085777.0,GUACAMOLE-5: Implement sharing profiles within JDBC extension schema,31.0,2243.0,65.0,36.0,6.0,1.0,3.0,2016-07-20 04:04:04,2016-07-20 05:29:25,Mike Jumper,4632905.0,1.0,2016-07-20 05:29:25
+30,78409230.0,GUACAMOLE-5: Implement connection sharing within database auth,32.0,1529.0,178.0,18.0,7.0,1.0,12.0,2016-07-22 00:34:41,2016-07-22 02:51:08,Mike Jumper,4632905.0,1.0,2016-07-22 02:51:08
+31,78614479.0,GUACAMOLE-5: Invalidate share keys and close associated tunnels when the shared connection is closed,33.0,367.0,101.0,10.0,5.0,0.0,2.0,2016-07-25 00:21:31,2016-07-25 21:20:11,Mike Jumper,4632905.0,1.0,2016-07-25 21:20:10
+32,78758345.0,GUACAMOLE-5: Fix non-admin access to sharing profiles.,34.0,16.0,5.0,4.0,3.0,0.0,0.0,2016-07-25 21:48:39,2016-07-25 22:28:10,Mike Jumper,4632905.0,1.0,2016-07-25 22:28:10
+33,78904041.0,GUACAMOLE-5 Fix syntax error in mysql create script by adding missing comma.,35.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-07-26 18:46:07,2016-07-26 19:20:30,James Muehlner,4633119.0,1.0,2016-07-26 19:20:30
+34,78964549.0,GUACAMOLE-5: Remove need to bind/inject AuthenticationProvider,36.0,7.0,26.0,5.0,1.0,0.0,0.0,2016-07-27 04:42:52,2016-07-27 05:35:31,Mike Jumper,4632905.0,1.0,2016-07-27 05:35:31
+35,79134139.0,GUACAMOLE-66: Remove Apache Commons Codec dependency.,37.0,2.0,9.0,2.0,1.0,0.0,0.0,2016-07-28 03:59:58,2016-07-28 04:07:06,James Muehlner,4633119.0,1.0,2016-07-28 04:07:06
+36,79136006.0,GUACAMOLE-5: Properly validate identifiers before attempting to query.,38.0,63.0,0.0,2.0,1.0,0.0,0.0,2016-07-28 04:33:35,2016-07-28 04:40:57,Mike Jumper,4632905.0,1.0,2016-07-28 04:40:57
+37,79299823.0,GUACAMOLE-5: Separate sharing semantics from database-backed AuthenticationProvider,39.0,588.0,217.0,13.0,3.0,2.0,2.0,2016-07-29 02:55:54,2016-07-30 02:08:34,Mike Jumper,4632905.0,1.0,2016-07-30 02:08:34
+38,79384257.0,port the auth tutorial from glyptodon to apache,40.0,625.0,0.0,11.0,1.0,5.0,0.0,2016-07-29 16:07:48,2017-10-20 16:38:52,Oliver Jones,9804013.0,0.0,
+39,79448531.0,GUACAMOLE-5: Distinguish the authenticating AuthenticationProvider from the data source,41.0,238.0,172.0,35.0,3.0,3.0,0.0,2016-07-30 05:10:07,2016-07-30 18:22:41,Mike Jumper,4632905.0,1.0,2016-07-30 18:22:41
+40,79448749.0,GUACAMOLE-5: Provide most recent Credentials to updateUserContext(),42.0,23.0,11.0,6.0,1.0,2.0,0.0,2016-07-30 05:24:59,2016-07-30 18:34:44,Mike Jumper,4632905.0,1.0,2016-07-30 18:34:44
+41,79449031.0,GUACAMOLE-67: Always clean up the connection upon WebSocket error.,43.0,4.0,0.0,4.0,1.0,0.0,0.0,2016-07-30 05:40:25,2016-07-30 17:52:50,Mike Jumper,4632905.0,1.0,2016-07-30 17:52:50
+42,79463987.0,GUACAMOLE-5: Fix identifier validity regression.,44.0,65.0,61.0,3.0,2.0,3.0,0.0,2016-07-30 18:11:18,2016-07-30 18:32:51,Mike Jumper,4632905.0,1.0,2016-07-30 18:32:51
+43,79477450.0,GUACAMOLE-5: Add support for multiple share keys.,45.0,868.0,210.0,23.0,5.0,0.0,4.0,2016-07-31 06:22:58,2016-08-01 00:29:03,Mike Jumper,4632905.0,1.0,2016-08-01 00:29:02
+44,79806285.0,GUACAMOLE-5: Implement user-facing connection sharing interface.,46.0,665.0,213.0,17.0,6.0,1.0,3.0,2016-08-02 20:49:43,2016-08-02 22:57:08,Mike Jumper,4632905.0,1.0,2016-08-02 22:57:08
+45,80181473.0,GUACAMOLE-5: Add support for managing sharing profile permissions.,47.0,632.0,119.0,19.0,8.0,0.0,4.0,2016-08-05 02:50:19,2016-08-05 04:01:51,Mike Jumper,4632905.0,1.0,2016-08-05 04:01:51
+46,80398001.0,GUACAMOLE-5: Add missing sharing profile REST services.,48.0,237.0,0.0,3.0,2.0,0.0,0.0,2016-08-08 05:58:21,2016-08-10 23:47:31,Mike Jumper,4632905.0,1.0,2016-08-10 23:47:31
+47,80398462.0,GUACAMOLE-5: Define both connection and sharing profile parameters.,49.0,194.0,33.0,12.0,2.0,0.0,0.0,2016-08-08 06:05:32,2016-08-10 23:50:57,Mike Jumper,4632905.0,1.0,2016-08-10 23:50:56
+48,80403840.0,GUACAMOLE-5: Add contextual options for creating connections and groups.,50.0,321.0,176.0,17.0,4.0,0.0,0.0,2016-08-08 07:15:30,2016-08-10 23:45:15,Mike Jumper,4632905.0,1.0,2016-08-10 23:45:15
+49,80896306.0,GUACAMOLE-5: Fix targeting of share tag HTML patch.,51.0,4.0,3.0,3.0,1.0,0.0,0.0,2016-08-11 02:16:28,2016-08-11 03:09:32,Mike Jumper,4632905.0,1.0,2016-08-11 03:09:32
+50,80896832.0,GUACAMOLE-5: Implement administration of sharing profiles.,52.0,676.0,3.0,15.0,2.0,0.0,2.0,2016-08-11 02:26:38,2016-08-11 04:30:49,Mike Jumper,4632905.0,1.0,2016-08-11 04:30:49
+51,81048236.0,"GUACAMOLE-72: Sharing profile parameters are stored under ""sharingProfileForms"", not ""forms"".",53.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-08-11 23:31:37,2016-08-14 00:56:09,Mike Jumper,4632905.0,1.0,2016-08-14 00:56:09
+52,81162268.0,GUACAMOLE-75: Do not insert duplicate permissions.,54.0,82.0,21.0,5.0,1.0,0.0,0.0,2016-08-12 18:28:59,2016-08-14 01:04:07,Mike Jumper,4632905.0,1.0,2016-08-14 01:04:07
+53,81171383.0,GUACAMOLE-74: Migrate to URL-safe share keys.,55.0,29.0,7.0,1.0,1.0,0.0,0.0,2016-08-12 19:34:31,2016-08-14 01:05:09,Mike Jumper,4632905.0,1.0,2016-08-14 01:05:09
+54,81206550.0,GUACAMOLE-78: Handle anonymous users distinctly.,56.0,330.0,25.0,15.0,7.0,2.0,2.0,2016-08-13 04:14:00,2016-08-14 01:27:15,Mike Jumper,4632905.0,1.0,2016-08-14 01:27:15
+55,81245687.0,GUACAMOLE-79: Adding an option to allow the default LDAP result size limit (1000) to be overridden,57.0,35.0,1.0,3.0,1.0,11.0,9.0,2016-08-14 14:51:51,2016-11-11 17:20:58,,18560034.0,1.0,2016-11-11 17:20:58
+56,81582556.0,GUACAMOLE-73: Clear permission cache when saving or updating to force permission reload.,58.0,24.0,0.0,3.0,1.0,2.0,0.0,2016-08-17 04:27:57,2016-08-17 05:00:50,James Muehlner,4633119.0,1.0,2016-08-17 05:00:50
+57,81583600.0,GUACAMOLE-80: Remove trailing comma to fix sharing profile creation in mysql auth provider.,59.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-08-17 04:47:44,2016-08-17 05:06:45,James Muehlner,4633119.0,1.0,2016-08-17 05:06:45
+58,82087749.0,GUACAMOLE-76: Fix N+1 problem when querying connection group tree.,60.0,299.0,153.0,14.0,3.0,1.0,0.0,2016-08-20 19:48:26,2016-08-20 21:52:20,Mike Jumper,4632905.0,1.0,2016-08-20 21:52:20
+59,82090431.0,GUACAMOLE-77: Ensure non-existent user accounts are not displayed.,61.0,81.0,38.0,5.0,4.0,1.0,0.0,2016-08-20 21:44:12,2016-08-20 22:08:21,Mike Jumper,4632905.0,1.0,2016-08-20 22:08:21
+60,82094328.0,GUACAMOLE-81: Verify primary connection permissions when modifying sharing profiles.,62.0,121.0,108.0,15.0,2.0,0.0,2.0,2016-08-21 01:34:31,2016-08-21 04:04:35,Mike Jumper,4632905.0,1.0,2016-08-21 04:04:35
+61,82095247.0,GUACAMOLE-82: Move back to textarea for clipboard for sake of stability.,63.0,12.0,144.0,3.0,1.0,0.0,0.0,2016-08-21 02:41:39,2016-08-21 04:06:33,Mike Jumper,4632905.0,1.0,2016-08-21 04:06:33
+62,82831577.0,GUACAMOLE-87: Bump guacamole-client version numbers to 0.9.10-incubating,64.0,31.0,31.0,18.0,1.0,0.0,0.0,2016-08-26 04:49:41,2016-08-26 05:22:56,James Muehlner,4633119.0,1.0,2016-08-26 05:22:56
+63,82916468.0,GUACAMOLE-95: Minor change to postgresql schema. Fixes saving sessions to history. ,65.0,1.0,1.0,1.0,1.0,3.0,0.0,2016-08-26 16:27:54,2016-08-26 18:12:51,,9695608.0,1.0,2016-08-26 18:12:51
+64,82966476.0,GUACAMOLE-93: Build guacamole-docker using parent guacamole-client source.,66.0,132.0,204.0,6.0,1.0,0.0,0.0,2016-08-26 23:09:53,2016-08-27 00:58:44,Mike Jumper,4632905.0,1.0,2016-08-27 00:58:44
+65,83026505.0,GUACAMOLE-93: Move Dockerfile to root of repository.,67.0,133.0,79.0,9.0,2.0,0.0,0.0,2016-08-28 20:41:25,2016-08-28 21:53:07,Mike Jumper,4632905.0,1.0,2016-08-28 21:53:07
+66,83893547.0,GUACAMOLE-101: add additional search filter function for extentions/guacamole-auth-ldap module,68.0,99.0,10.0,5.0,4.0,8.0,19.0,2016-09-03 11:40:40,2017-06-15 18:01:44,Annie Weng,8368694.0,0.0,
+67,83953854.0, GUACAMOLE-102 - Loadbalancing based on resource,69.0,0.0,0.0,0.0,0.0,3.0,8.0,2016-09-05 06:09:21,2016-09-06 12:38:57,Werner Novak,21077510.0,0.0,
+68,83985131.0,GUACAMOLE-58: fix for URLs with parameters,70.0,17.0,4.0,1.0,1.0,5.0,0.0,2016-09-05 10:58:26,2017-06-16 16:31:08,,7147334.0,0.0,
+69,84409003.0,GUACAMOLE-104: Sanitize filenames before upload or download.,71.0,16.0,2.0,1.0,1.0,1.0,0.0,2016-09-08 03:27:27,2016-09-08 03:37:15,James Muehlner,4633119.0,1.0,2016-09-08 03:37:15
+70,87958754.0,GUACAMOLE-97: Update Guacamole Docker README.md with respect to Apache.,72.0,7.0,7.0,1.0,1.0,0.0,0.0,2016-10-04 19:32:18,2016-10-13 01:58:57,Mike Jumper,4632905.0,1.0,2016-10-13 01:58:57
+71,91133268.0,GUACAMOLE-107: Update incubator-guacamole-client documentation with respect to Apache.,73.0,25.0,4158.0,44.0,8.0,0.0,0.0,2016-10-27 04:56:40,2016-10-27 05:22:36,Mike Jumper,4632905.0,1.0,2016-10-27 05:22:36
+72,92441502.0,GUACAMOLE-105: Clean up download iframe only if likely to be safe.,74.0,23.0,2.0,1.0,1.0,0.0,0.0,2016-11-05 04:03:34,2016-11-05 05:31:36,Mike Jumper,4632905.0,1.0,2016-11-05 05:31:36
+73,92640626.0,GUACAMOLE-115: Explicitly close connection when disconnect instruction is received.,75.0,7.0,0.0,1.0,1.0,0.0,0.0,2016-11-07 18:45:33,2016-11-07 18:56:31,Mike Jumper,4632905.0,1.0,2016-11-07 18:56:31
+74,93375503.0,GUACAMOLE-99: Support linking Docker container to guacd via GUACD_HOSTNAME and GUACD_PORT environment variables.,76.0,29.0,7.0,1.0,1.0,0.0,3.0,2016-11-11 18:23:25,2016-11-12 00:03:45,Mike Jumper,4632905.0,1.0,2016-11-12 00:03:45
+75,93375626.0,GUACAMOLE-100: Use contents of provided GUACAMOLE_HOME as the basis for GUACAMOLE_HOME generated by the Docker container.,77.0,10.0,0.0,1.0,1.0,0.0,0.0,2016-11-11 18:24:15,2016-11-11 22:59:09,Mike Jumper,4632905.0,1.0,2016-11-11 22:59:08
+76,93376460.0,GUACAMOLE-70: Allow access to be restricted to strictly the users in the database.,78.0,93.0,5.0,7.0,1.0,0.0,9.0,2016-11-11 18:30:28,2016-11-13 01:43:20,Mike Jumper,4632905.0,1.0,2016-11-13 01:43:20
+77,93416905.0,GUACAMOLE-116: Replace minified AngularJS with non-minified AngularJS.,79.0,26433.0,255.0,3.0,2.0,0.0,0.0,2016-11-11 23:56:55,2016-11-12 00:07:38,Mike Jumper,4632905.0,1.0,2016-11-12 00:07:38
+78,93459668.0,GUACAMOLE-119: Address RAT build issues,80.0,819.0,29.0,28.0,8.0,0.0,0.0,2016-11-13 02:27:29,2016-11-13 19:23:06,Mike Jumper,4632905.0,1.0,2016-11-13 19:23:05
+79,93670676.0,GUACAMOLE-116: Replace lodash.js with non-minified version.,81.0,6782.0,53.0,1.0,1.0,0.0,0.0,2016-11-14 23:32:53,2016-11-15 00:22:07,Mike Jumper,4632905.0,1.0,2016-11-15 00:22:07
+80,95391956.0,"GUACAMOLE-112: Upgrade messageformat.js to 1.0.2, which is now MIT-licensed.",82.0,4624.0,1953.0,71.0,1.0,0.0,0.0,2016-11-27 04:33:25,2016-11-27 19:20:13,Mike Jumper,4632905.0,1.0,2016-11-27 19:20:13
+81,95391991.0,GUACAMOLE-130: Add Norwegian translation.,83.0,657.0,0.0,1.0,2.0,0.0,0.0,2016-11-27 04:36:11,2016-11-27 19:22:14,Mike Jumper,4632905.0,1.0,2016-11-27 19:22:14
+82,95625355.0,GUACAMOLE-132: Explicitly include .gitignore in the source archive.,84.0,12.0,0.0,1.0,1.0,0.0,0.0,2016-11-29 04:38:03,2016-11-29 05:12:31,Mike Jumper,4632905.0,1.0,2016-11-29 05:12:31
+83,95626289.0,GUACAMOLE-131: Migrate to Webjars for JavaScript library dependencies.,85.0,140.0,17235.0,93.0,1.0,3.0,0.0,2016-11-29 04:52:08,2016-11-29 06:19:49,Mike Jumper,4632905.0,1.0,2016-11-29 06:19:49
+84,95635951.0,GUACAMOLE-131: Re-remove JavaScript libraries which were mistakenly re-added during merge conflict resolution.,86.0,0.0,37984.0,4.0,1.0,0.0,0.0,2016-11-29 06:54:30,2016-11-29 17:50:18,Mike Jumper,4632905.0,1.0,2016-11-29 17:50:18
+85,96357691.0,GUACAMOLE-133: Remove unnecessary bundled SLF4J from JDBC auth.,87.0,0.0,7.0,1.0,1.0,2.0,0.0,2016-12-02 21:41:26,2016-12-02 23:26:52,Mike Jumper,4632905.0,1.0,2016-12-02 23:26:52
+86,96368534.0,"GUACAMOLE-133: Exclude StAX dependency, which is part of Java 6.",88.0,9.0,0.0,1.0,1.0,0.0,0.0,2016-12-02 23:03:19,2016-12-02 23:29:14,Mike Jumper,4632905.0,1.0,2016-12-02 23:29:14
+87,96383007.0,GUACAMOLE-133: Document all dependencies of Guacamole within LICENSE.,89.0,3483.0,1.0,29.0,1.0,0.0,2.0,2016-12-03 02:30:38,2016-12-03 03:39:32,Mike Jumper,4632905.0,1.0,2016-12-03 03:39:32
+88,96387758.0,GUACAMOLE-133: Add remaining licenses for bundled software.,90.0,2452.0,25.0,56.0,4.0,0.0,0.0,2016-12-03 05:42:42,2016-12-03 21:02:37,Mike Jumper,4632905.0,1.0,2016-12-03 21:02:37
+89,96417656.0,"GUACAMOLE-132: Include ALL .gitignore in source .tar.gz, not just top-level.",91.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-12-04 01:30:25,2016-12-04 01:39:01,Mike Jumper,4632905.0,1.0,2016-12-04 01:39:01
+90,96659773.0,GUACAMOLE-136: Handle expired password reset within getUserContext(),92.0,62.0,34.0,2.0,1.0,1.0,0.0,2016-12-06 04:36:40,2016-12-06 04:44:34,Mike Jumper,4632905.0,1.0,2016-12-06 04:44:34
+91,96659896.0,GUACAMOLE-136: Ensure field template is in DOM prior to invoking controller.,93.0,35.0,25.0,2.0,1.0,1.0,0.0,2016-12-06 04:38:20,2016-12-06 04:55:07,Mike Jumper,4632905.0,1.0,2016-12-06 04:55:07
+92,96661354.0,GUACAMOLE-136: Add support for two-factor authentication using Duo.,94.0,4166.0,1.0,33.0,10.0,2.0,9.0,2016-12-06 05:00:25,2016-12-06 06:27:50,Mike Jumper,4632905.0,1.0,2016-12-06 06:27:50
+93,96666713.0,GUACAMOLE-136: Make $element available to field type controllers.,95.0,4.0,1.0,1.0,1.0,1.0,0.0,2016-12-06 06:10:36,2016-12-06 06:18:42,Mike Jumper,4632905.0,1.0,2016-12-06 06:18:42
+94,97441478.0,GUACAMOLE-136: Remove DuoWeb Java API from codebase.,96.0,789.0,1889.0,10.0,1.0,1.0,0.0,2016-12-10 23:09:20,2016-12-12 04:43:44,Mike Jumper,4632905.0,1.0,2016-12-12 04:43:44
+95,97635630.0,Bypassing Tomcat landing page for Docker,97.0,4.0,0.0,1.0,2.0,8.0,0.0,2016-12-12 21:20:06,2017-09-28 13:39:06,Emmanuel Frecon,9443924.0,0.0,
+96,98467047.0,GUACAMOLE-144: Do not list Category X licenses for dual-licensed dependencies,98.0,5.0,968.0,7.0,2.0,0.0,1.0,2016-12-18 07:21:40,2016-12-18 19:03:16,Mike Jumper,4632905.0,1.0,2016-12-18 19:03:16
+97,100057141.0,GUACAMOLE-36: Support fully translatable messages,99.0,420.0,300.0,21.0,4.0,1.0,4.0,2017-01-04 03:17:57,2017-01-04 04:00:10,Mike Jumper,4632905.0,1.0,2017-01-04 04:00:10
+98,100060858.0,GUACAMOLE-36: Add support for password policies,100.0,940.0,43.0,23.0,4.0,1.0,0.0,2017-01-04 04:26:44,2017-01-05 11:52:47,Mike Jumper,4632905.0,1.0,2017-01-05 11:52:47
+99,100299230.0,GUACAMOLE-36: Add support for password aging,101.0,384.0,3.0,16.0,4.0,0.0,2.0,2017-01-05 14:31:51,2017-01-05 18:27:29,Mike Jumper,4632905.0,1.0,2017-01-05 18:27:29
+100,100340945.0,GUACAMOLE-36: Add support for tracking password history,102.0,705.0,15.0,17.0,6.0,3.0,10.0,2017-01-05 18:37:55,2017-01-05 21:50:37,Mike Jumper,4632905.0,1.0,2017-01-05 21:50:37
+101,100778590.0,GUACAMOLE-154: Bump version numbers to 0.9.11-incubating for modified components.,103.0,25.0,25.0,17.0,1.0,0.0,0.0,2017-01-09 23:00:22,2017-01-10 18:56:16,Mike Jumper,4632905.0,1.0,2017-01-10 18:56:16
+102,101112738.0,GUACAMOLE-154: Guacamole should depend on 0.9.11-incubating version of guacamole-ext.,104.0,1.0,1.0,1.0,1.0,0.0,0.0,2017-01-11 17:35:24,2017-01-11 18:29:46,Mike Jumper,4632905.0,1.0,2017-01-11 18:29:46
+103,101510345.0,GUACAMOLE-159: Less-than characters must be properly escaped within mapper XML.,105.0,1.0,1.0,1.0,1.0,0.0,0.0,2017-01-13 20:17:42,2017-01-14 00:12:51,Mike Jumper,4632905.0,1.0,2017-01-14 00:12:51
+104,102633672.0,GUACAMOLE-163: Remove DEFAULT CURRENT_TIMESTAMP from password_date.,106.0,20.0,8.0,6.0,1.0,2.0,0.0,2017-01-22 20:09:13,2017-01-22 20:43:46,Mike Jumper,4632905.0,1.0,2017-01-22 20:43:46
+105,102982905.0,"GUACAMOLE-172: Do not send potentially-invalid ""sync"" as a keep-alive.",107.0,1.0,1.0,1.0,1.0,0.0,0.0,2017-01-24 19:07:20,2017-01-24 19:41:02,Mike Jumper,4632905.0,1.0,2017-01-24 19:41:02
+106,103031493.0,GUACAMOLE-177: Tie all layer property changes to display frame flush.,108.0,90.0,4.0,2.0,1.0,1.0,0.0,2017-01-25 00:10:53,2017-01-26 05:40:02,Mike Jumper,4632905.0,1.0,2017-01-26 05:40:02
+107,103143787.0,GUACAMOLE-47: Get client hostname for use in guac RDP session,109.0,44.0,0.0,2.0,12.0,15.0,21.0,2017-01-25 15:41:32,2017-01-28 18:52:25,Virtually Nick,4706000.0,1.0,2017-01-28 18:52:25
+108,103162024.0,GUACAMOLE-29: Add Support for HTTP Authentication,110.0,888.0,0.0,13.0,13.0,2.0,0.0,2017-01-25 17:08:09,2017-01-25 18:45:43,Virtually Nick,4706000.0,0.0,
+109,103181745.0,GUACAMOLE-195: Add module to support HTTP header-based authentication.,111.0,1357.0,0.0,18.0,20.0,15.0,34.0,2017-01-25 19:01:07,2017-02-03 22:11:22,Virtually Nick,4706000.0,1.0,2017-02-03 22:11:22
+110,103547999.0,GUACAMOLE-186: Document DuoWeb API license within top-level LICENSE file.,112.0,35.0,0.0,1.0,1.0,0.0,0.0,2017-01-27 19:06:25,2017-01-27 19:31:35,Mike Jumper,4632905.0,1.0,2017-01-27 19:31:35
+111,103599004.0,GUACAMOLE-187: Reduce cost of layer resize.,113.0,86.0,37.0,1.0,2.0,0.0,0.0,2017-01-28 03:26:51,2017-01-29 19:54:56,Mike Jumper,4632905.0,1.0,2017-01-29 19:54:56
+112,103599302.0,GUACAMOLE-190: Use client thumbnail for tab icon.,114.0,303.0,49.0,4.0,2.0,0.0,0.0,2017-01-28 03:36:58,2017-01-29 20:04:08,Mike Jumper,4632905.0,1.0,2017-01-29 20:04:08
+113,103601444.0,"GUACAMOLE-129: Set ""Content-Disposition: attachment"" for ""application/octet-stream"".",115.0,10.0,2.0,2.0,1.0,0.0,0.0,2017-01-28 05:18:15,2017-01-28 21:15:31,Mike Jumper,4632905.0,1.0,2017-01-28 21:15:31
+114,103621696.0,GUACAMOLE-47: Store remote address/hostname within credentials.,116.0,82.0,11.0,4.0,2.0,0.0,0.0,2017-01-28 19:28:13,2017-01-29 19:50:44,Mike Jumper,4632905.0,1.0,2017-01-29 19:50:44
+115,103625898.0,GUACAMOLE-135: Add Swiss-French keyboard layout option for RDP.,117.0,2.0,0.0,2.0,1.0,0.0,0.0,2017-01-28 21:49:14,2017-01-29 19:48:48,Mike Jumper,4632905.0,1.0,2017-01-29 19:48:48
+116,104020700.0,GUACAMOLE-156: Add missing French translations.,118.0,14.0,0.0,1.0,1.0,1.0,0.0,2017-01-31 20:54:56,2017-01-31 21:49:22,Virtually Nick,4706000.0,1.0,2017-01-31 21:49:22
+117,105089017.0,GUACAMOLE-196: Strip backslashes from stream download filenames.,119.0,1.0,1.0,1.0,1.0,0.0,0.0,2017-02-07 20:39:26,2017-02-07 20:45:10,Mike Jumper,4632905.0,1.0,2017-02-07 20:45:10
+118,105356772.0,GUACAMOLE-201: Occasionally verify client responsiveness when intercepting streams.,120.0,44.0,1.0,2.0,1.0,1.0,3.0,2017-02-09 04:10:38,2017-02-09 04:30:01,Mike Jumper,4632905.0,1.0,2017-02-09 04:30:01
+119,105633766.0,GUACAMOLE-204: Implement CAS Single Sign On Support,121.0,1680.0,0.0,22.0,20.0,31.0,68.0,2017-02-10 14:05:45,2017-05-22 03:29:08,Virtually Nick,4706000.0,1.0,2017-05-22 03:29:08
+120,105720993.0,GUACAMOLE-197: Implement Support for RADIUS Authentication,122.0,3080.0,4.0,30.0,76.0,74.0,161.0,2017-02-10 22:53:26,2018-01-30 23:44:25,Virtually Nick,4706000.0,1.0,2018-01-30 23:44:25
+121,106457436.0,GUACAMOLE-208: Define and document new status codes.,123.0,93.0,3.0,4.0,5.0,0.0,0.0,2017-02-16 05:26:27,2017-02-16 06:05:54,Mike Jumper,4632905.0,1.0,2017-02-16 06:05:54
+122,108272331.0,GUACAMOLE-224: Remove @author tags from codebase.,124.0,18.0,832.0,412.0,1.0,0.0,0.0,2017-02-28 07:22:34,2017-02-28 18:09:43,Mike Jumper,4632905.0,1.0,2017-02-28 18:09:43
+123,108382851.0,GUACAMOLE-225: Bump version numbers to 0.9.12-incubating (guacamole-common unchanged).,125.0,36.0,67.0,22.0,1.0,3.0,4.0,2017-02-28 17:45:30,2017-02-28 19:01:55,Mike Jumper,4632905.0,1.0,2017-02-28 19:01:55
+124,108819972.0,GUACAMOLE-229: Remove intervals properly when XHR is polling.,126.0,2.0,2.0,1.0,1.0,3.0,0.0,2017-03-02 18:19:16,2017-03-02 19:52:55,Tyler Schneider,1149183.0,1.0,2017-03-02 19:52:55
+125,109534139.0,GUACAMOLE-230: Provide oncursor event handler with canvas having exact dimensions,127.0,32.0,4.0,2.0,2.0,2.0,0.0,2017-03-07 17:48:19,2017-03-08 01:10:39,Mike Jumper,4632905.0,1.0,2017-03-08 01:10:39
+126,110277725.0,"GUACAMOLE-231: Update software cursor location when a ""mouse"" instruction is received.",128.0,11.0,0.0,1.0,1.0,1.0,0.0,2017-03-11 22:52:58,2017-03-14 05:08:49,Mike Jumper,4632905.0,1.0,2017-03-14 05:08:49
+127,111293080.0,GUACAMOLE-243: Ignore LDAPReferralExceptions thrown when iterating over LDAPSearchResults,129.0,24.0,14.0,1.0,3.0,11.0,6.0,2017-03-17 14:32:28,2017-10-24 08:23:16,Adam Thorn,3034553.0,0.0,
+128,111413607.0,GUACAMOLE-243: Handle LDAP Referrals,130.0,369.0,54.0,6.0,2.0,0.0,0.0,2017-03-18 15:16:16,2017-03-18 17:23:54,Virtually Nick,4706000.0,0.0,
+129,111415577.0,GUACAMOLE-244: Support configuration of alias dereferencing,131.0,204.0,9.0,6.0,9.0,7.0,38.0,2017-03-18 16:17:31,2017-03-21 17:47:38,Virtually Nick,4706000.0,1.0,2017-03-21 17:47:38
+130,111691772.0,GUACAMOLE-101: Allow Filtering of LDAP Users,132.0,43.0,3.0,3.0,6.0,5.0,12.0,2017-03-21 02:40:08,2017-03-28 16:30:01,Virtually Nick,4706000.0,1.0,2017-03-28 16:30:01
+131,112157788.0,GUACAMOLE-252: Ensure display container is explicitly sized to cover the vertical area of its container.,133.0,1.0,0.0,1.0,1.0,1.0,0.0,2017-03-23 03:54:03,2017-03-23 04:02:51,Mike Jumper,4632905.0,1.0,2017-03-23 04:02:51
+132,112612407.0,GUACAMOLE-251: Remove MAINTAINER instruction from Dockerfile.,134.0,0.0,1.0,1.0,1.0,0.0,0.0,2017-03-26 03:09:05,2017-03-26 19:26:50,Mike Jumper,4632905.0,1.0,2017-03-26 19:26:50
+133,112665952.0,GUACAMOLE-256: Mark NoAuth as deprecated. Log warning if NoAuth is used.,135.0,6.0,1.0,2.0,1.0,1.0,0.0,2017-03-27 04:07:18,2017-03-29 18:16:16,Mike Jumper,4632905.0,1.0,2017-03-29 18:16:16
+134,112999569.0,"GUACAMOLE-204: Do not display field headers, etc. if the field itself has no content.",136.0,13.0,3.0,2.0,1.0,0.0,0.0,2017-03-28 15:30:45,2017-03-29 18:29:49,Mike Jumper,4632905.0,1.0,2017-03-29 18:29:49
+135,113564020.0,GUACAMOLE-260: Update copyright year in NOTICE files to 2017.,137.0,7.0,7.0,7.0,1.0,0.0,0.0,2017-03-31 02:43:38,2017-03-31 18:16:58,Mike Jumper,4632905.0,1.0,2017-03-31 18:16:58
+136,115407221.0,GUACAMOLE-250: Add tunnel implementation which reads static files via HTTP.,138.0,181.0,0.0,1.0,1.0,1.0,0.0,2017-04-11 20:26:00,2017-04-12 04:04:11,Mike Jumper,4632905.0,1.0,2017-04-12 04:04:11
+137,115460516.0,GUACAMOLE-250: Add support for saving/restoring Guacamole.Client state.,139.0,151.0,0.0,1.0,1.0,0.0,1.0,2017-04-12 04:10:45,2017-04-12 04:29:52,Mike Jumper,4632905.0,1.0,2017-04-12 04:29:52
+138,115689012.0,GUACAMOLE-250: Store image URL in client state only if such an image can be generated (non-zero width/height).,140.0,13.0,6.0,1.0,1.0,0.0,0.0,2017-04-13 06:06:23,2017-04-14 17:10:10,Mike Jumper,4632905.0,1.0,2017-04-14 17:10:10
+139,115690025.0,GUACAMOLE-250: Invoke client onsync only after display has flushed.,141.0,7.0,7.0,1.0,1.0,2.0,0.0,2017-04-13 06:17:29,2017-04-14 02:57:51,Mike Jumper,4632905.0,0.0,
+140,115963158.0,GUACAMOLE-250: Unblock image rendering tasks if image decode fails.,142.0,14.0,2.0,1.0,1.0,1.0,0.0,2017-04-14 17:38:03,2017-04-14 21:13:36,Mike Jumper,4632905.0,1.0,2017-04-14 21:13:36
+141,115963764.0,GUACAMOLE-250: Export client state asynchronously,143.0,47.0,32.0,1.0,2.0,1.0,3.0,2017-04-14 17:43:10,2017-04-14 21:28:27,Mike Jumper,4632905.0,1.0,2017-04-14 21:28:27
+142,115964247.0,GUACAMOLE-250: Ensure static downloads of Guacamole protocol data are handled as text.,144.0,1.0,0.0,1.0,1.0,0.0,0.0,2017-04-14 17:46:52,2017-04-14 21:18:00,Mike Jumper,4632905.0,1.0,2017-04-14 21:18:00
+143,116046778.0,GUACAMOLE-40: Define RD gateway and load balancing parameters for RDP.,145.0,69.0,0.0,7.0,1.0,0.0,0.0,2017-04-16 03:04:23,2017-04-21 04:13:47,Mike Jumper,4632905.0,1.0,2017-04-21 04:13:47
+144,116047310.0,GUACAMOLE-250: Add guacamole-common-js support for in-browser playback of recordings.,146.0,749.0,0.0,1.0,4.0,3.0,0.0,2017-04-16 03:34:17,2017-04-21 05:28:56,Mike Jumper,4632905.0,1.0,2017-04-21 05:28:55
+145,116096540.0,GUACAMOLE-208: Add exception classes for newly-defined status codes.,147.0,416.0,0.0,6.0,3.0,2.0,0.0,2017-04-17 06:17:02,2017-04-21 04:06:09,Mike Jumper,4632905.0,1.0,2017-04-21 04:06:09
+146,116915136.0,GUACAMOLE-250: Add example project demonstrating in-browser recording playback.,148.0,464.0,1.0,8.0,1.0,1.0,0.0,2017-04-21 05:39:01,2017-04-22 21:53:32,Mike Jumper,4632905.0,1.0,2017-04-22 21:53:32
+147,116915834.0,GUACAMOLE-267: Take remote desktop errors into account for balancing groups.,149.0,358.0,47.0,4.0,5.0,1.0,0.0,2017-04-21 05:47:06,2017-04-22 21:46:39,Mike Jumper,4632905.0,1.0,2017-04-22 21:46:39
+148,117168657.0,"GUACAMOLE-265: Set page title when ""name"" instruction is received.",150.0,20.0,5.0,2.0,1.0,0.0,0.0,2017-04-23 22:30:29,2017-04-27 02:58:12,Mike Jumper,4632905.0,1.0,2017-04-27 02:58:12
+149,118408074.0,GUACAMOLE-289: Allow extensions to provide their own REST services.,151.0,268.0,0.0,16.0,3.0,1.0,0.0,2017-05-01 17:44:11,2017-05-08 05:12:41,Mike Jumper,4632905.0,1.0,2017-05-08 05:12:41
+150,119312373.0,GUACAMOLE-281: Consider template GUACAMOLE_HOME in Docker image configuration sanity checks.,152.0,2.0,2.0,1.0,1.0,0.0,3.0,2017-05-06 19:04:14,2017-05-08 05:34:18,Mike Jumper,4632905.0,1.0,2017-05-08 05:34:18
+151,119312809.0,GUACAMOLE-189: Add support for per-connection guacd instances,153.0,618.0,83.0,12.0,2.0,2.0,0.0,2017-05-06 19:18:51,2017-05-11 03:39:09,Mike Jumper,4632905.0,1.0,2017-05-11 03:39:09
+152,119334665.0,GUACAMOLE-294: Fix an incorrectly positioned bracket.,154.0,1.0,1.0,1.0,1.0,1.0,0.0,2017-05-07 11:03:17,2017-05-07 18:28:59,Chris Gavin,5584439.0,1.0,2017-05-07 18:28:59
+153,119334678.0,GUACAMOLE-295: Fix an incorrect comparison with NaN.,155.0,1.0,1.0,1.0,1.0,1.0,0.0,2017-05-07 11:03:43,2017-05-07 18:13:25,Chris Gavin,5584439.0,1.0,2017-05-07 18:13:25
+154,120681634.0,GUACAMOLE-204: Reformat URLs as necessary for AngularJS to read all query parameters.,156.0,131.0,0.0,2.0,1.0,5.0,0.0,2017-05-15 19:59:14,2017-05-16 12:37:27,Mike Jumper,4632905.0,1.0,2017-05-16 12:37:27
+155,120684319.0,GUACAMOLE-301: Clear login interface if navigation succeeds.,157.0,6.0,7.0,1.0,1.0,1.0,0.0,2017-05-15 20:13:15,2017-05-21 18:18:38,Mike Jumper,4632905.0,1.0,2017-05-21 18:18:37
+156,121691826.0,GUACAMOLE-292: Restrict editing of attributes based on permissions.,158.0,251.0,23.0,13.0,5.0,0.0,13.0,2017-05-22 03:18:05,2017-05-27 05:46:24,Mike Jumper,4632905.0,1.0,2017-05-27 05:46:24
+157,122770427.0,GUACAMOLE-292: Add base support for user profiles.,159.0,538.0,39.0,24.0,10.0,1.0,0.0,2017-05-27 18:34:23,2017-05-28 18:03:19,Mike Jumper,4632905.0,1.0,2017-05-28 18:03:19
+158,123266630.0,GUACAMOLE-203: Add support for SSH Keep Alive,160.0,30.0,15.0,4.0,4.0,5.0,4.0,2017-05-31 12:59:47,2017-06-25 20:54:58,Virtually Nick,4706000.0,1.0,2017-06-25 20:54:58
+159,123405458.0,GUACAMOLE-102: Support Connection Load Balancing,161.0,192.0,18.0,11.0,27.0,7.0,63.0,2017-06-01 02:08:21,2017-06-07 00:32:35,Virtually Nick,4706000.0,1.0,2017-06-07 00:32:35
+160,123830867.0,GUACAMOLE-314: Bump version numbers of all modified components to 0.9.13-incubating.,162.0,43.0,43.0,25.0,1.0,2.0,0.0,2017-06-03 05:52:09,2017-06-04 00:23:35,Mike Jumper,4632905.0,1.0,2017-06-04 00:23:35
+161,123890816.0,GUACAMOLE-314: Update extension API version sanity check to 0.9.13-incubating.,163.0,1.0,1.0,1.0,1.0,1.0,0.0,2017-06-04 20:20:59,2017-06-05 18:32:20,Mike Jumper,4632905.0,1.0,2017-06-05 18:32:20
+162,123895802.0,GUACAMOLE-189: Define guacd override columns for guacamole_connection table in main schema init script.,164.0,19.0,0.0,2.0,1.0,1.0,0.0,2017-06-04 23:07:08,2017-06-05 18:35:13,Mike Jumper,4632905.0,1.0,2017-06-05 18:35:13
+163,124011382.0,GUACAMOLE-284: Apply database account restrictions when a database account is required.,165.0,84.0,50.0,4.0,5.0,1.0,0.0,2017-06-05 16:29:06,2017-06-07 03:09:07,Mike Jumper,4632905.0,1.0,2017-06-07 03:09:07
+164,124547059.0,GUACAMOLE-317: Add support for failover-only connections.,166.0,136.0,22.0,11.0,6.0,0.0,2.0,2017-06-08 00:50:35,2017-06-16 01:08:42,Mike Jumper,4632905.0,1.0,2017-06-16 01:08:42
+165,125724463.0,GUACAMOLE-323: Provide login help text during CAS redirect.,167.0,19.0,2.0,3.0,3.0,12.0,0.0,2017-06-15 01:23:40,2017-06-23 21:38:12,Virtually Nick,4706000.0,1.0,2017-06-23 21:38:12
+166,127521870.0,GUACAMOLE-332: Correct appearance of CAS redirect notification.,168.0,151.0,7.0,9.0,1.0,7.0,0.0,2017-06-26 17:28:58,2017-06-27 18:59:13,Mike Jumper,4632905.0,1.0,2017-06-27 18:59:13
+167,127552319.0,GUACAMOLE-335: Use /etc/guacamole for GUACAMOLE_HOME if not overridden and ~/.guacamole does not exist.,169.0,14.0,3.0,1.0,1.0,1.0,0.0,2017-06-26 20:07:38,2017-06-27 04:12:25,Mike Jumper,4632905.0,1.0,2017-06-27 04:12:25
+168,127553754.0,GUACAMOLE-334: Add support for downloading connection history search results as CSV.,170.0,179.0,2.0,5.0,1.0,1.0,0.0,2017-06-26 20:15:28,2017-06-27 04:21:16,Mike Jumper,4632905.0,1.0,2017-06-27 04:21:16
+169,127814303.0,GUACAMOLE-320: Ensure blank values for text attributes are interpreted equivalently to null.,171.0,27.0,6.0,3.0,2.0,1.0,0.0,2017-06-27 23:30:40,2017-06-28 12:07:08,Mike Jumper,4632905.0,1.0,2017-06-28 12:07:08
+170,128698388.0,"GUACAMOLE-303: Add definitions and translations for new ""sftp-root-directory"" parameter.",172.0,15.0,0.0,4.0,1.0,1.0,0.0,2017-07-03 21:53:30,2017-07-03 22:01:25,Mike Jumper,4632905.0,1.0,2017-07-03 22:01:25
+171,129098657.0,GUACAMOLE-338: Expand connections/groups by default if any of their descendants are selected.,173.0,95.0,9.0,4.0,3.0,2.0,2.0,2017-07-06 03:52:54,2017-07-14 19:39:26,Mike Jumper,4632905.0,1.0,2017-07-14 19:39:25
+172,129394185.0,GUACAMOLE-341: Make SSO Authentication work and pass through username…,174.0,2.0,0.0,1.0,3.0,11.0,4.0,2017-07-07 12:29:55,2017-09-26 19:48:05,,380110.0,0.0,
+173,130734817.0,GUACAMOLE-346: Avoid blocking main thread when seeking.,176.0,203.0,57.0,4.0,13.0,2.0,3.0,2017-07-16 00:50:24,2017-07-19 18:37:18,Mike Jumper,4632905.0,1.0,2017-07-19 18:37:18
+174,130777039.0,GUACAMOLE-339: Add Remote Host to Connection History Table,177.0,90.0,10.0,15.0,3.0,0.0,2.0,2017-07-17 02:26:47,2017-07-17 02:51:22,Virtually Nick,4706000.0,1.0,2017-07-17 02:51:22
+175,131922110.0,GUACAMOLE-345: Modify schema scripts to be compatible with PostgreSQL 8.,178.0,73.0,31.0,5.0,2.0,1.0,0.0,2017-07-23 05:01:43,2017-07-24 16:27:08,Mike Jumper,4632905.0,1.0,2017-07-24 16:27:08
+176,133969448.0,GUACAMOLE-358: Fix issue with 404 errors from REST API,179.0,3.0,0.0,1.0,1.0,12.0,3.0,2017-08-03 15:09:29,2017-09-03 20:55:36,Virtually Nick,4706000.0,1.0,2017-09-03 20:55:36
+177,135254411.0,GUACAMOLE-355: Catch CAS Errors and Display Them,180.0,6.0,0.0,1.0,3.0,17.0,11.0,2017-08-11 01:35:57,2017-10-27 19:21:45,Virtually Nick,4706000.0,1.0,2017-10-27 19:21:45
+178,135441758.0,GUACAMOLE-38: Implement on-demand connections,181.0,1700.0,0.0,20.0,61.0,46.0,118.0,2017-08-12 01:11:12,2018-06-03 19:05:51,Virtually Nick,4706000.0,1.0,2018-06-03 19:05:51
+179,135916420.0,GUACAMOLE-363: Add support for SQL Server authentication,182.0,3582.0,0.0,31.0,24.0,7.0,53.0,2017-08-16 00:00:36,2017-10-01 02:10:26,Virtually Nick,4706000.0,1.0,2017-10-01 02:10:26
+180,136062531.0,GUACAMOLE-362: Add support for CAS ClearPass,183.0,240.0,20.0,5.0,23.0,6.0,78.0,2017-08-16 16:01:24,2017-10-27 17:50:59,Virtually Nick,4706000.0,1.0,2017-10-27 17:50:59
+181,136121267.0,GUACAMOLE-364: authentication and tunnel listener extension support,184.0,887.0,101.0,18.0,16.0,12.0,77.0,2017-08-16 20:59:33,2017-10-06 16:51:32,Carl Harris,3943178.0,1.0,2017-10-06 16:51:32
+182,139067560.0,GUACAMOLE-310: Fix clipboard handling of newlines.,185.0,88.0,51.0,2.0,4.0,2.0,0.0,2017-09-04 00:22:29,2017-09-04 00:43:56,Mike Jumper,4632905.0,1.0,2017-09-04 00:43:56
+183,139069014.0,GUACAMOLE-128: Fix clipboard bounce.,186.0,22.0,2.0,2.0,3.0,3.0,0.0,2017-09-04 01:01:18,2017-09-04 01:11:07,Mike Jumper,4632905.0,1.0,2017-09-04 01:11:07
+184,142298378.0,GUACAMOLE-385: Add a convenience filter to cache the contents of HTTP requests,187.0,1.0,1.0,1.0,1.0,13.0,0.0,2017-09-21 09:39:32,2017-09-23 20:26:20,Ignasi Barrera,446705.0,1.0,2017-09-23 20:26:20
+185,142757986.0,GUACAMOLE-392: add basic travis-ci integration,188.0,14.0,0.0,1.0,1.0,2.0,2.0,2017-09-24 15:19:14,2018-01-24 21:05:47,Ilya Shipitsin,2217296.0,0.0,
+186,142955639.0,"GUACAMOLE-395: Populate ""expired"" property of Guacamole users defined via MySQL / MariaDB.",189.0,1.0,0.0,1.0,1.0,1.0,0.0,2017-09-25 18:44:59,2017-09-25 18:55:11,Mike Jumper,4632905.0,1.0,2017-09-25 18:55:11
+187,142958862.0,GUACAMOLE-393: Add extension logout/shutdown hooks,190.0,118.0,1.0,18.0,3.0,1.0,0.0,2017-09-25 19:00:35,2017-09-25 19:14:52,Mike Jumper,4632905.0,1.0,2017-09-25 19:14:52
+188,142971302.0,GUACAMOLE-394: Refactor extension API to define user history,191.0,504.0,194.0,27.0,6.0,2.0,3.0,2017-09-25 20:02:33,2017-09-27 22:16:34,Mike Jumper,4632905.0,1.0,2017-09-27 22:16:34
+189,142978220.0,GUACAMOLE-210: Add support for single sign-on with OpenID Connect,192.0,2559.0,1.0,30.0,28.0,4.0,5.0,2017-09-25 20:36:36,2017-09-27 02:18:08,Mike Jumper,4632905.0,1.0,2017-09-27 02:18:08
+190,143220323.0,GUACAMOLE-341: Automatically pull GUAC_USERNAME token from AuthenticatedUser.,193.0,31.0,3.0,3.0,1.0,3.0,0.0,2017-09-26 19:18:56,2017-09-26 19:48:05,Mike Jumper,4632905.0,1.0,2017-09-26 19:48:05
+191,145059942.0,GUACAMOLE-221: Support for Connection Prompts,194.0,1217.0,29.0,23.0,16.0,28.0,24.0,2017-10-06 02:19:24,2019-07-22 19:11:27,Virtually Nick,4706000.0,0.0,
+192,145293361.0,GUACAMOLE-408: Use Docker multi-stage build to create guacamole image,195.0,22.0,17.0,3.0,5.0,2.0,0.0,2017-10-07 14:21:46,2017-10-08 06:15:03,Carl Harris,3943178.0,1.0,2017-10-08 06:15:03
+193,145786328.0,GUACAMOLE-248: Support for connection templates,196.0,758.0,41.0,42.0,27.0,2.0,0.0,2017-10-10 19:57:07,2017-10-10 21:27:07,Virtually Nick,4706000.0,0.0,
+194,146213574.0,GUACAMOLE-412: Prevent exception propagation for null UserContext,197.0,134.0,20.0,6.0,4.0,17.0,6.0,2017-10-12 13:47:10,2017-10-27 21:16:16,Virtually Nick,4706000.0,0.0,
+195,146509082.0,GUACAMOLE-416: Add translation entries for SQL Server module.,199.0,8.0,0.0,1.0,1.0,1.0,1.0,2017-10-13 17:13:56,2017-10-23 02:47:09,Virtually Nick,4706000.0,1.0,2017-10-23 02:47:09
+196,147826474.0,GUACAMOLE-243: Ignore LDAPReferralExceptions when processing search results,200.0,25.0,14.0,1.0,4.0,1.0,0.0,2017-10-20 15:18:37,2017-10-23 13:49:07,Virtually Nick,4706000.0,0.0,
+197,148121485.0,GUACAMOLE-416: Fix typo in translation file,201.0,1.0,1.0,1.0,1.0,0.0,0.0,2017-10-23 12:49:34,2017-10-23 21:06:54,Virtually Nick,4706000.0,1.0,2017-10-23 21:06:54
+198,148136846.0,GUACAMOLE-243: Allow LDAP referral following to be configured,202.0,301.0,54.0,6.0,7.0,3.0,57.0,2017-10-23 13:50:51,2017-11-13 02:30:24,Virtually Nick,4706000.0,1.0,2017-11-13 02:30:24
+199,148407285.0,GUACAMOLE-363: Fix issues with schema initialization scripts.,203.0,21.0,20.0,2.0,1.0,0.0,0.0,2017-10-24 14:05:28,2017-10-27 17:56:09,Virtually Nick,4706000.0,1.0,2017-10-27 17:56:09
+200,148975850.0,GUACAMOLE-234: Migration from JLDAP to Apache LDAP API,204.0,575.0,512.0,16.0,9.0,8.0,31.0,2017-10-26 15:55:00,2018-12-09 16:09:48,Virtually Nick,4706000.0,0.0,
+201,149275495.0,GUACAMOLE-412: Refactor UserEvent to provide AuthenticatedUser instead of UserContext.,205.0,86.0,85.0,6.0,1.0,0.0,0.0,2017-10-27 20:08:12,2017-10-27 23:58:27,Mike Jumper,4632905.0,1.0,2017-10-27 23:58:27
+202,149335286.0,GUACAMOLE-362: Fix resource leak in FileInputStream,206.0,29.0,22.0,1.0,3.0,1.0,7.0,2017-10-28 13:21:13,2017-10-29 05:22:43,Virtually Nick,4706000.0,1.0,2017-10-29 05:22:43
+203,149855218.0,GUACAMOLE-347: Fix issue with IE missing window.location.origin,207.0,21.0,3.0,2.0,1.0,0.0,0.0,2017-10-31 17:33:52,2018-01-14 02:52:47,Virtually Nick,4706000.0,1.0,2018-01-14 02:52:47
+204,151082264.0,GUACAMOLE-431: Fix Tunnel handling of CLOSED state,208.0,34.0,36.0,1.0,2.0,3.0,0.0,2017-11-07 10:57:40,2017-11-08 18:51:52,Or Cohen,351445.0,1.0,2017-11-08 18:51:52
+205,151755309.0,GUACAMOLE-161: Add missing press and release CapsLock events on Mac O…,209.0,1.0,0.0,1.0,1.0,9.0,3.0,2017-11-09 20:32:22,2018-03-03 20:28:28,Frode Langelo,10777517.0,1.0,2018-03-03 20:28:28

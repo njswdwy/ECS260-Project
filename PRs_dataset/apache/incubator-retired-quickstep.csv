@@ -1,0 +1,359 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,66799243.0,Reordered the build sequences in Travis to reduce the total CI time.,1.0,8.0,4.0,1.0,1.0,0.0,0.0,2016-04-18 05:03:58,2016-04-19 16:46:09,zuyu,2245572.0,0.0,
+1,67058147.0,QUICKSTEP-1: Add incubation disclaimer to README.md.,2.0,29.0,3.0,2.0,1.0,1.0,2.0,2016-04-19 17:31:31,2016-04-19 18:57:30,zuyu,2245572.0,0.0,
+2,71812037.0,Added BlockLocator.,3.0,984.0,7.0,9.0,1.0,0.0,2.0,2016-05-28 21:25:50,2016-05-29 04:40:13,zuyu,2245572.0,1.0,2016-05-29 04:40:13
+3,71819141.0,Added Async DataExchange Service.,4.0,787.0,8.0,10.0,1.0,0.0,0.0,2016-05-29 05:58:41,2016-05-29 06:59:13,zuyu,2245572.0,1.0,2016-05-29 06:59:13
+4,71930825.0,DO NOT MERGE: CI w/ gRPC To Test the Distributed Version.,5.0,26.0,9.0,2.0,2.0,9.0,0.0,2016-05-30 19:05:42,2016-07-17 00:32:38,zuyu,2245572.0,0.0,
+5,72071094.0,DO NOT MERGE: Minor Improvements in Storage (WIP).,6.0,719.0,756.0,18.0,1.0,4.0,7.0,2016-05-31 19:22:21,2016-06-23 20:56:44,zuyu,2245572.0,0.0,
+6,72566260.0,Bug fixed in SimpleScalarSeparateChainingHashTable::isFull(),7.0,7.0,7.0,2.0,2.0,4.0,0.0,2016-06-03 20:36:26,2016-06-04 17:55:44,Harshad Deshmukh,3750801.0,1.0,2016-06-04 17:55:44
+7,72773084.0,Added query id in all the operators and the workorders,8.0,430.0,152.0,53.0,12.0,8.0,2.0,2016-06-06 20:33:34,2016-06-07 17:25:42,Harshad Deshmukh,3750801.0,1.0,2016-06-07 17:25:42
+8,73045582.0,DO NOT MERGE: Test an update to .travis.yml to get the clang coverage back.,9.0,11559.0,3181.0,205.0,54.0,1.0,0.0,2016-06-08 13:25:30,2016-06-09 03:17:20,Jignesh Patel,8864916.0,0.0,
+9,73081318.0,Reorder query id parameter in various work order and operator constructors,10.0,745.0,669.0,46.0,1.0,3.0,7.0,2016-06-08 16:46:25,2016-06-08 21:01:29,Harshad Deshmukh,3750801.0,1.0,2016-06-08 21:01:28
+10,73130894.0,Fix typos in CMakeLists.txt.,11.0,1.0,2.0,2.0,1.0,1.0,0.0,2016-06-08 22:24:35,2016-06-08 22:30:43,Navneet Potti,2507243.0,1.0,2016-06-08 22:30:43
+11,73136627.0,Fix to clang problems in Travis,12.0,14.0,1.0,1.0,1.0,0.0,0.0,2016-06-08 23:20:45,2016-06-09 04:37:16,Navneet Potti,2507243.0,1.0,2016-06-09 04:37:16
+12,73141632.0,Add option to build using shared libraries.,13.0,79.0,18.0,9.0,2.0,2.0,4.0,2016-06-09 00:20:05,2016-06-09 15:48:31,Navneet Potti,2507243.0,1.0,2016-06-09 15:48:31
+13,73145604.0,QUICKSTEP-8: Long running Foreman thread,14.0,1064.0,2004.0,47.0,1.0,17.0,49.0,2016-06-09 01:19:23,2016-06-13 16:28:57,Harshad Deshmukh,3750801.0,1.0,2016-06-13 16:28:57
+14,73147154.0,Disabled Clang Temporarily.,15.0,2.0,4.0,1.0,1.0,0.0,0.0,2016-06-09 01:45:15,2016-06-09 03:23:12,zuyu,2245572.0,0.0,
+15,73154047.0,DO NOT MERGE: Use the pre-built libgflags in Travis.,16.0,1.0,0.0,1.0,1.0,0.0,0.0,2016-06-09 03:50:28,2016-06-09 03:53:16,zuyu,2245572.0,0.0,
+16,73161346.0,QUICKSTEP-10: WorkOrder Serialization.,17.0,1151.0,29.0,41.0,1.0,3.0,0.0,2016-06-09 06:03:38,2016-06-10 17:18:45,zuyu,2245572.0,0.0,
+17,73164615.0,Fix a potential segfault in CompressedBlockBuilder,18.0,3.0,0.0,1.0,1.0,1.0,0.0,2016-06-09 06:46:45,2016-06-09 12:56:57,Jianqiao Zhu,2695519.0,1.0,2016-06-09 12:56:57
+18,73176442.0,Improve text scan operator,19.0,384.0,840.0,8.0,1.0,3.0,8.0,2016-06-09 08:44:28,2016-06-09 13:07:42,Jianqiao Zhu,2695519.0,1.0,2016-06-09 13:07:42
+19,73239691.0,Change the vector elision from `none` to `selection`,20.0,390.0,843.0,10.0,10.0,8.0,0.0,2016-06-09 15:54:49,2016-06-10 17:36:59,Jignesh Patel,8864916.0,0.0,
+20,73241675.0,Use shared libraries when building on Travis,21.0,1.0,0.0,1.0,8.0,1.0,0.0,2016-06-09 16:06:22,2016-06-09 20:27:36,Navneet Potti,2507243.0,0.0,
+21,73245075.0,Add a shell script that logs the build process for later profiling,22.0,104.0,0.0,1.0,1.0,7.0,17.0,2016-06-09 16:28:09,2016-06-13 22:25:59,Navneet Potti,2507243.0,1.0,2016-06-13 22:25:59
+22,73279935.0,Use shared libraries when building on Travis,23.0,1.0,0.0,1.0,1.0,3.0,0.0,2016-06-09 20:27:29,2016-06-09 21:14:19,Navneet Potti,2507243.0,1.0,2016-06-09 21:14:19
+23,73396599.0,Configure libtcmalloc_minimal based on shared libs setting,24.0,7.0,3.0,1.0,1.0,2.0,3.0,2016-06-10 16:00:29,2016-06-10 17:40:42,Harshad Deshmukh,3750801.0,0.0,
+24,73457111.0,DO NOT MERGE: Move createNewBlock() out of the critical section,25.0,8.0,9.0,1.0,1.0,13.0,4.0,2016-06-11 03:20:19,2016-07-09 05:45:13,Navneet Potti,2507243.0,0.0,
+25,73486085.0,DO NOT MERGE: Move createNewBlock() out of the critical section in getBlockForInser…,26.0,8.0,9.0,1.0,1.0,0.0,0.0,2016-06-12 04:30:30,2016-06-12 20:09:14,zuyu,2245572.0,0.0,
+26,73493668.0,QUICKSTEP-18: Allow BasicColumnStoreTupleStorageSubBlock to be unsorted,27.0,158.0,75.0,5.0,1.0,5.0,7.0,2016-06-12 11:08:09,2016-06-20 05:34:52,Craig Chasseur,8863297.0,1.0,2016-06-20 05:34:52
+27,73507271.0,Add option to enable Google Profiler.,28.0,78.0,2.0,4.0,1.0,6.0,21.0,2016-06-12 21:09:18,2016-06-13 21:56:40,Navneet Potti,2507243.0,1.0,2016-06-13 21:56:40
+28,73660297.0,Fix bug: specify log file name correctly,29.0,1.0,1.0,1.0,1.0,1.0,0.0,2016-06-13 23:40:46,2016-06-14 00:33:02,Navneet Potti,2507243.0,1.0,2016-06-14 00:33:02
+29,73694913.0,Fix conditional per-target flags for lexer,30.0,5.0,2.0,1.0,1.0,1.0,0.0,2016-06-14 07:55:01,2016-06-14 15:28:15,Craig Chasseur,8863297.0,1.0,2016-06-14 15:28:15
+30,73781283.0,Fix the NOTICE file,31.0,6.0,13.0,1.0,1.0,0.0,0.0,2016-06-14 17:32:48,2016-06-14 17:48:32,Jignesh Patel,8864916.0,1.0,2016-06-14 17:48:32
+31,73800321.0,QUICKSTEP-21 Measure execution time of WorkOrders,32.0,132.0,60.0,6.0,1.0,13.0,4.0,2016-06-14 19:36:58,2016-06-16 13:36:09,Harshad Deshmukh,3750801.0,1.0,2016-06-16 13:36:09
+32,73845694.0,BugFix: Update NumQueuedWorkOrders to fix scheduling,33.0,13.0,2.0,4.0,1.0,9.0,2.0,2016-06-15 03:04:07,2016-06-15 15:06:19,Navneet Potti,2507243.0,0.0,
+33,73968355.0,Bug fixed in \analyze command and reuse code.,34.0,34.0,13.0,5.0,1.0,2.0,0.0,2016-06-15 19:20:47,2016-06-15 20:47:02,Harshad Deshmukh,3750801.0,1.0,2016-06-15 20:47:02
+34,73974903.0,QUICKSTEP-20: Added Parser support for SQL Window Aggregation Function,35.0,3368.0,2428.0,14.0,1.0,3.0,19.0,2016-06-15 20:05:09,2016-06-17 22:22:44,Shixuan Fan,12627919.0,1.0,2016-06-17 22:22:44
+35,74135757.0,QUICKSTEP-24 Report generation support for work order execution statistics,36.0,121.0,6.0,6.0,1.0,4.0,5.0,2016-06-16 19:12:57,2016-06-20 15:02:50,Harshad Deshmukh,3750801.0,1.0,2016-06-20 15:02:50
+36,74181359.0,DO NOT MERGE: QUICKSTEP-6: Decimal type,37.0,3463.0,2683.0,36.0,1.0,2.0,4.0,2016-06-17 02:38:25,2016-08-11 20:23:34,Hakan Memisoglu,2506341.0,0.0,
+37,74305755.0,QUICKSTEP-25 PRIORITY clause in SQL statements,38.0,4120.0,3415.0,12.0,1.0,5.0,10.0,2016-06-17 21:10:30,2016-06-21 17:24:10,Harshad Deshmukh,3750801.0,1.0,2016-06-21 17:24:10
+38,75030425.0,QUICKSTEP-20: Resolver support for Window Aggregate Function,39.0,1387.0,20.0,17.0,1.0,3.0,38.0,2016-06-23 21:27:52,2016-06-25 02:01:49,Shixuan Fan,12627919.0,1.0,2016-06-25 02:01:49
+39,75336547.0,Minor Change: Use move semantics when constructing optimizer::logical::Sort,40.0,35.0,9.0,2.0,1.0,1.0,2.0,2016-06-27 16:00:11,2016-06-27 21:16:14,Shixuan Fan,12627919.0,1.0,2016-06-27 21:16:14
+40,75340610.0,Remove misleading comment about hash table collector type,41.0,1.0,15.0,1.0,1.0,2.0,4.0,2016-06-27 16:27:14,2016-06-27 20:07:17,Navneet Potti,2507243.0,0.0,
+41,75340716.0,Go back to using LLVM Apt repositories,42.0,2.0,13.0,1.0,1.0,0.0,0.0,2016-06-27 16:27:57,2016-06-27 21:05:47,Navneet Potti,2507243.0,1.0,2016-06-27 21:05:47
+42,75361619.0,Remove unused AlwaysCreateBlockInsertDestination,43.0,0.0,102.0,3.0,1.0,10.0,0.0,2016-06-27 18:57:02,2017-03-07 22:33:12,Navneet Potti,2507243.0,0.0,
+43,75375198.0,Remove unused vector_based HashJoin collector type,44.0,2.0,117.0,2.0,1.0,3.0,0.0,2016-06-27 20:33:36,2016-06-29 21:04:10,Navneet Potti,2507243.0,1.0,2016-06-29 21:04:10
+44,75509114.0,QUICKSTEP-20: PhysicalGenerator support for Window Aggregation,45.0,495.0,7.0,9.0,1.0,0.0,8.0,2016-06-28 16:31:53,2016-06-29 06:00:41,Shixuan Fan,12627919.0,1.0,2016-06-29 06:00:41
+45,75524085.0,Minor Change: Added move semantic in Resolver::WindowPlan,46.0,7.0,7.0,1.0,1.0,0.0,2.0,2016-06-28 18:11:56,2016-06-29 05:11:11,Shixuan Fan,12627919.0,1.0,2016-06-29 05:11:11
+46,75717292.0,QUICKSTEP-33: Fixed the bug in NumericCast.,47.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-06-29 20:38:46,2016-06-30 20:27:42,Hakan Memisoglu,2506341.0,1.0,2016-06-30 20:27:41
+47,75847255.0,Handle negative number of worker threads as input,48.0,11.0,12.0,1.0,1.0,2.0,0.0,2016-06-30 16:08:12,2016-07-04 05:07:23,Harshad Deshmukh,3750801.0,1.0,2016-07-04 05:07:23
+48,76033341.0,QUICKSTEP-20: Added ExecutionGenerator support for Window Aggregation,49.0,1079.0,5.0,24.0,1.0,1.0,10.0,2016-07-01 20:33:46,2016-07-08 16:28:38,Shixuan Fan,12627919.0,1.0,2016-07-08 16:28:38
+49,76074457.0,Fixed the time measurement from milli to microseconds in Worker,50.0,1.0,1.0,1.0,1.0,5.0,0.0,2016-07-02 21:01:10,2016-07-02 22:44:25,Harshad Deshmukh,3750801.0,1.0,2016-07-02 22:44:25
+50,76463743.0,Minor changes in profiling work order output.,51.0,5.0,4.0,1.0,1.0,3.0,1.0,2016-07-06 16:43:02,2016-07-07 17:54:08,Harshad Deshmukh,3750801.0,1.0,2016-07-07 17:54:08
+51,76649970.0,Renamed Foreman related classes.,52.0,76.0,75.0,15.0,1.0,1.0,2.0,2016-07-07 19:16:02,2016-07-08 16:08:20,zuyu,2245572.0,1.0,2016-07-08 16:08:20
+52,76826848.0,Add flags for configuring Bloom filter.,53.0,25.0,2.0,2.0,4.0,0.0,0.0,2016-07-08 23:09:47,2016-07-29 02:59:20,Navneet Potti,2507243.0,0.0,
+53,76850445.0,"Introduced QueryManagerBase, and renamed QueryManagerSingleNode.",54.0,465.0,342.0,8.0,1.0,2.0,5.0,2016-07-09 16:08:31,2016-07-13 02:04:40,zuyu,2245572.0,1.0,2016-07-13 02:04:40
+54,77224311.0,Refactored messages processing in both PolicyEnforcer and QueryManager.,55.0,126.0,223.0,8.0,1.0,6.0,0.0,2016-07-13 03:13:01,2016-07-17 02:00:16,zuyu,2245572.0,1.0,2016-07-17 02:00:16
+55,77379450.0,Add a quick start guide.,56.0,176.0,108.0,2.0,1.0,2.0,0.0,2016-07-13 23:38:03,2016-07-14 00:51:42,Jignesh Patel,8864916.0,1.0,2016-07-14 00:51:42
+56,77405727.0,Add an example to the quickstart guide,57.0,73.0,2.0,1.0,1.0,1.0,0.0,2016-07-14 06:28:31,2016-07-14 14:23:19,Jignesh Patel,8864916.0,1.0,2016-07-14 14:23:19
+57,77654391.0,QUICKSTEP-20: Supported Window Aggregation for AVG,58.0,2613.0,164.0,40.0,1.0,5.0,46.0,2016-07-15 18:00:57,2016-07-26 01:30:01,Shixuan Fan,12627919.0,1.0,2016-07-26 01:30:01
+58,77655852.0,Added the Date Type.,59.0,587.0,6.0,18.0,1.0,2.0,0.0,2016-07-15 18:11:33,2016-07-16 22:28:22,zuyu,2245572.0,1.0,2016-07-16 22:28:22
+59,77721892.0,Added Comparisons for the Date Type.,60.0,115.0,26.0,6.0,1.0,1.0,0.0,2016-07-16 23:14:17,2016-07-16 23:47:06,zuyu,2245572.0,1.0,2016-07-16 23:47:06
+60,77874767.0,Introduced PolicyEnforcerBase and its single-node implementation.,61.0,277.0,153.0,7.0,1.0,1.0,0.0,2016-07-18 20:36:15,2016-07-20 22:10:52,zuyu,2245572.0,1.0,2016-07-20 22:10:52
+61,78029918.0,Added QueryManagerDistributed.,62.0,518.0,8.0,7.0,1.0,1.0,0.0,2016-07-19 18:56:34,2016-07-20 15:51:28,zuyu,2245572.0,1.0,2016-07-20 15:51:28
+62,78520540.0,DO NOT MERGE: Introduced PolicyEnforcer implementation for the distributed version.,63.0,288.0,1.0,3.0,1.0,1.0,2.0,2016-07-22 18:32:25,2016-07-29 22:57:22,zuyu,2245572.0,0.0,
+63,78535830.0,Introduced Shiftboss for the distributed version.,64.0,669.0,0.0,7.0,1.0,2.0,47.0,2016-07-22 20:32:00,2016-07-27 22:56:24,zuyu,2245572.0,1.0,2016-07-27 22:56:24
+64,78719989.0,Minor bug fix in QueryManager base.,65.0,6.0,5.0,1.0,1.0,5.0,0.0,2016-07-25 17:27:35,2016-07-27 21:24:12,Harshad Deshmukh,3750801.0,1.0,2016-07-27 21:24:12
+65,79039094.0,QUICKSTEP-20: RANGE mode and computation optimization,66.0,692.0,302.0,23.0,1.0,5.0,0.0,2016-07-27 14:54:36,2016-08-01 14:52:12,Shixuan Fan,12627919.0,1.0,2016-08-01 14:52:12
+66,79130776.0,Added README for types module.,67.0,102.0,0.0,1.0,1.0,1.0,0.0,2016-07-28 03:05:01,2016-07-28 16:00:15,Craig Chasseur,8863297.0,1.0,2016-07-28 16:00:15
+67,79242560.0,Renamed a QueryExecutionMessage.,68.0,28.0,29.0,4.0,1.0,1.0,0.0,2016-07-28 18:12:45,2016-07-28 20:57:16,zuyu,2245572.0,1.0,2016-07-28 20:57:16
+68,79248955.0,DO NOT MERGE: Process InitRebuildResponse message.,69.0,71.0,0.0,6.0,1.0,2.0,8.0,2016-07-28 18:55:12,2016-07-29 22:56:40,zuyu,2245572.0,0.0,
+69,79439594.0,DO NOT MERGE: Distributed Query Execution Tests,70.0,1529.0,55.0,24.0,3.0,0.0,0.0,2016-07-29 23:50:21,2016-08-04 01:14:11,zuyu,2245572.0,0.0,
+70,79446050.0,"TMB: Added Support for an Empty, but Typed TaggedMessage.",71.0,69.0,98.0,8.0,2.0,5.0,0.0,2016-07-30 03:00:49,2016-08-02 00:16:59,zuyu,2245572.0,1.0,2016-08-02 00:16:59
+71,79582694.0,Update the NOTICE file to acknowledge all the copyrights,72.0,36.0,0.0,1.0,1.0,1.0,0.0,2016-08-01 15:00:30,2016-08-01 16:40:58,Jignesh Patel,8864916.0,1.0,2016-08-01 16:40:58
+72,79647767.0,Move hash join's probe and build node decision from ExecutionGenerator to PhysicalOptimizer,73.0,156.0,35.0,9.0,1.0,2.0,10.0,2016-08-01 22:29:11,2016-08-03 08:18:25,Hakan Memisoglu,2506341.0,1.0,2016-08-03 08:18:25
+73,79680243.0,Removed the redundant query id in the optimizer.,74.0,22.0,47.0,10.0,1.0,3.0,0.0,2016-08-02 06:03:33,2016-08-03 18:56:34,zuyu,2245572.0,1.0,2016-08-03 18:56:34
+74,79778539.0,QUICKSTEP-38. Add support for python3 to utility scripts,75.0,195.0,66.0,11.0,2.0,9.0,0.0,2016-08-02 17:49:23,2016-08-03 18:35:52,Caleb Welton,411822.0,1.0,2016-08-03 18:35:52
+75,79943945.0,Visualize execution plan DAGs annotated with profiling stats,76.0,600.0,32.0,34.0,1.0,4.0,2.0,2016-08-03 17:13:57,2016-08-03 22:39:09,Jianqiao Zhu,2695519.0,1.0,2016-08-03 22:39:09
+76,79963841.0,Added TMB Client Id in QueryHandle.,77.0,52.0,26.0,9.0,1.0,1.0,0.0,2016-08-03 19:25:58,2016-08-04 15:05:56,zuyu,2245572.0,1.0,2016-08-04 15:05:56
+77,79990275.0,Processed InitiateRebuild message for the distributed version.,78.0,39.0,1.0,4.0,1.0,0.0,0.0,2016-08-03 22:28:36,2016-08-04 16:59:38,zuyu,2245572.0,1.0,2016-08-04 16:59:38
+78,80000737.0,Constructed Generators once in the optimizer.,79.0,8.0,5.0,2.0,1.0,4.0,0.0,2016-08-04 00:21:09,2016-08-04 02:50:56,zuyu,2245572.0,0.0,
+79,80129493.0,Added PolicyEnforcer implementation for the distributed version.,80.0,456.0,4.0,9.0,1.0,0.0,0.0,2016-08-04 18:47:20,2016-08-08 17:39:27,zuyu,2245572.0,1.0,2016-08-08 17:39:27
+80,80152005.0,Refactored QueryProcessor.,81.0,6.0,10.0,2.0,1.0,1.0,0.0,2016-08-04 21:21:59,2016-08-06 18:09:46,zuyu,2245572.0,1.0,2016-08-06 18:09:46
+81,80356799.0,Change the COPYRIGHT in every file to match Apache's requirements,82.0,16720.0,14232.0,1158.0,2.0,0.0,0.0,2016-08-07 03:04:03,2016-08-07 05:17:04,Jignesh Patel,8864916.0,0.0,
+82,80359919.0,QUICKSTEP-40: Fix Copyright notice to confirm to Apache's requirements.,83.0,16939.0,14427.0,1175.0,1.0,1.0,0.0,2016-08-07 06:50:09,2016-08-07 17:51:00,Jignesh Patel,8864916.0,1.0,2016-08-07 17:51:00
+83,80489155.0,Added guards for gnu_source definition in storage CMakeLists,84.0,523.0,32.0,12.0,3.0,1.0,0.0,2016-08-08 17:23:49,2016-08-08 17:43:47,Harshad Deshmukh,3750801.0,1.0,2016-08-08 17:43:47
+84,80502960.0,Added ForemanDistributed and unit tests.,85.0,964.0,23.0,13.0,1.0,1.0,0.0,2016-08-08 18:58:32,2016-08-14 06:18:28,zuyu,2245572.0,0.0,
+85,80533714.0,Removed unused TMB message type.,86.0,1.0,25.0,7.0,1.0,0.0,0.0,2016-08-08 22:33:50,2016-08-09 17:45:54,zuyu,2245572.0,1.0,2016-08-09 17:45:54
+86,80549634.0,Fixed bugs in creating HashJoinWorkOrderProtos.,87.0,2.0,3.0,2.0,1.0,0.0,0.0,2016-08-09 01:47:57,2016-08-09 17:43:23,zuyu,2245572.0,1.0,2016-08-09 17:43:23
+87,80564977.0,Use glog for all sent TMB messages.,88.0,92.0,120.0,11.0,1.0,3.0,0.0,2016-08-09 05:51:32,2016-08-10 15:18:46,zuyu,2245572.0,1.0,2016-08-10 15:18:46
+88,80566689.0,Deserialized Window Aggr WorkOrder.,89.0,26.0,0.0,2.0,1.0,3.0,0.0,2016-08-09 06:15:00,2016-08-09 17:35:28,zuyu,2245572.0,1.0,2016-08-09 17:35:28
+89,80875909.0,Quickstep 28 29,90.0,6803.0,1657.0,35.0,1.0,7.0,22.0,2016-08-10 22:04:54,2016-09-20 20:33:03,Rathijit Sen,15268929.0,1.0,2016-09-20 20:33:03
+90,81143896.0,Do NOT MERGE: Distributed Query Engine Tests Only,91.0,982.0,32.0,14.0,4.0,0.0,0.0,2016-08-12 16:08:25,2016-08-14 06:41:01,zuyu,2245572.0,0.0,
+91,81232130.0,Refactor Generators in Optimizer,92.0,93.0,170.0,20.0,1.0,3.0,0.0,2016-08-14 02:19:31,2016-08-16 20:30:02,zuyu,2245572.0,1.0,2016-08-16 20:30:02
+92,81235571.0,Added ForemanDistributed.,93.0,489.0,0.0,3.0,1.0,3.0,12.0,2016-08-14 06:39:25,2016-08-16 17:50:56,zuyu,2245572.0,1.0,2016-08-16 17:50:56
+93,81235951.0,DO NOT MERGE: Distributed Query Engine Tests Only,94.0,923.0,9.0,9.0,5.0,0.0,0.0,2016-08-14 07:06:18,2016-08-14 19:25:18,zuyu,2245572.0,0.0,
+94,81513425.0,Fix IWYU for ExecutionDAGVisualizer,95.0,7.0,6.0,6.0,1.0,1.0,0.0,2016-08-16 17:40:24,2016-08-16 18:18:39,Jianqiao Zhu,2695519.0,1.0,2016-08-16 18:18:39
+95,82401347.0,QUICKSTEP-43 Introduced DestroyAggregationState operator,96.0,264.0,10.0,11.0,1.0,14.0,11.0,2016-08-23 16:51:21,2016-09-06 22:36:27,Harshad Deshmukh,3750801.0,1.0,2016-09-06 22:36:27
+96,83514719.0,QUICKSTEP-44 Separate Date type from Datetime type,97.0,708.0,172.0,18.0,1.0,3.0,1.0,2016-08-31 19:33:20,2016-09-05 19:33:38,Harshad Deshmukh,3750801.0,1.0,2016-09-05 19:33:38
+97,83857701.0,QUICKSTEP-53 DateLit improvements,98.0,58.0,47.0,7.0,1.0,9.0,6.0,2016-09-02 20:08:11,2016-09-20 20:38:28,Hakan Memisoglu,2506341.0,0.0,
+98,84411441.0,QUICKSTEP-36 Quickstep gives segmentation fault when it imports table from a file that does not have access rights.,99.0,41.0,0.0,3.0,1.0,7.0,11.0,2016-09-08 04:02:02,2016-09-19 23:00:14,Tarun Bansal,1046802.0,1.0,2016-09-19 23:00:14
+99,85897762.0,Refactor bulk insert for SplitRowStore,100.0,234.0,369.0,3.0,6.0,10.0,23.0,2016-09-20 01:38:19,2016-10-05 21:19:13,Marc S,5708822.0,0.0,
+100,86131996.0,Optimize PackedRowStoreValueAccessor & BasicColumnStoreValueAccessor by removing redundant computations and clearly exposing a strided memory access pattern,101.0,647.0,72.0,15.0,5.0,8.0,0.0,2016-09-21 09:59:42,2016-10-11 22:10:59,Saket Saurabh,3624476.0,1.0,2016-10-11 22:10:59
+101,86632391.0,Refactored RebuildStatus.,102.0,53.0,19.0,1.0,1.0,2.0,3.0,2016-09-24 22:09:19,2016-09-26 18:50:47,zuyu,2245572.0,1.0,2016-09-26 18:50:47
+102,87402021.0,QUICKSTEP-46 Fault tolerance in bulk loading data,103.0,99.0,16.0,5.0,1.0,17.0,0.0,2016-09-29 21:59:43,2016-10-28 19:03:37,Tarun Bansal,1046802.0,1.0,2016-10-28 19:03:37
+103,87633405.0,Checking in preprocessed files for datetime change.,104.0,2261.0,2663.0,2.0,1.0,1.0,0.0,2016-10-02 13:02:47,2016-10-02 17:22:37,Harshad Deshmukh,3750801.0,1.0,2016-10-02 17:22:37
+104,87835448.0,Enable \analyze command to be applied to specific tables,105.0,73.0,26.0,1.0,1.0,1.0,0.0,2016-10-04 05:27:15,2016-10-04 13:40:56,Jianqiao Zhu,2695519.0,1.0,2016-10-04 13:40:56
+105,87985790.0,Improve StarSchemaSimpleCostModel to provide better group cardinality estimation for aggregations.,106.0,280.0,79.0,9.0,1.0,3.0,0.0,2016-10-04 22:22:46,2016-10-05 21:12:13,Jianqiao Zhu,2695519.0,1.0,2016-10-05 21:12:13
+106,88135641.0,Fix memory leak in FastSeparateChaining hash table,107.0,113.0,216.0,12.0,1.0,1.0,1.0,2016-10-05 18:53:59,2016-10-20 19:48:01,Harshad Deshmukh,3750801.0,1.0,2016-10-20 19:48:01
+107,88157700.0,Remove unnecessary code from FastSeparateChainingHashTable::resize(),108.0,3.0,19.0,1.0,1.0,1.0,0.0,2016-10-05 21:09:26,2016-10-06 20:16:23,Harshad Deshmukh,3750801.0,1.0,2016-10-06 20:16:23
+108,88164393.0,Refactored SplitRowStore bulk insertion,109.0,906.0,434.0,4.0,2.0,20.0,2.0,2016-10-05 21:52:47,2016-10-22 18:13:54,Marc S,5708822.0,0.0,
+109,88597782.0,IWYU fixes for QueryExecutionUtil.,110.0,19.0,16.0,2.0,1.0,1.0,0.0,2016-10-09 22:49:40,2016-10-10 16:40:25,zuyu,2245572.0,1.0,2016-10-10 16:40:25
+110,88603643.0,Initiated query execution data structure in all Shiftbosses.,111.0,86.0,41.0,9.0,1.0,5.0,6.0,2016-10-10 02:06:57,2016-10-21 15:24:16,zuyu,2245572.0,1.0,2016-10-21 15:24:16
+111,88715661.0,Minor bug fix in AggregationOperationState,112.0,1.0,1.0,1.0,1.0,1.0,0.0,2016-10-10 19:15:06,2016-10-10 21:19:46,Harshad Deshmukh,3750801.0,1.0,2016-10-10 21:19:45
+112,89122941.0,Optimizer changes for the LIPFilter feature.,113.0,1277.0,829.0,24.0,1.0,2.0,0.0,2016-10-13 01:31:33,2016-10-18 16:27:37,Jianqiao Zhu,2695519.0,1.0,2016-10-18 16:27:37
+113,89738259.0,QUICKSTEP-59 Convert setBitRegularVersion() to a branchless version using bitwise arithmetic,114.0,26.0,7.0,1.0,1.0,10.0,0.0,2016-10-18 02:52:06,2016-10-28 14:38:27,Saket Saurabh,3624476.0,0.0,
+114,89832499.0,Update travis to run only single thread while building release version,115.0,1.0,1.0,1.0,1.0,1.0,0.0,2016-10-18 14:54:30,2016-10-18 16:21:49,Saket Saurabh,3624476.0,1.0,2016-10-18 16:21:49
+115,89866617.0,Use SimpleCostModel for estimating JoinHashTable size,116.0,33.0,5.0,6.0,1.0,0.0,0.0,2016-10-18 17:54:52,2016-10-18 20:00:48,Jianqiao Zhu,2695519.0,1.0,2016-10-18 20:00:48
+116,89867840.0,Clean up the old BloomFilter implementation where BloomFilters are attached to HashTables,117.0,23.0,371.0,9.0,1.0,2.0,0.0,2016-10-18 18:01:56,2016-10-18 22:24:44,Jianqiao Zhu,2695519.0,0.0,
+117,90085312.0,Add LIPFilter related data structures and ExecutionGenerator support.,118.0,1684.0,25.0,21.0,1.0,0.0,0.0,2016-10-19 20:34:40,2016-10-21 19:40:06,Jianqiao Zhu,2695519.0,1.0,2016-10-21 19:40:06
+118,90291244.0,Fix a bug in FastSeparateChainingHashTable::destroy payload,119.0,4.0,7.0,1.0,1.0,1.0,0.0,2016-10-20 22:14:32,2016-10-21 00:37:40,Harshad Deshmukh,3750801.0,1.0,2016-10-21 00:37:40
+119,90450695.0,Store handle count in FastSeparateChainingHashTable,120.0,5.0,3.0,1.0,1.0,2.0,2.0,2016-10-21 21:57:36,2016-10-22 04:38:55,Harshad Deshmukh,3750801.0,1.0,2016-10-22 04:38:55
+120,90500434.0,QUICKSTEP-57 Support for performing partitioned aggregation.,121.0,657.0,41.0,13.0,1.0,4.0,7.0,2016-10-23 00:33:18,2016-10-26 19:23:15,Harshad Deshmukh,3750801.0,1.0,2016-10-26 19:23:15
+121,90561671.0,Add backend support for LIPFilters.,122.0,588.0,271.0,26.0,1.0,6.0,4.0,2016-10-24 07:32:19,2016-10-24 23:31:23,Jianqiao Zhu,2695519.0,1.0,2016-10-24 23:31:23
+122,91257698.0,Fix copyright notice in header files of some classes. ,123.0,28.0,26.0,2.0,1.0,1.0,0.0,2016-10-27 18:43:58,2016-10-28 13:53:43,Harshad Deshmukh,3750801.0,1.0,2016-10-28 13:53:43
+123,91730243.0,Fixed the LIP bug in the distributed execution engine unit tests.,124.0,1.0,1.0,1.0,1.0,1.0,0.0,2016-11-01 04:25:58,2016-11-01 06:13:19,zuyu,2245572.0,1.0,2016-11-01 06:13:19
+124,91841280.0,QUICKSTEP-61 Fixes varlen insert bug.,125.0,4.0,7.0,2.0,1.0,1.0,0.0,2016-11-01 18:50:21,2016-11-01 21:19:23,Marc S,5708822.0,1.0,2016-11-01 21:19:23
+125,92391938.0,QUICKSTEP-41 Automatically pin workers to CPU cores,126.0,59.0,9.0,1.0,1.0,3.0,0.0,2016-11-04 18:24:23,2016-11-06 00:41:55,Harshad Deshmukh,3750801.0,0.0,
+126,92444104.0,Use BlockLocator and DataExchangerAsync in the distributed tests.,127.0,178.0,29.0,5.0,1.0,3.0,3.0,2016-11-05 06:19:02,2016-11-15 19:45:58,zuyu,2245572.0,1.0,2016-11-15 19:45:58
+127,92487147.0,Refine estimates for estimateCardinality for TableReference,128.0,9.0,1.0,2.0,1.0,1.0,0.0,2016-11-06 13:19:21,2016-11-07 02:43:33,Harshad Deshmukh,3750801.0,1.0,2016-11-07 02:43:33
+128,92674673.0,Partial inserts,129.0,378.0,30.0,10.0,2.0,12.0,6.0,2016-11-07 22:09:15,2016-11-22 18:05:52,Marc S,5708822.0,0.0,
+129,92878503.0,Allows filters to be evaluated in SMA,130.0,13.0,13.0,1.0,1.0,2.0,0.0,2016-11-08 23:12:52,2016-11-09 22:49:03,Marc S,5708822.0,1.0,2016-11-09 22:49:03
+130,93457540.0,Unified WorkOrderCompletionMessage proto.,131.0,35.0,48.0,5.0,1.0,6.0,0.0,2016-11-13 00:47:10,2016-11-18 22:19:22,zuyu,2245572.0,1.0,2016-11-18 22:19:22
+131,93491661.0,Added an util method to get the ip address.,132.0,184.0,0.0,4.0,1.0,0.0,0.0,2016-11-13 23:15:13,2016-11-21 04:06:52,zuyu,2245572.0,1.0,2016-11-21 04:06:52
+132,93695729.0,Removed using-declarations in headers.,133.0,0.0,8.0,2.0,1.0,2.0,0.0,2016-11-15 03:38:02,2016-11-17 18:52:15,zuyu,2245572.0,0.0,
+133,93702273.0,Removed StorageManager from QueryProcessor.,134.0,13.0,25.0,4.0,1.0,3.0,0.0,2016-11-15 05:12:29,2016-11-17 20:05:30,zuyu,2245572.0,1.0,2016-11-17 20:05:30
+134,93705490.0,Fixed Travis CI,135.0,1.0,8.0,1.0,1.0,0.0,0.0,2016-11-15 05:58:16,2016-11-21 03:24:01,zuyu,2245572.0,1.0,2016-11-21 03:24:01
+135,93707759.0,Moved some storage-related constants.,136.0,14.0,9.0,3.0,1.0,1.0,0.0,2016-11-15 06:26:19,2016-11-17 04:13:40,zuyu,2245572.0,1.0,2016-11-17 04:13:40
+136,94242422.0,Decrement num queued work orders.,137.0,51.0,14.0,12.0,1.0,0.0,0.0,2016-11-17 20:20:05,2016-11-21 03:30:00,zuyu,2245572.0,1.0,2016-11-21 03:30:00
+137,94243346.0,Ethernet data exchanger.,138.0,6.0,6.0,3.0,1.0,0.0,2.0,2016-11-17 20:25:57,2016-11-21 04:09:34,zuyu,2245572.0,1.0,2016-11-21 04:09:34
+138,94269008.0,Remove packedrow,139.0,44.0,1616.0,25.0,2.0,4.0,0.0,2016-11-17 22:56:18,2017-01-08 21:43:34,Marc S,5708822.0,1.0,2017-01-08 21:43:34
+139,94270300.0,Refactor Shiftboss for better debug info.,140.0,32.0,26.0,2.0,1.0,1.0,0.0,2016-11-17 23:03:35,2016-11-18 19:00:50,zuyu,2245572.0,1.0,2016-11-18 19:00:50
+140,94271583.0,Refactor WorkOrderFactory for a better debug info.,141.0,30.0,23.0,3.0,1.0,4.0,0.0,2016-11-17 23:12:15,2016-11-18 19:31:23,zuyu,2245572.0,1.0,2016-11-18 19:31:23
+141,94449694.0,Distributed Multi-shiftboss Query Execution Unit Test,142.0,276.0,24.0,8.0,3.0,0.0,0.0,2016-11-18 22:38:50,2016-11-28 01:59:44,zuyu,2245572.0,1.0,2016-11-28 01:59:44
+142,94464978.0,Refactor regarding the profile flag.,143.0,32.0,37.0,10.0,1.0,0.0,0.0,2016-11-19 01:39:37,2016-11-21 03:52:28,zuyu,2245572.0,1.0,2016-11-21 03:52:28
+143,94472381.0,Refactored printWorkOrderProfilingResults in Foreman.,144.0,63.0,62.0,7.0,1.0,0.0,0.0,2016-11-19 06:08:49,2016-11-21 03:50:12,zuyu,2245572.0,1.0,2016-11-21 03:50:12
+144,94474116.0,Used the move semantics in constructing QueryProcessor.,145.0,5.0,4.0,2.0,1.0,0.0,0.0,2016-11-19 07:29:57,2016-11-21 03:26:50,zuyu,2245572.0,1.0,2016-11-21 03:26:50
+145,94475296.0,Moved a CLI flag into a new file.,146.0,100.0,14.0,5.0,1.0,0.0,0.0,2016-11-19 08:27:03,2016-11-21 03:57:02,zuyu,2245572.0,1.0,2016-11-21 03:57:02
+146,94532008.0,Maintained the catalog filename as a constant.,147.0,8.0,9.0,3.0,1.0,0.0,0.0,2016-11-20 20:54:06,2016-11-21 03:28:33,zuyu,2245572.0,1.0,2016-11-21 03:28:33
+147,94532091.0,Transferred the ownership of QueryHandle to QueryManager.,148.0,99.0,92.0,7.0,1.0,5.0,0.0,2016-11-20 20:56:14,2016-11-28 16:06:54,zuyu,2245572.0,1.0,2016-11-28 16:06:54
+148,95362286.0,Added back the debug build with llvm.,149.0,10.0,1.0,1.0,1.0,0.0,0.0,2016-11-26 05:53:20,2016-11-27 07:51:22,zuyu,2245572.0,1.0,2016-11-27 07:51:22
+149,95656167.0,Added DistributedCli executable.,150.0,1093.0,2.0,16.0,1.0,0.0,0.0,2016-11-29 09:39:36,2016-12-05 08:22:41,zuyu,2245572.0,1.0,2016-12-05 08:22:41
+150,96449331.0,Marked SingleNodeQuery for Insertions.,151.0,71.0,8.0,4.0,1.0,0.0,0.0,2016-12-04 22:17:36,2016-12-05 01:01:46,zuyu,2245572.0,1.0,2016-12-05 01:01:46
+151,96456126.0,Scheduling based on data locality info.,152.0,149.0,14.0,12.0,1.0,0.0,0.0,2016-12-05 01:04:40,2016-12-05 01:56:27,zuyu,2245572.0,1.0,2016-12-05 01:56:27
+152,96753232.0,QUICKSTEP-65 Fix Quickstep build failure on Mac OSX 10.12,153.0,19.0,0.0,1.0,1.0,4.0,0.0,2016-12-06 16:08:36,2016-12-06 17:54:48,Saket Saurabh,3624476.0,1.0,2016-12-06 17:54:48
+153,98067823.0,Quickstep-63 Fix PlanVisualizer's crashes on physical plans unsupported by StarSchemaSimpleCostModel.,154.0,46.0,6.0,4.0,1.0,1.0,0.0,2016-12-15 00:57:55,2016-12-17 01:32:43,Jianqiao Zhu,2695519.0,1.0,2016-12-17 01:32:43
+154,98427219.0,Add min/max statistics and the exactness flag into CatalogRelationStatistic,155.0,353.0,88.0,13.0,1.0,7.0,8.0,2016-12-17 01:16:15,2016-12-20 19:38:56,Jianqiao Zhu,2695519.0,1.0,2016-12-20 19:38:56
+155,100531408.0,Fixed the distributed unit test failures in resetting exactness for InsertSelect.,156.0,4.0,4.0,2.0,1.0,1.0,0.0,2017-01-06 21:48:16,2017-01-06 23:29:08,zuyu,2245572.0,1.0,2017-01-06 23:29:08
+156,100970324.0,Refactored the method to reconstruct PartitionSchemeHeader.,157.0,30.0,28.0,9.0,1.0,0.0,0.0,2017-01-10 22:54:22,2017-01-12 21:48:09,zuyu,2245572.0,1.0,2017-01-12 21:48:09
+157,100995941.0,Refactored partition_type in parser.,158.0,1065.0,956.0,7.0,1.0,1.0,0.0,2017-01-11 03:07:06,2017-01-11 04:56:41,zuyu,2245572.0,1.0,2017-01-11 04:56:41
+158,101186297.0,Refactored SelectOperator::getAllWorkOrders.,159.0,61.0,145.0,2.0,1.0,1.0,0.0,2017-01-12 02:30:37,2017-01-13 01:02:11,zuyu,2245572.0,1.0,2017-01-13 01:02:11
+159,101373694.0,Added optimizer support regarding hash partitions.,160.0,304.0,48.0,17.0,1.0,3.0,3.0,2017-01-13 01:23:00,2017-01-18 20:43:35,zuyu,2245572.0,0.0,
+160,101622071.0,Removed the unused feedInputBlocks.,161.0,16.0,149.0,16.0,1.0,2.0,2.0,2017-01-16 02:34:17,2017-01-17 19:27:40,zuyu,2245572.0,1.0,2017-01-17 19:27:40
+161,101931276.0,Added partition_id in RelationalOperator::feedInputBlock.,162.0,41.0,27.0,19.0,1.0,1.0,4.0,2017-01-17 19:35:38,2017-01-19 15:36:42,zuyu,2245572.0,1.0,2017-01-19 15:36:42
+162,101983279.0,Marked LIP as a non-default argument.,163.0,12.0,12.0,5.0,1.0,2.0,0.0,2017-01-18 01:39:33,2017-01-18 20:30:31,zuyu,2245572.0,1.0,2017-01-18 20:30:31
+163,102311966.0,Added DAGAnalyzer and Pipeline classes,164.0,636.0,158.0,7.0,1.0,1.0,18.0,2017-01-19 17:28:32,2017-01-20 19:44:27,Harshad Deshmukh,3750801.0,0.0,
+164,102382233.0,Added Operator support for Partitioned HashJoin.,165.0,531.0,201.0,15.0,1.0,1.0,5.0,2017-01-20 01:10:58,2017-01-21 04:16:35,zuyu,2245572.0,1.0,2017-01-21 04:16:35
+165,102627947.0,Make the third party directory leaner,166.0,301.0,159368.0,893.0,2.0,30.0,2.0,2017-01-22 17:16:00,2017-01-29 02:08:06,Harshad Deshmukh,3750801.0,1.0,2017-01-29 02:08:06
+166,102835656.0,Added test for Partitioned Hash Join.,167.0,645.0,50.0,2.0,1.0,1.0,0.0,2017-01-24 01:20:33,2017-01-29 06:36:18,zuyu,2245572.0,1.0,2017-01-29 06:36:18
+167,103627247.0,DO NOT MERGE: Lean third party fix,168.0,301.0,159368.0,893.0,2.0,0.0,0.0,2017-01-28 22:38:05,2017-01-29 02:08:06,zuyu,2245572.0,1.0,2017-01-29 02:08:06
+168,103635901.0,Documentation update after third party related changes,169.0,17.0,8.0,3.0,1.0,1.0,0.0,2017-01-29 05:26:36,2017-01-30 00:53:09,Harshad Deshmukh,3750801.0,1.0,2017-01-30 00:53:09
+169,103654027.0,Add unit test for CatalogRelationStatistics,170.0,246.0,0.0,2.0,1.0,2.0,3.0,2017-01-29 18:02:54,2017-01-30 07:14:34,Jianqiao Zhu,2695519.0,1.0,2017-01-30 07:14:34
+170,103657919.0,QUICKSTEP-68 Reorder intermediate relations'  attributes to improve copy performance.,171.0,515.0,106.0,12.0,1.0,0.0,31.0,2017-01-29 20:02:36,2017-01-31 08:12:51,Jianqiao Zhu,2695519.0,1.0,2017-01-31 08:12:51
+171,103662925.0,QUICKSTEP-69 Query optimization with ExactFilter,172.0,2394.0,210.0,38.0,1.0,2.0,4.0,2017-01-29 22:22:21,2017-01-31 23:36:32,Jianqiao Zhu,2695519.0,1.0,2017-01-31 23:36:32
+172,103695127.0,Simplified the SelectOperator w/ partitions.,173.0,84.0,97.0,3.0,1.0,3.0,0.0,2017-01-30 08:38:06,2017-02-03 04:46:18,zuyu,2245572.0,1.0,2017-02-03 04:46:18
+173,103794499.0,Push down disjunctive predicates to filter small-cardinality stored relation early.,174.0,381.0,0.0,5.0,1.0,0.0,14.0,2017-01-30 18:39:58,2017-01-31 17:44:01,Jianqiao Zhu,2695519.0,1.0,2017-01-31 17:44:00
+174,103842955.0,Minor refactor for InsertDestinations.,175.0,9.0,16.0,4.0,1.0,0.0,0.0,2017-01-30 23:25:32,2017-01-31 04:20:11,zuyu,2245572.0,1.0,2017-01-31 04:20:11
+175,103843529.0,Minor refactor for HashJoinInnerJoin.,176.0,23.0,20.0,2.0,1.0,0.0,0.0,2017-01-30 23:29:38,2017-01-31 07:35:00,zuyu,2245572.0,1.0,2017-01-31 07:35:00
+176,104416765.0,Reduce the number of group-by attributes by pulling tables up aggregation.,177.0,405.0,10.0,11.0,1.0,2.0,9.0,2017-02-02 20:25:12,2017-02-07 23:47:08,Jianqiao Zhu,2695519.0,1.0,2017-02-07 23:47:08
+177,104678964.0,Moved use_hdfs flag into a file.,178.0,126.0,52.0,9.0,1.0,0.0,0.0,2017-02-04 22:47:25,2017-02-05 01:33:07,zuyu,2245572.0,1.0,2017-02-05 01:33:07
+178,104687736.0,QUICKSTEP-70-71 Improve aggregation performance,179.0,4722.0,7099.0,53.0,1.0,8.0,51.0,2017-02-05 05:03:06,2017-02-07 22:20:16,Jianqiao Zhu,2695519.0,1.0,2017-02-07 22:20:16
+179,104719288.0,Fix the bug with SingleIdentityHashFilter when filter_cardinality is 0.,180.0,3.0,2.0,2.0,1.0,3.0,2.0,2017-02-05 22:40:22,2017-02-07 17:47:56,Jianqiao Zhu,2695519.0,1.0,2017-02-07 17:47:56
+180,104719465.0,Added limited optimizer support for Partitioned Hash Joins.,181.0,406.0,61.0,5.0,1.0,3.0,28.0,2017-02-05 22:45:24,2017-03-13 20:45:03,zuyu,2245572.0,0.0,
+181,104875822.0,Defined TMB Message Poll Interval as a gflag.,182.0,40.0,26.0,3.0,1.0,0.0,0.0,2017-02-06 20:30:23,2017-02-09 18:32:14,zuyu,2245572.0,1.0,2017-02-09 18:32:14
+182,105054904.0,Adds regex to specify 16.+ versions of Darwin,183.0,1.0,1.0,1.0,1.0,8.0,0.0,2017-02-07 17:31:28,2017-02-07 20:36:38,Marc S,5708822.0,0.0,
+183,105137848.0,Refactor building.md,184.0,92.0,73.0,1.0,1.0,2.0,2.0,2017-02-08 02:32:23,2017-02-08 18:55:08,Marc S,5708822.0,0.0,
+184,105369058.0,Fuse Aggregate with HashLeftOuterJoin to accelerate evaluation,185.0,1489.0,188.0,29.0,1.0,1.0,9.0,2017-02-09 06:47:04,2017-02-09 15:07:00,Jianqiao Zhu,2695519.0,1.0,2017-02-09 15:07:00
+185,105484377.0,Added HDFS Support For TextScanWorkOrder.,186.0,160.0,21.0,13.0,1.0,0.0,0.0,2017-02-09 18:19:13,2017-02-24 19:11:49,zuyu,2245572.0,1.0,2017-02-24 19:11:49
+186,105764125.0,Visualized Execution DAG in the distributed version.,187.0,75.0,9.0,7.0,1.0,0.0,0.0,2017-02-11 19:15:24,2017-02-23 08:40:58,zuyu,2245572.0,1.0,2017-02-23 08:40:58
+187,106211389.0,Adds marcs ssh key to KEYS,188.0,52.0,0.0,1.0,1.0,1.0,0.0,2017-02-14 23:03:44,2017-02-15 23:36:15,Marc S,5708822.0,1.0,2017-02-15 23:36:15
+188,107227395.0,patches for missed linenoise changes,189.0,122.0,0.0,3.0,1.0,8.0,0.0,2017-02-21 16:35:13,2017-02-21 20:06:13,Marc S,5708822.0,1.0,2017-02-21 20:06:13
+189,107488981.0,Use BitVectorExactFilter as LIPFilter implementation when applicable,190.0,79.0,5.0,3.0,1.0,1.0,0.0,2017-02-22 20:15:46,2017-02-22 21:00:41,Jianqiao Zhu,2695519.0,1.0,2017-02-22 21:00:41
+190,107866007.0,"Fix the problem in the ""Fuse Aggregate with HashLeftOuterJoin"" PR.",191.0,5.0,5.0,3.0,1.0,2.0,0.0,2017-02-24 16:50:42,2017-02-24 20:52:30,Jianqiao Zhu,2695519.0,1.0,2017-02-24 20:52:30
+191,107867063.0,Use partitioned aggregation for single-function DISTINCT aggregation.,192.0,228.0,75.0,6.0,1.0,0.0,0.0,2017-02-24 16:55:53,2017-02-24 17:01:34,Jianqiao Zhu,2695519.0,0.0,
+192,107870357.0,Use partitioned aggregation for single-function DISTINCT aggregation.,193.0,228.0,75.0,6.0,1.0,2.0,0.0,2017-02-24 17:13:22,2017-02-24 18:11:54,Jianqiao Zhu,2695519.0,1.0,2017-02-24 18:11:54
+193,107893067.0,Used two TMB implementations in Shiftboss.,194.0,279.0,252.0,6.0,1.0,0.0,0.0,2017-02-24 19:27:29,2017-02-24 20:51:11,zuyu,2245572.0,1.0,2017-02-24 20:51:11
+194,108059051.0,DO NOT MERGE: Minor refactored CommandExecutor.,195.0,117.0,65.0,7.0,1.0,0.0,0.0,2017-02-27 07:18:25,2017-02-28 01:06:09,zuyu,2245572.0,1.0,2017-02-28 01:06:09
+195,108198406.0,Fix gcc build error with PackedPayloadHashTable ,196.0,1.0,1.0,1.0,1.0,2.0,0.0,2017-02-27 20:50:19,2017-02-28 16:15:13,Jianqiao Zhu,2695519.0,1.0,2017-02-28 16:15:13
+196,108290662.0,Moved Describe command to an util file.,197.0,307.0,167.0,8.0,1.0,0.0,0.0,2017-02-28 09:35:02,2017-02-28 22:23:17,zuyu,2245572.0,1.0,2017-02-28 22:23:17
+197,108360674.0,patch to fix gcc compile error gflags,198.0,5.0,0.0,2.0,1.0,4.0,0.0,2017-02-28 16:00:26,2017-02-28 16:08:01,Marc S,5708822.0,1.0,2017-02-28 16:08:01
+198,108382233.0,Init release scripts,199.0,239.0,0.0,5.0,1.0,2.0,2.0,2017-02-28 17:42:01,2017-03-01 22:17:25,Marc S,5708822.0,1.0,2017-03-01 22:17:25
+199,108439015.0,Style fixes in the distributed version.,200.0,127.0,139.0,6.0,1.0,0.0,0.0,2017-02-28 23:56:05,2017-03-01 22:33:52,zuyu,2245572.0,1.0,2017-03-01 22:33:52
+200,108609605.0,Fix a bug with SelectOperator,201.0,6.0,3.0,2.0,1.0,1.0,0.0,2017-03-01 19:23:05,2017-03-01 19:25:37,Jianqiao Zhu,2695519.0,1.0,2017-03-01 19:25:37
+201,108961304.0,QUICKSTEP-75: Added \analyze support in the distributed version.,202.0,351.0,37.0,13.0,1.0,0.0,0.0,2017-03-03 12:10:58,2017-03-04 07:25:00,zuyu,2245572.0,1.0,2017-03-04 07:25:00
+202,109068914.0,fixes bug in ordering of cmds,203.0,4.0,3.0,1.0,1.0,4.0,2.0,2017-03-03 22:31:15,2017-03-05 18:02:08,Marc S,5708822.0,1.0,2017-03-05 18:02:08
+203,109073746.0,Cmake changes for default build,204.0,6.0,1.0,1.0,1.0,2.0,0.0,2017-03-03 23:07:12,2017-03-05 17:58:20,Marc S,5708822.0,1.0,2017-03-05 17:58:20
+204,109111151.0,simplify logic of download script,205.0,8.0,15.0,1.0,1.0,1.0,0.0,2017-03-04 15:29:33,2017-03-04 19:07:51,Marc S,5708822.0,1.0,2017-03-04 19:07:51
+205,109158364.0,fixes travis ws issue,206.0,6.0,2.0,1.0,1.0,0.0,0.0,2017-03-05 18:10:17,2017-03-05 21:27:40,Marc S,5708822.0,1.0,2017-03-05 21:27:40
+206,109159056.0,Added dockerfile for release testing,207.0,108.0,10.0,3.0,2.0,1.0,0.0,2017-03-05 18:30:19,2017-03-05 21:27:41,Marc S,5708822.0,1.0,2017-03-05 21:27:40
+207,109578396.0,Removed redundant third party libraries.,208.0,2.0,149041.0,223.0,1.0,8.0,0.0,2017-03-07 21:45:27,2017-03-09 21:29:25,zuyu,2245572.0,0.0,
+208,109624850.0,"Added header to scripts and yaml files, updated NOTICE",209.0,64.0,17.0,8.0,1.0,1.0,0.0,2017-03-08 04:09:07,2017-03-08 07:33:00,Harshad Deshmukh,3750801.0,1.0,2017-03-08 07:33:00
+209,110081622.0,Fixed a bug in admitQueries.,210.0,6.0,3.0,1.0,1.0,1.0,0.0,2017-03-10 08:26:19,2017-03-12 03:43:12,zuyu,2245572.0,1.0,2017-03-12 03:43:12
+210,110551886.0,Retry pulling if RPC fails in the distributed version.,211.0,28.0,31.0,1.0,1.0,0.0,0.0,2017-03-14 05:43:49,2017-03-14 06:30:22,zuyu,2245572.0,0.0,
+211,111158738.0,QUICKSTEP-79 Fixed headers and NOTICE/LICENSE files,212.0,178.0,62.0,8.0,2.0,5.0,1.0,2017-03-16 20:30:51,2017-03-17 22:04:34,Harshad Deshmukh,3750801.0,1.0,2017-03-17 22:04:34
+212,111176756.0,Added script for release license audit,213.0,29.0,7.0,2.0,1.0,3.0,3.0,2017-03-16 22:13:19,2017-03-17 16:02:04,Marc S,5708822.0,1.0,2017-03-17 16:02:04
+213,111197419.0,DO NOT MERGE: Built the protobuf from the source for the map support.,214.0,0.0,2.0,1.0,1.0,0.0,0.0,2017-03-17 01:22:29,2017-03-17 01:58:00,zuyu,2245572.0,0.0,
+214,111200438.0,Used an alternative implementation for the proto map.,215.0,14.0,6.0,3.0,1.0,0.0,0.0,2017-03-17 02:00:01,2017-03-17 03:53:08,zuyu,2245572.0,1.0,2017-03-17 03:53:08
+215,111350553.0,Minor refactored RangePartitionSchemeHeader::getProto.,216.0,3.0,6.0,1.0,1.0,2.0,0.0,2017-03-17 19:30:28,2017-03-18 03:21:13,zuyu,2245572.0,1.0,2017-03-18 03:21:13
+216,111407663.0,QUICKSTEP-73: Multi-attribute PartitionSchemeHeader.,217.0,536.0,319.0,20.0,1.0,5.0,22.0,2017-03-18 11:54:17,2017-03-27 00:10:48,zuyu,2245572.0,1.0,2017-03-27 00:10:48
+217,111426391.0,QUICKSTEP-80 Enhanced the execution DAG visualization,218.0,27.0,0.0,1.0,1.0,2.0,1.0,2017-03-18 21:26:53,2017-03-19 20:54:02,Harshad Deshmukh,3750801.0,1.0,2017-03-19 20:54:02
+218,111881846.0,QUICKSTEP-83 Measure memory consumption of a running query,219.0,249.0,3.0,18.0,1.0,5.0,7.0,2017-03-21 21:18:20,2017-04-01 21:37:07,Harshad Deshmukh,3750801.0,1.0,2017-04-01 21:37:07
+219,111892797.0,DO NOT MERGE: Built the distributed version in Travis.,220.0,15.0,4.0,1.0,1.0,0.0,0.0,2017-03-21 22:20:34,2017-04-06 07:27:55,zuyu,2245572.0,0.0,
+220,111901503.0,Fixed a pedantic warning.,221.0,1.0,1.0,1.0,1.0,1.0,0.0,2017-03-21 23:20:58,2017-03-22 02:46:08,zuyu,2245572.0,1.0,2017-03-22 02:46:08
+221,111910371.0,Fixed a sign compare warning.,222.0,1.0,1.0,1.0,1.0,1.0,0.0,2017-03-22 00:39:14,2017-03-22 02:45:11,zuyu,2245572.0,1.0,2017-03-22 02:45:11
+222,112389438.0,DO NOT MERGE: Use Protobuf 3,223.0,501.0,128.0,6.0,3.0,0.0,0.0,2017-03-24 05:15:00,2017-04-06 07:27:47,zuyu,2245572.0,0.0,
+223,112831903.0,Fix a bug in PackedPayloadHashTable,224.0,49.0,22.0,3.0,1.0,5.0,5.0,2017-03-27 20:30:50,2017-03-29 02:17:28,Jianqiao Zhu,2695519.0,1.0,2017-03-29 02:17:28
+224,113798181.0,DO NOT MERGE: Travis ccache,225.0,9.0,6.0,1.0,3.0,0.0,0.0,2017-04-01 23:07:47,2017-04-06 07:27:40,zuyu,2245572.0,0.0,
+225,113835683.0,Bug fix in memory measurement,226.0,10.0,4.0,2.0,1.0,3.0,2.0,2017-04-02 21:25:01,2017-04-05 20:39:36,Harshad Deshmukh,3750801.0,1.0,2017-04-05 20:39:36
+226,114292197.0,Added an enum type for all relational operators,227.0,160.0,4.0,28.0,2.0,2.0,0.0,2017-04-05 04:10:33,2017-04-05 20:39:36,Harshad Deshmukh,3750801.0,1.0,2017-04-05 20:39:36
+227,114692181.0,Refactored out proto GenerateCPP function,228.0,81.0,54.0,2.0,1.0,6.0,2.0,2017-04-06 20:50:28,2017-04-07 00:14:19,Marc S,5708822.0,1.0,2017-04-07 00:14:19
+228,114711743.0,Implement parser and resolver for UNION and INTERSECT operators,229.0,6955.0,5794.0,24.0,1.0,2.0,23.0,2017-04-06 22:50:11,2017-04-09 00:31:50,Tianrun Li,7541346.0,1.0,2017-04-09 00:31:50
+229,114946938.0,Initial SingleNodeClient implementation,230.0,385.0,1.0,10.0,3.0,7.0,26.0,2017-04-08 14:19:45,2017-04-11 01:56:02,Marc S,5708822.0,0.0,
+230,115428933.0,Implement optimizer and execution layers for UNION and INTERSECT.,231.0,1339.0,4.0,23.0,1.0,0.0,9.0,2017-04-11 22:30:20,2017-04-12 07:02:49,Tianrun Li,7541346.0,1.0,2017-04-12 07:02:49
+231,116219936.0,QUICKSTEP-87 Adds network cli interface.,232.0,1253.0,26.0,17.0,1.0,9.0,99.0,2017-04-17 23:00:47,2017-04-29 20:52:55,Marc S,5708822.0,1.0,2017-04-29 20:52:55
+232,116415216.0,QUICKSTEP-88 Topological sort functionality in DAG,233.0,133.0,0.0,2.0,1.0,2.0,4.0,2017-04-18 20:36:57,2017-04-19 19:05:32,Harshad Deshmukh,3750801.0,1.0,2017-04-19 19:05:32
+233,116420997.0,Add protobuf support for UNION ALL operator.,234.0,110.0,10.0,5.0,1.0,3.0,5.0,2017-04-18 21:07:17,2017-04-20 21:24:25,Tianrun Li,7541346.0,1.0,2017-04-20 21:24:25
+234,116612705.0,API to get total pending work orders for an operator,235.0,13.0,0.0,1.0,1.0,0.0,0.0,2017-04-19 18:32:20,2017-04-19 20:58:40,Harshad Deshmukh,3750801.0,1.0,2017-04-19 20:58:40
+235,116876739.0,WorkOrder proto clean-up.,236.0,35.0,34.0,1.0,1.0,2.0,0.0,2017-04-20 22:22:13,2017-04-21 21:11:23,zuyu,2245572.0,1.0,2017-04-21 21:11:23
+236,117132248.0,QUICKSTEP-89 Add support for common subexpression.,237.0,4040.0,369.0,79.0,1.0,6.0,31.0,2017-04-23 01:33:44,2017-04-23 22:23:01,Jianqiao Zhu,2695519.0,1.0,2017-04-23 22:23:01
+237,117135645.0,Assigned partition_id to RebuildWorkOrder.,238.0,51.0,27.0,5.0,1.0,0.0,0.0,2017-04-23 04:10:17,2017-04-25 21:22:23,zuyu,2245572.0,1.0,2017-04-25 21:22:23
+238,117198932.0,Add ThreadPrivateCompactKeyHashTable for aggregation.,239.0,870.0,25.0,14.0,1.0,1.0,8.0,2017-04-24 06:53:15,2017-04-24 21:09:27,Jianqiao Zhu,2695519.0,1.0,2017-04-24 21:09:27
+239,117287724.0,Fix the issues with the common subexpression feature.,240.0,68.0,62.0,14.0,1.0,1.0,5.0,2017-04-24 15:06:34,2017-04-25 00:56:44,Jianqiao Zhu,2695519.0,1.0,2017-04-25 00:56:44
+240,117586531.0,Added the optimizer support for Partitioned Hash Joins.,241.0,345.0,58.0,4.0,1.0,1.0,0.0,2017-04-25 21:35:49,2017-05-21 04:37:31,zuyu,2245572.0,0.0,
+241,118295203.0,Partition-aware CopyFrom.,242.0,13.0,6.0,1.0,1.0,0.0,0.0,2017-04-30 00:08:07,2017-05-03 01:01:40,zuyu,2245572.0,1.0,2017-05-03 01:01:40
+242,118645575.0,Fixed a bug regarding the table name containing '_' in Commands.,243.0,1263.0,1153.0,5.0,1.0,1.0,0.0,2017-05-02 21:00:26,2017-05-03 00:15:27,zuyu,2245572.0,1.0,2017-05-03 00:15:27
+243,118837855.0,Fix a problem in CopyGroupList + minor style fixes,244.0,209.0,173.0,3.0,1.0,3.0,1.0,2017-05-03 19:36:07,2017-05-04 06:00:19,Jianqiao Zhu,2695519.0,1.0,2017-05-04 06:00:19
+244,118841701.0,Dispatch BuildHashJoin and Aggregation based on block locality.,245.0,49.0,8.0,5.0,1.0,0.0,0.0,2017-05-03 19:56:49,2017-05-04 02:22:07,zuyu,2245572.0,1.0,2017-05-04 02:22:07
+245,119087776.0,Improve disjunctive predicate pushdown to optimize more scenarios,246.0,24.0,10.0,1.0,1.0,1.0,0.0,2017-05-04 23:34:25,2017-05-05 20:26:57,Jianqiao Zhu,2695519.0,1.0,2017-05-05 20:26:57
+246,120474500.0,Print the partition id in WorkOrder Reconstruction.,247.0,14.0,11.0,1.0,1.0,0.0,0.0,2017-05-14 05:53:35,2017-05-17 05:48:38,zuyu,2245572.0,1.0,2017-05-17 05:48:38
+247,120972599.0,Minor refactor scheduler in the distributed version.,248.0,8.0,16.0,3.0,1.0,0.0,0.0,2017-05-17 04:30:07,2017-05-17 05:45:55,zuyu,2245572.0,1.0,2017-05-17 05:45:55
+248,120982770.0,QUICKSTEP-76: Enabled LIP in the distributed version.,249.0,285.0,39.0,17.0,1.0,1.0,0.0,2017-05-17 06:26:54,2017-06-13 21:13:57,zuyu,2245572.0,1.0,2017-06-13 21:13:57
+249,120996326.0,Keep the Union execution test stand-alone.,250.0,107.0,86.0,3.0,1.0,0.0,0.0,2017-05-17 08:05:19,2017-05-17 09:02:08,zuyu,2245572.0,1.0,2017-05-17 09:02:08
+250,121677840.0,Removed namespace definitions in a hpp file.,251.0,8.0,8.0,2.0,1.0,0.0,0.0,2017-05-21 22:02:08,2017-05-21 22:08:43,zuyu,2245572.0,1.0,2017-05-21 22:08:43
+251,121678098.0,Simplified ExtractCommonSubexpression rule as a BottomUp rule.,252.0,12.0,31.0,3.0,1.0,2.0,0.0,2017-05-21 22:11:12,2017-06-02 02:32:23,zuyu,2245572.0,1.0,2017-06-02 02:32:23
+252,122558850.0,Avoided crashes using PartitionAwareInsertDest in Inner HashJoins.,253.0,34.0,12.0,3.0,1.0,0.0,0.0,2017-05-26 01:51:06,2017-05-26 03:19:59,zuyu,2245572.0,1.0,2017-05-26 03:19:59
+253,123829578.0,Added the support for partitioned (but not parallel) aggregations.,254.0,457.0,180.0,24.0,1.0,0.0,0.0,2017-06-03 04:56:17,2017-06-15 00:31:59,zuyu,2245572.0,1.0,2017-06-15 00:31:59
+254,123921699.0,Refactored the operator support for broadcast hash join.,255.0,34.0,34.0,3.0,1.0,1.0,0.0,2017-06-05 06:38:48,2017-06-13 20:22:11,zuyu,2245572.0,1.0,2017-06-13 20:22:11
+255,125488517.0,Added operator and execution support for partitioned nested loops join.,256.0,378.0,199.0,11.0,1.0,0.0,0.0,2017-06-14 00:22:12,2017-06-14 23:58:57,zuyu,2245572.0,1.0,2017-06-14 23:58:57
+256,125510314.0,Added Partition Rule for HashJoin.,257.0,891.0,29.0,14.0,1.0,2.0,4.0,2017-06-14 04:45:03,2017-06-17 18:48:57,zuyu,2245572.0,1.0,2017-06-17 18:48:57
+257,125510533.0,Added RandomPartitionSchemeHeader.,258.0,94.0,1.0,5.0,1.0,0.0,0.0,2017-06-14 04:48:07,2017-06-14 23:55:17,zuyu,2245572.0,1.0,2017-06-14 23:55:17
+258,125685103.0,Added operator support for BuildLipFilter with partitioned inputs.,259.0,82.0,34.0,5.0,1.0,0.0,0.0,2017-06-14 20:25:14,2017-06-14 23:51:32,zuyu,2245572.0,1.0,2017-06-14 23:51:32
+259,125691890.0,Minor refactors in WorkOrderFactory.,260.0,53.0,50.0,1.0,1.0,0.0,0.0,2017-06-14 21:00:06,2017-06-14 21:08:49,zuyu,2245572.0,1.0,2017-06-14 21:08:49
+260,125725418.0,Added PartitionSchemeHeader in Physical Plan node.,261.0,251.0,0.0,3.0,1.0,0.0,0.0,2017-06-15 01:35:33,2017-06-15 01:41:12,zuyu,2245572.0,1.0,2017-06-15 01:41:12
+261,125726130.0,Using PartitionSchemeHeader in Physical Plan node.,262.0,394.0,106.0,26.0,1.0,0.0,0.0,2017-06-15 01:43:44,2017-06-15 01:47:50,zuyu,2245572.0,1.0,2017-06-15 01:47:50
+262,125927863.0,Added the execution support for LIP with partitions.,263.0,34.0,7.0,6.0,1.0,0.0,0.0,2017-06-15 22:47:08,2017-06-15 23:35:47,zuyu,2245572.0,1.0,2017-06-15 23:35:47
+263,126169749.0,Added physical rule for partitioned aggregations.,264.0,350.0,12.0,3.0,2.0,1.0,0.0,2017-06-17 22:11:28,2017-07-14 20:24:21,zuyu,2245572.0,1.0,2017-07-14 20:24:21
+264,126172065.0,Added Partition Rule For NestedLoopsJoin.,265.0,221.0,18.0,5.0,1.0,1.0,0.0,2017-06-18 00:05:37,2017-07-15 00:22:35,zuyu,2245572.0,1.0,2017-07-15 00:22:35
+265,126625774.0,Refactored Create Factory Method for Physical Selection.,266.0,28.0,31.0,7.0,1.0,0.0,0.0,2017-06-20 20:45:52,2017-06-20 21:41:59,zuyu,2245572.0,1.0,2017-06-20 21:41:59
+266,127824428.0,Refactored PartitionAwareInsertDestination::getPartitionId.,267.0,31.0,19.0,2.0,1.0,1.0,0.0,2017-06-28 01:17:31,2017-07-10 20:37:07,zuyu,2245572.0,1.0,2017-07-10 20:37:07
+267,129581537.0,Skip predicate pushdown if the node's input is a base relation.,268.0,20.0,11.0,1.0,1.0,1.0,0.0,2017-07-09 22:53:49,2017-07-10 22:21:08,zuyu,2245572.0,1.0,2017-07-10 22:21:08
+268,129937297.0,Added Physical PartitionSchemeHeader in Physical Aggregate.,269.0,32.0,10.0,3.0,1.0,0.0,0.0,2017-07-11 15:26:33,2017-07-11 15:44:45,zuyu,2245572.0,1.0,2017-07-11 15:44:45
+269,129992323.0,Collapse Selections with predicates.,270.0,72.0,60.0,3.0,1.0,1.0,0.0,2017-07-11 19:57:21,2017-07-12 18:06:09,zuyu,2245572.0,1.0,2017-07-12 18:06:09
+270,130278824.0,QUICKSTEP-95: Fixed the exception due to zero tuple estimation for th…,271.0,10.0,0.0,2.0,1.0,1.0,0.0,2017-07-13 03:20:42,2017-09-14 16:28:45,zuyu,2245572.0,1.0,2017-09-14 16:28:45
+271,131180657.0,"Ensure Physical node with partitioned inputs has partitioned output, if possible.",272.0,7.0,4.0,1.0,1.0,1.0,0.0,2017-07-18 20:34:51,2017-07-20 19:57:24,zuyu,2245572.0,1.0,2017-07-20 19:57:24
+272,131644633.0,Determine #Partitions for Aggr State Hash Table in the optimizer.,273.0,181.0,160.0,12.0,1.0,1.0,0.0,2017-07-20 20:36:38,2017-08-02 20:34:31,zuyu,2245572.0,1.0,2017-08-02 20:34:31
+273,133803124.0,Determine #InitPartitions for CollisionFreeVectorTable in the optimizer.,274.0,202.0,91.0,13.0,1.0,1.0,0.0,2017-08-02 20:39:10,2017-08-03 00:54:18,zuyu,2245572.0,1.0,2017-08-03 00:54:18
+274,133838358.0,Disabled NetworkUtil_unittest.,275.0,1.0,1.0,1.0,1.0,0.0,0.0,2017-08-03 00:46:45,2017-08-03 01:48:58,zuyu,2245572.0,1.0,2017-08-03 01:48:58
+275,134026292.0,Fixed the check failure if a query does not have profiling info.,276.0,211.0,96.0,16.0,3.0,1.0,0.0,2017-08-03 19:46:11,2017-08-04 01:28:04,zuyu,2245572.0,1.0,2017-08-04 01:28:04
+276,134240406.0,Fix a bug with min/max aggregation.,277.0,60.0,16.0,1.0,1.0,1.0,0.0,2017-08-04 19:58:27,2017-08-04 21:23:22,Jianqiao Zhu,2695519.0,1.0,2017-08-04 21:23:22
+277,134577156.0,Allowed pipelined work order scheduling.,278.0,20.0,0.0,3.0,1.0,0.0,0.0,2017-08-08 05:10:50,2017-08-11 00:39:18,zuyu,2245572.0,0.0,
+278,135250864.0,Applied WorkOrderSelectionPolicy.,279.0,199.0,59.0,5.0,1.0,3.0,0.0,2017-08-11 00:46:19,2017-08-18 19:50:40,zuyu,2245572.0,1.0,2017-08-18 19:50:40
+279,136873837.0,Removed an unnecessary API in RelationalOperator.,280.0,455.0,514.0,21.0,1.0,1.0,0.0,2017-08-22 01:26:35,2017-08-24 19:25:45,zuyu,2245572.0,1.0,2017-08-24 19:25:45
+280,137564587.0,Simplified the work order generation.,281.0,152.0,267.0,11.0,1.0,3.0,6.0,2017-08-24 22:22:56,2017-09-25 20:56:41,zuyu,2245572.0,1.0,2017-09-25 20:56:41
+281,137747846.0,QUICKSTEP-92: Improved ExecutionDAGVisualizer.,282.0,145.0,27.0,6.0,1.0,1.0,1.0,2017-08-25 20:09:25,2017-08-28 20:40:10,zuyu,2245572.0,1.0,2017-08-28 20:40:10
+282,137806651.0,Minor changes in QueryManager and QueryExecutionState.,283.0,21.0,23.0,4.0,1.0,0.0,0.0,2017-08-26 18:02:03,2017-08-26 20:23:16,zuyu,2245572.0,1.0,2017-08-26 20:23:16
+283,137808122.0,Minor cleanups for the create operators.,284.0,16.0,89.0,5.0,1.0,0.0,0.0,2017-08-26 18:49:10,2017-08-26 20:24:58,zuyu,2245572.0,1.0,2017-08-26 20:24:58
+284,137813317.0,Added partition_id in WorkOrder.,285.0,114.0,118.0,31.0,1.0,0.0,0.0,2017-08-26 21:55:07,2017-08-26 23:08:26,zuyu,2245572.0,1.0,2017-08-26 23:08:26
+285,137815170.0,Added num_partitions in RelationalOperator.,286.0,266.0,215.0,28.0,1.0,0.0,0.0,2017-08-26 23:13:17,2017-08-27 06:35:46,zuyu,2245572.0,1.0,2017-08-27 06:35:46
+286,137815805.0,Added has_repartition in RelationalOperators.,287.0,540.0,366.0,47.0,2.0,0.0,0.0,2017-08-26 23:44:39,2017-08-27 06:43:35,zuyu,2245572.0,1.0,2017-08-27 06:43:35
+287,137822825.0,Added output_num_partitions in RelationalOperators.,288.0,581.0,374.0,53.0,3.0,0.0,0.0,2017-08-27 06:16:23,2017-08-27 06:56:31,zuyu,2245572.0,1.0,2017-08-27 06:56:31
+288,138046421.0,Minor refactored SortMergeRunOperator.,289.0,31.0,41.0,2.0,1.0,1.0,0.0,2017-08-28 21:54:33,2017-08-30 16:02:57,zuyu,2245572.0,1.0,2017-08-30 16:02:57
+289,138066068.0,Fixed the bug that missed assigning 'num_partitions_' in CatalogRelation.,290.0,4.0,2.0,1.0,1.0,1.0,0.0,2017-08-29 00:21:55,2017-08-29 01:37:07,zuyu,2245572.0,1.0,2017-08-29 01:37:07
+290,138471467.0,"Add ""COPY TO"" operator for exporting data from Quickstep.",291.0,5792.0,3143.0,46.0,1.0,2.0,53.0,2017-08-30 16:26:38,2017-08-30 23:53:49,Jianqiao Zhu,2695519.0,1.0,2017-08-30 23:53:49
+291,138949896.0,Redirect stdout and stderr in network mode.,292.0,304.0,10.0,10.0,1.0,1.0,1.0,2017-09-01 18:36:24,2017-09-11 22:01:59,Jianqiao Zhu,2695519.0,1.0,2017-09-11 22:01:59
+292,139221242.0,Added Partition rules for Sort.,293.0,12.0,0.0,2.0,1.0,1.0,0.0,2017-09-05 01:00:38,2017-09-11 20:15:10,zuyu,2245572.0,1.0,2017-09-11 20:15:10
+293,139625059.0,Refactored LifoWorkOrderSelectionPolicy.,294.0,20.0,5.0,1.0,1.0,0.0,0.0,2017-09-06 17:49:48,2017-09-06 19:58:24,zuyu,2245572.0,0.0,
+294,140386298.0,Printed out the partition info in QueryPlan.,295.0,128.0,20.0,9.0,1.0,2.0,2.0,2017-09-11 17:00:46,2017-09-14 19:09:49,zuyu,2245572.0,1.0,2017-09-14 19:09:49
+295,140441520.0,QUICKSTEP-78: Displayed Partition Info using \d.,296.0,101.0,4.0,8.0,1.0,1.0,0.0,2017-09-11 21:38:19,2017-09-12 04:55:38,zuyu,2245572.0,1.0,2017-09-12 04:55:38
+296,140969420.0,Fixed a bug in partitioned NLJ.,297.0,62.0,44.0,3.0,1.0,1.0,0.0,2017-09-14 02:25:10,2017-09-14 18:12:15,zuyu,2245572.0,1.0,2017-09-14 18:12:15
+297,141985357.0,Prune columns after partition rule.,298.0,1.0,0.0,1.0,1.0,1.0,0.0,2017-09-20 00:19:26,2017-09-20 02:13:53,zuyu,2245572.0,1.0,2017-09-20 02:13:53
+298,142005905.0,QUICKSTEP-104 Fix the problem that LineReader cannot recognize a command if there are whitespaces before it.,299.0,38.0,2.0,4.0,1.0,1.0,4.0,2017-09-20 04:01:47,2017-09-20 21:29:57,Jianqiao Zhu,2695519.0,1.0,2017-09-20 21:29:56
+299,142452344.0,QUICKSTEP-106: Hash-Join-Fuse: Feature added and tests modified.,300.0,336.0,65.0,26.0,1.0,8.0,8.0,2017-09-21 21:40:15,2017-11-28 23:07:14,Dylan Bacon,31295638.0,1.0,2017-11-28 23:07:14
+300,143419302.0,Bug fix in LockManager loop,301.0,8.0,7.0,1.0,1.0,3.0,3.0,2017-09-27 15:06:40,2017-09-29 15:44:52,Harshad Deshmukh,3750801.0,1.0,2017-09-29 15:44:52
+301,143492113.0,Created a class to track execution statistics,302.0,216.0,0.0,2.0,1.0,2.0,9.0,2017-09-27 20:27:39,2017-09-29 17:11:57,Harshad Deshmukh,3750801.0,1.0,2017-09-29 17:11:57
+302,143785708.0,Fixed the root path check in the validate_cmakelists script.,303.0,1.0,1.0,1.0,1.0,1.0,0.0,2017-09-29 00:38:43,2017-09-29 15:41:03,zuyu,2245572.0,1.0,2017-09-29 15:41:03
+303,143937098.0,Added a new set API for TupleIdSequence.,304.0,206.0,176.0,16.0,1.0,1.0,0.0,2017-09-29 17:14:39,2017-10-09 18:22:55,zuyu,2245572.0,1.0,2017-10-09 18:22:55
+304,143975969.0,Optimized the mod operation in HashPartition.,305.0,13.0,5.0,1.0,1.0,1.0,0.0,2017-09-29 20:40:47,2017-10-03 15:44:09,zuyu,2245572.0,1.0,2017-10-03 15:44:09
+305,144321348.0,Fixed the root path check in the cyclic_dependency.py.,306.0,2.0,2.0,1.0,1.0,1.0,0.0,2017-10-03 01:48:23,2017-10-03 15:54:18,zuyu,2245572.0,1.0,2017-10-03 15:54:18
+306,145028301.0,Moved InsertDestination::getTouchedBlocks as a private method.,307.0,65.0,56.0,3.0,1.0,1.0,0.0,2017-10-05 21:42:35,2017-10-09 17:01:33,zuyu,2245572.0,1.0,2017-10-09 17:01:33
+307,145035065.0,Removed unused argument always_mark_full.,308.0,36.0,70.0,3.0,1.0,1.0,2.0,2017-10-05 22:21:47,2017-10-10 19:15:16,zuyu,2245572.0,1.0,2017-10-10 19:15:16
+308,145069165.0,Added ProbabilityStore class,309.0,382.0,0.0,3.0,1.0,2.0,9.0,2017-10-06 04:16:23,2017-10-12 16:43:34,Harshad Deshmukh,3750801.0,1.0,2017-10-12 16:43:34
+309,145229846.0,Removed the virtual function call in InvokeOnAnyValueAccessor.,310.0,2.0,2.0,1.0,1.0,1.0,0.0,2017-10-06 19:35:01,2017-10-09 16:38:57,zuyu,2245572.0,1.0,2017-10-09 16:38:57
+310,145275427.0,Fixed the distributed version,311.0,11.0,17.0,2.0,1.0,1.0,0.0,2017-10-07 03:35:17,2017-10-09 16:29:30,zuyu,2245572.0,1.0,2017-10-09 16:29:30
+311,145349148.0,Fixed a flaky case in Catalog test.,312.0,4.0,2.0,1.0,1.0,1.0,1.0,2017-10-08 19:24:09,2017-10-09 16:35:49,zuyu,2245572.0,1.0,2017-10-09 16:35:49
+312,145535498.0,Relax the sort requirement in columnstore.,313.0,99.0,19.0,6.0,1.0,0.0,1.0,2017-10-09 20:01:14,2017-10-10 19:13:27,zuyu,2245572.0,1.0,2017-10-10 19:13:27
+313,145572969.0,Added Vector Aggregation support in the distributed version.,314.0,27.0,29.0,3.0,1.0,1.0,0.0,2017-10-10 00:04:33,2017-10-12 20:15:14,zuyu,2245572.0,1.0,2017-10-12 20:15:14
+314,146529393.0,Support Multiple Tuple Inserts,316.0,1889.0,2481.0,12.0,3.0,1.0,0.0,2017-10-13 18:52:31,2017-10-25 17:45:52,Robert Claus,9631768.0,0.0,
+315,146554948.0,Fixed the include path for farmhash.,317.0,2.0,1.0,2.0,1.0,1.0,0.0,2017-10-13 21:08:26,2017-10-16 15:41:48,zuyu,2245572.0,1.0,2017-10-16 15:41:48
+316,147430775.0,"DO NOT MERGE: Optimizing Hash repartition on a raw pointer, instead of using TypedValue.",318.0,425.0,84.0,17.0,2.0,0.0,0.0,2017-10-18 22:57:07,2018-05-03 23:02:45,zuyu,2245572.0,0.0,
+317,148520371.0,Fixed the bug when partition w/ pruned columns.,319.0,20.0,44.0,2.0,1.0,1.0,0.0,2017-10-24 21:40:57,2017-12-21 22:53:52,zuyu,2245572.0,1.0,2017-12-21 22:53:52
+318,148746193.0,Support Multiple Tuple Inserts,320.0,1503.0,1448.0,10.0,1.0,3.0,0.0,2017-10-25 18:31:33,2017-10-25 20:02:32,Robert Claus,9631768.0,1.0,2017-10-25 20:02:32
+319,150639665.0,Fix number of work orders generated for insert multiple tuples,321.0,160.0,66.0,8.0,1.0,1.0,0.0,2017-11-03 22:17:13,2017-11-20 20:32:01,Robert Claus,9631768.0,1.0,2017-11-20 20:32:01
+320,151170225.0,Generalized Hash Join - DO NOT MERGE,322.0,3291.0,103.0,43.0,8.0,1.0,1.0,2017-11-07 16:56:22,2018-01-23 17:53:33,Dylan Bacon,31295638.0,0.0,
+321,151587031.0,Temporary Build Support for OS X 10.13,323.0,2.0,2.0,1.0,1.0,6.0,2.0,2017-11-09 08:23:53,2017-11-18 22:22:37,Yuanchen Li,13802855.0,1.0,2017-11-18 22:22:37
+322,151987426.0,Predicate locking,324.0,347.0,2.0,7.0,2.0,0.0,0.0,2017-11-10 19:42:10,2017-11-10 19:42:28,Yuanchen Li,13802855.0,0.0,
+323,155201657.0,QUICKSTEP-112 Get the list of referenced base relations,326.0,239.0,1.0,13.0,1.0,2.0,2.0,2017-11-28 22:34:25,2017-12-01 23:35:45,Harshad Deshmukh,3750801.0,1.0,2017-12-01 23:35:45
+324,158695141.0,QUICKSTEP-113 Remove glog source code from third party,327.0,45.0,20990.0,77.0,1.0,6.0,0.0,2017-12-15 21:14:47,2017-12-21 04:22:07,Harshad Deshmukh,3750801.0,1.0,2017-12-21 04:22:07
+325,159735958.0,QUICKSTEP-114 Upgrade cpplint,328.0,691.0,663.0,78.0,1.0,0.0,2.0,2017-12-21 19:46:10,2017-12-21 21:28:22,Harshad Deshmukh,3750801.0,1.0,2017-12-21 21:28:22
+326,160275038.0,IDE Documentation fixes,329.0,12.0,12.0,1.0,1.0,2.0,0.0,2017-12-27 16:48:13,2018-01-11 21:10:38,Harshad Deshmukh,3750801.0,1.0,2018-01-11 21:10:38
+327,160293612.0,Upgraded benchmark third party library.,330.0,7.0,21.0,3.0,1.0,1.0,0.0,2017-12-27 19:36:19,2018-01-11 16:44:44,Harshad Deshmukh,3750801.0,1.0,2018-01-11 16:44:44
+328,166929382.0,Add a cmake option to handle the Travis CI timeout problem.,331.0,28.0,21.0,7.0,1.0,1.0,0.0,2018-02-02 23:50:44,2018-02-05 19:13:13,Jianqiao Zhu,2695519.0,1.0,2018-02-05 19:13:13
+329,167820929.0,Small adjustments in star schema cost model for # distinct values estimation,332.0,10.0,10.0,2.0,1.0,1.0,2.0,2018-02-07 21:59:59,2018-02-26 05:35:12,Jianqiao Zhu,2695519.0,1.0,2018-02-26 05:35:12
+330,169886179.0,Fix SeparateChainingHashTable::resize(),333.0,9.0,6.0,1.0,1.0,1.0,0.0,2018-02-19 06:21:43,2018-02-19 18:37:51,Jianqiao Zhu,2695519.0,1.0,2018-02-19 18:37:51
+331,171466628.0,Fix iwyu include path,334.0,6.0,6.0,1.0,1.0,2.0,0.0,2018-02-26 19:19:29,2018-02-28 03:32:48,Jianqiao Zhu,2695519.0,1.0,2018-02-28 03:32:48
+332,171836386.0,DO NOT MERGE: Dockerfile Support for Distributed Deployment,335.0,31.0,37.0,1.0,1.0,4.0,0.0,2018-02-28 01:59:08,2018-03-14 19:15:50,Yuanchen Li,13802855.0,0.0,
+333,172132223.0,Fixed the bug that Executor / Cli does not create directory for StorageManager.,336.0,24.0,5.0,6.0,1.0,6.0,0.0,2018-03-01 03:06:36,2018-03-14 19:43:07,zuyu,2245572.0,1.0,2018-03-14 19:43:07
+334,173097587.0,Check File Handle in TextScanWorkOrder to avoid segfault.,337.0,5.0,0.0,1.0,1.0,1.0,0.0,2018-03-06 09:15:29,2018-03-07 14:39:28,zuyu,2245572.0,1.0,2018-03-07 14:39:28
+335,174784837.0,Fixed the gRPC Problem for Data Exchange,338.0,8.0,1.0,2.0,1.0,1.0,1.0,2018-03-13 20:46:05,2018-03-14 19:13:31,Yuanchen Li,13802855.0,1.0,2018-03-14 19:13:31
+336,178877155.0,Upgrade cmake version.,339.0,1.0,1.0,1.0,1.0,1.0,0.0,2018-04-02 16:46:39,2018-04-10 23:36:52,Harshad Deshmukh,3750801.0,1.0,2018-04-10 23:36:52
+337,182221267.0,More informative error for BlockNotFound exception for debugging,340.0,14.0,2.0,3.0,1.0,3.0,4.0,2018-04-17 16:19:11,2018-04-18 19:41:27,Harshad Deshmukh,3750801.0,1.0,2018-04-18 19:41:27
+338,183166803.0,Used MergeFrom instead of CopyFrom.,341.0,14.0,15.0,1.0,1.0,3.0,0.0,2018-04-20 20:47:22,2018-04-25 15:13:18,zuyu,2245572.0,1.0,2018-04-25 15:13:18
+339,183255685.0,QUICKSTEP-119: Added the rule that eliminates a node w/ an empty table.,342.0,741.0,53.0,30.0,1.0,1.0,0.0,2018-04-22 04:56:51,2018-04-26 06:16:02,zuyu,2245572.0,1.0,2018-04-26 06:16:02
+340,184496945.0,Fix all CMakeLists.txt for automated processing,343.0,912.0,870.0,56.0,1.0,1.0,0.0,2018-04-27 00:28:37,2018-04-27 23:49:30,Jianqiao Zhu,2695519.0,1.0,2018-04-27 23:49:30
+341,184508680.0,QUICKSTEP-123: Fixed the missing 'has_repartition' in FilterJoin.,344.0,14.0,2.0,4.0,1.0,1.0,0.0,2018-04-27 02:22:52,2018-04-27 06:26:20,zuyu,2245572.0,1.0,2018-04-27 06:26:20
+342,184510411.0,Minor code style fix.,345.0,164.0,152.0,56.0,1.0,0.0,0.0,2018-04-27 02:39:43,2018-04-27 04:24:03,zuyu,2245572.0,1.0,2018-04-27 04:24:03
+343,184757809.0,QUICKSTEP-124: Add a python script to auto fix CMakeLists files,346.0,2054.0,0.0,1.0,1.0,1.0,0.0,2018-04-28 02:00:31,2018-04-28 02:47:56,Jianqiao Zhu,2695519.0,1.0,2018-04-28 02:47:56
+344,184887224.0,QUICKSTEP-121: Added the self-join support.,347.0,536.0,467.0,71.0,1.0,1.0,0.0,2018-04-30 06:34:28,2018-05-09 23:11:11,zuyu,2245572.0,1.0,2018-05-09 23:11:11
+345,185562553.0,Refactored ScalarCaseExpression.,348.0,450.0,148.0,3.0,1.0,0.0,0.0,2018-05-02 21:12:27,2018-05-04 19:59:40,zuyu,2245572.0,1.0,2018-05-04 19:59:40
+346,185604563.0,Fixed the bug regarding EliminateEmptyNode on an aggregate query.,349.0,99.0,13.0,4.0,1.0,1.0,0.0,2018-05-03 02:24:59,2018-05-04 03:06:48,zuyu,2245572.0,1.0,2018-05-04 03:06:48
+347,186061923.0,Fixed the bug regarding EliminateEmptyNode and InsertSelection.,350.0,18.0,5.0,2.0,1.0,1.0,0.0,2018-05-04 18:09:41,2018-05-04 19:02:19,zuyu,2245572.0,1.0,2018-05-04 19:02:19
+348,186161569.0,Use Exactness info in Catalog stats.,351.0,14.0,2.0,2.0,1.0,2.0,0.0,2018-05-05 15:27:41,2018-05-07 18:33:10,zuyu,2245572.0,0.0,
+349,186171968.0,QUICKSTEP-125: Fixed the non-determinism in JoinReordering.,352.0,48.0,27.0,2.0,1.0,1.0,0.0,2018-05-05 19:24:34,2018-05-07 04:34:44,zuyu,2245572.0,1.0,2018-05-07 04:34:44
+350,186465607.0,Minor bug fixes and refactors.,353.0,1092.0,1045.0,11.0,1.0,1.0,0.0,2018-05-07 21:10:11,2018-05-09 21:20:17,zuyu,2245572.0,1.0,2018-05-09 21:20:17
+351,186527204.0,Fixed the union-all elimiation case where some project expression is not an AttributeReference.,354.0,56.0,58.0,5.0,1.0,1.0,0.0,2018-05-08 05:03:54,2018-05-09 19:50:03,zuyu,2245572.0,1.0,2018-05-09 19:50:03
+352,189414495.0,QUICKSTEP-127 Data provider thread ,355.0,512.0,5.0,9.0,1.0,7.0,4.0,2018-05-21 15:39:02,2018-06-04 22:28:28,Harshad Deshmukh,3750801.0,1.0,2018-06-04 22:28:28
+353,189495479.0,Fixed the command execution bug in the distributed version.,357.0,60.0,93.0,8.0,1.0,1.0,0.0,2018-05-21 21:40:50,2018-06-04 21:38:11,zuyu,2245572.0,1.0,2018-06-04 21:38:11
+354,192266325.0,Fix a bug in HashJoinOperator,358.0,77.0,18.0,4.0,1.0,2.0,0.0,2018-06-03 20:42:12,2018-06-05 06:26:52,Jianqiao Zhu,2695519.0,1.0,2018-06-05 06:26:52
+355,195689153.0,Fixed the build issues regarding tmb benchmark.,359.0,9.0,9.0,2.0,1.0,1.0,0.0,2018-06-19 01:21:22,2018-06-20 03:45:43,zuyu,2245572.0,1.0,2018-06-20 03:45:42
+356,196623350.0,Fix the inclusion guard of ForemanSingleNode.hpp file,360.0,3.0,3.0,1.0,1.0,1.0,0.0,2018-06-22 02:33:08,2018-06-22 03:58:52,Harshad Deshmukh,3750801.0,1.0,2018-06-22 03:58:52
+357,221268592.0,Add virtual destructors where needed to remove compile time errors.,362.0,31.0,5.0,7.0,1.0,2.0,2.0,2018-10-08 23:23:13,2018-10-12 02:16:40,Yannis Chronis,5632322.0,1.0,2018-10-12 02:16:40

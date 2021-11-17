@@ -1,0 +1,4 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,122126569.0,Update RELEASE-NOTES.txt,1.0,2.0,0.0,1.0,1.0,0.0,0.0,2017-05-24 01:14:08,2017-05-24 01:40:50,John Ament,108167.0,0.0,
+1,122956504.0,related to JUNEAU-49 and its inclusion via STREAMS-504,2.0,3.0,1.0,1.0,1.0,0.0,5.0,2017-05-30 00:50:25,2017-05-31 00:23:01,Steve Blackmon,702924.0,0.0,
+2,125850838.0,resolves JUNEAU-55,3.0,14.0,3.0,2.0,1.0,0.0,3.0,2017-06-15 15:36:33,2017-06-15 15:57:25,Steve Blackmon,702924.0,0.0,

@@ -1,0 +1,72 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,28105304.0,SAMOA-7: Unnecessary Distance method in SilhoutteCoefficient.java,1.0,293.0,309.0,2.0,2.0,0.0,0.0,2015-01-27 12:42:57,2015-01-28 04:48:00,Suneel Marthi,3137442.0,0.0,
+1,28106755.0,SAMOA-6 : code formatting,2.0,33921.0,33081.0,328.0,8.0,5.0,0.0,2015-01-27 13:06:21,2015-02-04 15:00:25,Matthieu Morel,702017.0,1.0,2015-02-04 15:00:25
+2,28168348.0,SAMOA-7: Unnecessary Distance method in SilhoutteCoefficient.java,3.0,84.0,92.0,1.0,1.0,1.0,0.0,2015-01-28 04:51:49,2015-03-07 04:38:35,Suneel Marthi,3137442.0,0.0,
+3,28168426.0,SAMOA-11: Incorrect String comparison in Clustering.java,4.0,209.0,217.0,1.0,1.0,6.0,0.0,2015-01-28 04:54:23,2015-03-07 04:38:32,Suneel Marthi,3137442.0,0.0,
+4,28463238.0,SAMOA-4: Specify target JDK for Travis CI build,5.0,3.0,0.0,1.0,1.0,2.0,0.0,2015-02-02 12:06:34,2015-03-06 14:30:15,Gianmarco De Francisci Morales,703859.0,0.0,
+5,28489040.0,"SAMOA-13: Update ""How to contribute"" guidelines",6.0,64.0,8.0,1.0,1.0,4.0,6.0,2015-02-02 18:02:24,2015-04-07 08:22:43,Matthieu Morel,702017.0,0.0,
+6,28735980.0,SAMOA-5: Bylaws for the project,7.0,101.0,0.0,1.0,3.0,0.0,0.0,2015-02-05 16:00:40,2015-02-18 15:58:14,Gianmarco De Francisci Morales,703859.0,0.0,
+7,28879543.0,SAMOA-15: Add instructions for mailing lists subscription,8.0,26.0,19.0,1.0,1.0,0.0,0.0,2015-02-08 12:20:12,2015-03-06 15:03:08,Gianmarco De Francisci Morales,703859.0,0.0,
+8,29146132.0,SAMOA-3: Add documentation and update the website,9.0,11307.0,117.0,64.0,1.0,4.0,0.0,2015-02-12 01:41:10,2015-02-22 13:35:07,Albert Bifet,4201874.0,0.0,
+9,29918713.0,SAMOA-19: Update info in pom.xml,10.0,488.0,628.0,323.0,7.0,1.0,0.0,2015-02-24 17:38:46,2015-03-30 08:09:30,Gianmarco De Francisci Morales,703859.0,0.0,
+10,30277542.0,SAMOA-16: Add an adapter for Apache Flink-Streaming,11.0,1303.0,2.0,15.0,26.0,40.0,12.0,2015-03-02 11:55:29,2015-06-03 15:15:38,Paris Carbone,858078.0,0.0,
+11,30434771.0,SAMOA-17: Update info in README.md in master branch,12.0,35.0,34.0,1.0,3.0,3.0,1.0,2015-03-04 03:03:23,2015-03-17 06:00:56,Albert Bifet,4201874.0,0.0,
+12,30435475.0,SAMOA-18 Update website with new citation for SAMOA,13.0,2.0,2.0,1.0,1.0,1.0,0.0,2015-03-04 03:22:15,2015-03-13 05:33:26,Albert Bifet,4201874.0,0.0,
+13,30653102.0,SAMOA-20: Ignore gh-pages branch in Travis-CI build,14.0,4.0,0.0,1.0,1.0,1.0,0.0,2015-03-06 15:30:22,2015-03-30 08:19:14,Gianmarco De Francisci Morales,703859.0,0.0,
+14,30697379.0,SAMOA-7: Unnecessary distance method in SilhouetteCoefficient.java,15.0,3.0,11.0,1.0,1.0,5.0,1.0,2015-03-07 04:46:33,2015-04-04 07:44:28,Suneel Marthi,3137442.0,0.0,
+15,30697767.0,SAMOA-11: Incorrect String comparison in Clustering.java,16.0,49.0,50.0,1.0,1.0,3.0,0.0,2015-03-07 05:21:05,2015-04-04 07:49:34,Suneel Marthi,3137442.0,0.0,
+16,30733641.0,SAMOA-21: Fix dev subscriptions email addresses,17.0,2.0,2.0,1.0,1.0,2.0,0.0,2015-03-09 03:10:45,2015-04-03 11:30:27,Arinto Murdopo,1780348.0,0.0,
+17,32937839.0,SAMOA-22: Remove outdated CLA files,18.0,0.0,32.0,2.0,1.0,1.0,0.0,2015-04-09 09:16:03,2015-04-10 12:54:20,Gianmarco De Francisci Morales,703859.0,0.0,
+18,33029281.0,SAMOA-24: Add instructions and references for Samza to the website,19.0,231.0,233.0,1.0,1.0,1.0,0.0,2015-04-10 09:03:15,2015-04-10 12:32:35,Gianmarco De Francisci Morales,703859.0,0.0,
+19,33040650.0,SAMOA-23: Add link to Confluence wiki to the website,20.0,1135.0,242.0,9.0,2.0,0.0,0.0,2015-04-10 12:01:52,2015-04-10 12:26:06,Gianmarco De Francisci Morales,703859.0,0.0,
+20,33043667.0,SAMOA-23: Add link to Confluence wiki to the website,21.0,907.0,20.0,9.0,2.0,1.0,0.0,2015-04-10 12:50:02,2015-04-29 07:10:22,Gianmarco De Francisci Morales,703859.0,0.0,
+21,33047099.0,SAMOA-25: Simplify mailing list subscription instructions,22.0,10.0,17.0,1.0,1.0,2.0,0.0,2015-04-10 13:37:12,2015-04-29 07:08:25,Gianmarco De Francisci Morales,703859.0,0.0,
+22,34172101.0,modify the ArffLoader bug in processing,23.0,4.0,3.0,1.0,1.0,0.0,0.0,2015-04-27 14:09:23,2015-04-27 14:25:10,Baoyuan Qi,1243428.0,0.0,
+23,34174307.0,Fix the ArffLoader bug in processing,24.0,211.0,70.0,4.0,4.0,10.0,0.0,2015-04-27 14:32:14,2015-05-15 07:48:51,Baoyuan Qi,1243428.0,0.0,
+24,34647019.0,SAMOA-27: Storm upgrade to the latest stable version (0.9.4),25.0,7.0,9.0,4.0,2.0,5.0,0.0,2015-05-04 15:30:47,2015-05-15 07:31:49,Giacomo Berardi,497264.0,0.0,
+25,37622363.0,SAMOA-9: Change namespace to apache.org,26.0,1555.0,1479.0,341.0,1.0,1.0,0.0,2015-06-13 09:42:51,2015-06-18 15:17:10,Gianmarco De Francisci Morales,703859.0,0.0,
+26,38007025.0,SAMOA-34: Make ensemble methods work with all Learners,27.0,129.0,178.0,8.0,5.0,3.0,0.0,2015-06-18 13:36:11,2015-07-01 10:34:14,Gianmarco De Francisci Morales,703859.0,0.0,
+27,38643573.0,SAMOA-36: Update Apache Flink Adapter to 0.9 stable release,28.0,32.0,33.0,4.0,1.0,6.0,0.0,2015-06-26 12:17:00,2015-07-01 07:52:40,Paris Carbone,858078.0,1.0,2015-07-01 07:52:40
+28,38729180.0,Update CONTRIBUTING.md,29.0,1.0,0.0,1.0,1.0,2.0,0.0,2015-06-28 17:55:14,2015-06-29 10:57:32,Gyula Fora,5880972.0,1.0,2015-06-29 10:57:32
+29,38761239.0,SAMOA-37: Prepare for 0.3.0-incubating release,30.0,121.0,64.0,16.0,8.0,2.0,0.0,2015-06-29 10:43:45,2015-07-01 10:58:05,Gianmarco De Francisci Morales,703859.0,0.0,
+30,39246553.0,SAMOA-38: Fix issues with version 0.3.0-incubating-RC0,31.0,137.0,57.0,35.0,9.0,1.0,0.0,2015-07-06 08:44:21,2015-07-06 11:49:37,Gianmarco De Francisci Morales,703859.0,1.0,2015-07-06 11:49:37
+31,40449466.0,SAMOA-41: Update website after release 0.3.0-incubating,33.0,232353.0,6.0,1629.0,2.0,1.0,0.0,2015-07-21 12:02:34,2015-07-27 07:20:21,Gianmarco De Francisci Morales,703859.0,1.0,2015-07-27 07:20:21
+32,41436600.0,SAMOA-29: Remove hardcoded value for the duration of Storm local topology execution,34.0,39.0,3.0,5.0,2.0,11.0,0.0,2015-08-03 05:48:39,2015-08-17 10:51:37,Jay,8298193.0,1.0,2015-08-17 10:51:37
+33,43002754.0,SAMOA-43: Add TextReader,35.0,0.0,0.0,0.0,0.0,1.0,0.0,2015-08-21 04:14:08,2016-03-15 20:41:11,Albert Bifet,4201874.0,1.0,2016-03-15 20:41:11
+34,43011719.0,SAMOA-35: Add Sharding ensemble method,36.0,304.0,2.0,3.0,1.0,2.0,0.0,2015-08-21 07:42:21,2017-07-04 12:40:26,Gianmarco De Francisci Morales,703859.0,1.0,2017-07-04 12:40:26
+35,45163962.0,SAMOA-45: Developer's Guide is not reachable,37.0,3.0,1.0,3.0,2.0,0.0,0.0,2015-09-16 12:17:57,2015-09-17 16:00:36,Gianmarco De Francisci Morales,703859.0,1.0,2015-09-17 16:00:36
+36,47632628.0,SAMOA-42: Update Team List ,38.0,54.0,18.0,1.0,3.0,1.0,0.0,2015-10-14 08:53:48,2015-11-09 13:58:21,Albert Bifet,4201874.0,0.0,
+37,48737095.0,SAMOA-48: Multiple copies of evaluation statistics printed in ensemble methods,39.0,297.0,220.0,7.0,5.0,1.0,0.0,2015-10-26 13:14:08,2015-11-10 08:21:12,Gianmarco De Francisci Morales,703859.0,1.0,2015-11-10 08:21:12
+38,49258451.0,SAMOA-47: Integrate Avro Streams with SAMOA,40.0,813.0,24.0,9.0,4.0,7.0,4.0,2015-10-30 11:30:17,2015-11-30 12:25:51,Jay,8298193.0,0.0,
+39,52753590.0,SAMOA-47: Avro documentation,41.0,107.0,0.0,3.0,2.0,1.0,0.0,2015-12-05 11:56:54,2016-01-31 12:29:56,Jay,8298193.0,1.0,2016-01-31 12:29:56
+40,52844296.0,SAMOA-52: Fix nominal attribute problem in VHT,42.0,20.0,16.0,2.0,1.0,2.0,0.0,2015-12-07 13:29:32,2016-03-15 17:35:26,Albert Bifet,4201874.0,0.0,
+41,52848879.0,SAMOA-53: Add Prequential Cross-Validation Evaluation,43.0,0.0,0.0,0.0,0.0,3.0,0.0,2015-12-07 14:13:03,2016-03-15 20:30:44,Albert Bifet,4201874.0,1.0,2016-03-15 20:30:44
+42,53391623.0,SAMOA-51: Update Flink Module to v0.10.1,44.0,191.0,203.0,8.0,1.0,4.0,0.0,2015-12-11 13:21:03,2016-02-07 13:34:46,Paris Carbone,858078.0,0.0,
+43,54217123.0,update Developers-Guide link,45.0,1.0,1.0,1.0,1.0,1.0,0.0,2015-12-21 03:12:52,2016-01-31 12:55:41,yaphet,4414314.0,0.0,
+44,56947839.0,Changes required to work on newer versions of Samza (0.10) and YARN (2.6.0),47.0,195.0,142.0,15.0,15.0,2.0,0.0,2016-01-22 22:03:22,2016-02-19 19:01:15,Edi Bice,1819450.0,0.0,
+45,60182744.0,Patch for SAMOA-58 (Samoa AvroFileStream from HDFSFileStreamSource stops at end of first file),48.0,293.0,67.0,14.0,19.0,9.0,28.0,2016-02-22 14:43:12,2016-04-19 08:35:12,Edi Bice,1819450.0,0.0,
+46,61837668.0,SAMOA-31: Remove unused Utils class,49.0,0.0,183.0,1.0,1.0,2.0,0.0,2016-03-06 08:53:10,2016-03-13 08:00:11,Gianmarco De Francisci Morales,703859.0,0.0,
+47,61839951.0,SAMOA-57: Drop support for S4,50.0,1.0,1724.0,19.0,2.0,2.0,0.0,2016-03-06 10:59:37,2016-03-13 07:55:55,Gianmarco De Francisci Morales,703859.0,1.0,2016-03-13 07:55:55
+48,61841688.0,SAMOA-14: Disambiguate ARFFFileStream,51.0,31.0,236.0,20.0,2.0,2.0,0.0,2016-03-06 12:39:27,2016-03-13 08:06:25,Gianmarco De Francisci Morales,703859.0,1.0,2016-03-13 08:06:25
+49,61842510.0,SAMOA-28: Delete samoa-api/build directory after tests,52.0,10.0,14.0,1.0,1.0,2.0,0.0,2016-03-06 13:17:17,2016-03-13 08:02:54,Gianmarco De Francisci Morales,703859.0,1.0,2016-03-13 08:02:54
+50,64258388.0,SAMOA-60: update package name in doc,53.0,23.0,23.0,10.0,1.0,1.0,0.0,2016-03-27 06:09:18,2016-04-03 07:34:33,Manu Zhang,1191767.0,1.0,2016-04-03 07:34:33
+51,73137423.0,SAMOA-49: Added adapter for Apache Apex,55.0,1882.0,3.0,28.0,1.0,20.0,0.0,2016-06-08 23:29:23,2016-11-05 10:43:57,Bhupesh Chawda,8895284.0,1.0,2016-11-05 10:43:57
+52,79591836.0,SAMOA-62: removing gradlew s4 related stuff,56.0,0.0,192.0,3.0,1.0,1.0,0.0,2016-08-01 15:54:25,2016-08-01 15:58:15,,6838775.0,0.0,
+53,111554382.0,Pull request,57.0,3742.0,1474.0,20.0,2.0,1.0,1.0,2017-03-20 13:41:45,2017-06-22 11:59:42,,15521543.0,0.0,
+54,116082933.0,Fix broken headings in Markdown files,58.0,4.0,4.0,1.0,1.0,2.0,0.0,2017-04-17 02:36:29,2017-06-22 13:30:59,Santiago Castro,3905501.0,1.0,2017-06-22 13:30:59
+55,120823619.0,SAMOA-65 Apache Kafka integration components for SAMOA,59.0,1935.0,132.0,17.0,24.0,5.0,9.0,2017-05-16 13:11:28,2017-07-26 08:55:51,,26235002.0,0.0,
+56,121625812.0,Fix bug in DenseInstance toString method and in TextGenerator class,60.0,84.0,16.0,5.0,1.0,4.0,1.0,2017-05-20 14:41:35,2017-07-04 12:26:50,,6593112.0,0.0,
+57,121801904.0,SAMOA-68:  Saving true and predicted labels to file,61.0,569.0,88.0,16.0,7.0,5.0,20.0,2017-05-22 15:16:29,2017-07-05 07:55:20,Maciej Grzenda,25504103.0,0.0,
+58,122264836.0,SAMOA-67 : Integration of MOA Instances into SAMOA,62.0,3598.0,1484.0,21.0,2.0,0.0,0.0,2017-05-24 16:01:17,2017-05-24 17:09:16,,15521543.0,0.0,
+59,122279270.0,SAMOA-67 : Integration of MOA Instances into SAMOA ,63.0,0.0,0.0,0.0,0.0,9.0,0.0,2017-05-24 17:10:48,2017-07-16 14:02:46,,15521543.0,0.0,
+60,129182752.0,SAMOA-67 : Integration of MOA instances into SAMOA,66.0,2686.0,893.0,25.0,2.0,0.0,0.0,2017-07-06 13:16:02,2017-07-09 12:54:01,,29950255.0,0.0,
+61,130752765.0,SAMOA-67 : Integration of MOA instances in SAMOA,67.0,2686.0,893.0,25.0,1.0,2.0,0.0,2017-07-16 14:12:20,2017-07-17 12:10:30,,15521543.0,1.0,2017-07-17 12:10:30
+62,131323161.0,SAMOA-71: fixes concurrency issues in HorizontalAMRulesRegressor,68.0,5.0,6.0,3.0,2.0,4.0,0.0,2017-07-19 13:36:39,2017-10-05 12:28:57,Maciej Grzenda,25504103.0,0.0,
+63,145370291.0,SAMOA-30 change samoa-storm properties file path,69.0,8.0,6.0,2.0,1.0,0.0,0.0,2017-10-09 03:39:14,2021-02-12 08:26:33,K.I. (Dennis) Jung,1720209.0,0.0,
+64,148055802.0,SAMOA-72 New Boosting algorithm for VHT,70.0,1675.0,166.0,18.0,3.0,5.0,1.0,2017-10-23 07:17:59,2019-12-01 22:09:02,,6593112.0,0.0,
+65,148265118.0,SAMOA-75 : Integration of the new features in instances,71.0,0.0,0.0,0.0,0.0,1.0,0.0,2017-10-23 23:35:01,2017-10-30 13:08:30,,15521543.0,0.0,
+66,157593048.0,SAMOA-78: Accept newly arriving values of nominal attributes,75.0,7.0,1.0,1.0,1.0,0.0,0.0,2017-12-11 15:28:46,2019-11-25 21:12:30,Maciej Grzenda,25504103.0,0.0,
+67,207767945.0,TimeClassificationPerformanceEvaluator,77.0,574.0,80.0,20.0,1.0,2.0,0.0,2018-08-11 10:03:14,2019-11-25 21:31:58,Łukasz Ławniczak,6844969.0,0.0,
+68,207779742.0,Flink-Adapter: fix reflection errors,78.0,12.0,12.0,10.0,1.0,0.0,0.0,2018-08-11 15:35:55,2019-11-25 21:41:56,Jerome Pasvantis,9969505.0,0.0,
+69,216473905.0,first versioon of samoa-heron,79.0,1626.0,0.0,16.0,1.0,1.0,0.0,2018-09-18 23:34:09,2018-09-18 23:37:07,skanjila,674374.0,0.0,
+70,306337046.0,SAMOA-80: Update instances to be used from MOA,83.0,739.0,268.0,16.0,1.0,0.0,0.0,2019-08-12 02:47:00,2019-11-25 23:02:23,Albert Bifet,4201874.0,0.0,

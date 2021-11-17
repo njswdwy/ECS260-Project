@@ -1,0 +1,9 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,44498866.0,HTRACE-242 Fix HTrace pom.xml WARNING's,1.0,28.0,12.0,1.0,3.0,0.0,0.0,2015-09-09 00:30:12,2015-09-09 01:31:01,Lewis John McGibbney,1165719.0,0.0,
+1,46223877.0,HTRACE-235. htrace-zipkin - add Kafka transport support,2.0,694.0,146.0,10.0,1.0,0.0,0.0,2015-09-29 00:17:55,2017-02-27 18:55:52,Cosmin Lehene,101597.0,0.0,
+2,52323648.0,Fixing regression while converting key/value pair into Zipkin binary annotation,3.0,1.0,1.0,1.0,1.0,0.0,0.0,2015-12-01 22:09:51,2018-11-28 03:06:53,Andriy Redko,509855.0,0.0,
+3,53059561.0,Fixed 'null' scope usage in case no sampling is being performed,4.0,3.0,3.0,1.0,1.0,0.0,0.0,2015-12-09 00:17:50,2018-11-28 03:06:29,Andriy Redko,509855.0,0.0,
+4,64329119.0,HTRACE-348 Typo in Tracer.java,5.0,1.0,1.0,1.0,1.0,1.0,0.0,2016-03-28 14:49:56,2016-03-29 12:41:19,Mike Drob,1592330.0,0.0,
+5,69260430.0,HTRACE-345 NOTICE.txt Zipkin Paragraph removed,7.0,0.0,3.0,1.0,1.0,0.0,0.0,2016-05-08 04:37:43,2018-04-11 20:28:01,Nisala Nirmana Mendis,11677962.0,1.0,2018-04-11 20:28:01
+6,77745821.0,GSOC 2016 Apache HTrace Span Receiver,11.0,1680.0,0.0,14.0,8.0,0.0,0.0,2016-07-17 20:57:12,2018-04-11 20:27:03,Nisala Nirmana Mendis,11677962.0,1.0,2018-04-11 20:27:03
+7,80557676.0,HTRACE-379 rely on apache parent pom for license information.,12.0,0.0,8.0,1.0,1.0,1.0,0.0,2016-08-09 03:49:40,2016-08-12 14:00:09,Sean Busbey,44891.0,0.0,

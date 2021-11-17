@@ -1,0 +1,75 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,67675995.0,Merge pull request #1 from apache/master,1.0,0.0,0.0,0.0,1.0,0.0,0.0,2016-04-25 07:31:29,2016-04-25 07:33:50,Thomas Draier,729255.0,0.0,
+1,76751805.0,UNOMI startup issue,2.0,1.0,1.0,1.0,7.0,0.0,0.0,2016-07-08 13:22:20,2016-07-08 13:27:07,Abdelkader Midani,13660557.0,0.0,
+2,76754376.0,Error in log files while starting unomi 1.1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-07-08 13:40:09,2016-07-11 08:53:31,Abdelkader Midani,13660557.0,1.0,2016-07-11 08:53:31
+3,78158118.0,Add a rule to send email when scoring has value been reached,4.0,85.0,0.0,5.0,3.0,0.0,2.0,2016-07-20 14:35:01,2016-07-27 11:54:07,Abdelkader Midani,13660557.0,1.0,2016-07-27 11:54:07
+4,79885776.0,Once per profile notification handled in the mailing action,5.0,15.0,0.0,1.0,1.0,0.0,0.0,2016-08-03 10:52:00,2016-08-05 12:48:49,Abdelkader Midani,13660557.0,1.0,2016-08-05 12:48:49
+5,80454697.0,"Add ""aggregated"" tag",6.0,16.0,6.0,3.0,2.0,0.0,0.0,2016-08-08 13:53:24,2016-08-09 12:21:50,Abdelkader Midani,13660557.0,1.0,2016-08-09 12:21:50
+6,80624827.0,UNOMI-28 Upgrade to ElasticSearch 2.x,7.0,629.0,686.0,33.0,11.0,2.0,0.0,2016-08-09 13:56:30,2016-11-16 13:50:11,Serge Huber,736584.0,0.0,
+7,80802276.0,UNOMI-51 : Scoring modifiers are ignored when the score value is updated,8.0,12.0,6.0,6.0,3.0,0.0,0.0,2016-08-10 14:18:17,2016-08-12 14:36:21,Abdelkader Midani,13660557.0,1.0,2016-08-12 14:36:21
+8,81670084.0,UNOMI-50 add entry point to query sessions in ProfileServiceEndPoint,9.0,27.0,0.0,3.0,1.0,0.0,0.0,2016-08-17 16:00:50,2016-08-17 16:04:17,dgaillard,2765568.0,1.0,2016-08-17 16:04:17
+9,83817297.0,UNOMI-55 fix typo issue,10.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-09-02 15:07:05,2016-09-05 08:57:08,dgaillard,2765568.0,1.0,2016-09-05 08:57:08
+10,84261600.0,UNOMI-32 fix issue with missing save after event execution.,11.0,8.0,4.0,3.0,1.0,0.0,0.0,2016-09-07 09:01:05,2016-09-07 09:06:24,dgaillard,2765568.0,1.0,2016-09-07 09:06:24
+11,84316879.0,UNOMI-53 : goalMatchCondition : default value for goalId,12.0,2.0,1.0,1.0,1.0,0.0,0.0,2016-09-07 14:59:37,2016-09-09 16:43:37,Abdelkader Midani,13660557.0,1.0,2016-09-09 16:43:37
+12,84897031.0,UNOMI-32 remove property if the property is present in the object wit…,13.0,21.0,16.0,1.0,1.0,0.0,0.0,2016-09-12 15:55:49,2016-09-13 09:41:34,dgaillard,2765568.0,1.0,2016-09-13 09:41:34
+13,86196488.0,UNOMI-56 : Add setPropertyValueMultiple in setPropertyAction.json,14.0,13.0,3.0,2.0,1.0,0.0,0.0,2016-09-21 16:24:32,2016-10-27 07:56:07,Abdelkader Midani,13660557.0,1.0,2016-10-27 07:56:07
+14,87700816.0,UNOMI-59 : Handle update of multivalued property,15.0,5.0,9.0,2.0,3.0,0.0,0.0,2016-10-03 11:29:44,2016-10-27 07:53:22,Abdelkader Midani,13660557.0,1.0,2016-10-27 07:53:22
+15,90236316.0,UNOMI-60,16.0,13.0,1.0,3.0,1.0,0.0,0.0,2016-10-20 16:32:42,2016-10-27 07:46:43,dgaillard,2765568.0,1.0,2016-10-27 07:46:43
+16,91947861.0,UNOMI-61 update version of mvel from 2.1.9 to 2.3.1,17.0,1.0,4.0,2.0,1.0,0.0,0.0,2016-11-02 10:57:43,2016-11-02 15:55:33,dgaillard,2765568.0,1.0,2016-11-02 15:55:33
+17,92817790.0,"UNOMI-62 : Add multivalue comparison operator ('hasAllOf', 'hasNoneOf…",18.0,32.0,4.0,6.0,3.0,0.0,0.0,2016-11-08 16:59:57,2016-11-25 13:09:13,Abdelkader Midani,13660557.0,1.0,2016-11-25 13:09:13
+18,93614044.0,UNOMI-64 : Add Region/State/Province and Subregion/County,19.0,18.0,1.0,3.0,1.0,0.0,0.0,2016-11-14 17:48:35,2016-11-16 09:20:36,Abdelkader Midani,13660557.0,1.0,2016-11-16 09:20:36
+19,93968893.0,Feature: UNOMI-28 Upgrade to ElasticSearch 2.x,20.0,1053.0,823.0,67.0,23.0,0.0,0.0,2016-11-16 13:49:35,2017-01-09 16:21:48,Serge Huber,736584.0,1.0,2017-01-09 16:21:48
+20,96499228.0,Feature: UNOMI-70 Upgrade to ElasticSearch 5.x,21.0,6136.0,2122.0,103.0,54.0,0.0,0.0,2016-12-05 10:02:12,2017-01-09 16:21:48,Serge Huber,736584.0,1.0,2017-01-09 16:21:48
+21,102913068.0,UNOMI-74 use updated version of uadetector from jahia repo,22.0,2.0,2.0,1.0,1.0,0.0,0.0,2017-01-24 12:58:10,2017-01-24 13:00:11,dgaillard,2765568.0,1.0,2017-01-24 13:00:11
+22,104370915.0,UNOMI-77 : Add inContains Comparison Operator,23.0,42.0,25.0,2.0,1.0,0.0,0.0,2017-02-02 16:19:58,2017-02-13 12:46:55,Abdelkader Midani,13660557.0,1.0,2017-02-13 12:46:55
+23,106788222.0,UNOMI-81 add new entry point to allow tag creation from plugins,24.0,27.0,0.0,3.0,1.0,0.0,0.0,2017-02-17 18:38:22,2017-02-24 08:16:13,dgaillard,2765568.0,1.0,2017-02-24 08:16:13
+24,107001601.0,UNOMI-83 : org.apache.unomi.cluster.cfg sample contains wrong props n…,25.0,44.0,6.0,5.0,2.0,0.0,0.0,2017-02-20 13:02:37,2017-02-24 08:34:53,Abdelkader Midani,13660557.0,1.0,2017-02-24 08:34:53
+25,108136176.0,UNOMI-79 : Implement save persona with sessions.,26.0,45.0,2.0,4.0,1.0,1.0,0.0,2017-02-27 15:24:32,2017-02-28 11:27:34,Rizak AHMED,6330390.0,1.0,2017-02-28 11:27:34
+26,111021270.0,UNOMI-86 : Implements overrides for scores,27.0,41.0,45.0,4.0,1.0,0.0,0.0,2017-03-16 09:11:02,2017-04-14 13:07:19,Rizak AHMED,6330390.0,1.0,2017-04-14 13:07:19
+27,126517271.0,UNOMI-103 : Add parameter in context servlet to invalidate session or profile,28.0,5.0,3.0,1.0,1.0,0.0,0.0,2017-06-20 12:13:30,2017-06-20 12:30:16,Rizak AHMED,6330390.0,1.0,2017-06-20 12:30:16
+28,127944549.0,UNOMI-107 : Add a tag to distinct autocompleted properties.,29.0,4.0,0.0,1.0,1.0,0.0,0.0,2017-06-28 14:59:44,2017-06-29 01:13:22,Rizak AHMED,6330390.0,1.0,2017-06-29 01:13:22
+29,132776307.0,Weather update,30.0,772.0,1.0,19.0,11.0,0.0,10.0,2017-07-27 15:21:09,2017-08-08 12:48:08,Dinesh Salhotra,15339207.0,1.0,2017-08-08 12:48:08
+30,136549690.0,pastEventCondition hardcoded 5000 limit/UNOMI-119,31.0,14.0,1.0,3.0,1.0,0.0,0.0,2017-08-18 19:33:09,2017-08-22 15:26:07,,25647664.0,1.0,2017-08-22 15:26:07
+31,137248932.0,"Edit the Readme file, optimized the code",32.0,101.0,116.0,3.0,3.0,0.0,0.0,2017-08-23 15:28:29,2017-11-23 16:51:40,Dinesh Salhotra,15339207.0,1.0,2017-11-13 11:55:23
+32,148982216.0,Check if current profile is a contact in SaleForce,33.0,95.0,47.0,4.0,2.0,0.0,0.0,2017-10-26 16:20:19,2017-11-03 14:41:56,Dinesh Salhotra,15339207.0,1.0,2017-11-03 14:41:56
+33,150295025.0,"UNOMI-134 : Added personalized sorts in request, with sort services a…",34.0,658.0,142.0,11.0,2.0,0.0,0.0,2017-11-02 13:47:32,2017-11-03 15:33:17,Thomas Draier,729255.0,1.0,2017-11-03 15:33:17
+34,151440674.0,Create an extension to add a visitor to Mailchimp's list.,35.0,1199.0,507.0,33.0,6.0,0.0,0.0,2017-11-08 17:06:09,2017-11-29 14:39:56,Dinesh Salhotra,15339207.0,1.0,2017-11-29 14:39:56
+35,155359966.0,Weather update,36.0,38.0,53.0,1.0,2.0,0.0,0.0,2017-11-29 14:48:31,2017-11-29 14:52:03,Dinesh Salhotra,15339207.0,0.0,
+36,155371645.0,Add module deleted by mistake in pull request 35,37.0,732.0,0.0,16.0,1.0,0.0,0.0,2017-11-29 15:30:26,2017-11-29 15:32:33,Dinesh Salhotra,15339207.0,1.0,2017-11-29 15:32:33
+37,155393459.0,"DMF-2098 changed one logger position of ""Checking if we have a contact....",38.0,1.0,1.0,1.0,1.0,0.0,0.0,2017-11-29 16:46:39,2017-12-06 15:22:39,Dinesh Salhotra,15339207.0,1.0,2017-12-06 15:22:39
+38,155406975.0,"Removed ""Beta"" from MailChimp Connector name.",39.0,3.0,3.0,2.0,1.0,0.0,0.0,2017-11-29 17:39:33,2017-12-01 10:12:50,Dinesh Salhotra,15339207.0,0.0,
+39,157207764.0,Mapping properties,40.0,303.0,62.0,9.0,8.0,1.0,0.0,2017-12-08 10:18:37,2018-01-11 17:56:36,Dinesh Salhotra,15339207.0,1.0,2018-01-11 17:56:36
+40,162174818.0,Add entry point in RulesServiceEndPoint to retrieve the whole rule in…,41.0,31.0,0.0,3.0,1.0,0.0,0.0,2018-01-10 16:49:08,2018-01-10 16:51:17,Dinesh Salhotra,15339207.0,1.0,2018-01-10 16:51:16
+41,162587784.0,Consent with salesforces,42.0,55.0,10.0,4.0,4.0,0.0,0.0,2018-01-12 09:50:09,2018-01-16 14:27:56,Dinesh Salhotra,15339207.0,1.0,2018-01-16 14:27:56
+42,163402741.0,"Add comment, how to configure the cfg file",43.0,2.0,0.0,1.0,1.0,0.0,0.0,2018-01-17 10:28:42,2018-01-17 10:31:08,Dinesh Salhotra,15339207.0,1.0,2018-01-17 10:31:08
+43,163478733.0,UNOMI-147 Separator updated to = to <=>,44.0,18.0,18.0,7.0,2.0,0.0,0.0,2018-01-17 15:53:12,2018-01-17 16:31:39,Dinesh Salhotra,15339207.0,1.0,2018-01-17 16:31:39
+44,164806731.0,"Change mandatory properties, refactor the isMemberOfMailChimpList fun…",45.0,105.0,90.0,3.0,3.0,0.0,0.0,2018-01-24 10:17:12,2018-01-24 14:51:07,Dinesh Salhotra,15339207.0,1.0,2018-01-24 14:51:07
+45,167742197.0,UNOMI-149 fix scoring condition strategy,46.0,1.0,1.0,1.0,2.0,7.0,0.0,2018-02-07 16:29:17,2018-02-08 16:10:40,MT BENTERKI,8075371.0,1.0,2018-02-08 16:10:40
+46,167767370.0,UNOMI-150 Delete old ES index template during migration to 1.3.0,47.0,181.0,31.0,8.0,7.0,1.0,9.0,2018-02-07 18:05:24,2018-02-12 09:30:27,Jarek Lipski,2506014.0,1.0,2018-02-12 09:30:27
+47,167984808.0,UNOMI-151 add send back bad request message ,48.0,2.0,1.0,1.0,1.0,3.0,11.0,2018-02-08 14:21:56,2018-02-12 09:31:11,Dinesh Salhotra,15339207.0,1.0,2018-02-12 09:31:11
+48,168860372.0,UNOMI-152 Fix monthly index New Year's bug,49.0,1.0,1.0,1.0,1.0,0.0,1.0,2018-02-13 14:35:32,2018-02-14 12:51:47,Jarek Lipski,2506014.0,1.0,2018-02-14 12:51:47
+49,170168335.0,UNOMI-165 Minor improvements in dev shell commands,50.0,26.0,27.0,6.0,2.0,0.0,2.0,2018-02-20 11:39:40,2018-02-20 13:21:09,Jarek Lipski,2506014.0,1.0,2018-02-20 13:21:09
+50,171436679.0,UNOMI-168 Fix property type IT,51.0,141.0,65.0,5.0,4.0,1.0,6.0,2018-02-26 17:11:49,2018-03-02 11:19:19,Jarek Lipski,2506014.0,1.0,2018-03-02 11:19:19
+51,171917941.0,UNOMI-168 Fix property type IT,52.0,1.0,4.0,1.0,1.0,0.0,0.0,2018-02-28 10:51:12,2018-02-28 10:53:32,Jarek Lipski,2506014.0,1.0,2018-02-28 10:53:32
+52,172222101.0,UNOMI-169 Run integration tests before deployment,53.0,8.0,0.0,1.0,1.0,2.0,0.0,2018-03-01 12:22:42,2018-03-02 11:28:09,Jarek Lipski,2506014.0,1.0,2018-03-02 11:28:09
+53,172906984.0,fix unknown protocol: wrap,54.0,10.0,3.0,3.0,1.0,2.0,0.0,2018-03-05 15:54:27,2018-03-05 19:34:10,Oliver Lietz,441166.0,1.0,2018-03-05 19:34:10
+54,173019646.0,Feature unomi 5 karaf4 1,55.0,16.0,16.0,6.0,8.0,4.0,0.0,2018-03-05 23:44:36,2018-03-06 11:10:49,Oliver Lietz,441166.0,1.0,2018-03-06 11:10:49
+55,174102204.0,UNOMI-5 Upgrade to Karaf 4,56.0,42.0,77.0,10.0,2.0,3.0,0.0,2018-03-09 20:34:46,2019-05-22 09:05:47,Oliver Lietz,441166.0,0.0,
+56,176482748.0,Correct resource bundle encoding for modules of unomi-plugins,57.0,23.0,23.0,5.0,4.0,0.0,0.0,2018-03-21 13:53:16,2018-03-21 16:04:02,MT BENTERKI,8075371.0,1.0,2018-03-21 16:04:02
+57,176527191.0,UNOMI-173 remove remoteAddr and remoteHost,58.0,3.0,49.0,10.0,1.0,0.0,0.0,2018-03-21 16:05:53,2018-03-22 10:58:43,MT BENTERKI,8075371.0,1.0,2018-03-22 10:58:43
+58,179163345.0,Handle exception when cxs is undefined.,59.0,7.0,1.0,1.0,1.0,0.0,0.0,2018-04-03 17:11:39,2018-04-09 09:54:37,Donnie,33359956.0,1.0,2018-04-09 09:54:37
+59,183416905.0,UNOMI-177 update population variable type to Long instead of Integer,60.0,5.0,5.0,2.0,1.0,0.0,0.0,2018-04-23 12:23:54,2018-04-25 09:59:58,MT BENTERKI,8075371.0,1.0,2018-04-25 09:59:58
+60,185791768.0,UNOMI-179 Event Persistence Non-transient,61.0,39.0,5.0,5.0,2.0,1.0,1.0,2018-05-03 17:53:32,2018-05-08 13:36:39,Donnie,33359956.0,1.0,2018-05-08 13:36:39
+61,193391280.0,A visitor can have a negative score,62.0,5.0,6.0,1.0,3.0,0.0,0.0,2018-06-07 17:13:39,2018-06-15 14:35:51,Dinesh Salhotra,15339207.0,0.0,
+62,195195087.0,Remove a if condition on score value,63.0,0.0,2.0,1.0,1.0,0.0,0.0,2018-06-15 14:36:30,2018-06-20 12:06:42,Dinesh Salhotra,15339207.0,0.0,
+63,196126632.0,The score can be negative,64.0,1.0,3.0,1.0,1.0,0.0,0.0,2018-06-20 12:48:50,2018-06-21 15:43:56,Dinesh Salhotra,15339207.0,1.0,2018-06-21 15:43:56
+64,205969533.0,UNOMI-195 fix issue of retrieve totalhits when aggregations equals null,65.0,17.0,14.0,1.0,1.0,3.0,0.0,2018-08-03 09:07:55,2018-09-07 07:56:54,MT BENTERKI,8075371.0,0.0,
+65,212179923.0,UNOMI-126 Create new manual module and add master documentation in asciidoc format,66.0,14397.0,0.0,67.0,2.0,3.0,0.0,2018-08-30 19:03:54,2018-09-10 09:30:30,François Papon,6915443.0,1.0,2018-09-10 09:30:30
+66,215369953.0,Archives manual 1.3,67.0,4974.0,0.0,19.0,1.0,0.0,0.0,2018-09-13 18:14:56,2018-09-20 18:40:34,François Papon,6915443.0,1.0,2018-09-20 18:40:34
+67,216961092.0,Update generation of documentation script,68.0,33.0,18.0,4.0,1.0,0.0,0.0,2018-09-20 12:53:48,2018-09-20 18:41:23,François Papon,6915443.0,1.0,2018-09-20 18:41:23
+68,230425463.0,UNOMI-209: set dependency on itests for package only when integration-tests profile is used,69.0,93.0,94.0,33.0,1.0,0.0,0.0,2018-11-13 10:40:05,2018-11-13 12:31:14,kevan Jahanshahi,745718.0,1.0,2018-11-13 12:31:14
+69,230846189.0,UNOMI-210: Add Tutorials Section to Documentation,70.0,304.0,0.0,2.0,1.0,3.0,0.0,2018-11-14 14:03:38,2018-11-15 14:41:05,Mike Ghen,5077880.0,0.0,
+70,239981726.0,.identify() does not send events to dmp,73.0,1.0,3.0,1.0,2.0,6.0,0.0,2018-12-19 21:35:55,2019-11-28 20:41:01,Shpetim Shala,6706681.0,0.0,
+71,245382658.0,Add Jenkins build and Maven central badges on README.md,74.0,4.0,0.0,1.0,1.0,0.0,0.0,2019-01-17 05:48:46,2019-01-17 05:49:30,François Papon,6915443.0,1.0,2019-01-17 05:49:30
+72,245384246.0,Fix Kar feature deployment in Karaf 4.2.x,75.0,6.0,0.0,1.0,1.0,5.0,0.0,2019-01-17 05:59:24,2019-02-15 08:52:16,François Papon,6915443.0,1.0,2019-02-15 08:52:16
+73,246679339.0,UNOMI-218 add queryParam annotation to the Unomi server rest API methods,76.0,31.0,13.0,4.0,1.0,0.0,0.0,2019-01-22 16:54:57,2019-02-06 16:30:32,MT BENTERKI,8075371.0,1.0,2019-02-06 16:30:32

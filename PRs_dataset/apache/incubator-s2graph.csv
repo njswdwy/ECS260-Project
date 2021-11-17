@@ -1,0 +1,184 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,55722473.0,S2GRAPH-24: Add counter config for readonly graph,1.0,11.0,6.0,5.0,1.0,3.0,0.0,2016-01-12 07:22:14,2016-01-13 10:29:13,Jaesang Kim,1726920.0,0.0,
+1,55731975.0,[S2GRAPH-14] Abstract HBase specific methods in Management and Label.,2.0,225.0,242.0,13.0,5.0,6.0,0.0,2016-01-12 09:24:28,2016-01-15 08:14:39,Doyung Yoon,1264825.0,0.0,
+2,55740758.0,[S2GRAPH-25] Support Secure HBase Cluster ,3.0,100.0,6.0,2.0,8.0,4.0,0.0,2016-01-12 10:44:52,2016-02-26 02:21:43,Doyung Yoon,1264825.0,0.0,
+3,55866093.0,S2GRAPH-7 abstract common code,4.0,2433.0,2676.0,68.0,8.0,3.0,0.0,2016-01-13 08:15:34,2016-01-13 09:07:45,daewon,1182522.0,0.0,
+4,55872815.0,[S2GRAPH-11] remove JsNumber.as[Double] on sortBy in PostProcess.,5.0,5.0,4.0,1.0,3.0,3.0,1.0,2016-01-13 09:32:21,2016-02-23 06:10:25,Doyung Yoon,1264825.0,0.0,
+5,55873433.0,[S2GRAPH-16] Performance tunning on where parser,6.0,52.0,27.0,3.0,3.0,7.0,0.0,2016-01-13 09:38:25,2016-02-23 06:22:22,Doyung Yoon,1264825.0,0.0,
+6,55879608.0,[S2GRAPH-21] Change PostProcessBenchmarkSpec not to store and fetch test data from storage,7.0,9.0,0.0,1.0,2.0,4.0,0.0,2016-01-13 10:35:55,2016-02-23 06:22:22,Doyung Yoon,1264825.0,0.0,
+7,56009096.0,[S2GRAPH-9] Provide rest server using netty,8.0,352.0,442.0,13.0,13.0,6.0,1.0,2016-01-14 09:17:56,2016-01-18 10:10:45,daewon,1182522.0,0.0,
+8,56124523.0,"[S2GRAPH-18] Query Option ""interval"" is Broken",9.0,1.0,2.0,1.0,1.0,3.0,0.0,2016-01-15 02:46:31,2016-02-23 06:43:49,daewon,1182522.0,0.0,
+9,56438146.0,[S2GRAPH-2] README Update to Support REST API Refactoring,10.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-01-19 09:07:30,2016-01-25 04:37:00,,4621667.0,0.0,
+10,56439608.0,[S2GRAPH-30] Typo in README,11.0,2.0,2.0,1.0,2.0,3.0,0.0,2016-01-19 09:22:22,2016-06-11 15:11:19,,4621667.0,0.0,
+11,56445162.0,"[S2GRAPH-20] bug fix in query option ""sample""",12.0,44.0,24.0,2.0,1.0,3.0,0.0,2016-01-19 10:13:26,2016-02-23 07:01:59,,4621667.0,0.0,
+12,56454664.0,[S2GRAPH-28] bug fix in '_to' query,13.0,51.0,16.0,6.0,5.0,3.0,2.0,2016-01-19 11:41:25,2016-02-23 07:07:18,,4621667.0,0.0,
+13,56727327.0,[S2GRAPH-15] initial commit of S2Lambda,15.0,1622.0,0.0,37.0,5.0,2.0,0.0,2016-01-21 10:05:03,2020-02-04 04:07:39,Min Seok Kim,1531387.0,0.0,
+14,59904745.0,[S2GRAPH-31] Remove playframework dependencies on s2core/build.sbt ,16.0,6.0,3.0,2.0,1.0,3.0,0.0,2016-02-19 04:58:18,2016-02-23 07:11:49,Doyung Yoon,1264825.0,0.0,
+15,59910788.0,[S2GRAPH-34] Provide option to select which field in edge's properties to run timeDecay function.,17.0,29.0,3.0,3.0,1.0,3.0,0.0,2016-02-19 06:45:38,2016-02-23 07:18:10,Doyung Yoon,1264825.0,0.0,
+16,59910843.0,[S2GRAPH-35] Provide normalize option on query.,18.0,26.0,4.0,3.0,2.0,3.0,0.0,2016-02-19 06:46:36,2016-02-23 07:28:42,Doyung Yoon,1264825.0,0.0,
+17,59914179.0,[S2GRAPH-36]: Provide Blocking API for Edge/Vertex operations.,19.0,183.0,117.0,6.0,1.0,3.0,0.0,2016-02-19 07:34:59,2016-02-23 07:31:31,Doyung Yoon,1264825.0,0.0,
+18,59914874.0,[S2GRAPH-37] Extract LockExpireDuration as configuration.,20.0,3.0,2.0,3.0,1.0,3.0,0.0,2016-02-19 07:44:43,2016-02-23 07:37:42,Doyung Yoon,1264825.0,0.0,
+19,59916031.0,[S2GRAPH-38] Transform option gives wrong result since it transform degree edge too.,21.0,3.0,3.0,1.0,1.0,3.0,0.0,2016-02-19 08:00:09,2016-02-23 07:37:42,Doyung Yoon,1264825.0,0.0,
+20,59916440.0,[S2GRAPH-39] Better exception message on converting between Json and InnerVal.,22.0,5.0,6.0,1.0,1.0,3.0,0.0,2016-02-19 08:05:38,2016-02-23 07:39:55,Doyung Yoon,1264825.0,0.0,
+21,59916887.0,[S2GRAPH-40] PostProcess.toHashKey gives different hash key with same value when edge's label schema version is different.,23.0,18.0,11.0,1.0,1.0,3.0,0.0,2016-02-19 08:12:02,2016-02-23 07:42:37,Doyung Yoon,1264825.0,0.0,
+22,59918500.0,[S2GRAPH-41] Refactor PostProcess's toSimpleVertexArrJson.,24.0,252.0,173.0,5.0,3.0,3.0,0.0,2016-02-19 08:32:21,2016-02-23 08:25:10,Doyung Yoon,1264825.0,0.0,
+23,59918991.0,[S2GRAPH-42] Bug on EdgeTransformer with specific cases.,25.0,2.0,1.0,1.0,1.0,3.0,0.0,2016-02-19 08:38:54,2016-02-23 08:31:06,Doyung Yoon,1264825.0,0.0,
+24,59919504.0,[S2GRAPH-43] Bug on offset when Interval is given on query.,26.0,1.0,1.0,1.0,1.0,3.0,0.0,2016-02-19 08:44:15,2016-02-23 08:32:35,Doyung Yoon,1264825.0,0.0,
+25,60307433.0,"[S2GRAPH-32]: Support variable such as now, day, hour on query.",27.0,76.0,12.0,2.0,4.0,3.0,0.0,2016-02-23 09:02:57,2016-02-23 11:07:48,Doyung Yoon,1264825.0,0.0,
+26,60308233.0,[S2GRAPH-44] Provide cache for WhereParser on query.,28.0,20.0,6.0,1.0,1.0,3.0,0.0,2016-02-23 09:10:21,2016-02-23 10:49:25,Doyung Yoon,1264825.0,0.0,
+27,60320056.0,[S2GRAPH-45] Provide way to call specific bucket on experiment.,29.0,86.0,61.0,6.0,2.0,3.0,0.0,2016-02-23 10:45:24,2016-02-23 11:10:07,Doyung Yoon,1264825.0,0.0,
+28,60344578.0,[S2GRAPH-33] Support weighted sum of multiple query results.,30.0,125.0,41.0,7.0,1.0,3.0,0.0,2016-02-23 14:09:56,2016-02-23 14:34:30,Doyung Yoon,1264825.0,0.0,
+29,60350710.0,[S2GRAPH-45] Provide way to call specific bucket on experiment.,31.0,8.0,6.0,1.0,4.0,1.0,0.0,2016-02-23 14:50:40,2016-02-29 06:16:41,Doyung Yoon,1264825.0,0.0,
+30,60923247.0,[S2GRAPH-19] When query with duration error.,32.0,4.0,0.0,1.0,1.0,3.0,0.0,2016-02-26 23:58:55,2016-02-29 03:26:51,Doyung Yoon,1264825.0,0.0,
+31,61022553.0,"[S2GRAPH-17] Remove unnecessary abstraction layer, Storage.",33.0,3615.0,1935.0,71.0,310.0,1.0,0.0,2016-02-29 03:15:13,2016-02-29 03:27:23,Doyung Yoon,1264825.0,0.0,
+32,61023895.0,"[S2GRAPH-17]: Remove unnecessary abstraction layer, Storage.",34.0,3615.0,1935.0,71.0,1.0,3.0,15.0,2016-02-29 03:39:27,2016-02-29 06:15:17,Doyung Yoon,1264825.0,0.0,
+33,61034986.0,[S2GRAPH-50] Provide new HBase Storage Schema.,35.0,269.0,55.0,12.0,7.0,4.0,0.0,2016-02-29 06:44:00,2016-03-07 02:20:47,Doyung Yoon,1264825.0,0.0,
+34,61395504.0,[S2GRAPH-53] Refactor Storage to decide which serializer/deserializer for IndexEdge/SnapshotEdge/Vertex.,37.0,543.0,297.0,13.0,1.0,4.0,0.0,2016-03-02 12:53:02,2016-03-04 14:56:31,Doyung Yoon,1264825.0,0.0,
+35,61866131.0,[S2GRAPH-55] Add netty transport option,38.0,12.0,4.0,1.0,2.0,3.0,0.0,2016-03-07 02:34:19,2016-03-17 08:07:23,daewon,1182522.0,0.0,
+36,61891120.0,[S2GRAPH-4] Update license headers in source codes.,39.0,4121.0,10.0,219.0,1.0,2.0,0.0,2016-03-07 09:25:28,2016-03-15 10:23:57,Doyung Yoon,1264825.0,0.0,
+37,62341228.0,[S2GRAPH-57] Change package names into org.apahce.s2graph.,40.0,1796.0,4128.0,214.0,11.0,4.0,0.0,2016-03-10 05:24:14,2016-03-15 17:47:51,Doyung Yoon,1264825.0,0.0,
+38,62913483.0,[S2GRAPH-4] Update license headers in source codes.,41.0,6176.0,4643.0,274.0,2.0,0.0,0.0,2016-03-15 14:25:04,2016-03-15 14:26:21,Doyung Yoon,1264825.0,0.0,
+39,62978428.0,[S2GRAPH-4] Update license headers in source codes.,42.0,3872.0,9.0,204.0,3.0,0.0,0.0,2016-03-15 21:17:04,2016-03-16 21:03:47,Doyung Yoon,1264825.0,0.0,
+40,63183882.0,[S2GRAPH-60]: Add divide operation to scorePropagateOp,43.0,207.0,0.0,4.0,1.0,3.0,0.0,2016-03-17 07:41:50,2016-03-17 09:14:06,Doyung Yoon,1264825.0,0.0,
+41,63817737.0,[S2GRAPH-61] Update mail list,44.0,4.0,2.0,1.0,2.0,3.0,0.0,2016-03-23 01:07:29,2016-03-23 03:37:20,,4621667.0,0.0,
+42,69533135.0,[S2GRAPH-71] Missing resolver in plugin settings,47.0,3.0,0.0,1.0,1.0,1.0,0.0,2016-05-10 16:06:02,2016-06-10 13:31:25,Injun Song,1416696.0,0.0,
+43,69544247.0,[S2GRAPH-22] Add missing shebang line to file,48.0,1.0,0.0,1.0,1.0,1.0,0.0,2016-05-10 17:19:14,2016-06-11 07:41:00,Injun Song,1416696.0,0.0,
+44,71784592.0,[S2GRAPH-63]: Condition on partition strong edges and weak edges on mutateEdges is wrong.,49.0,3.0,1.0,2.0,2.0,1.0,0.0,2016-05-27 23:33:39,2016-06-10 09:50:18,Doyung Yoon,1264825.0,0.0,
+45,71789491.0,"[S2GRAPH-66]: Optimize toEdge, IndexEdgeDeserializable using mutable Map.",50.0,52.0,42.0,2.0,1.0,2.0,0.0,2016-05-28 01:41:03,2016-06-11 14:16:02,Doyung Yoon,1264825.0,0.0,
+46,71789529.0,[S2GRAPH-69]: Change IndexEdge's props data type.,51.0,117.0,102.0,9.0,4.0,1.0,0.0,2016-05-28 01:42:56,2016-06-11 14:43:32,Doyung Yoon,1264825.0,0.0,
+47,71789584.0,"[S2GRAPH-81]: Separate Serializable's toKeyValues into 3, toRowKey, toQualifier, toValue",52.0,328.0,300.0,13.0,3.0,2.0,0.0,2016-05-28 01:44:58,2016-06-11 15:01:09,Doyung Yoon,1264825.0,0.0,
+48,71793449.0,[S2GRAPH-68]: Refactor write-write conflict resolving logic.,53.0,405.0,313.0,3.0,1.0,2.0,0.0,2016-05-28 05:21:24,2016-06-17 01:08:32,Doyung Yoon,1264825.0,0.0,
+49,71794183.0,[S2GRAPH-82] Merge DeferCache and FutureCache.,54.0,154.0,149.0,7.0,5.0,3.0,0.0,2016-05-28 06:07:02,2016-08-31 21:31:27,Doyung Yoon,1264825.0,0.0,
+50,71940051.0,[S2GRAPH-111] typo fix: getServiceLable -> getServiceLabel,55.0,2.0,2.0,1.0,1.0,1.0,0.0,2016-05-30 21:48:23,2016-09-13 01:22:20,Jong Wook Kim,266841.0,0.0,
+51,72031942.0,[S2GRAPH-84] Test-case compilation error on `s2counter_loader` project,56.0,21.0,696.0,4.0,1.0,3.0,2.0,2016-05-31 15:04:02,2016-08-31 21:50:21,Jaesang Kim,1726920.0,0.0,
+52,72791757.0,[S2GRAPH-70] Automate the process of building a distribution package,57.0,683.0,47.0,30.0,5.0,7.0,2.0,2016-06-06 22:58:06,2016-06-11 14:03:53,Jong Wook Kim,266841.0,0.0,
+53,73368286.0,[S2GRAPH-64]: incrementCounts yield type case exception.,58.0,7.0,3.0,2.0,2.0,1.0,0.0,2016-06-10 12:49:01,2016-06-13 13:40:35,Doyung Yoon,1264825.0,0.0,
+54,73370890.0,[S2GRAPH-65]: Deferred produce exception.,59.0,14.0,13.0,2.0,2.0,1.0,0.0,2016-06-10 13:09:45,2016-06-17 00:50:53,Doyung Yoon,1264825.0,0.0,
+55,73375151.0,S2GRAPH-87: replace LICENSE by the exact AL2 terms,60.0,203.0,10.0,2.0,1.0,1.0,0.0,2016-06-10 13:40:34,2016-06-11 07:41:00,Sergio Fernández,812223.0,0.0,
+56,73673419.0,"[S2GRAPH-88] include LICENSE, NOTICE and DISCLAIMER in the binary release",61.0,40.0,8.0,4.0,1.0,0.0,0.0,2016-06-14 02:58:10,2016-06-20 00:39:08,Jong Wook Kim,266841.0,0.0,
+57,74872227.0,[S2GRAPH-89]: Change version number on project.,62.0,20.0,5.0,5.0,4.0,3.0,0.0,2016-06-22 23:03:07,2016-08-28 18:26:36,Doyung Yoon,1264825.0,0.0,
+58,81414689.0,[S2GRAPH-91]: Remove custom repository on project's build.sbt,63.0,4.0,8.0,3.0,6.0,0.0,4.0,2016-08-16 04:59:43,2016-08-28 18:34:20,Doyung Yoon,1264825.0,0.0,
+59,81583721.0,[S2GRAPH-96]: Remove unmanaged dependencies(asynchbase) and speficy it on build.sbt,64.0,5.0,1.0,3.0,6.0,7.0,0.0,2016-08-17 04:49:45,2016-08-29 13:10:00,Doyung Yoon,1264825.0,0.0,
+60,81604329.0,[S2GRAPH-93]: Remove MySQL JDBC driver.,65.0,78.0,73.0,13.0,4.0,5.0,0.0,2016-08-17 08:42:40,2016-08-28 18:45:02,Doyung Yoon,1264825.0,0.0,
+61,82330379.0,[S2GRAPH-97]: Add KEYS file,66.0,75.0,0.0,2.0,3.0,0.0,0.0,2016-08-23 09:22:32,2016-08-29 13:16:16,Doyung Yoon,1264825.0,0.0,
+62,82731085.0,[S2GRAPH-95]: Add sbt-pgp plugin on plugins.sbt,67.0,8.0,1.0,3.0,7.0,0.0,0.0,2016-08-25 14:33:43,2016-08-30 05:14:17,Doyung Yoon,1264825.0,0.0,
+63,83053302.0,[S2GRAPH-98]: Make test cases on multiple projects run sequentially.,68.0,3.0,0.0,2.0,2.0,1.0,0.0,2016-08-29 07:02:56,2016-08-29 07:48:54,Doyung Yoon,1264825.0,0.0,
+64,83208344.0,[S2GRAPH-99]: Reduce number of test run on test cases on org.apache.s2graph.rest.play.benchmark,69.0,3.0,1.0,2.0,3.0,0.0,0.0,2016-08-30 04:56:07,2016-08-30 07:50:27,Doyung Yoon,1264825.0,0.0,
+65,83210561.0,[S2GRAPH-92]: Add proper license headers on files with unknown licenses.,70.0,174.0,12.0,15.0,5.0,0.0,0.0,2016-08-30 05:30:59,2016-08-30 14:07:00,Doyung Yoon,1264825.0,0.0,
+66,83283695.0,"[S2GRAPH-100]: Add BUILD.md to explain how to package from source, then add it into REAME.md",71.0,39.0,26.0,2.0,4.0,2.0,0.0,2016-08-30 14:37:40,2016-08-31 00:29:09,Doyung Yoon,1264825.0,0.0,
+67,83392247.0,[S2GRAPH-102]: Add more configuration optoins in application.conf,72.0,78.0,13.0,10.0,6.0,0.0,2.0,2016-08-31 05:49:24,2016-08-31 21:24:48,Doyung Yoon,1264825.0,0.0,
+68,83394100.0,[S2GRAPH-94]: Add description for project layout on REAME,73.0,25.0,8.0,2.0,5.0,1.0,0.0,2016-08-31 06:13:35,2016-08-31 20:45:32,Doyung Yoon,1264825.0,0.0,
+69,83489286.0,[S2GRAPH-103]: Remove dependencies on custom fork of asynchbase.,74.0,4.0,1.0,2.0,2.0,0.0,0.0,2016-08-31 16:49:21,2016-08-31 16:51:33,Doyung Yoon,1264825.0,0.0,
+70,83634197.0,[S2GRAPH-105] remove the full path on packaged tarball,75.0,1.0,1.0,1.0,1.0,2.0,0.0,2016-09-01 13:39:48,2016-09-01 14:51:11,Sergio Fernández,812223.0,0.0,
+71,83641365.0,"[S2GRAPH-104]: force scalaz-stream, netty-http-pipelining dependencies version which is available on maven central.",76.0,6.0,0.0,2.0,1.0,0.0,0.0,2016-09-01 14:19:12,2016-09-01 14:43:27,Doyung Yoon,1264825.0,0.0,
+72,83729403.0,[S2GRAPH-106]: Remove warnings while package.,77.0,138.0,127.0,39.0,2.0,1.0,0.0,2016-09-02 00:36:05,2016-09-12 14:38:11,Doyung Yoon,1264825.0,0.0,
+73,84139259.0,[S2GRAPH-109]: Merge duplicate test.sh into one same as `Your First Graph` on README.md,78.0,229.0,235.0,5.0,3.0,1.0,0.0,2016-09-06 15:03:30,2016-09-12 14:40:43,Doyung Yoon,1264825.0,0.0,
+74,84853647.0,[S2GRAPH-12] Add Label Name Swap Feature,79.0,81.0,13.0,5.0,1.0,2.0,1.0,2016-09-12 11:14:08,2016-09-12 15:12:11,,4621667.0,0.0,
+75,84969747.0,[S2GRAPH-112] Additional refinements in README.md,80.0,67.0,55.0,2.0,1.0,1.0,0.0,2016-09-13 00:57:15,2016-09-13 01:11:00,Jong Wook Kim,266841.0,0.0,
+76,85977143.0,[S2GRAPH-113] Add license header on `bin/example.sh`,81.0,16.0,0.0,2.0,1.0,1.0,0.0,2016-09-20 13:41:04,2016-09-21 05:14:50,Doyung Yoon,1264825.0,1.0,2016-09-21 05:14:50
+77,85978409.0,[S2GRAPH-114] `MethodNotSupportedException` class in s2counter_core project miss license header.,82.0,2.0,3.0,2.0,1.0,1.0,0.0,2016-09-20 13:47:20,2016-09-21 05:14:50,Doyung Yoon,1264825.0,0.0,
+78,86078844.0,[S2GRAPH-110] Add more committer's public key to KEYS file.,83.0,296.0,0.0,2.0,18.0,0.0,0.0,2016-09-21 00:20:22,2016-09-21 05:31:47,Doyung Yoon,1264825.0,1.0,2016-09-21 05:31:47
+79,86292139.0,Added basic instructions how to run RAT,84.0,13.0,0.0,2.0,2.0,0.0,0.0,2016-09-22 07:51:08,2016-10-01 07:40:58,Sergio Fernández,812223.0,1.0,2016-10-01 07:40:58
+80,87427902.0,[S2GRAPH-116] using ASM and ByteBuddy to add a proxy to Asynchbase's Scanner,85.0,144.0,9.0,3.0,1.0,3.0,0.0,2016-09-30 03:08:21,2016-10-01 07:32:29,Jong Wook Kim,266841.0,1.0,2016-10-01 07:32:29
+81,88422324.0,Merge pull request #1 from apache/master,86.0,0.0,0.0,0.0,1.0,0.0,0.0,2016-10-07 11:29:55,2016-10-07 11:30:24,bglee,12330436.0,0.0,
+82,88582979.0,[S2GRAPH-118]: Fix compile error on test cases on loader project.,87.0,2.0,252.0,3.0,1.0,0.0,0.0,2016-10-09 14:50:00,2016-10-10 09:03:06,Doyung Yoon,1264825.0,1.0,2016-10-10 09:03:06
+83,88612403.0,"[S2GRAPH-117] Use log4j exclusively, to avoid logging hell",88.0,278.0,230.0,40.0,4.0,2.0,0.0,2016-10-10 05:50:42,2016-10-10 08:39:06,Jong Wook Kim,266841.0,1.0,2016-10-10 08:39:06
+84,88650576.0,[S2GRAPH-120]: Netty version is conflict with play 2.5.9.,90.0,4.0,1.0,2.0,1.0,0.0,0.0,2016-10-10 11:59:53,2016-10-10 12:04:45,Doyung Yoon,1264825.0,0.0,
+85,92708190.0,[S2GRAPH-115] ready to upload the binary artifacts to Maven Central,91.0,84.0,4.0,3.0,3.0,1.0,0.0,2016-11-08 03:15:10,2016-11-09 00:56:37,Jong Wook Kim,266841.0,1.0,2016-11-09 00:56:37
+86,92715053.0,[S2GRAPH-124]: Change JSONParser from Trait to Object.,92.0,239.0,46.0,13.0,1.0,0.0,0.0,2016-11-08 04:53:55,2016-11-10 01:06:34,Doyung Yoon,1264825.0,1.0,2016-11-10 01:06:34
+87,93042295.0,[S2GRAPH-126] fixes SBT error that occurs if ~/.m2/settings.xml does not exist,93.0,8.0,3.0,2.0,1.0,1.0,0.0,2016-11-09 21:29:53,2016-11-11 01:44:22,Jong Wook Kim,266841.0,1.0,2016-11-11 01:44:22
+88,93067129.0,[S2GRAPH-125]: Add options field on Label model for controlling advanced options.,94.0,185.0,179.0,11.0,11.0,1.0,0.0,2016-11-10 00:47:17,2016-11-14 17:50:08,Doyung Yoon,1264825.0,1.0,2016-11-14 17:50:08
+89,93089272.0,[S2GRAPH-127] Refactor ExceptionHander Object into Class.,95.0,108.0,158.0,10.0,1.0,1.0,0.0,2016-11-10 05:27:49,2016-11-10 09:08:44,daewon,1182522.0,0.0,
+90,93616977.0,[S2GRAPH-121]: Create `Result` class to hold traverse result edges.,96.0,1890.0,1503.0,45.0,1.0,2.0,0.0,2016-11-14 18:05:15,2016-11-16 16:01:35,Doyung Yoon,1264825.0,0.0,
+91,93820666.0,[S2GRAPH-122]: Change data types of Edge/IndexEdge/SnapshotEdge.,97.0,4069.0,3480.0,58.0,29.0,2.0,0.0,2016-11-15 18:24:33,2016-11-16 16:33:47,Doyung Yoon,1264825.0,0.0,
+92,94003631.0,[S2GRAPH-123]: Support different index on out/in direction.,98.0,135.0,41.0,7.0,2.0,2.0,3.0,2016-11-16 16:44:25,2016-11-16 17:23:33,Doyung Yoon,1264825.0,0.0,
+93,95105706.0,[S2GRAPH-129]: Restrict direct access on Edge's properties from other classes.,99.0,347.0,144.0,24.0,1.0,5.0,0.0,2016-11-24 01:48:16,2016-11-30 11:49:11,Doyung Yoon,1264825.0,1.0,2016-11-30 11:49:11
+94,95111475.0,[S2GRAPH-130]: Edge.propsWithTs data type should be changed into mutable to support setter interface exist in tp3.	,100.0,1011.0,947.0,30.0,5.0,3.0,4.0,2016-11-24 03:17:42,2016-11-30 12:07:29,Doyung Yoon,1264825.0,1.0,2016-11-30 12:07:29
+95,95432126.0,[S2GRAPH-131]:  Add actual implementation on interfaces from TinkerPop3 structure package.,101.0,1085.0,616.0,46.0,5.0,7.0,4.0,2016-11-28 03:11:47,2016-12-01 08:30:24,Doyung Yoon,1264825.0,1.0,2016-12-01 08:30:24
+96,95837042.0,[S2GRAPH-108] Support continuous integration test,102.0,30.0,1.0,3.0,16.0,2.0,3.0,2016-11-30 06:51:25,2016-12-02 09:57:13,Injun Song,1416696.0,1.0,2016-12-02 09:57:13
+97,96109696.0,[S2GRAPH-135] Change the way LabelIndexOption is implemented and improve it,103.0,272.0,83.0,5.0,1.0,1.0,0.0,2016-12-01 15:27:47,2016-12-28 01:08:15,daewon,1182522.0,1.0,2016-12-28 01:08:15
+98,96300017.0,[S2GRAPH-132] Added the ability to buffer write rpc for increment requests. ,104.0,356.0,92.0,7.0,2.0,0.0,0.0,2016-12-02 15:33:46,2016-12-02 15:58:22,daewon,1182522.0,0.0,
+99,96305077.0,[S2GRAPH-132] Added the ability to buffer write rpc for increment requests.,105.0,356.0,92.0,7.0,2.0,1.0,5.0,2016-12-02 16:01:08,2016-12-28 01:21:04,daewon,1182522.0,1.0,2016-12-28 01:21:04
+100,96493661.0,[S2GRAPH-133] Deprecating Vagrant environment.,106.0,0.0,57.0,1.0,1.0,1.0,0.0,2016-12-05 09:24:43,2016-12-28 01:26:55,,4621667.0,1.0,2016-12-28 01:26:55
+101,96833836.0,[S2GRAPH-138] fixed logging in Play! development mode,107.0,8.0,107.0,6.0,1.0,1.0,0.0,2016-12-07 00:10:19,2016-12-09 00:29:37,Jong Wook Kim,266841.0,0.0,
+102,96862066.0,[S2GRAPH-144] Travis icon in README is not proper link.,108.0,9.0,108.0,7.0,4.0,1.0,0.0,2016-12-07 05:41:56,2016-12-09 02:00:39,Injun Song,1416696.0,0.0,
+103,97070913.0,[S2GRAPH-145] Improve travis to cache maven directory,110.0,28.0,108.0,9.0,9.0,2.0,0.0,2016-12-08 07:18:14,2016-12-09 02:06:35,Injun Song,1416696.0,0.0,
+104,97458001.0,"[S2GRAPH-146]: Merge two IndexEdgeDeserializable under tall, wide package into one.",111.0,577.0,482.0,22.0,1.0,1.0,0.0,2016-12-11 12:51:23,2016-12-13 02:15:38,Doyung Yoon,1264825.0,0.0,
+105,101565768.0,[S2GRAPH-136]: Validate TinkerPop3 interface with gremlin-test suite.,112.0,3486.0,647.0,53.0,45.0,9.0,0.0,2017-01-14 16:14:08,2017-07-01 15:28:08,Doyung Yoon,1264825.0,0.0,
+106,131759826.0,[S2GRAPH-153]: Implement IndexProvider(for Mixed IndexType) class,113.0,1423.0,251.0,21.0,24.0,0.0,0.0,2017-07-21 12:06:48,2017-07-31 01:05:27,Doyung Yoon,1264825.0,1.0,2017-07-31 01:05:27
+107,133057328.0,[S2GRAPH-152]: Add buildGlobalIndex API on Management,114.0,146.0,10.0,6.0,2.0,0.0,0.0,2017-07-28 21:42:06,2017-07-30 00:40:26,Doyung Yoon,1264825.0,1.0,2017-07-30 00:40:26
+108,133430685.0,[S2GRAPH-148]: Provide Gremlin Plugin,115.0,610.0,102.0,25.0,4.0,4.0,0.0,2017-08-01 09:45:20,2017-08-03 03:29:43,Doyung Yoon,1264825.0,1.0,2017-08-03 03:29:43
+109,134347829.0,[S2GRAPH-157]: Check proper apache license header on all files for release 0.2.0,116.0,36.0,6.0,4.0,1.0,0.0,0.0,2017-08-07 00:55:20,2017-08-07 02:23:54,Doyung Yoon,1264825.0,1.0,2017-08-07 02:23:54
+110,134376324.0,[S2GRAPH-158]: Bug fix on String type InnerVal encoding to use UTF-8 charsetName.,117.0,11.0,10.0,9.0,1.0,0.0,0.0,2017-08-07 07:23:50,2017-08-07 07:35:21,Doyung Yoon,1264825.0,1.0,2017-08-07 07:35:21
+111,135260855.0,S2GRAPH-159: simplified path resolution that fixes the issue,118.0,2.0,10.0,1.0,1.0,0.0,0.0,2017-08-11 03:16:19,2017-08-11 04:41:28,Sergio Fernández,812223.0,1.0,2017-08-11 04:41:28
+112,135290666.0,[S2GRAPH-161]: Update CHANGES file for 0.2.0 release,119.0,86.0,85.0,1.0,1.0,0.0,0.0,2017-08-11 08:47:12,2017-08-11 21:35:45,Doyung Yoon,1264825.0,0.0,
+113,135338983.0,[S2GRAPH-160]: Remove warning while package,120.0,90.0,91.0,20.0,1.0,0.0,0.0,2017-08-11 13:45:48,2017-08-11 21:41:34,Doyung Yoon,1264825.0,1.0,2017-08-11 21:41:34
+114,136175583.0,[S2GRAPH-162]: Update year in the NOTICE file.,121.0,1.0,1.0,1.0,1.0,0.0,0.0,2017-08-17 05:29:37,2017-08-17 05:58:22,Doyung Yoon,1264825.0,1.0,2017-08-17 05:58:22
+115,137376858.0,[S2GRAPH-163]: Update version.sbt after release,122.0,2.0,2.0,2.0,1.0,0.0,0.0,2017-08-24 06:18:42,2017-08-24 06:21:19,Doyung Yoon,1264825.0,1.0,2017-08-24 06:21:19
+116,139077995.0,[S2GRAPH-165]: Add TinkerPop support documentation on README,123.0,323.0,3.0,1.0,1.0,0.0,0.0,2017-09-04 03:38:51,2017-09-05 09:24:02,Doyung Yoon,1264825.0,1.0,2017-09-05 09:24:02
+117,145628930.0,[S2GRAPH-167]:Provide Vertex CSV File BulkLoad,124.0,25.0,14.0,1.0,4.0,1.0,0.0,2017-10-10 08:33:51,2017-10-28 00:41:31,,6144714.0,0.0,
+118,148926032.0,[S2GRAPH-168]:Fix args order mismatch when use addServiceColumnProp,125.0,1.0,1.0,1.0,1.0,0.0,0.0,2017-10-26 12:54:00,2017-11-12 14:15:27,,6144714.0,1.0,2017-11-12 14:15:27
+119,149309919.0,[S2GRAPH-169]: Separate multiple functionalities on Storage class into multiple Interface.,126.0,2847.0,2098.0,46.0,4.0,1.0,0.0,2017-10-28 00:32:03,2017-10-30 10:23:42,Doyung Yoon,1264825.0,1.0,2017-10-30 10:23:42
+120,152034152.0,[S2GRAPH-170]: Create Interface for S2Edge/S2Vertex/S2Graph.,127.0,3050.0,2937.0,60.0,20.0,1.0,0.0,2017-11-11 01:25:36,2017-11-19 02:28:58,Doyung Yoon,1264825.0,1.0,2017-11-19 02:28:58
+121,153486628.0,[S2GRAPH-166]: Provide embeddable storage backend using RocksDB ,129.0,743.0,6.0,13.0,4.0,0.0,0.0,2017-11-19 08:30:53,2017-12-01 03:48:33,Doyung Yoon,1264825.0,1.0,2017-12-01 03:48:33
+122,165874550.0,[S2GRAPH-175]: Provide Elastic Search Index Provider,130.0,716.0,496.0,23.0,6.0,0.0,0.0,2018-01-30 02:59:16,2018-02-12 07:26:10,Doyung Yoon,1264825.0,1.0,2018-02-12 07:26:10
+123,166192857.0,[S2GRAPH-172]: Suggest to implement GraphQL as standard web interface for S2Graph.,131.0,2342.0,504.0,40.0,1.0,1.0,2.0,2018-01-31 08:23:03,2018-02-13 09:29:46,daewon,1182522.0,1.0,2018-02-13 09:29:46
+124,168800986.0,[S2GRAPH-176]: Fix compile error on LabelMeta,132.0,0.0,6.0,1.0,1.0,0.0,0.0,2018-02-13 10:05:47,2018-02-13 17:09:48,Doyung Yoon,1264825.0,1.0,2018-02-13 17:09:48
+125,171269582.0,[S2GRAPH-178]: Fix null pointer error on BulkLoader.,133.0,510.0,89.0,12.0,5.0,0.0,0.0,2018-02-26 02:24:48,2018-03-06 06:14:38,Doyung Yoon,1264825.0,1.0,2018-03-06 06:14:38
+126,171319732.0,[S2GRAPH-177]: Add support for createServiceColumn/addVertex APIs on GraphQL.,134.0,254.0,19.0,8.0,1.0,0.0,0.0,2018-02-26 09:24:46,2018-02-27 08:02:11,Doyung Yoon,1264825.0,1.0,2018-02-27 08:02:11
+127,171321628.0,[S2GRAPH-179]: Add defaultValue on ColumnMeta.,135.0,123.0,48.0,13.0,1.0,0.0,0.0,2018-02-26 09:33:24,2018-02-27 08:05:11,Doyung Yoon,1264825.0,1.0,2018-02-27 08:05:11
+128,173075517.0,[S2GRAPH-182]: Version up spark dependencies.,136.0,3044.0,37.0,24.0,3.0,0.0,0.0,2018-03-06 07:14:05,2018-03-14 10:17:11,Doyung Yoon,1264825.0,0.0,
+129,175454168.0,[S2GRAPH-183]: Provide batch job to dump data stored in HBase into file.,137.0,801.0,345.0,20.0,2.0,0.0,0.0,2018-03-16 06:57:24,2018-04-02 03:33:11,Doyung Yoon,1264825.0,1.0,2018-04-02 03:33:11
+130,175792964.0,[S2GRAPH-181]: MutateVertices yield different state with different storage type.,138.0,62.0,29.0,5.0,2.0,0.0,0.0,2018-03-19 02:42:47,2018-03-20 05:19:42,Doyung Yoon,1264825.0,0.0,
+131,176128023.0,[S2GRAPH-184]: fix spark driver exit abnormally bug,139.0,1.0,1.0,1.0,1.0,0.0,0.0,2018-03-20 09:16:26,2018-03-21 01:09:16,ChenMingjie,960434.0,1.0,2018-03-21 01:09:16
+132,176482811.0,[S2GRAPH-186]: fix wrong escaping of double quotation marks,140.0,42.0,30.0,2.0,4.0,1.0,0.0,2018-03-21 13:53:28,2018-03-22 11:36:38,ChenMingjie,960434.0,0.0,
+133,176968580.0,[S2GRAPH-188]: migrate log4j.properties to log4j2.xml,141.0,20.0,27.0,2.0,1.0,2.0,0.0,2018-03-23 04:03:02,2018-03-27 02:39:56,ChenMingjie,960434.0,1.0,2018-03-27 02:39:56
+134,177322680.0,[S2GRAPH-187]: Make toQuery use toVertex to parse vertex from query JSON on RequestParser,142.0,57.0,23.0,3.0,2.0,0.0,0.0,2018-03-26 01:00:45,2018-03-30 06:36:52,Doyung Yoon,1264825.0,1.0,2018-03-30 06:36:52
+135,177357428.0,[S2GRAPH-180] Implement missing Management API,143.0,2335.0,1027.0,24.0,21.0,3.0,0.0,2018-03-26 06:59:13,2018-03-27 04:04:48,daewon,1182522.0,1.0,2018-03-27 04:04:48
+136,177612291.0,[S2GRAPH-185] Support Spark Structured Streaming,144.0,917.0,4.0,21.0,5.0,0.0,0.0,2018-03-27 01:58:31,2018-03-29 05:35:43,Chul Kang,897143.0,1.0,2018-03-29 05:35:43
+137,177935151.0,[S2GRAPH-189] graphiql.html file not found,145.0,7.0,5.0,3.0,1.0,0.0,0.0,2018-03-28 05:43:42,2018-03-28 05:50:32,daewon,1182522.0,1.0,2018-03-28 05:50:32
+138,178250685.0,[S2GRAPH-191] Providing request / response logging to GraphQL server and removing println,146.0,70.0,34.0,4.0,1.0,0.0,0.0,2018-03-29 07:46:56,2018-03-30 06:27:40,daewon,1182522.0,1.0,2018-03-30 06:27:40
+139,178253530.0,[S2GRAPH-190] Remove unnecessary TC JsonBenchmarkSpec,147.0,0.0,184.0,3.0,2.0,0.0,0.0,2018-03-29 08:00:28,2018-03-30 06:10:27,daewon,1182522.0,1.0,2018-03-30 06:10:27
+140,178499226.0,[S2GRAPH-192] could not find service column when creating the label ,148.0,15.0,11.0,2.0,1.0,0.0,0.0,2018-03-30 05:54:16,2018-03-30 06:15:36,daewon,1182522.0,1.0,2018-03-30 06:15:36
+141,178515184.0,[S2GRAPH-195] could not create indices using S2GraphQL,149.0,3.0,9.0,3.0,1.0,0.0,0.0,2018-03-30 08:11:13,2018-03-30 08:39:25,daewon,1182522.0,1.0,2018-03-30 08:39:25
+142,178773388.0,[S2GRAPH-198]: Skip json Decode error and continue,150.0,38.0,29.0,9.0,3.0,1.0,0.0,2018-04-02 04:59:36,2018-04-05 05:43:24,Doyung Yoon,1264825.0,1.0,2018-04-05 05:43:24
+143,178810756.0,[S2GRAPH-197]: Provide S2graphSink for non-streaming dataset,151.0,478.0,277.0,18.0,10.0,0.0,1.0,2018-04-02 10:03:52,2018-04-04 02:45:14,Doyung Yoon,1264825.0,1.0,2018-04-04 02:45:14
+144,179059337.0,[S2Graph-200]  add extra jar in classpath dynamically when launching docker image,152.0,56.0,5.0,5.0,3.0,1.0,0.0,2018-04-03 10:44:49,2018-04-05 05:49:51,Chul Kang,897143.0,1.0,2018-04-05 05:49:51
+145,179289049.0,[S2GRAPH-199] Changing query more intuitively by using `columnName` instead of `from/to` in label field name,153.0,353.0,390.0,17.0,5.0,1.0,0.0,2018-04-04 05:56:26,2018-04-05 08:41:40,daewon,1182522.0,1.0,2018-04-05 08:41:40
+146,179332672.0,[S2GRAPH-201]: Provide S2GraphSource,154.0,564.0,58.0,23.0,8.0,0.0,0.0,2018-04-04 09:33:29,2018-04-23 04:36:51,Doyung Yoon,1264825.0,1.0,2018-04-23 04:36:51
+147,179851405.0,[S2GRAPH-196] Apply Query Parameter to Label Fetch in S2GraphQL,155.0,189.0,145.0,10.0,4.0,0.0,0.0,2018-04-06 04:18:54,2018-04-11 08:08:21,daewon,1182522.0,1.0,2018-04-11 08:08:21
+148,181827292.0,[S2GRAPH-193]: Add README for S2Jobs sub-project.,156.0,1661.0,593.0,24.0,16.0,1.0,0.0,2018-04-16 11:13:44,2018-04-24 02:06:24,Doyung Yoon,1264825.0,0.0,
+149,182075845.0,[S2GRAPH-204] Avoid N + 1 queries in GraphQL,157.0,91.0,31.0,5.0,1.0,0.0,0.0,2018-04-17 07:34:43,2018-04-18 05:39:55,daewon,1182522.0,1.0,2018-04-18 05:39:55
+150,182664002.0,[S2GRAPH-205] reuse S2Graph object on same executor,158.0,26.0,25.0,9.0,2.0,1.0,0.0,2018-04-19 04:36:17,2018-04-23 02:38:12,Chul Kang,897143.0,1.0,2018-04-23 02:38:12
+151,183313301.0,[S2GRAPH-207] Provides a way to query data with the value of the Vertex property in a GraphQL query.,159.0,396.0,263.0,14.0,7.0,0.0,0.0,2018-04-23 02:40:55,2018-04-23 04:29:45,daewon,1182522.0,1.0,2018-04-23 04:29:45
+152,183380886.0,[S2GRAPH-209] GlobalIndex supports field data types such as Numeric to enable Range Query.,160.0,63.0,16.0,4.0,2.0,1.0,0.0,2018-04-23 09:52:57,2018-04-24 02:11:02,daewon,1182522.0,1.0,2018-04-24 02:11:02
+153,183955743.0,[S2GRAPH-210]: Rename package `mysqls` to `schema`,161.0,562.0,700.0,104.0,3.0,1.0,0.0,2018-04-25 08:15:22,2018-04-26 03:10:05,Doyung Yoon,1264825.0,1.0,2018-04-26 03:10:05
+154,184230423.0,[S2GRAPH-206]: Generalize machine learning model serving.,162.0,1936.0,120.0,35.0,21.0,0.0,0.0,2018-04-26 05:31:37,2018-05-14 12:29:59,Doyung Yoon,1264825.0,1.0,2018-05-14 12:29:59
+155,184545283.0,[S2GRAPH-211] Include 's2jobs' test in CI,163.0,70.0,20.0,8.0,3.0,0.0,0.0,2018-04-27 07:32:58,2018-05-03 02:04:25,daewon,1182522.0,1.0,2018-05-03 02:04:25
+156,185330055.0,[S2GRAPH-212]: Fix broken markdown on README.md,164.0,506.0,376.0,1.0,1.0,0.0,0.0,2018-05-02 04:00:44,2018-05-02 04:06:30,Doyung Yoon,1264825.0,1.0,2018-05-02 04:06:30
+157,186552076.0,[S2GRAPH-213]: Abstract Query/Mutation from Storage.,165.0,1987.0,917.0,53.0,7.0,0.0,0.0,2018-05-08 07:45:02,2018-05-11 03:05:54,Doyung Yoon,1264825.0,1.0,2018-05-11 03:05:54
+158,188032978.0,[S2GRAPH-214]: Add REAME for movielens examples,166.0,453.0,0.0,1.0,1.0,1.0,0.0,2018-05-15 07:10:25,2018-06-04 09:07:03,Doyung Yoon,1264825.0,1.0,2018-06-04 09:07:03
+159,190830238.0,"[S2GRAPH-215] Implement a Storage Backend for JDBC driver, such as H2, MySql using the Mutator and Fetcher interfaces.",167.0,850.0,71.0,15.0,3.0,1.0,2.0,2018-05-28 04:03:17,2018-06-04 09:22:02,daewon,1182522.0,1.0,2018-06-04 09:22:02
+160,192354647.0,[S2GRAPH-216] Provide a transform directive in the GraphQL query result,168.0,173.0,9.0,9.0,3.0,1.0,0.0,2018-06-04 09:53:07,2018-06-15 07:29:19,daewon,1182522.0,1.0,2018-06-15 07:29:19
+161,193371239.0,[S2GRAPH-218] add operations not supported on sql,169.0,91.0,10.0,5.0,5.0,2.0,0.0,2018-06-07 15:57:42,2018-06-15 07:34:29,Chul Kang,897143.0,1.0,2018-06-15 07:34:29
+162,194200633.0,[S2GRAPH-219] Added query that includes all vertices and associated edges for GraphVisualize.,170.0,226.0,5.0,4.0,3.0,0.0,0.0,2018-06-12 08:20:23,2018-06-18 06:15:40,daewon,1182522.0,1.0,2018-06-18 06:15:40
+163,194827289.0,[S2GRAPH-220]: Filter clause is not working on AnnoyModelFetcher,171.0,69.0,96.0,5.0,1.0,0.0,0.0,2018-06-14 09:15:50,2018-06-15 23:30:00,Doyung Yoon,1264825.0,1.0,2018-06-15 23:30:00
+164,194827350.0,"[S2GRAPH-203] Support ""application/graphql"" Content-Type header",172.0,134.0,60.0,2.0,2.0,0.0,0.0,2018-06-14 09:16:03,2018-06-18 06:53:49,daewon,1182522.0,1.0,2018-06-18 06:53:49
+165,195060227.0,[S2GRAPH-221]: Unify configurations for bulk and mutate in S2GraphSink.,173.0,411.0,131.0,17.0,4.0,1.0,0.0,2018-06-15 01:53:29,2018-06-21 01:23:45,Doyung Yoon,1264825.0,1.0,2018-06-21 01:23:45
+166,195065591.0,[S2GRAPH-222]: Support Not logical operator in WhereParser.,174.0,11.0,3.0,2.0,3.0,0.0,0.0,2018-06-15 02:47:52,2018-06-18 07:04:35,Doyung Yoon,1264825.0,1.0,2018-06-18 07:04:35
+167,195088659.0,[S2GRAPH-223]: Support WhereParser on Vertex.,175.0,183.0,105.0,18.0,6.0,0.0,0.0,2018-06-15 06:37:15,2018-06-21 01:20:47,Doyung Yoon,1264825.0,1.0,2018-06-21 01:20:47
+168,196346860.0,[S2GRAPH-228]: GraphQL empty variable fields on post request cause spray.json.DeserializationException.,176.0,7.0,42.0,6.0,3.0,0.0,0.0,2018-06-21 06:23:53,2018-06-22 06:51:25,Doyung Yoon,1264825.0,1.0,2018-06-22 06:51:25
+169,196346968.0,[S2GRAPH-227]: version up SLF4J bindings(slf4j-log4j12) from 1.7.21 to 1.8.0-beta2,177.0,9.0,6.0,1.0,1.0,1.0,0.0,2018-06-21 06:24:36,2018-06-22 07:04:04,Doyung Yoon,1264825.0,1.0,2018-06-22 07:04:04
+170,198587134.0,[S2GRAPH-229] 'Step' abstraction for combinable queries,178.0,249.0,1.0,5.0,1.0,0.0,0.0,2018-07-02 06:53:44,2018-07-09 06:32:17,daewon,1182522.0,1.0,2018-07-09 06:32:17
+171,200012902.0,[S2GRAPH-230]: ResourceManager onEvict cause segmentation fault with AnnoyModelFetcher,179.0,28.0,10.0,3.0,1.0,0.0,0.0,2018-07-09 07:28:51,2018-07-13 06:29:54,Doyung Yoon,1264825.0,1.0,2018-07-13 06:29:54
+172,200293035.0,[S2GRAPH-231] Change the GraphQL type name to a valid string.,180.0,54.0,37.0,3.0,2.0,0.0,0.0,2018-07-10 06:17:43,2018-07-13 06:26:52,daewon,1182522.0,1.0,2018-07-13 06:26:52
+173,201193717.0,[S2GRAPH-232] Elimination of inefficiency due to duplication in GraphQL schema generation.,181.0,355.0,153.0,8.0,5.0,0.0,0.0,2018-07-13 05:51:56,2018-08-27 05:14:32,daewon,1182522.0,1.0,2018-08-27 05:14:32
+174,201589257.0,[S2GRAPH-226]: Provide example spark jobs to explain how to utilize WAL log.,182.0,1594.0,16.0,25.0,12.0,0.0,0.0,2018-07-16 10:00:26,2018-12-06 12:49:59,Doyung Yoon,1264825.0,1.0,2018-12-06 12:49:59
+175,206275746.0,[S2GRAPH-235] Update document and fix typo errors in S2GraphQL MD.,183.0,76.0,38.0,1.0,1.0,0.0,0.0,2018-08-06 02:37:04,2018-10-31 09:26:17,Hwansung Yu,10102134.0,1.0,2018-10-31 09:26:17
+176,219212598.0,[S2GRAPH-225] support custom udf class,185.0,140.0,17.0,9.0,5.0,1.0,0.0,2018-09-30 16:13:47,2018-12-05 05:38:28,Chul Kang,897143.0,1.0,2018-12-05 05:38:28
+177,226483139.0,[S2GRAPH-243]: Limit bug on 'graph/getEdges',187.0,157.0,5.0,7.0,3.0,0.0,0.0,2018-10-29 09:09:18,2018-11-23 01:35:58,Doyung Yoon,1264825.0,1.0,2018-11-23 01:35:58
+178,227834362.0,[S2GRAPH-245]: Remove install hbase step on travis CI.,188.0,1.0,28.0,2.0,1.0,0.0,0.0,2018-11-02 05:22:41,2018-11-02 10:43:13,Doyung Yoon,1264825.0,1.0,2018-11-02 10:43:13
+179,230383783.0,[S2GRAPH-246] Integration of documents into the S2Graph project,189.0,550.0,0.0,8.0,4.0,1.0,0.0,2018-11-13 08:18:12,2018-11-21 14:47:04,daewon,1182522.0,1.0,2018-11-21 14:47:04
+180,237562323.0,"select:[""props""] of getEdges",192.0,12.0,1.0,1.0,3.0,0.0,0.0,2018-12-11 06:16:16,2018-12-11 08:53:23,,45482371.0,0.0,
+181,237998026.0,[S2GRAPH-248] HTTP interface integration.,193.0,3393.0,434.0,45.0,18.0,0.0,0.0,2018-12-12 11:10:31,2019-01-24 12:17:40,daewon,1182522.0,0.0,
+182,240435007.0,[S2GRAPH-251] add jdbc options ,194.0,24.0,0.0,3.0,1.0,0.0,0.0,2018-12-21 10:38:02,2019-01-07 01:35:56,Chul Kang,897143.0,1.0,2019-01-07 01:35:56

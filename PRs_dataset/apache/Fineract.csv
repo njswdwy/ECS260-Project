@@ -1,0 +1,333 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,57823788.0,removed Pentaho from validation and template,1.0,41.0,21.0,7.0,1.0,0.0,0.0,2016-02-01 10:55:29,2016-02-02 03:15:32,pramod,4900563.0,1.0,2016-02-02 03:15:32
+1,57826354.0,License text spill overs,2.0,148.0,39.0,8.0,1.0,0.0,0.0,2016-02-01 11:19:29,2016-02-02 03:21:06,Adi Narayana Raju,3582507.0,1.0,2016-02-02 03:21:06
+2,57947325.0,Migrate to Java 8,3.0,25.0,13.0,9.0,1.0,0.0,0.0,2016-02-02 06:50:08,2016-02-02 10:23:29,Adi Narayana Raju,3582507.0,1.0,2016-02-02 10:23:29
+3,58573780.0,Connector changes from mysql to drizzle,4.0,75.0,47.0,13.0,1.0,0.0,0.0,2016-02-08 06:03:44,2016-02-08 08:13:33,Shaik Nazeer Hussain,13728454.0,1.0,2016-02-08 08:13:33
+4,58586789.0,new data types newdecimal and longlong handling with drizzle connector,5.0,8.0,2.0,1.0,1.0,0.0,0.0,2016-02-08 09:42:46,2016-02-08 10:04:19,Shaik Nazeer Hussain,13728454.0,1.0,2016-02-08 10:04:19
+5,58742908.0,mysql data type changes and provisiong update validation changes,6.0,37.0,14.0,2.0,1.0,0.0,0.0,2016-02-09 12:49:55,2016-02-10 07:50:30,Shaik Nazeer Hussain,13728454.0,1.0,2016-02-10 07:50:30
+6,59350785.0,report issue and MIFOSX-2400 : fix for overdue charges on payment time,7.0,80.0,64.0,2.0,2.0,0.0,0.0,2016-02-15 11:21:05,2016-02-16 12:50:24,pramod,4900563.0,1.0,2016-02-16 12:50:24
+7,59482174.0,Moving JDBC Driver related info to a property file and removed references in java filles,8.0,128.0,20.0,8.0,1.0,0.0,0.0,2016-02-16 12:13:43,2016-02-16 12:58:02,Shaik Nazeer Hussain,13728454.0,0.0,
+8,59491500.0,moving driver info to a property file,9.0,164.0,20.0,10.0,1.0,0.0,0.0,2016-02-16 13:40:27,2016-02-16 13:55:16,Shaik Nazeer Hussain,13728454.0,1.0,2016-02-16 13:55:16
+9,59645968.0,Adding Notice.txt file,10.0,122.0,0.0,1.0,1.0,0.0,0.0,2016-02-17 13:50:10,2016-02-17 13:57:58,Shaik Nazeer Hussain,13728454.0,1.0,2016-02-17 13:57:58
+10,60307170.0,MIFOSX-2516: fix for  Floating rates with multi tranche loan,11.0,45.0,40.0,3.0,1.0,0.0,0.0,2016-02-23 09:00:20,2016-02-23 09:23:22,pramod,4900563.0,1.0,2016-02-23 09:23:22
+11,60808637.0,adding organisation start in global configuartion,12.0,88.0,15.0,10.0,1.0,0.0,6.0,2016-02-26 08:34:14,2016-02-29 06:18:26,Sachin Kulkarni,10805965.0,0.0,
+12,61033323.0,adding organisation start in global configuartion,13.0,125.0,41.0,10.0,1.0,0.0,0.0,2016-02-29 06:20:42,2016-02-29 07:07:56,Sachin Kulkarni,10805965.0,0.0,
+13,61036770.0,adding organisation start in global configuartion,14.0,135.0,41.0,10.0,1.0,0.0,0.0,2016-02-29 07:08:37,2016-02-29 07:44:41,Sachin Kulkarni,10805965.0,1.0,2016-02-29 07:44:41
+14,61058325.0,Repayment schduleand meeting datechenge,15.0,783.0,514.0,23.0,5.0,1.0,0.0,2016-02-29 10:42:28,2016-03-01 12:17:34,,16410925.0,0.0,
+15,61191153.0,Center rescheduling,16.0,663.0,39.0,11.0,1.0,0.0,0.0,2016-03-01 04:27:20,2016-03-02 11:43:18,Sachin Kulkarni,10805965.0,0.0,
+16,61233796.0,"Display FullName instead of firstname,middlename,lastname when config…",17.0,56.0,20.0,8.0,1.0,0.0,0.0,2016-03-01 12:18:01,2016-03-01 12:18:20,,16410925.0,0.0,
+17,61368986.0,Correction in interest recalculation scheduler job to avoid infinite loop,18.0,1.0,0.0,1.0,1.0,0.0,0.0,2016-03-02 08:57:47,2016-03-02 09:14:13,Adi Narayana Raju,3582507.0,1.0,2016-03-02 09:14:13
+18,61371842.0,insert script for organisation start date,19.0,1.0,0.0,1.0,1.0,0.0,1.0,2016-03-02 09:24:19,2016-03-02 10:14:22,Sachin Kulkarni,10805965.0,0.0,
+19,61378095.0,insert script for organisation start date,20.0,1.0,0.0,1.0,1.0,0.0,0.0,2016-03-02 10:17:05,2016-03-04 05:42:39,Sachin Kulkarni,10805965.0,1.0,2016-03-04 05:42:39
+20,61388329.0,Center Rescheduling,21.0,635.0,39.0,11.0,1.0,0.0,0.0,2016-03-02 11:45:34,2016-03-02 12:35:29,Sachin Kulkarni,10805965.0,1.0,2016-03-02 12:35:29
+21,61530211.0,Client full name display,22.0,56.0,20.0,8.0,2.0,0.0,0.0,2016-03-03 09:20:09,2016-03-03 09:20:21,,16410925.0,0.0,
+22,61531492.0,"Display Full Name instead of First Name, Middle Name and Last Name if…",23.0,56.0,20.0,8.0,1.0,1.0,0.0,2016-03-03 09:30:53,2016-03-09 07:19:10,,16410925.0,0.0,
+23,61544636.0,fix for repayment info,24.0,58.0,46.0,4.0,1.0,0.0,0.0,2016-03-03 11:20:27,2016-03-03 11:21:03,Sachin Kulkarni,10805965.0,0.0,
+24,61545845.0,fix for repayment info,25.0,57.0,46.0,4.0,1.0,0.0,0.0,2016-03-03 11:31:14,2016-03-04 05:45:33,Sachin Kulkarni,10805965.0,1.0,2016-03-04 05:45:33
+25,61904263.0,fix for Junit test cases,26.0,11.0,9.0,1.0,1.0,0.0,0.0,2016-03-07 11:22:34,2016-03-09 06:47:17,Sachin Kulkarni,10805965.0,1.0,2016-03-09 06:47:17
+26,61906564.0,FINERACT-59 : corrected interest calculation for flat loans,27.0,16.0,9.0,1.0,1.0,0.0,0.0,2016-03-07 11:46:45,2016-03-09 06:57:12,pramod,4900563.0,1.0,2016-03-09 06:57:12
+27,61916809.0,payment type applicable for disbursement charge configuration added,28.0,25.0,8.0,5.0,1.0,0.0,1.0,2016-03-07 13:29:14,2016-03-09 07:09:11,Deleted user,10137.0,0.0,
+28,62180053.0,MIFOSX-2426 : added support for Interest Rate Charts based on Amount,29.0,1642.0,428.0,27.0,1.0,0.0,0.0,2016-03-09 04:59:02,2016-03-09 06:36:38,pramod,4900563.0,1.0,2016-03-09 06:36:38
+29,62188482.0,payment type applicable for disbursement charge configuration added,30.0,25.0,8.0,5.0,1.0,1.0,0.0,2016-03-09 07:14:39,2016-03-09 09:17:42,Deleted user,10137.0,1.0,2016-03-09 09:17:42
+30,62218004.0,Chanrging the version,31.0,0.0,0.0,0.0,0.0,0.0,0.0,2016-03-09 11:57:42,2016-03-09 11:59:48,Shaik Nazeer Hussain,13728454.0,1.0,2016-03-09 11:59:48
+31,62364791.0,skipping meeting date on first of every month,32.0,348.0,78.0,24.0,1.0,0.0,0.0,2016-03-10 10:00:43,2016-03-11 13:24:20,Sachin Kulkarni,10805965.0,0.0,
+32,62542450.0,skipping meeting date first day of every month,33.0,389.0,88.0,26.0,1.0,0.0,0.0,2016-03-11 13:25:31,2016-03-18 09:00:03,Sachin Kulkarni,10805965.0,0.0,
+33,62552913.0,MIFOSX-2626 Resolved,34.0,3.0,1.0,1.0,1.0,1.0,0.0,2016-03-11 14:50:03,2016-03-14 06:41:01,Deleted user,10137.0,1.0,2016-03-14 06:41:01
+34,62703880.0,fix for undo last tranche if we change emi amount for second tranche,35.0,3.0,1.0,1.0,1.0,0.0,0.0,2016-03-14 06:05:52,2016-03-14 09:27:15,Sachin Kulkarni,10805965.0,1.0,2016-03-14 09:27:15
+35,62723177.0,FINERACT-68:Validating for first repayment date while center rescheduling,36.0,6.0,0.0,1.0,1.0,0.0,0.0,2016-03-14 10:02:42,2016-03-14 10:52:28,Sachin Kulkarni,10805965.0,1.0,2016-03-14 10:52:28
+36,62857030.0,Note functionality while Editing a Transaction and undoing a Transaction and on click of a particular Transaction adding a Note row,37.0,92.0,52.0,8.0,2.0,1.0,0.0,2016-03-15 05:29:13,2016-03-15 05:39:33,,17545649.0,0.0,
+37,62858632.0,Provision for notes while editing and undoing a transaction,38.0,92.0,52.0,8.0,1.0,3.0,4.0,2016-03-15 05:56:37,2016-03-23 05:40:43,,17545649.0,0.0,
+38,62898722.0,adding global config for interest charged from date same as disbursement date,39.0,140.0,16.0,11.0,1.0,0.0,0.0,2016-03-15 12:37:48,2016-03-16 11:23:46,Sachin Kulkarni,10805965.0,1.0,2016-03-16 11:23:46
+39,62927187.0,fineract-75 error handling for loan to loan transfer,40.0,43.0,12.0,2.0,1.0,1.0,1.0,2016-03-15 15:42:45,2017-11-16 01:28:41,,5655438.0,0.0,
+40,63083495.0,FINERACT-76 adding fund source to the payment type and adding payment…,41.0,169.0,46.0,15.0,1.0,1.0,0.0,2016-03-16 15:26:53,2016-03-22 05:47:10,Deleted user,10137.0,0.0,
+41,63368487.0,Skipping Repayment Falling on First Day of Month,42.0,636.0,110.0,28.0,1.0,0.0,0.0,2016-03-18 12:40:57,2016-03-23 06:59:15,,16410925.0,0.0,
+42,63555366.0,Self Service - Loan Application,43.0,914.0,8.0,4.0,1.0,0.0,0.0,2016-03-21 12:18:49,2016-03-22 07:26:47,Adi Narayana Raju,3582507.0,1.0,2016-03-22 07:26:47
+43,63557729.0,FINERACT-86:center rescheduling fix,44.0,20.0,4.0,1.0,1.0,0.0,0.0,2016-03-21 12:40:38,2016-03-22 10:00:26,Sachin Kulkarni,10805965.0,0.0,
+44,63557740.0,FINERACT-90:adding a new tranche to an active loan is changing the disbursement amount,45.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-03-21 12:40:43,2016-03-22 08:48:54,Sachin Kulkarni,10805965.0,1.0,2016-03-22 08:48:54
+45,63560572.0,FINERACT-64 issues resolved,46.0,27.0,10.0,2.0,1.0,0.0,0.0,2016-03-21 13:05:48,2016-03-22 09:38:05,Deleted user,10137.0,1.0,2016-03-22 09:38:05
+46,63694498.0,center reschedule fix,47.0,22.0,4.0,1.0,1.0,0.0,0.0,2016-03-22 10:01:51,2016-03-22 10:22:16,Sachin Kulkarni,10805965.0,1.0,2016-03-22 10:22:16
+47,63839877.0,Skipping Meeting which Falls On First Day Of Month,48.0,647.0,132.0,28.0,1.0,1.0,0.0,2016-03-23 07:05:33,2016-03-23 09:23:57,,16410925.0,0.0,
+48,63852202.0,Skip Repayment Date Falling On First Day of Month,49.0,660.0,133.0,29.0,1.0,0.0,0.0,2016-03-23 09:25:40,2016-03-28 09:35:57,,16410925.0,1.0,2016-03-28 09:35:57
+49,63875125.0,FINERACT-94: Initial commit for recurring principal moratorium betwee…,50.0,143.0,54.0,17.0,2.0,1.0,0.0,2016-03-23 12:38:27,2016-03-26 08:14:55,Binny,927712.0,0.0,
+50,64016668.0,Populate Display Name as Full Name when client is a Person,51.0,4.0,0.0,1.0,1.0,0.0,0.0,2016-03-24 10:46:59,2016-03-28 11:11:17,,16410925.0,1.0,2016-03-28 11:11:17
+51,64132057.0,FINERACT-98:fix for deleting a tranche,52.0,3.0,2.0,3.0,1.0,0.0,0.0,2016-03-25 05:13:07,2016-03-25 05:30:47,Sachin Kulkarni,10805965.0,0.0,
+52,64132837.0,FINERACT-98:fix for deleting a tranche,53.0,4.0,3.0,3.0,1.0,0.0,0.0,2016-03-25 05:32:48,2016-03-28 11:11:17,Sachin Kulkarni,10805965.0,1.0,2016-03-28 11:11:17
+53,64137235.0,Develop,54.0,3475.0,268.0,103.0,14.0,0.0,0.0,2016-03-25 07:06:54,2016-03-25 07:07:34,Ippez Robert,13125234.0,0.0,
+54,64232660.0,FINERACT-94: Initial commit for recurring principal moratorium betwee…,55.0,143.0,54.0,17.0,1.0,0.0,0.0,2016-03-26 08:19:26,2016-03-28 10:06:02,Binny,927712.0,0.0,
+55,64323112.0,Capturing Time,56.0,100.0,29.0,14.0,1.0,0.0,5.0,2016-03-28 13:49:47,2016-03-30 12:45:44,,17545649.0,0.0,
+56,64626427.0,Capturing Time,57.0,163.0,30.0,16.0,1.0,0.0,0.0,2016-03-30 13:25:13,2016-03-30 14:52:03,,17545649.0,0.0,
+57,64640998.0,Capturing Time,58.0,157.0,26.0,16.0,1.0,0.0,0.0,2016-03-30 14:53:42,2016-04-01 07:16:06,,17545649.0,0.0,
+58,64906024.0,Capturing Time,59.0,199.0,27.0,16.0,1.0,0.0,0.0,2016-04-01 07:34:57,2016-04-02 10:36:54,,17545649.0,1.0,2016-04-02 10:36:54
+59,65077293.0,[MIFOSX-2310] User allowed to leave Max age for LOSS criteria blank.,60.0,22.0,6.0,3.0,1.0,0.0,2.0,2016-04-03 19:11:30,2017-11-16 01:33:26,Dehan,3422709.0,0.0,
+60,65289700.0,Performance Fixes for Accrual Job,61.0,174.0,108.0,19.0,1.0,0.0,0.0,2016-04-05 11:37:18,2016-04-05 13:41:47,Rahul Shah,7777572.0,0.0,
+61,65306474.0,Fix for Accrual Job,62.0,234.0,157.0,19.0,1.0,0.0,0.0,2016-04-05 13:44:13,2016-04-19 06:43:05,Rahul Shah,7777572.0,0.0,
+62,65454720.0,"FINERACT-60 : Interest compounding, nth day rest frequency and meeting calendar date changes",63.0,4133.0,3006.0,72.0,1.0,0.0,3.0,2016-04-06 12:07:21,2016-04-28 10:06:12,Vishwanath R,6262412.0,0.0,
+63,65575216.0,FINERACT-94: Flexible moratorium (only principal portion),64.0,1953.0,1449.0,17.0,1.0,0.0,0.0,2016-04-07 05:18:00,2016-04-26 05:43:36,Binny,927712.0,1.0,2016-04-26 05:43:36
+64,65609660.0,Loan Product Office Name Parameter,65.0,24.0,9.0,2.0,4.0,3.0,2.0,2016-04-07 10:49:01,2017-11-16 01:33:27,Anurag Garg,16554373.0,0.0,
+65,65744788.0,changes for fees,66.0,4.0,4.0,1.0,1.0,1.0,0.0,2016-04-08 07:05:25,2016-04-27 08:50:09,Sachin Kulkarni,10805965.0,1.0,2016-04-27 08:50:09
+66,65843574.0,Client data Added fields,67.0,405.0,71.0,9.0,4.0,1.0,0.0,2016-04-08 20:34:29,2017-11-16 01:33:27,Anurag Garg,16554373.0,0.0,
+67,65955689.0,MIFOSX-2405,68.0,270.0,18.0,17.0,2.0,0.0,0.0,2016-04-11 08:22:40,2016-04-26 06:11:17,Samridhi Gupta,2630908.0,1.0,2016-04-26 06:11:17
+68,65962708.0,FINERACT-33 : savings withhold tax changes,69.0,6126.0,497.0,104.0,2.0,0.0,0.0,2016-04-11 09:21:51,2016-04-13 08:37:29,pramod,4900563.0,1.0,2016-04-13 08:37:28
+69,66204285.0,Secure Update password,70.0,39.0,16.0,1.0,2.0,1.0,3.0,2016-04-12 18:23:15,2017-01-02 23:09:59,Nikhil Pawar,16708052.0,0.0,
+70,66308490.0,Shares And Dividends Implementation,71.0,9972.0,2396.0,155.0,2.0,0.0,0.0,2016-04-13 11:54:36,2016-04-14 07:58:24,Shaik Nazeer Hussain,13728454.0,0.0,
+71,66811860.0,MIFOSX-2497 : fixed schedule generator for waivers,72.0,32.0,14.0,2.0,1.0,0.0,0.0,2016-04-18 07:55:36,2016-04-26 06:14:07,pramod,4900563.0,1.0,2016-04-26 06:14:07
+72,66832074.0,MIFOSX-2505 : included due date charge for interest only  installments,73.0,7.0,6.0,1.0,1.0,0.0,0.0,2016-04-18 10:41:08,2016-04-26 06:16:34,pramod,4900563.0,1.0,2016-04-26 06:16:34
+73,67009445.0,Issue fixes on shares and dividends reported by QA,74.0,764.0,257.0,27.0,1.0,0.0,0.0,2016-04-19 12:29:19,2016-04-20 05:31:00,Shaik Nazeer Hussain,13728454.0,1.0,2016-04-20 05:31:00
+74,67350700.0,Issues Found during QA,75.0,48.0,46.0,4.0,1.0,0.0,0.0,2016-04-21 13:08:28,2016-04-21 13:24:43,Shaik Nazeer Hussain,13728454.0,1.0,2016-04-21 13:24:43
+75,67459469.0,"254:In tranche loans, if repayment date is same as tranche disbursement date then allow to change the emi amount.",76.0,89.0,41.0,15.0,1.0,0.0,1.0,2016-04-22 04:56:22,2016-04-26 05:24:58,Sachin Kulkarni,10805965.0,0.0,
+76,67460006.0,152:Repayment schedule not regenerating when frp is changed at the time of disbursal,77.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-04-22 05:06:18,2016-04-26 06:21:08,Sachin Kulkarni,10805965.0,1.0,2016-04-26 06:21:08
+77,67460235.0,112:Edit disbursement causes the full amount to be shown - in repayment schedule,78.0,3.0,1.0,1.0,1.0,0.0,0.0,2016-04-22 05:11:11,2016-04-26 06:22:26,Sachin Kulkarni,10805965.0,1.0,2016-04-26 06:22:26
+78,67460581.0,136 : accrual exception while doing repayment,79.0,17.0,1.0,3.0,1.0,0.0,0.0,2016-04-22 05:17:08,2016-04-26 06:23:56,Sachin Kulkarni,10805965.0,1.0,2016-04-26 06:23:56
+79,67828938.0,"254:In tranche loans, if repayment date is same as tranche disbursement date then allow to change the emi amount",80.0,31.0,6.0,6.0,1.0,0.0,0.0,2016-04-26 05:32:27,2016-04-26 06:46:52,Sachin Kulkarni,10805965.0,1.0,2016-04-26 06:46:52
+80,67886277.0,removing third party licensed files import as they are not used,81.0,1.0,7.0,2.0,1.0,0.0,0.0,2016-04-26 13:33:32,2016-04-26 14:47:39,Shaik Nazeer Hussain,13728454.0,1.0,2016-04-26 14:47:39
+81,67889881.0,removing javax.transaction.Transactional imports,82.0,11.0,22.0,11.0,1.0,0.0,0.0,2016-04-26 13:55:46,2016-04-26 14:56:26,Shaik Nazeer Hussain,13728454.0,1.0,2016-04-26 14:56:26
+82,67895433.0,removing non-apache licensed imports which are not used,83.0,1.0,6.0,2.0,1.0,0.0,0.0,2016-04-26 14:27:19,2016-04-26 15:02:08,Shaik Nazeer Hussain,13728454.0,1.0,2016-04-26 15:02:08
+83,67997210.0,Removing org.hibernate.exception imports,84.0,11.0,48.0,1.0,1.0,0.0,0.0,2016-04-27 05:03:32,2016-05-04 10:57:28,Shaik Nazeer Hussain,13728454.0,1.0,2016-05-04 10:57:28
+84,68015117.0,113:Editing of tranche - causes accounting closure error.,85.0,4.0,0.0,1.0,1.0,0.0,0.0,2016-04-27 08:31:35,2016-05-04 07:18:56,Sachin Kulkarni,10805965.0,0.0,
+85,68162567.0,Changing m_entity_access table depency to m_entity_entity_mapping table,86.0,124.0,126.0,11.0,1.0,0.0,0.0,2016-04-28 04:33:11,2016-04-29 08:58:57,,16410925.0,0.0,
+86,68331864.0,"FINERACT-60 : Interest compounding, nth day rest frequency and meeting calendar date changes",87.0,4211.0,3080.0,76.0,1.0,0.0,0.0,2016-04-29 07:07:21,2016-05-04 08:48:26,Vishwanath R,6262412.0,0.0,
+87,68342017.0,Changing dependency of m_entity_to_entity_access to m_entity_mapping …,88.0,194.0,133.0,14.0,1.0,0.0,5.0,2016-04-29 09:00:32,2016-04-29 13:07:35,,16410925.0,0.0,
+88,68369214.0,Changing dependency of m_entity_to_entity_access to m_entity_mapping …,89.0,225.0,143.0,17.0,1.0,0.0,0.0,2016-04-29 13:13:07,2016-05-04 09:05:01,,16410925.0,0.0,
+89,68562961.0,Dormant Savings Feature,90.0,911.0,130.0,36.0,1.0,0.0,0.0,2016-05-02 13:55:22,2016-05-04 07:30:50,Adi Narayana Raju,3582507.0,1.0,2016-05-04 07:30:50
+90,68816820.0,updating r_enum table,91.0,93.0,0.0,1.0,1.0,0.0,0.0,2016-05-04 06:41:52,2016-05-04 06:44:31,Deleted user,10137.0,0.0,
+91,68820755.0,Customer Self Service : APIs for Third Party Beneficiary management and Third Party Account Transfers,92.0,2620.0,504.0,32.0,1.0,0.0,0.0,2016-05-04 07:32:55,2016-05-04 07:51:23,Adi Narayana Raju,3582507.0,1.0,2016-05-04 07:51:23
+92,68828505.0,adding code values to r_enum table,93.0,93.0,0.0,1.0,1.0,1.0,0.0,2016-05-04 08:50:44,2017-11-16 01:33:27,Deleted user,10137.0,0.0,
+93,68831302.0,Changing dependency of m_entity_to_entity_access to m_entity_mapping …,94.0,29598.0,171.0,25.0,1.0,0.0,0.0,2016-05-04 09:15:04,2016-05-04 09:17:11,,16410925.0,0.0,
+94,68831721.0,"FINERACT-60 : Interest compounding, nth day rest frequency and meeting calendar date changes",95.0,4180.0,3009.0,72.0,1.0,0.0,0.0,2016-05-04 09:18:46,2016-05-04 14:26:53,Vishwanath R,6262412.0,1.0,2016-05-04 14:26:53
+95,68833003.0,Changing dependency of m_entity_to_entity_access to m_entity_mapping …,96.0,213.0,152.0,17.0,1.0,0.0,0.0,2016-05-04 09:29:20,2016-05-04 12:10:36,,16410925.0,0.0,
+96,68840744.0,Adding validation to check whether savings account is his own account,97.0,76.0,52.0,6.0,1.0,0.0,0.0,2016-05-04 10:32:15,2016-05-04 11:59:15,Shaik Nazeer Hussain,13728454.0,1.0,2016-05-04 11:59:15
+97,68852461.0,Changing dependency of m_entity_to_entity_access to m_entity_mapping …,98.0,239.0,154.0,18.0,1.0,1.0,0.0,2016-05-04 12:19:35,2016-06-09 11:00:30,,16410925.0,0.0,
+98,69003800.0,[BUG-347] Stop interest posting once the loan has moved to overpaid state,99.0,12.0,0.0,1.0,1.0,0.0,0.0,2016-05-05 13:03:17,2016-05-06 11:23:57,Vishwanath R,6262412.0,1.0,2016-05-06 11:23:56
+99,69114663.0,FINERACT-151 : removed interest recalculation from date,100.0,2.0,2.0,1.0,1.0,0.0,0.0,2016-05-06 07:30:10,2016-05-06 11:17:22,pramod,4900563.0,0.0,
+100,69137438.0,FINERACT-151 : removed interest recalculation from date,101.0,0.0,3.0,1.0,1.0,0.0,0.0,2016-05-06 11:19:48,2016-05-06 11:23:57,pramod,4900563.0,1.0,2016-05-06 11:23:57
+101,69138200.0,[BUG-17] Fixed issue with loan pre-closure,102.0,13.0,0.0,3.0,1.0,0.0,0.0,2016-05-06 11:27:54,2016-05-06 11:39:51,Vishwanath R,6262412.0,1.0,2016-05-06 11:39:51
+102,69341546.0,293_post_interest_job,103.0,87.0,26.0,3.0,1.0,0.0,3.0,2016-05-09 13:02:29,2016-05-12 11:41:52,,13956719.0,0.0,
+103,69451925.0,adding new supported parameter recurringMoratoriumOnPrincipalPeriods …,104.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-05-10 05:49:11,2016-05-10 09:15:36,,16410925.0,1.0,2016-05-10 09:15:36
+104,69453335.0,"[BUG-327] Stop interest calculation as well as posting income transaction, once the loan has moved to NPA state.",105.0,1.0,0.0,1.0,1.0,0.0,0.0,2016-05-10 06:09:21,2016-05-10 09:15:36,Vishwanath R,6262412.0,1.0,2016-05-10 09:15:36
+105,69469452.0,[FINERACT-152][FINERACT-153][FINERACT-154] - Dormant savings issues,106.0,21.0,3.0,3.0,1.0,0.0,0.0,2016-05-10 08:50:51,2016-05-10 12:27:43,Adi Narayana Raju,3582507.0,1.0,2016-05-10 12:27:43
+106,69490247.0,FINERACT-108 : disbursement change with tranche loan,107.0,13.0,5.0,2.0,1.0,0.0,0.0,2016-05-10 11:30:29,2016-05-10 12:27:43,pramod,4900563.0,1.0,2016-05-10 12:27:43
+107,69496326.0,Integration tests for Savings Dormancy Tracking feature,108.0,228.0,5.0,5.0,1.0,0.0,0.0,2016-05-10 12:21:46,2016-05-10 12:27:43,Adi Narayana Raju,3582507.0,1.0,2016-05-10 12:27:43
+108,69535030.0,FINERACT-155 issue resolved,109.0,9.0,3.0,1.0,1.0,0.0,0.0,2016-05-10 16:18:28,2016-05-11 04:15:32,Deleted user,10137.0,0.0,
+109,69587713.0,FINERACT-37 Reschedule payments to the next payment date on holidays,110.0,59.0,20.0,7.0,2.0,0.0,8.0,2016-05-10 22:21:34,2016-11-07 17:26:44,James Rowe,952515.0,0.0,
+110,69613471.0,FINERACT-155 issue fixed,111.0,13.0,9.0,1.0,1.0,0.0,0.0,2016-05-11 04:25:41,2016-05-11 07:52:34,Deleted user,10137.0,1.0,2016-05-11 07:52:34
+111,69619717.0,MIFOSX-2565 : fixed prepay with floating rates,112.0,12.0,0.0,1.0,1.0,0.0,0.0,2016-05-11 06:13:17,2016-05-11 07:52:34,pramod,4900563.0,1.0,2016-05-11 07:52:34
+112,69628065.0,[FINERACT-152][FINERACT-153] - Dormant Savings Issues Corrections,113.0,20.0,24.0,7.0,1.0,0.0,0.0,2016-05-11 07:46:10,2016-05-11 07:48:45,Adi Narayana Raju,3582507.0,1.0,2016-05-11 07:48:45
+113,69817095.0,[MIFOSX-2652] Correcting repayment schedule for the loans with variable installments enabled,114.0,92.0,15.0,3.0,1.0,0.0,0.0,2016-05-12 11:00:22,2016-05-13 09:12:58,Vishwanath R,6262412.0,1.0,2016-05-13 09:12:58
+114,69822226.0,Multiselection for report parameters,115.0,8.0,1.0,1.0,1.0,0.0,0.0,2016-05-12 11:43:57,2016-05-13 09:47:14,,16410925.0,0.0,
+115,69969730.0,Adding multiple selection option for reportparameters,116.0,34.0,10.0,2.0,1.0,1.0,2.0,2016-05-13 09:49:50,2017-12-13 10:14:24,,16410925.0,0.0,
+116,70105011.0,Easier Setup,117.0,710.0,0.0,10.0,1.0,2.0,0.0,2016-05-14 21:53:10,2017-09-22 16:30:04,Avik Ganguly,4125030.0,0.0,
+117,70150435.0,293_post_interest_job,118.0,79.0,26.0,3.0,1.0,3.0,4.0,2016-05-16 05:05:01,2019-02-04 14:59:28,,13956719.0,0.0,
+118,70353888.0,Shares Integration Tests and Fixes,119.0,2136.0,130.0,23.0,1.0,0.0,0.0,2016-05-17 13:10:53,2016-05-17 13:17:47,Shaik Nazeer Hussain,13728454.0,1.0,2016-05-17 13:17:47
+119,70644738.0,Added reason for Write off loan,120.0,79.0,10.0,10.0,1.0,0.0,0.0,2016-05-19 06:57:39,2016-06-03 11:34:16,pramod kumar sharma,16795698.0,0.0,
+120,71010235.0,[FINERACT-160] - Not able to add any charges after the savings applic…,121.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-05-23 06:25:44,2016-05-24 11:04:11,Adi Narayana Raju,3582507.0,1.0,2016-05-24 11:04:11
+121,71184773.0,[MIFOSX-2656] - Accrual transaction should be added only on the first…,122.0,15.0,2.0,1.0,1.0,0.0,0.0,2016-05-24 09:18:36,2016-05-24 11:08:37,Adi Narayana Raju,3582507.0,1.0,2016-05-24 11:08:37
+122,71394799.0,FINERACT-162_show Interest Earnings/Overdraft Interest not yet posted,123.0,35.0,7.0,5.0,1.0,0.0,0.0,2016-05-25 13:51:33,2016-05-27 11:13:09,,13956719.0,1.0,2016-05-27 11:13:08
+123,71535205.0,"Agging notes,createdBydate and createdbyuser m loan transaction table",124.0,223.0,116.0,18.0,1.0,1.0,0.0,2016-05-26 10:43:56,2017-11-16 01:41:11,,16410925.0,0.0,
+124,71550539.0,fineract collection sheet,125.0,78.0,19.0,4.0,1.0,1.0,2.0,2016-05-26 12:54:51,2016-05-30 06:28:54,,17545649.0,0.0,
+125,71883740.0,fineract collection sheet redmine Issue-516,126.0,93.0,35.0,3.0,1.0,0.0,0.0,2016-05-30 10:38:28,2016-06-09 08:15:24,,17545649.0,1.0,2016-06-09 08:15:24
+126,71961026.0,162_checking null values before computing the interest not posted,127.0,7.0,6.0,1.0,1.0,0.0,0.0,2016-05-31 05:42:39,2016-06-06 07:51:27,,13956719.0,1.0,2016-06-06 07:51:27
+127,71968897.0,FINERACT-145,128.0,27.0,1.0,1.0,1.0,0.0,0.0,2016-05-31 07:22:52,2016-06-01 06:22:09,Shaik Nazeer Hussain,13728454.0,1.0,2016-06-01 06:22:09
+128,72495127.0,504 loan write off reason added,129.0,57.0,6.0,8.0,1.0,0.0,1.0,2016-06-03 11:52:24,2016-06-09 09:50:05,pramod kumar sharma,16795698.0,0.0,
+129,72853327.0,[FINERACT-167] Loan foreclosure implementation and integration test cases for the same.,130.0,1010.0,73.0,29.0,1.0,0.0,9.0,2016-06-07 10:47:22,2016-07-14 08:37:26,Vishwanath R,6262412.0,0.0,
+130,72987154.0,Adding Validation for actual disbursement date against expected …,131.0,258.0,13.0,10.0,1.0,0.0,0.0,2016-06-08 05:06:26,2016-06-09 13:19:07,,16410925.0,0.0,
+131,73011578.0,adding charges to loan was creating duplicate gl entries,132.0,1.0,0.0,1.0,1.0,0.0,0.0,2016-06-08 09:15:21,2016-06-09 10:36:16,Deleted user,10137.0,1.0,2016-06-09 10:36:16
+132,73185371.0,504 reason for loan write of added,133.0,56.0,7.0,8.0,1.0,0.0,0.0,2016-06-09 09:50:42,2016-06-09 11:16:46,pramod kumar sharma,16795698.0,1.0,2016-06-09 11:16:46
+133,73194780.0,Changing dependency of m_entity_to_entity_access to m_entity_mapping …,134.0,251.0,117.0,17.0,1.0,0.0,0.0,2016-06-09 11:03:37,2016-06-09 12:43:30,,16410925.0,1.0,2016-06-09 12:43:30
+134,73212281.0,validating disbursement date against expected disbursement date,135.0,253.0,13.0,10.0,1.0,2.0,0.0,2016-06-09 13:20:16,2017-12-13 14:03:30,,16410925.0,0.0,
+135,73327350.0,group  individual disbursement amount,136.0,718.0,10.0,21.0,1.0,0.0,0.0,2016-06-10 06:32:17,2016-06-10 06:35:47,pramod kumar sharma,16795698.0,0.0,
+136,73327714.0,group  individual disbursement amount,137.0,784.0,31.0,30.0,2.0,1.0,0.0,2016-06-10 06:37:35,2016-06-16 07:03:32,pramod kumar sharma,16795698.0,0.0,
+137,73369938.0,[FINERACT-167] Loan foreclosure implementation and integration test cases for the same.,138.0,974.0,78.0,25.0,1.0,0.0,0.0,2016-06-10 13:02:31,2016-06-13 12:29:08,Sachin Kulkarni,10805965.0,1.0,2016-06-13 12:29:08
+138,73464635.0,loansubsidy,139.0,1628.0,125.0,52.0,1.0,0.0,0.0,2016-06-11 10:17:31,2016-06-24 05:51:01,,13520854.0,0.0,
+139,73503136.0,indiffiPostInterest,140.0,541.0,189.0,29.0,1.0,1.0,0.0,2016-06-12 18:25:20,2016-06-12 18:51:12,,17545649.0,0.0,
+140,73680384.0,162_compoundnig period is greater than posting,141.0,52.0,16.0,3.0,1.0,0.0,0.0,2016-06-14 04:57:40,2016-06-14 05:52:49,,13956719.0,0.0,
+141,73896028.0,164_compounding period is greater than posting period,142.0,93.0,14.0,9.0,1.0,0.0,0.0,2016-06-15 11:37:58,2016-06-15 11:51:34,,13956719.0,0.0,
+142,73979817.0,indiffiPostInterest,143.0,671.0,228.0,25.0,1.0,0.0,0.0,2016-06-15 20:38:04,2016-06-24 12:08:09,,17545649.0,0.0,
+143,74066819.0,FINERACT-174,144.0,31.0,2.0,2.0,1.0,0.0,0.0,2016-06-16 11:49:18,2016-06-17 06:17:09,Shaik Nazeer Hussain,13728454.0,1.0,2016-06-17 06:17:09
+144,74074704.0,"fineract-170,171",145.0,17.0,10.0,1.0,1.0,0.0,0.0,2016-06-16 12:50:10,2016-06-17 06:17:09,,11835729.0,1.0,2016-06-17 06:17:09
+145,74365011.0,180: interest posting on specified date,146.0,886.0,228.0,25.0,1.0,1.0,0.0,2016-06-19 14:40:02,2016-06-20 09:28:01,,17545649.0,0.0,
+146,74411882.0,compounding issues fixed,147.0,30.0,12.0,2.0,1.0,0.0,0.0,2016-06-20 09:17:09,2016-06-22 11:37:34,Deleted user,10137.0,1.0,2016-06-22 11:37:34
+147,74415796.0,180 : interest posting on specified date,148.0,872.0,245.0,25.0,1.0,1.0,0.0,2016-06-20 09:46:47,2016-06-24 06:03:56,,17545649.0,0.0,
+148,74565124.0,FINERACT-181 - Not able to apply additional shares displays internal server error,149.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-06-21 07:47:19,2016-06-21 08:55:43,Shaik Nazeer Hussain,13728454.0,1.0,2016-06-21 08:55:43
+149,74595416.0,FINERACT-187,150.0,345.0,192.0,19.0,1.0,0.0,0.0,2016-06-21 11:34:22,2016-06-22 12:32:06,Deleted user,10137.0,0.0,
+150,74615483.0,"fineract(185,182,173,175)",151.0,113.0,67.0,5.0,1.0,0.0,0.0,2016-06-21 13:52:59,2016-06-22 11:45:20,,11835729.0,1.0,2016-06-22 11:45:20
+151,74630941.0,FINERACT-186 batch job optimisation,152.0,32.0,18.0,2.0,1.0,1.0,1.0,2016-06-21 15:15:45,2018-12-25 12:49:32,Deleted user,10137.0,1.0,2018-12-25 12:49:32
+152,74735259.0,FINERACT-183 Not able to save Edit Fixed deposit product page displays Internal server error,153.0,7.0,2.0,1.0,1.0,0.0,0.0,2016-06-22 07:22:39,2016-06-22 11:50:14,Shaik Nazeer Hussain,13728454.0,1.0,2016-06-22 11:50:14
+153,74752891.0,FINERACT-190: Fixed client share activated user join,154.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-06-22 09:40:46,2016-08-02 04:33:23,Terence Monteiro,394315.0,1.0,2016-08-02 04:33:23
+154,74755952.0,FINERACT-177 individual client share in group loan,155.0,1369.0,12.0,25.0,1.0,1.0,1.0,2016-06-22 10:00:55,2017-07-06 07:48:58,pramod kumar sharma,16795698.0,0.0,
+155,74781780.0,multi tranche loan validation add and foreclose issues for multi tran…,156.0,16.0,1.0,2.0,1.0,0.0,0.0,2016-06-22 13:16:14,2016-06-22 13:16:39,Deleted user,10137.0,0.0,
+156,74782304.0,multi tranche loan validation add and foreclose issues for multi tran…,157.0,15.0,2.0,2.0,1.0,0.0,0.0,2016-06-22 13:19:34,2016-06-23 12:10:57,Deleted user,10137.0,1.0,2016-06-23 12:10:57
+157,74930776.0,FINERACT-182,158.0,19.0,8.0,3.0,1.0,0.0,0.0,2016-06-23 10:26:28,2016-06-23 12:15:59,Deleted user,10137.0,1.0,2016-06-23 12:15:59
+158,75116122.0,FINERACT-182 and FINERACT-195 issues resolved,159.0,29.0,16.0,4.0,1.0,0.0,0.0,2016-06-24 13:45:40,2016-06-24 14:02:52,Deleted user,10137.0,1.0,2016-06-24 14:02:52
+159,75117455.0,FINERACT-179 issue resolved,160.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-06-24 13:55:10,2016-06-24 14:08:27,Deleted user,10137.0,1.0,2016-06-24 14:08:26
+160,75200044.0,incubator-fineract,161.0,89652.0,13772.0,1654.0,501.0,1.0,0.0,2016-06-25 08:55:41,2017-11-16 01:41:12,Anvar Yadgarov,2853671.0,0.0,
+161,75423382.0,Removing Hibernate annotations,162.0,475.0,464.0,56.0,1.0,0.0,0.0,2016-06-28 06:15:39,2016-06-28 11:39:39,Shaik Nazeer Hussain,13728454.0,1.0,2016-06-28 11:39:39
+162,75447011.0,652:Multiple rescheduling of regular loans,163.0,776.0,400.0,18.0,1.0,0.0,0.0,2016-06-28 09:40:27,2016-07-01 13:20:34,Sachin Kulkarni,10805965.0,0.0,
+163,75596180.0,"Adding License, Notice, Apache license to sql, sh, bat files",164.0,7029.0,123.0,356.0,1.0,0.0,0.0,2016-06-29 06:46:49,2016-06-29 09:53:15,Shaik Nazeer Hussain,13728454.0,0.0,
+164,75623286.0,"Adding Apache License to .sql, .bat. .sh files and modifying LICENSE",165.0,7033.0,127.0,356.0,1.0,0.0,0.0,2016-06-29 10:22:25,2016-08-02 04:30:03,Shaik Nazeer Hussain,13728454.0,0.0,
+165,75985957.0,652: multiple rescheduling for regular loans,166.0,849.0,1039.0,23.0,1.0,0.0,0.0,2016-07-01 14:12:39,2016-07-28 09:24:09,Sachin Kulkarni,10805965.0,0.0,
+166,77099823.0,0.3.2 release changes,167.0,30.0,14.0,6.0,1.0,0.0,0.0,2016-07-12 10:57:33,2016-07-12 11:16:22,Shaik Nazeer Hussain,13728454.0,1.0,2016-07-12 11:16:22
+167,77456719.0,commit for FINERACT-44 (Cannot delete an inactive charge associated with a product (loan/savings)),168.0,2.0,2.0,1.0,1.0,0.0,0.0,2016-07-14 13:34:02,2016-07-28 10:42:33,Emmanuel Nnaa,5940738.0,1.0,2016-07-28 10:42:33
+168,77457378.0,commit for FINERACT-45 (The getRejectedByUser method in the LoanRescheduleRequest entity class returns the wrong value.),169.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-07-14 13:38:17,2016-07-28 10:48:00,Emmanuel Nnaa,5940738.0,1.0,2016-07-28 10:48:00
+169,77470288.0,commit for FINERACT-46 (Throw an exception if staff to be deactivated is attached to an entity with status enum id not equal to 600),170.0,68.0,1.0,3.0,1.0,0.0,3.0,2016-07-14 14:55:35,2017-11-16 01:41:12,Emmanuel Nnaa,5940738.0,0.0,
+170,77769316.0,commit for FINERACT-47 (Expired user password cannot be updated by the same user),171.0,2.0,1.0,1.0,1.0,0.0,0.0,2016-07-18 07:42:00,2016-07-29 06:41:10,Emmanuel Nnaa,5940738.0,1.0,2016-07-29 06:41:10
+171,77775489.0,commit for FINERACT-49 (Waived charges and zero installment charges amounts not excluded from total charges amount on reschedule loan preview),172.0,118.0,17.0,8.0,1.0,1.0,0.0,2016-07-18 08:49:41,2017-11-16 01:41:12,Emmanuel Nnaa,5940738.0,0.0,
+172,77780088.0,commit for FINERACT-50 (Add 'mandatory' property to code value entity),173.0,72.0,19.0,6.0,1.0,0.0,0.0,2016-07-18 09:30:34,2016-07-18 09:31:31,Emmanuel Nnaa,5940738.0,0.0,
+173,77780526.0,commit for FINERACT-50 (Add 'mandatory' property to code value entity),174.0,72.0,19.0,6.0,1.0,0.0,0.0,2016-07-18 09:34:26,2016-07-29 09:03:40,Emmanuel Nnaa,5940738.0,1.0,2016-07-29 09:03:40
+174,77788362.0,commit for FINERACT-51 (Add the 'is_reversed' property of the loan transaction entity to the 'LoanTransactionData' object),175.0,39.0,25.0,3.0,1.0,0.0,2.0,2016-07-18 10:43:08,2017-11-16 01:41:12,Emmanuel Nnaa,5940738.0,0.0,
+175,77789464.0,commit for FINERACT-52 (Null value not handled in 'ClientWritePlatformServiceJpaRepositoryImpl.CloseClient' date comparison),176.0,1.0,1.0,1.0,1.0,2.0,2.0,2016-07-18 10:53:20,2019-02-26 08:27:49,Emmanuel Nnaa,5940738.0,1.0,2019-02-26 08:27:48
+176,77948860.0,commit for FINERACT-53 (Make the clientId URL parameter optional for 'loan details template' retrieval),177.0,20.0,7.0,2.0,1.0,0.0,0.0,2016-07-19 10:01:30,2016-07-29 09:36:09,Emmanuel Nnaa,5940738.0,1.0,2016-07-29 09:36:09
+177,78023506.0,Added notification module,178.0,3193.0,198.0,108.0,1.0,8.0,25.0,2016-07-19 18:15:48,2017-01-02 18:01:24,Adhyan Srivastava,8019601.0,0.0,
+178,78136859.0,commit FINERACT-54 (Add ability to delete code values by setting a flag (is_active) to 0),179.0,144.0,38.0,16.0,1.0,2.0,0.0,2016-07-20 12:19:32,2016-08-02 11:26:24,Emmanuel Nnaa,5940738.0,0.0,
+179,78137021.0,MIFOSX - 2521  adding feature multi resheduling for loans,180.0,1424.0,1216.0,28.0,1.0,1.0,0.0,2016-07-20 12:20:42,2016-07-27 06:31:31,Deleted user,10137.0,0.0,
+180,78318639.0,commit for FINERACT-55 (Standing instruction not disabled at loan/savings account closure),181.0,101.0,5.0,5.0,1.0,0.0,0.0,2016-07-21 13:47:44,2016-08-01 05:44:32,Emmanuel Nnaa,5940738.0,1.0,2016-08-01 05:44:32
+181,78321115.0,commit for FINERACT-57 (Set closure properties of reactivated closed client entity to null),182.0,5.0,0.0,1.0,1.0,0.0,0.0,2016-07-21 14:02:26,2016-08-01 06:01:57,Emmanuel Nnaa,5940738.0,1.0,2016-08-01 06:01:57
+182,78460644.0,Address module backend changes.,183.0,3013.0,19.0,37.0,4.0,2.0,0.0,2016-07-22 11:05:51,2016-08-01 05:54:13,Nikhil Pawar,16708052.0,0.0,
+183,78671809.0,commit for FINERACT-61 (Incorrect penalty and fee charges amount inserted into the 'm_loan_arrears_aging' table),184.0,13.0,13.0,1.0,1.0,0.0,0.0,2016-07-25 12:21:50,2016-08-01 07:41:22,Emmanuel Nnaa,5940738.0,1.0,2016-08-01 07:41:22
+184,79009727.0,MIFOSX - 2521 adding feature multi resheduling for loans,185.0,1496.0,1310.0,31.0,2.0,0.0,0.0,2016-07-27 11:44:00,2016-07-29 12:21:31,Deleted user,10137.0,0.0,
+185,79351474.0,FINERACT-202 : enabling the option for multi reshedule,186.0,1496.0,1310.0,31.0,1.0,0.0,0.0,2016-07-29 12:26:05,2016-07-29 12:51:49,Deleted user,10137.0,0.0,
+186,79354714.0,FINERACT-202 : enabling the option for multi reshedule,187.0,1496.0,1310.0,31.0,1.0,0.0,0.0,2016-07-29 12:53:41,2016-08-01 11:43:12,Deleted user,10137.0,0.0,
+187,79518402.0,address_module,188.0,10484.0,219.0,416.0,1.0,1.0,0.0,2016-08-01 06:18:18,2016-08-01 07:02:51,Nikhil Pawar,16708052.0,0.0,
+188,79522649.0,address_module,189.0,2883.0,18.0,36.0,2.0,0.0,40.0,2016-08-01 07:08:29,2016-08-08 19:31:30,Nikhil Pawar,16708052.0,0.0,
+189,79555250.0,FINERACT-202 : enabling the option for multi reshedule,190.0,1496.0,1310.0,31.0,1.0,0.0,0.0,2016-08-01 11:44:51,2016-08-01 13:39:38,Deleted user,10137.0,1.0,2016-08-01 13:39:38
+190,79711838.0,commit for FINERACT-65 (Implement ability to schedule & e-mail reports),191.0,4789.0,4.0,45.0,1.0,1.0,13.0,2016-08-02 10:30:58,2016-08-08 12:21:23,Emmanuel Nnaa,5940738.0,0.0,
+191,79718719.0,commit FINERACT-54 (Add ability to delete code values by setting a flag (is_active) to 0),192.0,144.0,38.0,16.0,1.0,2.0,2.0,2016-08-02 11:27:37,2019-03-04 10:12:15,Emmanuel Nnaa,5940738.0,0.0,
+192,79738273.0,commit for FINERACT-70 (Rename deleted standing instruction by appending '_deleted_' string and the id),193.0,11.0,1.0,2.0,1.0,0.0,0.0,2016-08-02 13:49:11,2016-08-03 12:56:11,Emmanuel Nnaa,5940738.0,1.0,2016-08-03 12:56:11
+193,80060476.0,Address module,194.0,2975.0,137.0,38.0,7.0,0.0,0.0,2016-08-04 11:13:06,2016-08-04 11:27:35,Nikhil Pawar,16708052.0,0.0,
+194,80062179.0,address_module,195.0,2950.0,131.0,35.0,2.0,0.0,15.0,2016-08-04 11:27:53,2016-08-09 11:18:45,Nikhil Pawar,16708052.0,0.0,
+195,80064275.0,fineract-206 fixed MySQLIntegrityConstraintViolationException issue w…,196.0,4.0,0.0,1.0,1.0,0.0,0.0,2016-08-04 11:46:13,2016-08-12 02:53:27,,5655438.0,1.0,2016-08-12 02:53:27
+196,80441837.0,commit for FINERACT-65 (Implement ability to schedule & e-mail reports),197.0,4765.0,5.0,43.0,1.0,0.0,0.0,2016-08-08 12:23:55,2016-08-12 03:40:11,Emmanuel Nnaa,5940738.0,1.0,2016-08-12 03:40:11
+197,80445406.0,commit for FINERACT-71 ('AuditReadPlatformServiceImpl.retrieveEntries' returns duplicate results for users without the 'ALL_FUNCTIONS' and 'CHECKER_SUPER_USER' permissions.),198.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-08-08 12:51:22,2016-08-12 03:06:42,Emmanuel Nnaa,5940738.0,1.0,2016-08-12 03:06:42
+198,80459224.0,commit for FINERACT-72 (Speed up the retrieval of journal entries when 'transactionDetails' is set to true),199.0,91.0,31.0,8.0,1.0,0.0,3.0,2016-08-08 14:20:59,2016-08-15 08:47:27,Emmanuel Nnaa,5940738.0,0.0,
+199,80698995.0,address_module,200.0,3124.0,192.0,35.0,1.0,1.0,4.0,2016-08-09 21:34:48,2016-08-11 01:02:02,Nikhil Pawar,16708052.0,0.0,
+200,80892741.0,address_module,201.0,4645.0,1229.0,34.0,1.0,0.0,5.0,2016-08-11 01:11:21,2016-08-11 03:04:59,Nikhil Pawar,16708052.0,0.0,
+201,80899458.0,address_module,202.0,4625.0,1229.0,34.0,1.0,0.0,2.0,2016-08-11 03:20:05,2016-08-11 08:55:10,Nikhil Pawar,16708052.0,0.0,
+202,80923731.0,address_module,203.0,3411.0,94.0,34.0,1.0,0.0,0.0,2016-08-11 09:02:04,2016-08-12 02:47:26,Nikhil Pawar,16708052.0,1.0,2016-08-12 02:47:26
+203,80936535.0,#1218 client status with undoReject and undoWithdrawal with Integration Test,204.0,775.0,56.0,14.0,1.0,0.0,0.0,2016-08-11 10:44:34,2016-08-11 10:56:46,,20402846.0,0.0,
+204,80940057.0,Integration Tests for UndoRejection and UndoWithdrawal,205.0,775.0,56.0,14.0,1.0,0.0,0.0,2016-08-11 11:15:08,2016-08-12 04:15:03,,20402846.0,0.0,
+205,81066565.0, Feature Implementation of UNDOREJECT and UNDOWITHDRAWAL for Client,206.0,774.0,55.0,13.0,1.0,0.0,0.0,2016-08-12 04:31:10,2016-08-12 10:07:47,,20402846.0,0.0,
+206,81096915.0,feature implementation of undoreject and undowithdrawal for client,207.0,866.0,55.0,14.0,1.0,0.0,0.0,2016-08-12 10:16:38,2016-08-12 10:41:12,,20402846.0,0.0,
+207,81285239.0,commit for FINERACT-72 (Speed up the retrieval of journal entries when 'transactionDetails' is set to true),208.0,91.0,31.0,8.0,1.0,2.0,0.0,2016-08-15 08:49:39,2017-11-16 01:41:12,Emmanuel Nnaa,5940738.0,0.0,
+208,81434262.0,feature implementation of undoreject and undowithdrawal for client,209.0,866.0,55.0,14.0,1.0,0.0,4.0,2016-08-16 08:42:41,2016-08-16 10:57:58,,20402846.0,1.0,2016-08-16 10:57:58
+209,81437018.0,[FINERACT-131] Topup Loan Feature,210.0,741.0,175.0,33.0,1.0,0.0,0.0,2016-08-16 09:03:40,2016-08-16 09:53:09,Satish S,10193037.0,1.0,2016-08-16 09:53:09
+210,81584549.0,Fixed hiberante join issue,211.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-08-17 05:04:59,2016-08-17 05:07:09,Adi Narayana Raju,3582507.0,1.0,2016-08-17 05:07:09
+211,81928625.0,#1319:Foreclosure charge issue,212.0,29.0,15.0,1.0,1.0,1.0,0.0,2016-08-19 05:33:38,2016-08-22 05:50:44,,16410925.0,1.0,2016-08-22 05:50:44
+212,81971877.0,FINERACT-215 installment amount was getting changed after rescheduling  ,213.0,2.0,1.0,1.0,1.0,0.0,0.0,2016-08-19 12:17:26,2016-08-22 06:53:45,Deleted user,10137.0,1.0,2016-08-22 06:53:45
+213,81974970.0,FINERACT-214 : adding validation for overdue charges while rescheduling,214.0,28.0,5.0,2.0,1.0,0.0,0.0,2016-08-19 12:42:57,2016-08-22 08:19:59,Deleted user,10137.0,1.0,2016-08-22 08:19:59
+214,82087515.0,creditbureau configuration,215.0,4823.0,57.0,77.0,1.0,4.0,24.0,2016-08-20 19:39:18,2017-03-21 01:59:20,Nikhil Pawar,16708052.0,0.0,
+215,82142884.0,[FINERACT-212] & [FINERACT-216] & [FINERACT-218] & Correction of error messages on loan to be closed status and application submitted date,216.0,65.0,14.0,3.0,1.0,0.0,0.0,2016-08-22 07:05:52,2016-08-22 08:44:26,Adi Narayana Raju,3582507.0,1.0,2016-08-22 08:44:26
+216,82318825.0,"[FINERACT-223] In topup loan if the ""Choose loan to close"" is selecte…",217.0,5.0,2.0,1.0,1.0,0.0,0.0,2016-08-23 07:55:58,2016-08-23 08:01:23,Adi Narayana Raju,3582507.0,1.0,2016-08-23 08:01:23
+217,82514920.0,[FINERACT-211] Corrected code to avoid detached entity persist exception,218.0,12.0,6.0,1.0,1.0,0.0,0.0,2016-08-24 10:06:28,2016-08-24 11:30:02,Adi Narayana Raju,3582507.0,1.0,2016-08-24 11:30:02
+218,82709065.0,FINERACT-37 Reschedule repayment on holidays+extend term,219.0,86.0,21.0,7.0,1.0,3.0,2.0,2016-08-25 12:18:15,2016-10-18 07:08:21,Terence Monteiro,394315.0,1.0,2016-10-18 07:08:21
+219,82889812.0,fix for performance issues,220.0,267.0,61.0,14.0,1.0,0.0,0.0,2016-08-26 13:42:31,2016-08-29 09:47:09,pramod,4900563.0,1.0,2016-08-29 09:47:09
+220,82979953.0,FINERACT-227 : added The option For loan loss provisioning to select …,221.0,498.0,75.0,16.0,1.0,0.0,0.0,2016-08-27 06:49:07,2016-08-27 07:20:37,Deleted user,10137.0,0.0,
+221,83257045.0,performance issue fix for repayment template,222.0,96.0,98.0,2.0,1.0,0.0,0.0,2016-08-30 11:54:53,2016-09-06 06:57:47,pramod,4900563.0,1.0,2016-09-06 06:57:47
+222,83573195.0,[MIFOSX-2731] Combined both savings charges and penalties into charges dropdown,223.0,2.0,2.0,2.0,1.0,0.0,0.0,2016-09-01 05:40:02,2016-09-06 07:06:56,Vishwanath R,6262412.0,1.0,2016-09-06 07:06:56
+223,84286302.0,[MIFOSX-2784] Including all transactions in Teller Cashier transaction list,224.0,126.0,37.0,4.0,1.0,1.0,0.0,2016-09-07 11:55:24,2016-10-18 05:13:25,Vishwanath R,6262412.0,0.0,
+224,86104680.0,Loading child entites lazy,225.0,885.0,758.0,63.0,1.0,0.0,0.0,2016-09-21 06:29:38,2016-09-21 08:44:41,Shaik Nazeer Hussain,13728454.0,1.0,2016-09-21 08:44:41
+225,86147021.0,[MIFOSX-2784] Including all transactions in Teller Cashier transaction list,226.0,162.0,37.0,4.0,1.0,0.0,0.0,2016-09-21 11:46:48,2016-09-22 06:42:10,Adi Narayana Raju,3582507.0,1.0,2016-09-22 06:42:10
+226,86466513.0,Fineract-225,227.0,23.0,1.0,2.0,1.0,0.0,1.0,2016-09-23 07:37:25,2017-11-16 01:41:12,,21968171.0,0.0,
+227,89570164.0,OpenJPA Integration Changes,228.0,1545.0,914.0,238.0,1.0,0.0,0.0,2016-10-17 07:02:16,2016-10-17 08:19:37,Shaik Nazeer Hussain,13728454.0,1.0,2016-10-17 08:19:37
+228,90762136.0,Add API to allow self service user to change their password,229.0,114.0,0.0,2.0,1.0,0.0,0.0,2016-10-25 08:39:27,2016-10-26 12:01:15,Adi Narayana Raju,3582507.0,1.0,2016-10-26 12:01:15
+229,91014318.0,Improvment for MIFOSX-2799,230.0,6.0,6.0,1.0,1.0,0.0,0.0,2016-10-26 14:21:10,2016-10-26 14:22:05,GopalaKrishnan P,21004514.0,0.0,
+230,91191416.0,Better E-mail for new user,231.0,7.0,5.0,1.0,1.0,3.0,2.0,2016-10-27 12:34:50,2016-11-17 12:50:14,GopalaKrishnan P,21004514.0,0.0,
+231,92110597.0,sql fix,232.0,3.0,0.0,1.0,1.0,0.0,1.0,2016-11-03 08:26:06,2016-11-03 20:48:27,Nikhil Pawar,16708052.0,0.0,
+232,92123856.0,interest posting on specified date,233.0,1648.0,226.0,24.0,1.0,0.0,0.0,2016-11-03 10:12:43,2016-11-03 13:46:43,,17545649.0,1.0,2016-11-03 13:46:42
+233,92238077.0,address sql fix,234.0,1652.0,227.0,26.0,1.0,2.0,0.0,2016-11-03 20:53:50,2016-11-08 06:20:12,Nikhil Pawar,16708052.0,0.0,
+234,92723000.0,addressModuleFix,235.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-11-08 06:39:37,2016-11-14 14:06:20,Nikhil Pawar,16708052.0,1.0,2016-11-14 14:06:20
+235,93283042.0,162,236.0,185.0,102.0,17.0,2.0,0.0,0.0,2016-11-11 05:53:11,2016-11-14 14:06:20,,20402846.0,1.0,2016-11-14 14:06:20
+236,93331583.0,SMS Campaign feature implementation,237.0,6882.0,94.0,86.0,1.0,0.0,0.0,2016-11-11 13:25:03,2016-11-14 14:06:20,Satish S,10193037.0,1.0,2016-11-14 14:06:20
+237,93429243.0,API for Email Campaign feature implementation,238.0,6728.0,19.0,77.0,1.0,0.0,0.0,2016-11-12 05:42:31,2016-11-12 06:02:39,Ippez Robert,13125234.0,0.0,
+238,93429631.0,API for Email Campaign feature implementation,239.0,6728.0,19.0,77.0,1.0,4.0,15.0,2016-11-12 06:02:17,2017-02-14 13:45:23,Ippez Robert,13125234.0,0.0,
+239,93557750.0,SMS Campaign feature implementation,240.0,6634.0,94.0,84.0,2.0,0.0,0.0,2016-11-14 12:27:28,2016-11-14 14:06:21,Shaik Nazeer Hussain,13728454.0,1.0,2016-11-14 14:06:21
+240,93723259.0,Added waiting for delivery report tab in view SMS Campaign,241.0,4.0,0.0,1.0,1.0,0.0,0.0,2016-11-15 08:49:26,2016-11-15 09:35:28,Satish S,10193037.0,1.0,2016-11-15 09:35:28
+241,93745605.0,Removed ALL option from r_enum_value table for loan_type_enum,242.0,1.0,3.0,2.0,1.0,0.0,0.0,2016-11-15 11:13:06,2016-11-15 12:30:09,Satish S,10193037.0,1.0,2016-11-15 12:30:09
+242,94111392.0,SMS Campaign issues fix on 16-11,243.0,44.0,145.0,13.0,1.0,0.0,0.0,2016-11-17 06:50:13,2016-11-17 12:29:42,Satish S,10193037.0,1.0,2016-11-17 12:29:42
+243,94162086.0,Fix for MIFOSX-2799,244.0,7.0,5.0,1.0,1.0,2.0,0.0,2016-11-17 12:55:56,2016-11-17 13:17:18,GopalaKrishnan P,21004514.0,0.0,
+244,94166438.0,Fix for MIFOSX-2799,245.0,7.0,5.0,1.0,1.0,1.0,0.0,2016-11-17 13:25:21,2016-11-22 10:58:54,GopalaKrishnan P,21004514.0,1.0,2016-11-22 10:58:54
+245,94231287.0,Put gradle version in build.gradle and avoid having to download the correct gradle version prior to building,246.0,7.0,4.0,2.0,2.0,7.0,0.0,2016-11-17 19:15:34,2017-01-19 00:39:07,Martin Goldhahn,362120.0,0.0,
+246,94326681.0,Added pagination for listing  SMS campaign,247.0,33.0,14.0,5.0,1.0,0.0,0.0,2016-11-18 09:17:34,2016-11-18 09:32:54,Satish S,10193037.0,1.0,2016-11-18 09:32:54
+247,94361963.0,"Fix for resolving scorecards, and replacing dead fk relation",248.0,51.0,2.0,2.0,1.0,2.0,0.0,2016-11-18 13:30:42,2016-11-22 13:15:23,Markus Geiß,1834098.0,1.0,2016-11-22 13:15:23
+248,94957483.0,Integrating Apache RAT FINERACT-245,249.0,97.0,1.0,3.0,1.0,1.0,0.0,2016-11-23 07:55:13,2016-11-23 08:48:43,Shaik Nazeer Hussain,13728454.0,1.0,2016-11-23 08:48:43
+249,95477238.0,FINERACT-260: add ensure client charge date not before client activation date,250.0,12.0,1.0,1.0,1.0,0.0,0.0,2016-11-28 11:00:15,2016-12-13 11:29:38,abdul aziz ali,23547158.0,1.0,2016-12-13 11:29:38
+250,95646759.0,267: Installment Fee fix on Foreclosure,251.0,31.0,3.0,1.0,1.0,1.0,0.0,2016-11-29 08:33:39,2016-12-13 12:21:50,,20402846.0,1.0,2016-12-13 12:21:50
+251,96490616.0,FINERACT-266 - Handling License issues for both source and binary distributions,252.0,1769.0,32.0,33.0,1.0,0.0,0.0,2016-12-05 09:01:48,2016-12-05 09:12:16,Shaik Nazeer Hussain,13728454.0,0.0,
+252,96497080.0,FINERACT-266 - Handling License issues for both source and binary dis…,253.0,1808.0,32.0,35.0,1.0,0.0,0.0,2016-12-05 09:48:20,2016-12-05 10:11:43,Shaik Nazeer Hussain,13728454.0,0.0,
+253,96510642.0,FINERACT-266 - Handling License issues for both source and binary distributions,254.0,1815.0,32.0,35.0,1.0,0.0,0.0,2016-12-05 11:20:03,2016-12-05 11:47:13,Shaik Nazeer Hussain,13728454.0,1.0,2016-12-05 11:47:13
+254,96564705.0,Update the README File,255.0,53.0,16.0,1.0,1.0,1.0,0.0,2016-12-05 16:43:52,2016-12-13 13:47:35,Mt.Du,6820349.0,1.0,2016-12-13 13:47:35
+255,96695836.0,FINERACT-7: Sort loanInstallmentCharges before updating,256.0,28.0,10.0,4.0,1.0,7.0,5.0,2016-12-06 10:18:34,2017-12-13 10:14:24,abdul aziz ali,23547158.0,0.0,
+256,97057047.0,Created a better e-mail message for a new user,257.0,10.0,8.0,1.0,1.0,3.0,0.0,2016-12-08 04:23:39,2017-11-16 01:41:12,Mt.Du,6820349.0,0.0,
+257,97280092.0,Entity datatable check implementation,258.0,2134.0,290.0,51.0,1.0,0.0,0.0,2016-12-09 09:57:56,2016-12-09 11:14:26,Satish S,10193037.0,1.0,2016-12-09 11:14:26
+258,97286273.0,FINERACT-288 - Client's Image Uploaded Not Showing on UI in Amazon S3,259.0,76.0,23.0,3.0,1.0,0.0,0.0,2016-12-09 10:39:18,2016-12-09 11:14:27,Shaik Nazeer Hussain,13728454.0,1.0,2016-12-09 11:14:27
+259,97945763.0,Updated API doc for Entity-Datatable Check,260.0,781.0,11.0,1.0,1.0,0.0,0.0,2016-12-14 12:48:16,2016-12-14 12:53:25,Satish S,10193037.0,1.0,2016-12-14 12:53:24
+260,98505806.0,Fixed issues with entity datatable check,261.0,339.0,298.0,10.0,1.0,0.0,0.0,2016-12-19 04:27:55,2016-12-19 05:29:07,Satish S,10193037.0,1.0,2016-12-19 05:29:07
+261,98513463.0,Fixed issue with Create Center,262.0,9.0,7.0,1.0,1.0,0.0,0.0,2016-12-19 06:30:49,2016-12-19 06:48:46,Satish S,10193037.0,1.0,2016-12-19 06:48:46
+262,98733402.0,Integration test cases for Entity-Datatable Check,263.0,870.0,19.0,9.0,1.0,0.0,0.0,2016-12-20 11:42:26,2016-12-22 12:53:50,Satish S,10193037.0,1.0,2016-12-22 12:53:50
+263,99208958.0,Fixed issue with calculate repayment schedule,264.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-12-23 07:00:15,2016-12-26 06:12:40,Satish S,10193037.0,1.0,2016-12-26 06:12:40
+264,99234717.0,Integration test cases for SMS Campaign,265.0,480.0,0.0,3.0,1.0,1.0,0.0,2016-12-23 12:04:36,2016-12-29 07:20:32,Satish S,10193037.0,1.0,2016-12-29 07:20:32
+265,99322110.0,Fix to charge fees when total amount changed during approval.,266.0,3.0,1.0,1.0,1.0,4.0,0.0,2016-12-25 13:05:42,2016-12-29 07:20:32,Tan Gemicioglu,11898470.0,1.0,2016-12-29 07:20:32
+266,99686961.0,Remove unnecessary checking for missing joined date.,267.0,3.0,5.0,1.0,1.0,4.0,0.0,2016-12-29 18:52:43,2017-01-03 14:43:46,Illia Andrieiev,22119535.0,1.0,2017-01-03 14:43:46
+267,99841573.0,[Fineract-309] query result list assigned as a modifiable list,268.0,1.0,1.0,1.0,1.0,0.0,0.0,2017-01-02 07:13:59,2017-01-02 12:23:42,Adi Narayana Raju,3582507.0,1.0,2017-01-02 12:23:42
+268,99925029.0,Notification Module,270.0,2942.0,22.0,49.0,1.0,0.0,17.0,2017-01-03 09:04:15,2017-01-29 21:23:33,Adhyan Srivastava,8019601.0,0.0,
+269,100052377.0, Fineract-265:addressModuleNullPointerFix,271.0,7.0,1.0,1.0,1.0,1.0,0.0,2017-01-04 02:05:28,2017-01-13 08:49:01,Nikhil Pawar,16708052.0,1.0,2017-01-13 08:49:01
+270,100121318.0,Merge pull request #1 from apache/develop,272.0,2229.0,6.0,6.0,5.0,2.0,0.0,2017-01-04 14:12:45,2017-11-16 01:41:12,Anurag Garg,16554373.0,0.0,
+271,100624172.0,Added recurringFrequency to recurringDeposit files.,273.0,156.0,46.0,9.0,1.0,2.0,0.0,2017-01-09 00:54:58,2017-11-16 01:41:12,Tan Gemicioglu,11898470.0,0.0,
+272,101266757.0,FINERACT-352 fix showing penalties after last loan's installment,274.0,1.0,2.0,1.0,1.0,1.0,0.0,2017-01-12 14:17:16,2017-01-13 08:51:22,,25079984.0,1.0,2017-01-13 08:51:22
+273,101703877.0,[MIFOSX-2114] Change assignment staff to group and clients in center.,275.0,28.0,11.0,2.0,1.0,2.0,2.0,2017-01-16 14:51:54,2019-02-08 10:31:56,Illia Andrieiev,22119535.0,0.0,
+274,101851628.0,FINERACT-364 - Submitting Collection Sheet through Maker Checker Throwing Error,276.0,2.0,1.0,1.0,1.0,0.0,0.0,2017-01-17 12:13:05,2017-01-20 08:21:49,Shaik Nazeer Hussain,13728454.0,1.0,2017-01-20 08:21:49
+275,102021388.0,FINERACT-16-Cannot close Savings Account when linked to a loan even when loan status is closed,277.0,6.0,0.0,1.0,1.0,0.0,0.0,2017-01-18 08:48:21,2017-01-20 08:11:32,Shaik Nazeer Hussain,13728454.0,1.0,2017-01-20 08:11:32
+276,102239741.0,FINERACT-380 S3 permission issue -- add system property,278.0,5.0,2.0,3.0,1.0,0.0,0.0,2017-01-19 10:31:37,2017-01-20 08:17:32,Shaik Nazeer Hussain,13728454.0,1.0,2017-01-20 08:17:32
+277,102248794.0,FINERACT-5 Interest re-calculation setup for loan product but repayment doesn't occur,279.0,1.0,2.0,1.0,1.0,0.0,0.0,2017-01-19 11:29:07,2017-01-20 06:52:09,Shaik Nazeer Hussain,13728454.0,1.0,2017-01-20 06:52:09
+278,102697033.0,FINERACT-126 - Not able to Submit the loan application if multi tranche is added and the Expected disbursement on field is left blank displays internal server error,280.0,12.0,22.0,1.0,1.0,0.0,0.0,2017-01-23 11:02:15,2017-01-31 10:45:14,Shaik Nazeer Hussain,13728454.0,1.0,2017-01-31 10:45:14
+279,102717047.0,FINERACT-221-After submitting the modify application the currency is not getting updated as per the new product,281.0,11.0,2.0,3.0,1.0,0.0,0.0,2017-01-23 13:19:44,2017-01-31 10:47:36,Shaik Nazeer Hussain,13728454.0,1.0,2017-01-31 10:47:36
+280,103400901.0,Develop,282.0,5710.0,1047.0,111.0,80.0,1.0,0.0,2017-01-26 22:13:08,2017-11-16 01:41:12,Tjikal Jedy,6268790.0,0.0,
+281,103661263.0,Notification Module,283.0,2810.0,24.0,51.0,1.0,3.0,17.0,2017-01-29 21:35:12,2017-08-21 10:49:39,Adhyan Srivastava,8019601.0,1.0,2017-08-21 10:49:39
+282,104968074.0,FINERACT-311 - Issue With 'Payment Due On Non Working Days,284.0,23.0,11.0,2.0,1.0,0.0,0.0,2017-02-07 09:44:45,2017-02-17 09:40:53,Shaik Nazeer Hussain,13728454.0,1.0,2017-02-17 09:40:53
+283,105229967.0,FINERACT-234 - Can't process bulk JLG loan application [MIFOSX-2137],285.0,45.0,2.0,3.0,1.0,0.0,0.0,2017-02-08 14:42:08,2017-02-17 11:04:45,Shaik Nazeer Hussain,13728454.0,1.0,2017-02-17 11:04:45
+284,106304447.0,FINERACT-312 : For Loan with interest recalculation periodic accrual with respect to current date is not getting modified after repayment in Transaction page.,286.0,3.0,1.0,1.0,1.0,0.0,0.0,2017-02-15 12:53:54,2017-02-17 11:45:50,Satish S,10193037.0,1.0,2017-02-17 11:45:50
+285,106470407.0,API for Email Campaign feature implementation,287.0,6814.0,25.0,78.0,2.0,0.0,0.0,2017-02-16 07:41:16,2017-02-16 07:44:03,Ippez Robert,13125234.0,0.0,
+286,106471320.0,Email campaign Feature,288.0,6814.0,25.0,78.0,2.0,0.0,10.0,2017-02-16 07:49:27,2017-03-06 15:40:36,Ippez Robert,13125234.0,0.0,
+287,106496348.0,FINERACT-377 : Reinvesting Recurring Deposit is taking present date in stead of maturity date.,289.0,6.0,3.0,1.0,1.0,0.0,0.0,2017-02-16 10:32:57,2017-02-17 12:34:25,Satish S,10193037.0,1.0,2017-02-17 12:34:25
+288,106506769.0,FINERACT-371 - Make gradle callable from the top level directory.,290.0,141.0,121.0,6.0,1.0,1.0,0.0,2017-02-16 11:34:41,2017-02-16 13:52:24,Shaik Nazeer Hussain,13728454.0,0.0,
+289,106532455.0,FINERACT-371 - Make gradle callable from the top level directory.,291.0,143.0,122.0,6.0,1.0,2.0,0.0,2017-02-16 14:10:00,2017-02-22 12:54:14,Shaik Nazeer Hussain,13728454.0,1.0,2017-02-22 12:54:13
+290,106677113.0,FINERACT-374-Add Gradle wrapper download location in readme file,292.0,8.0,2.0,1.0,1.0,1.0,0.0,2017-02-17 06:45:38,2017-02-23 05:37:27,Shaik Nazeer Hussain,13728454.0,0.0,
+291,106963172.0,FINERACT-366 : Issue With Creating RD account with 'Charge Time Type'  Savings Activation,293.0,57.0,26.0,5.0,1.0,0.0,0.0,2017-02-20 09:00:43,2017-02-21 09:06:28,Satish S,10193037.0,1.0,2017-02-21 09:06:28
+292,107560505.0,FINERACT-374-Add Gradle wrapper download location in readme file,294.0,13.0,5.0,1.0,1.0,1.0,0.0,2017-02-23 05:57:17,2017-02-23 06:00:12,Shaik Nazeer Hussain,13728454.0,1.0,2017-02-23 06:00:12
+293,107587047.0,FINERACT-402-Integrate PMD and Findbugs with Fineract,295.0,10.0,0.0,1.0,1.0,0.0,0.0,2017-02-23 09:40:25,2017-02-23 11:25:42,Shaik Nazeer Hussain,13728454.0,1.0,2017-02-23 11:25:42
+294,107790038.0,FINERACT-399-Barebones and Sampledata sql files are broken,296.0,2432.0,274.0,2.0,1.0,0.0,0.0,2017-02-24 08:56:54,2017-02-24 08:59:30,Shaik Nazeer Hussain,13728454.0,1.0,2017-02-24 08:59:30
+295,107804428.0,FINERACT-365 : The 'Transactions' tab showing wrong balance in RD account,297.0,29.0,6.0,3.0,1.0,0.0,0.0,2017-02-24 10:32:14,2017-03-07 07:31:32,Shaik Nazeer Hussain,13728454.0,1.0,2017-03-07 07:31:32
+296,107920554.0,FINERACT-406 allow disbursal of topup loan on same date of transaction of previous loan,298.0,5.0,5.0,2.0,1.0,1.0,0.0,2017-02-24 22:25:03,2017-03-07 07:33:40,,25079984.0,1.0,2017-03-07 07:33:40
+297,108547294.0,FINERACT-412 - Add Share account in Global Search,299.0,19.0,2.0,3.0,1.0,0.0,2.0,2017-03-01 14:21:45,2017-03-03 10:09:50,Ippez Robert,13125234.0,0.0,
+298,108942520.0,FINERACT-412 - Add Share account in Global Search,300.0,19.0,2.0,3.0,1.0,1.0,0.0,2017-03-03 10:10:59,2017-03-07 08:19:21,Ippez Robert,13125234.0,1.0,2017-03-07 08:19:21
+299,109098585.0,FINERACT-228,301.0,76.0,19.0,7.0,1.0,1.0,0.0,2017-03-04 07:42:36,2017-03-07 08:48:41,Ippez Robert,13125234.0,1.0,2017-03-07 08:48:41
+300,109098882.0,Ability to reopen savings accounts when closed or rejected - First stage,302.0,265.0,1.0,8.0,1.0,2.0,4.0,2017-03-04 07:53:29,2019-03-04 10:12:33,Ippez Robert,13125234.0,0.0,
+301,109437905.0,PR for Email Campaigns,303.0,6830.0,26.0,79.0,1.0,2.0,0.0,2017-03-07 09:30:17,2017-03-17 08:36:21,Ippez Robert,13125234.0,0.0,
+302,109488251.0,FINERACT-89 : 1st tranche will appear twice in repayment schedule when disbursement date and first repayment date is on same date,304.0,22.0,17.0,1.0,1.0,0.0,0.0,2017-03-07 14:17:52,2017-03-13 11:56:24,Shaik Nazeer Hussain,13728454.0,1.0,2017-03-13 11:56:24
+303,109690435.0,"FINERACT-115 : In Loan tranche details page if any tranche is added, Tranche disbursement charge is getting added twice",305.0,9.0,5.0,2.0,1.0,0.0,0.0,2017-03-08 12:58:43,2017-03-13 11:58:10,Shaik Nazeer Hussain,13728454.0,1.0,2017-03-13 11:58:10
+304,109876712.0,FINERACT-117 : Tranche disbursement charge % disbursed amount is displaying as -ve amount if the 2nd tranche disbursed is with lesser amount and charge was waived before 2nd disbursement,306.0,7.0,6.0,1.0,1.0,0.0,0.0,2017-03-09 09:58:13,2017-03-13 11:59:42,Shaik Nazeer Hussain,13728454.0,1.0,2017-03-13 11:59:42
+305,109907707.0,Resolved-Sonar-Issues,307.0,407.0,273.0,57.0,1.0,3.0,0.0,2017-03-09 12:57:25,2017-03-23 20:24:32,Thisoora Thejith,15060374.0,0.0,
+306,110089660.0,FINERACT-378 and 379 : Can not link a Saving account to during Group Loan Application and Bluck JLG Loan application,308.0,52.0,18.0,3.0,1.0,0.0,0.0,2017-03-10 09:23:17,2017-03-13 12:01:51,Shaik Nazeer Hussain,13728454.0,1.0,2017-03-13 12:01:51
+307,110113722.0,FINERACT-331 : In edit client if the Legal Form is modified from entity to person not getting updated as person after submission,309.0,7.0,0.0,1.0,1.0,0.0,0.0,2017-03-10 11:49:41,2017-03-13 12:04:10,Shaik Nazeer Hussain,13728454.0,1.0,2017-03-13 12:04:10
+308,110363087.0,"FINERACT-344 : Should not allow to add guarantor ,If savings account activation date is gretar than loan application submitted date",310.0,10.0,0.0,1.0,1.0,0.0,0.0,2017-03-13 09:10:24,2017-03-13 12:05:33,Shaik Nazeer Hussain,13728454.0,1.0,2017-03-13 12:05:33
+309,110384837.0,FINERACT-326 : Edit datatable page not able to save if the single character is entered in New Name field,311.0,1.0,1.0,1.0,1.0,0.0,0.0,2017-03-13 11:28:45,2017-03-13 12:06:54,Shaik Nazeer Hussain,13728454.0,1.0,2017-03-13 12:06:54
+310,110626298.0,"FINERACT-345 : Should not allow to add guarantor, If savings account transaction date is greter that loan application submitted date",312.0,23.0,3.0,2.0,1.0,0.0,0.0,2017-03-14 13:56:57,2017-03-22 06:05:47,Shaik Nazeer Hussain,13728454.0,1.0,2017-03-22 06:05:47
+311,110818990.0,FINERACT-243 : Constitution type is not required field,313.0,22.0,5.0,3.0,1.0,0.0,0.0,2017-03-15 11:03:13,2017-03-22 06:10:50,Shaik Nazeer Hussain,13728454.0,1.0,2017-03-22 06:10:50
+312,110838992.0,FINERACT-384 - Product Mix - for Saving Accounts,314.0,1251.0,6.0,19.0,1.0,4.0,0.0,2017-03-15 13:04:23,2019-03-04 10:12:50,Ippez Robert,13125234.0,0.0,
+313,110978865.0,fix for FINERACT-243 : Constitution type is not required field,315.0,24.0,14.0,3.0,1.0,3.0,0.0,2017-03-16 01:57:26,2017-11-16 01:41:12,Brian C Cooke,10203461.0,0.0,
+314,111235796.0,Email Campaigns PR,316.0,6840.0,26.0,79.0,1.0,3.0,3.0,2017-03-17 08:42:57,2017-11-14 11:44:42,Ippez Robert,13125234.0,0.0,
+315,111253038.0,FINERACT-330 : No error message is getting displayed in productive collection sheet if meeting is not attached to center/group,317.0,26.0,2.0,1.0,1.0,0.0,0.0,2017-03-17 10:30:54,2017-03-22 06:14:01,Shaik Nazeer Hussain,13728454.0,1.0,2017-03-22 06:14:01
+316,111269875.0,FINERACT-321 - Manual Journal entries should not allowed to reverse after accounting closure is done for that branch.,318.0,13.0,0.0,1.0,1.0,0.0,0.0,2017-03-17 12:21:29,2017-03-22 06:17:08,Shaik Nazeer Hussain,13728454.0,1.0,2017-03-22 06:17:08
+317,111480970.0,FINERACT-418 penalties should be applied until the day before running job,319.0,3.0,3.0,1.0,1.0,0.0,0.0,2017-03-20 02:16:09,2017-03-22 06:28:59,,25079984.0,1.0,2017-03-22 06:28:59
+318,111507442.0,Creditbureau configuration module,320.0,0.0,0.0,0.0,0.0,4.0,0.0,2017-03-20 08:47:06,2017-05-23 14:36:28,Nikhil Pawar,16708052.0,0.0,
+319,112234991.0,FINERACT-270 : Unable to waive all Loan charges,321.0,38.0,14.0,5.0,1.0,0.0,0.0,2017-03-23 13:17:10,2017-03-23 13:20:27,Shaik Nazeer Hussain,13728454.0,1.0,2017-03-23 13:20:27
+320,112441281.0,FINERACT-303 - % Loan Amount + Interest or %Amount if collected as disbursement fees it is not working as expected,322.0,34.0,1.0,2.0,1.0,0.0,0.0,2017-03-24 11:57:35,2017-03-24 12:04:42,Shaik Nazeer Hussain,13728454.0,1.0,2017-03-24 12:04:42
+321,112710110.0,FINERACT-360 : Individual Collection Sheet is not considering Installment Fee during payment,323.0,57.0,11.0,4.0,1.0,0.0,0.0,2017-03-27 10:10:14,2017-03-27 12:56:14,Shaik Nazeer Hussain,13728454.0,1.0,2017-03-27 12:56:14
+322,112913909.0,FINERACT-78 : Specified due date percentage charge calculation uses loan principal amount instead of installment principal amount,324.0,58.0,5.0,3.0,1.0,0.0,0.0,2017-03-28 08:23:42,2017-03-30 11:12:53,Shaik Nazeer Hussain,13728454.0,1.0,2017-03-30 11:12:53
+323,112956702.0,FINERACT-249 : PortfolioProductType.SAVING and PortfolioProductType.CLIENT have the same value,325.0,2.0,1.0,2.0,1.0,0.0,0.0,2017-03-28 12:22:47,2017-05-05 10:39:25,Shaik Nazeer Hussain,13728454.0,1.0,2017-05-05 10:39:25
+324,113103847.0,Fix Fineract-297,326.0,1.0,1.0,1.0,1.0,0.0,0.0,2017-03-29 02:03:42,2017-05-05 10:46:36,Thisoora Thejith,15060374.0,1.0,2017-05-05 10:46:36
+325,114616191.0,"Adding validation to check not to have ddl, dml commands in sqlSearch filter text",327.0,95.0,0.0,8.0,1.0,1.0,0.0,2017-04-06 14:34:19,2017-04-07 12:05:27,Shaik Nazeer Hussain,13728454.0,0.0,
+326,114803165.0,"Adding validation to check not to have ddl, dml commands in sqlSearch filter text",328.0,159.0,0.0,8.0,1.0,0.0,5.0,2017-04-07 12:12:06,2017-04-13 06:38:29,Shaik Nazeer Hussain,13728454.0,0.0,
+327,114988090.0,added a new line after the licence text to make the project compile,329.0,1.0,0.0,1.0,1.0,0.0,0.0,2017-04-09 14:29:47,2017-04-09 14:30:03,,4885378.0,0.0,
+328,115163708.0,Fix FINERACT-389,330.0,2.0,0.0,1.0,1.0,0.0,0.0,2017-04-10 18:32:51,2017-05-05 11:43:45,Thisoora Thejith,15060374.0,1.0,2017-05-05 11:43:45
+329,115692122.0,"Adding validation to check not to have ddl, dml commands in sqlSearch filter text",331.0,160.0,0.0,8.0,1.0,0.0,10.0,2017-04-13 06:37:45,2017-05-05 11:44:19,Shaik Nazeer Hussain,13728454.0,0.0,
+330,116029405.0,refactored 404.html file and created 404.css file,332.0,146.0,135.0,2.0,1.0,1.0,0.0,2017-04-15 15:48:09,2017-06-06 06:11:43,Sanyam Goel,11756370.0,1.0,2017-06-06 06:11:43
+331,116353880.0,Minimum client age,333.0,4541.0,1.0,129.0,4.0,0.0,0.0,2017-04-18 15:23:24,2017-04-18 16:57:47,Usman Khaliq,5113475.0,0.0,

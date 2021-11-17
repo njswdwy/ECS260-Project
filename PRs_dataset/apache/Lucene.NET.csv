@@ -1,0 +1,5 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,305761.0,"StreamReder with a string argument tries to open a file, I believe it was",1.0,239413.0,30076.0,6220.0,70.0,0.0,0.0,2011-09-02 11:39:48,2013-10-03 21:15:20,Bogdan Litescu,530005.0,0.0,
+1,965667.0,Fix parameter override of equals and operators == !=,2.0,103.0,103.0,1.0,4.0,1.0,0.0,2012-03-12 09:16:55,2013-02-27 14:56:30,mynkow,183151.0,0.0,
+2,1228571.0,F# Application example,3.0,1129.0,0.0,5.0,5.0,0.0,0.0,2012-04-25 08:49:26,2013-10-03 21:15:20,Deleted user,10137.0,0.0,
+3,1387907.0,New spatial module,4.0,34208.0,5224.0,93.0,54.0,0.0,0.0,2012-05-20 00:43:57,2012-06-14 01:30:29,Itamar Syn-Hershko,212252.0,0.0,

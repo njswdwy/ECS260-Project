@@ -1,0 +1,5 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,27012374.0,"Ranger-203: Implemented Service edit, and Policy create/update",2.0,0.0,0.0,0.0,0.0,1.0,0.0,2015-01-08 07:54:01,2015-01-13 13:14:24,Gautam Borad,161805.0,0.0,
+1,63170744.0,Ranger 0.5,5.0,289193.0,10458.0,584.0,174.0,0.0,0.0,2016-03-17 04:03:51,2016-03-23 07:10:26,Saqeeb Shaikh,17850873.0,0.0,
+2,94033464.0,Remove tab characters from README.md,11.0,9.0,9.0,1.0,1.0,4.0,0.0,2016-11-16 19:30:32,2016-12-04 05:23:50,Dongjoon Hyun,9700541.0,0.0,
+3,96829018.0,[RANGER-1224] Ranger UI: DN as Username,13.0,1.0,1.0,1.0,1.0,1.0,0.0,2016-12-06 23:30:51,2017-04-04 12:35:18,Nicholas Hughes,3858651.0,0.0,

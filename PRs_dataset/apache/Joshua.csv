@@ -1,0 +1,80 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,64756343.0,Performance Improvements to Joshua,1.0,1633.0,240.0,36.0,8.0,5.0,0.0,2016-03-31 09:03:12,2016-04-01 22:56:35,Kellen Sunderland,7443219.0,1.0,2016-04-01 22:56:35
+1,67826467.0,"Fixed files in wrong folder, appended a few extra commits",2.0,6839.0,73.0,31.0,4.0,2.0,0.0,2016-04-26 04:49:47,2016-04-26 21:55:49,Kellen Sunderland,7443219.0,1.0,2016-04-26 21:55:49
+2,67937597.0,JOSHUA-254 Update README with correct branding,3.0,312.0,42.0,9.0,1.0,0.0,0.0,2016-04-26 18:45:32,2016-04-27 02:08:57,Lewis John McGibbney,1165719.0,1.0,2016-04-27 02:08:57
+3,68060086.0,JOSHUA-255 License headers for all bash scripts,4.0,1052.0,54.0,66.0,1.0,0.0,0.0,2016-04-27 14:12:27,2016-04-28 03:46:22,Lewis John McGibbney,1165719.0,1.0,2016-04-28 03:46:22
+4,68071960.0,JOSHUA-256 Note that Joshua builds and runs with >= Java 1.8,5.0,22.0,17.0,1.0,1.0,0.0,0.0,2016-04-27 15:19:00,2016-04-27 17:25:20,Lewis John McGibbney,1165719.0,1.0,2016-04-27 17:25:20
+5,68136994.0,More work on structuring translation output,6.0,1191.0,653.0,43.0,5.0,4.0,0.0,2016-04-27 22:39:03,2016-04-28 00:43:01,Kellen Sunderland,7443219.0,0.0,
+6,68283994.0,JOSHUA-257 Add license headers to all Python scripts,7.0,270.0,0.0,17.0,1.0,1.0,0.0,2016-04-28 20:22:14,2016-04-28 23:34:46,Lewis John McGibbney,1165719.0,1.0,2016-04-28 23:34:46
+7,68295179.0,JOSHUA-258 Add back penn-treebank-(de)tokenizer perl scripts,8.0,509.0,0.0,2.0,1.0,4.0,0.0,2016-04-28 21:40:12,2016-05-31 23:26:43,Lewis John McGibbney,1165719.0,0.0,
+8,68302668.0,More work on structuring translation output,9.0,1194.0,656.0,43.0,5.0,2.0,0.0,2016-04-28 22:46:54,2016-04-29 04:47:16,Kellen Sunderland,7443219.0,1.0,2016-04-29 04:47:16
+9,68627363.0,Performance improvements and code cleanup,10.0,377.0,221.0,29.0,5.0,0.0,0.0,2016-05-02 21:49:39,2016-05-03 03:07:49,Kellen Sunderland,7443219.0,1.0,2016-05-03 03:07:49
+10,68749430.0,Removed a few unneeded allocations,11.0,7.0,17.0,4.0,1.0,5.0,0.0,2016-05-03 18:09:59,2016-05-26 10:16:21,Kellen Sunderland,7443219.0,0.0,
+11,70103712.0,JOSHUA-252 Make it possible to use Maven to build Joshua,12.0,9146.0,32602.0,861.0,29.0,79.0,0.0,2016-05-14 20:57:39,2016-06-01 02:51:10,Lewis John McGibbney,1165719.0,1.0,2016-06-01 02:51:10
+12,70266443.0,JOSHUA-264 System.exit() calls are replaced by throw new RuntimeException(),13.0,549.0,993.0,42.0,3.0,8.0,0.0,2016-05-16 21:41:45,2016-05-26 05:11:26,Thamme Gowda,1865964.0,1.0,2016-05-26 05:11:26
+13,70274443.0,Maven assembly plugin for executable jar with all dependencies,14.0,13.0,0.0,1.0,1.0,1.0,0.0,2016-05-16 22:47:42,2016-05-26 04:54:45,Thamme Gowda,1865964.0,1.0,2016-05-26 04:54:45
+14,70942642.0,Joshua-262: Slf4j - Log4j bridge ,15.0,3098.0,28378.0,695.0,19.0,2.0,36.0,2016-05-21 07:25:42,2016-05-26 05:42:49,Thamme Gowda,1865964.0,0.0,
+15,71386699.0,New Juju charms for deployment process & move dockerfile,16.0,2309.0,0.0,25.0,6.0,5.0,0.0,2016-05-25 13:01:19,2016-06-01 02:51:11,Tom Barber,103544.0,1.0,2016-06-01 02:51:11
+16,71502725.0,"JOSHUA-262 : Replacing System.{out,err}.print* and java.util.log with SLF4j",17.0,816.0,748.0,72.0,11.0,0.0,0.0,2016-05-26 05:39:29,2016-05-26 07:04:08,Thamme Gowda,1865964.0,1.0,2016-05-26 07:04:08
+17,71756604.0,FIX: override logger settings at runtime,18.0,4.0,4.0,2.0,1.0,1.0,0.0,2016-05-27 18:47:32,2016-05-27 19:43:40,Thamme Gowda,1865964.0,1.0,2016-05-27 19:43:40
+18,71772425.0,Added the licence header,19.0,15.0,0.0,1.0,1.0,1.0,0.0,2016-05-27 21:02:23,2016-05-27 21:05:11,Thamme Gowda,1865964.0,1.0,2016-05-27 21:05:11
+19,71861851.0,Some changes to structured translation interface to provide kbest access.,20.0,462.0,245.0,16.0,4.0,8.0,0.0,2016-05-30 07:20:19,2016-05-31 15:14:44,Felix Hieber,2027990.0,1.0,2016-05-31 15:14:44
+20,72036942.0,Reworked some SparseFeature functions. Also added 'lexical' sparse features.,21.0,303.0,103.0,13.0,2.0,0.0,0.0,2016-05-31 15:32:25,2016-06-01 02:51:11,Felix Hieber,2027990.0,1.0,2016-06-01 02:51:11
+21,72341252.0,This patch enables junit tests.  Fixes a bug with FeatureVector,22.0,136.0,116.0,10.0,1.0,5.0,0.0,2016-06-02 12:56:33,2016-06-02 13:28:00,Kellen Sunderland,7443219.0,1.0,2016-06-02 13:28:00
+22,73312940.0,bug fix: GrammarPacker.java,23.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-06-10 02:04:34,2016-06-10 02:08:08,Courtney Napoles,393791.0,1.0,2016-06-10 02:08:08
+23,74040934.0,Maven multi-module project layout proposal,24.0,614.0,145.0,675.0,2.0,20.0,0.0,2016-06-16 08:31:30,2016-09-02 09:11:52,Pavel Danchenko,713105.0,0.0,
+24,74555354.0,ClassLMs: fixed a bug with class-based lms not mapping to class ids for estimateCost(),25.0,6355.0,836.0,9.0,1.0,3.0,0.0,2016-06-21 06:00:11,2016-06-22 20:56:29,Felix Hieber,2027990.0,1.0,2016-06-22 20:56:29
+25,74585766.0,Owner Ids are maintained in separate mapping now,26.0,6661.0,962.0,33.0,2.0,2.0,0.0,2016-06-21 10:19:24,2016-06-22 21:12:12,Felix Hieber,2027990.0,1.0,2016-06-22 21:12:11
+26,74643704.0,Adding the CHRF metric for tuning,27.0,313.0,1.0,2.0,2.0,0.0,0.0,2016-06-21 16:28:28,2016-06-22 03:08:24,Antonio Toral,208322.0,1.0,2016-06-22 03:08:24
+27,74828590.0,Migrated the Dockerfile to use new Maven build,28.0,11.0,3.0,1.0,1.0,0.0,0.0,2016-06-22 17:56:07,2016-06-23 14:07:45,David Meikle,3343471.0,1.0,2016-06-23 14:07:45
+28,75424064.0,Added option to fire a dense language model oov indicator feature ,29.0,265.0,23.0,14.0,1.0,1.0,0.0,2016-06-28 06:24:27,2016-06-30 04:27:08,Felix Hieber,2027990.0,1.0,2016-06-30 04:27:08
+29,77079048.0,JOSHUA-279 Skip tests that rely on KenLM when KenLM is not present.,30.0,10.0,1.0,1.0,1.0,0.0,0.0,2016-07-12 08:22:49,2016-07-12 19:54:50,Kellen Sunderland,7443219.0,1.0,2016-07-12 19:54:50
+30,77633094.0,"Refactored unit tests to all use TestNG, removed no longer applicable…",31.0,268.0,1371.0,29.0,1.0,0.0,0.0,2016-07-15 15:23:48,2016-07-15 15:24:33,,20478879.0,0.0,
+31,79131251.0,JOSHUA-286 - Replace old joshua-decoder.org links with joshua.apache.org,32.0,2.0,6.0,4.0,2.0,3.0,6.0,2016-07-28 03:12:31,2016-07-28 21:49:17,John Hewitt,8755768.0,1.0,2016-07-28 21:49:17
+32,79216234.0,"Refactored unit tests to all use TestNG, removed no longer applicable…",33.0,302.0,1389.0,31.0,1.0,4.0,0.0,2016-07-28 15:24:42,2016-07-29 17:23:08,Kellen Sunderland,7443219.0,1.0,2016-07-29 17:23:08
+33,79220660.0,Enable basic travis build,34.0,3.0,0.0,1.0,1.0,0.0,0.0,2016-07-28 15:49:05,2016-07-28 17:18:54,Kellen Sunderland,7443219.0,1.0,2016-07-28 17:18:54
+34,79335033.0,Add OSX building to .travis.yml,35.0,24.0,2.0,1.0,1.0,0.0,0.0,2016-07-29 09:57:26,2016-07-31 20:09:49,Kellen Sunderland,7443219.0,1.0,2016-07-31 20:09:49
+35,79983135.0,Demo,36.0,46.0,37.0,10.0,9.0,2.0,2.0,2016-08-03 21:33:28,2016-08-17 10:46:28,Matt Post,455256.0,1.0,2016-08-17 10:46:28
+36,81051976.0,JOSHUA-292 - Add travis CI badge to README.md,37.0,3.0,1.0,1.0,1.0,1.0,0.0,2016-08-12 00:18:12,2016-08-12 19:41:33,max,1263915.0,1.0,2016-08-12 19:41:33
+37,81222469.0,JOSHUA-294 - Remove CommandLineParser class,38.0,0.0,738.0,1.0,1.0,0.0,0.0,2016-08-13 18:12:35,2016-08-13 21:09:19,max,1263915.0,1.0,2016-08-13 21:09:19
+38,81661502.0,JOSHUA-301 - Add findbugs plugin.,39.0,25.0,0.0,1.0,1.0,0.0,0.0,2016-08-17 15:14:19,2016-08-23 03:09:59,max,1263915.0,1.0,2016-08-23 03:09:59
+39,81667739.0,JOSHUA-302 - Remove dependency on concurrent/concurrent package,40.0,22.0,27.0,3.0,1.0,1.0,0.0,2016-08-17 15:47:27,2016-08-17 18:56:41,max,1263915.0,1.0,2016-08-17 18:56:41
+40,81770367.0,JOSHUA-265 Major refactoring of features/rules/grammars in Joshua,41.0,1098.0,1567.0,77.0,1.0,1.0,0.0,2016-08-18 07:45:29,2016-08-23 13:16:01,Felix Hieber,2027990.0,1.0,2016-08-23 13:16:01
+41,81871572.0,"Fix various issues related to resources, warnings, and copy-pasted code.",42.0,947.0,3251.0,48.0,1.0,12.0,5.0,2016-08-18 19:14:04,2016-08-30 19:34:51,max,1263915.0,1.0,2016-08-30 19:34:51
+42,82266767.0,Phrase-based decoder rewrite,43.0,399.0,287.0,28.0,26.0,4.0,0.0,2016-08-22 21:29:20,2016-08-22 21:47:40,Matt Post,455256.0,1.0,2016-08-22 21:47:40
+43,82296807.0,Moved test case files,44.0,46.0,44.0,40.0,3.0,0.0,0.0,2016-08-23 03:06:03,2016-08-23 03:09:59,Matt Post,455256.0,1.0,2016-08-23 03:09:59
+44,83087609.0,Refactored the threading code in the JoshuaDecoder class.,45.0,132.0,216.0,9.0,3.0,1.0,0.0,2016-08-29 12:02:43,2016-08-29 14:21:58,Kellen Sunderland,7443219.0,1.0,2016-08-29 14:21:58
+45,83106672.0,This update merges from master with threading changes and applies some backwards incompatible refactoring.,46.0,181.0,326.0,25.0,9.0,0.0,0.0,2016-08-29 14:19:41,2016-08-29 16:49:43,Kellen Sunderland,7443219.0,1.0,2016-08-29 16:49:43
+46,83230239.0,Fix Travis-CI by adding a step to install ant on OSX,47.0,2.0,0.0,1.0,1.0,1.0,0.0,2016-08-30 08:42:28,2016-08-30 13:01:38,Kellen Sunderland,7443219.0,1.0,2016-08-30 13:01:38
+47,83234550.0,Fixed crashing when using Trie based KenLM models with State Minimiza…,48.0,23.0,10.0,1.0,1.0,3.0,0.0,2016-08-30 09:12:05,2016-08-30 13:03:56,Kellen Sunderland,7443219.0,1.0,2016-08-30 13:03:56
+48,83340711.0,7 with master,49.0,945.0,3244.0,48.0,2.0,1.0,0.0,2016-08-30 20:25:29,2016-08-30 21:04:59,max,1263915.0,1.0,2016-08-30 21:04:59
+49,84879015.0,fix basedir path for java.library.path,50.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-09-12 14:16:13,2016-09-12 14:30:15,Felix Hieber,2027990.0,1.0,2016-09-12 14:30:15
+50,85055279.0,Changes to improve performance of KenLM,51.0,220.0,131.0,8.0,6.0,0.0,0.0,2016-09-13 14:08:39,2016-09-14 07:15:22,Kellen Sunderland,7443219.0,0.0,
+51,85073943.0,Moved regression tests bn-en/hiero to unit test,52.0,2799.0,3207.0,20.0,3.0,4.0,0.0,2016-09-13 15:45:01,2016-09-13 16:53:20,Michael A. Hedderich,1858628.0,1.0,2016-09-13 16:53:20
+52,85144080.0,can't set on uninitialized ArrayList,53.0,5.0,4.0,1.0,1.0,0.0,0.0,2016-09-13 23:32:08,2016-09-28 13:41:44,Jonathan May,689717.0,1.0,2016-09-28 13:41:44
+53,85199212.0,Moved regression tests bn-en/packed and bn-en/samt to unit test,54.0,1770.0,3864.0,19.0,1.0,1.0,0.0,2016-09-14 10:01:01,2016-09-14 10:43:36,Michael A. Hedderich,1858628.0,1.0,2016-09-14 10:43:36
+54,85225616.0,Refactoring of ComputeNodeResult into a static method.,55.0,236.0,192.0,8.0,1.0,0.0,0.0,2016-09-14 13:17:44,2016-09-15 11:20:36,Tobias Domhan,363737.0,1.0,2016-09-15 11:20:36
+55,85225738.0,Moved several regression tests to unit tests.,56.0,330.0,226.0,16.0,4.0,0.0,0.0,2016-09-14 13:18:22,2016-09-14 13:31:12,Michael A. Hedderich,1858628.0,1.0,2016-09-14 13:31:12
+56,85270626.0,Moved several regression tests to unit tests (2).,57.0,975.0,1470.0,30.0,8.0,0.0,0.0,2016-09-14 17:26:05,2016-09-14 18:20:15,Michael A. Hedderich,1858628.0,1.0,2016-09-14 18:20:15
+57,85307414.0,Moved new unit tests (former regression tests) to correct location.,58.0,870.0,870.0,22.0,1.0,3.0,0.0,2016-09-14 21:20:35,2016-09-15 11:18:24,Felix Hieber,2027990.0,1.0,2016-09-15 11:18:24
+58,85388739.0,Fixed NoGrammarTest for 7,59.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-09-15 11:43:36,2016-09-15 11:44:53,Felix Hieber,2027990.0,1.0,2016-09-15 11:44:53
+59,85394071.0,Moved several regression tests to unit tests (3).,60.0,680.0,825.0,51.0,13.0,0.0,0.0,2016-09-15 12:26:22,2016-09-15 13:31:42,Michael A. Hedderich,1858628.0,1.0,2016-09-15 13:31:42
+60,85394365.0,"Fixed NAry, Constrained deocoding, and Left-state tests for 7",61.0,39.0,39.0,3.0,3.0,0.0,0.0,2016-09-15 12:28:34,2016-09-15 13:29:12,Felix Hieber,2027990.0,1.0,2016-09-15 13:29:12
+61,85418779.0,Fixed NumTranslationOptions test and added deterministic output order…,62.0,23.0,19.0,13.0,1.0,0.0,0.0,2016-09-15 14:49:07,2016-09-15 14:51:32,Felix Hieber,2027990.0,1.0,2016-09-15 14:51:32
+62,85422231.0,Fixed more tests in 7,63.0,7.0,7.0,3.0,3.0,0.0,0.0,2016-09-15 15:07:17,2016-09-15 15:08:32,Felix Hieber,2027990.0,1.0,2016-09-15 15:08:32
+63,85424622.0,Fixed Rescoring test,64.0,16.0,14.0,3.0,1.0,0.0,0.0,2016-09-15 15:20:02,2016-09-15 15:21:26,Felix Hieber,2027990.0,1.0,2016-09-15 15:21:26
+64,85446608.0,This PR is a first attempt to minimize ngram array copies by utilizing DirectBuffers.,65.0,147.0,110.0,17.0,2.0,8.0,2.0,2016-09-15 17:33:02,2016-09-20 07:57:11,Kellen Sunderland,7443219.0,0.0,
+65,85691543.0,Merge pull request #1 from apache/7_confsystem,66.0,0.0,0.0,0.0,1.0,0.0,0.0,2016-09-18 00:14:41,2016-09-18 00:16:45,Matt Post,455256.0,0.0,
+66,86177958.0,JOSHUA-299 Move regression tests to proper unit tests,67.0,176.0,89.0,8.0,1.0,3.0,0.0,2016-09-21 14:49:27,2016-09-28 12:47:41,Lewis John McGibbney,1165719.0,1.0,2016-09-28 12:47:41
+67,87088685.0,KenLM JNI optimization,68.0,186.0,133.0,20.0,4.0,0.0,1.0,2016-09-28 09:58:31,2016-09-28 12:45:57,Kellen Sunderland,7443219.0,1.0,2016-09-28 12:45:57
+68,87307336.0,JOSHUA-290 - provide Joshua as a bundle,69.0,27.0,2.0,2.0,1.0,0.0,6.0,2016-09-29 12:54:56,2016-10-10 09:48:19,Tommaso Teofili,512815.0,0.0,
+69,89498448.0,Changed ^ to Ctrl to clarify the instructions,72.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-10-15 16:34:37,2016-10-17 14:22:45,Huda Khayrallah,1238798.0,1.0,2016-10-17 14:22:45
+70,90926338.0,"JOSHUA-316 run_bundler.py returning JOB FAILED (return code 1) TypeError: memoryview: a bytes-like object is required, not 'str'",73.0,14.0,13.0,3.0,2.0,3.0,0.0,2016-10-26 02:32:53,2016-11-22 18:08:14,Lewis John McGibbney,1165719.0,1.0,2016-11-22 18:08:14
+71,93059557.0,JOSHUA-321 Add JOSHUA env to ./bin/bleu and ./bin/extract-1best bash scripts,74.0,2.0,0.0,2.0,1.0,0.0,0.0,2016-11-09 23:32:19,2016-11-09 23:32:54,Lewis John McGibbney,1165719.0,1.0,2016-11-09 23:32:54
+72,93061590.0,JOSHUA-322 extract-1best script references non-existent execution paths,75.0,21.0,2.0,1.0,1.0,0.0,0.0,2016-11-09 23:50:41,2016-11-09 23:51:28,Lewis John McGibbney,1165719.0,1.0,2016-11-09 23:51:28
+73,93281290.0,Release,76.0,1506.0,44.0,80.0,9.0,1.0,0.0,2016-11-11 05:26:28,2016-11-11 10:34:17,Lewis John McGibbney,1165719.0,1.0,2016-11-11 10:34:17
+74,94705444.0,Tweaked Dockerfile to contain only jre 1.8 and to use mvn package,77.0,3.0,3.0,1.0,1.0,0.0,0.0,2016-11-21 22:00:15,2016-11-22 18:55:56,Kellen Sunderland,7443219.0,1.0,2016-11-22 18:55:56
+75,95857859.0,JOSHUA-324 Included correct license for OwnerMapTest,78.0,27.0,8.0,1.0,1.0,0.0,0.0,2016-11-30 09:45:26,2016-11-30 14:59:22,Kellen Sunderland,7443219.0,1.0,2016-11-30 14:59:22
+76,103153846.0,"JOSHUA-324 renamed LICENSE, removed minification of license in bootst…",79.0,3.0,1.0,1.0,1.0,2.0,0.0,2017-01-25 16:28:34,2017-01-26 15:44:23,Kellen Sunderland,7443219.0,1.0,2017-01-26 15:44:23
+77,148773835.0,Code Reformatting and output of string length ratios,80.0,510.0,501.0,1.0,2.0,2.0,0.0,2017-10-25 20:33:47,2018-01-10 16:18:11,Thamme Gowda,1865964.0,0.0,
+78,173032773.0,Fix: memory overflow in tuning with larger language models,81.0,9.0,2.0,2.0,2.0,8.0,0.0,2018-03-06 01:16:26,2018-03-12 02:05:28,Thamme Gowda,1865964.0,1.0,2018-03-12 02:05:28
