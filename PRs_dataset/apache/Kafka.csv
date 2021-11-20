@@ -1,0 +1,2 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,2057373.0,Switch to using scala 2.9.2,1.0,35.0,4.0,2.0,1.0,1.0,0.0,2012-08-14 19:28:35,2016-02-02 23:09:08,Argyris Zymnis,207127.0,0.0,

@@ -1,0 +1,34 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,33786724.0,[MRQL-70] Update Flink version to 0.8.1,1.0,1.0,1.0,1.0,1.0,0.0,0.0,2015-04-21 17:55:44,2015-04-21 18:48:46,Robert Metzger,89049.0,1.0,2015-04-21 18:48:46
+1,33789836.0,[MRQL-69] Allow escaped quotes in JSON strings,2.0,5.0,1.0,1.0,1.0,0.0,0.0,2015-04-21 18:31:49,2015-04-22 15:43:35,Leonidas Fegaras,2326374.0,1.0,2015-04-22 15:43:35
+2,33972504.0,[MRQL-71] Add google analytics tracking and bring the MRQL web site up-to-date,3.0,31.0,7.0,3.0,1.0,0.0,0.0,2015-04-23 16:26:06,2015-04-23 16:46:06,Leonidas Fegaras,2326374.0,1.0,2015-04-23 16:46:06
+3,35985188.0,[MRQL-72] Add support for stream input on TCP sockets,4.0,208.0,1.0,12.0,1.0,0.0,0.0,2015-05-21 22:40:15,2015-05-21 22:44:32,Leonidas Fegaras,2326374.0,1.0,2015-05-21 22:44:32
+4,36108613.0,[MRQL-73] Set the max number of tasks in Spark mode,5.0,17.0,12.0,2.0,1.0,0.0,0.0,2015-05-24 21:20:59,2015-05-24 21:23:47,Leonidas Fegaras,2326374.0,1.0,2015-05-24 21:23:47
+5,39830694.0,[MRQL-74] Update Flink version to 0.9.0,6.0,32.0,6.0,4.0,1.0,2.0,0.0,2015-07-13 16:33:42,2015-07-14 13:26:15,Chiwan Park,1941681.0,0.0,
+6,39914714.0,[MRQL-74] Update Flink version to 0.9.0,7.0,48.0,16.0,6.0,2.0,2.0,0.0,2015-07-14 13:22:40,2015-07-14 15:40:41,Leonidas Fegaras,2326374.0,1.0,2015-07-14 15:23:57
+7,40784472.0,[MRQL-76] Change the mrql.flink shell script to work with Flink 0.9.0,8.0,6.0,4.0,1.0,1.0,0.0,0.0,2015-07-24 15:08:48,2015-07-24 16:08:18,Leonidas Fegaras,2326374.0,1.0,2015-07-24 16:08:18
+8,40823319.0,[MRQL-77] Support single Flink jobs on YARN,9.0,60.0,35.0,3.0,1.0,0.0,0.0,2015-07-24 22:55:51,2015-07-25 01:01:44,Leonidas Fegaras,2326374.0,1.0,2015-07-25 01:01:44
+9,40857102.0,[MRQL-78] Turn off Flink log INFO messages,10.0,8.0,6.0,3.0,1.0,0.0,0.0,2015-07-26 18:08:59,2015-07-26 21:48:34,Leonidas Fegaras,2326374.0,1.0,2015-07-26 21:48:34
+10,49584479.0,[MRQL-79] Add support for incremental query processing,11.0,1674.0,109.0,29.0,1.0,1.0,0.0,2015-11-03 17:21:18,2015-11-06 20:19:07,Leonidas Fegaras,2326374.0,0.0,
+11,51475472.0,[MRQL-80] Support Flink 0.10,12.0,42.0,35.0,8.0,2.0,3.0,0.0,2015-11-22 21:39:25,2015-11-29 03:11:27,Leonidas Fegaras,2326374.0,1.0,2015-11-29 03:11:27
+12,58525479.0,[MRQL-81] Fix the coercion of persistent collections to in-memory bags,13.0,164.0,19.0,9.0,1.0,0.0,0.0,2016-02-06 17:42:47,2016-02-08 19:47:37,Leonidas Fegaras,2326374.0,1.0,2016-02-08 19:47:37
+13,58531870.0,[MRQL-82] Fix the split size calculation in map-reduce mode,14.0,4.0,3.0,2.0,1.0,0.0,0.0,2016-02-06 22:13:52,2016-02-08 19:48:57,Leonidas Fegaras,2326374.0,1.0,2016-02-08 19:48:57
+14,59278318.0,[MRQL-83] Make Hadoop 2.* (Yarn) the default and update pom files,15.0,39.0,25.0,9.0,1.0,0.0,0.0,2016-02-13 21:16:38,2016-02-15 15:02:38,Leonidas Fegaras,2326374.0,1.0,2016-02-15 15:02:38
+15,60065808.0,[MRQL-84] Improve performance of Incremental MRQL,16.0,914.0,416.0,15.0,1.0,0.0,0.0,2016-02-21 00:14:26,2016-02-22 00:26:50,Leonidas Fegaras,2326374.0,1.0,2016-02-22 00:26:50
+16,60066394.0,[MRQL-85] Prepare for the 0.9.6 release,17.0,38.0,4.0,4.0,1.0,0.0,0.0,2016-02-21 00:41:24,2016-02-22 00:31:34,Leonidas Fegaras,2326374.0,1.0,2016-02-22 00:31:34
+17,61508629.0,[MRQL-86] Post-release changes,18.0,121.0,0.0,3.0,1.0,0.0,0.0,2016-03-03 04:16:26,2016-03-03 14:17:24,Leonidas Fegaras,2326374.0,1.0,2016-03-03 14:17:24
+18,65793180.0,[MRQL-88] No download links?,19.0,9.0,0.0,1.0,1.0,0.0,0.0,2016-04-08 14:20:17,2016-04-08 14:26:05,Leonidas Fegaras,2326374.0,1.0,2016-04-08 14:26:05
+19,69201075.0,[MRQL-89] Support Flink 1.0 and fix environment serialization for Flink,20.0,91.0,55.0,8.0,1.0,0.0,0.0,2016-05-06 19:49:32,2016-05-07 14:48:16,Leonidas Fegaras,2326374.0,1.0,2016-05-07 14:48:16
+20,77370812.0,[MRQL-91] Fix maven build for Cloudera's CDH distribution,21.0,11.0,11.0,3.0,1.0,0.0,0.0,2016-07-13 22:12:50,2016-07-14 11:30:50,Leonidas Fegaras,2326374.0,1.0,2016-07-14 11:30:50
+21,77686262.0,[MRQL-92] Use outer-joins for incremental queries in Spark streaming …,22.0,472.0,239.0,14.0,1.0,0.0,0.0,2016-07-15 22:16:18,2016-07-16 14:32:01,Leonidas Fegaras,2326374.0,1.0,2016-07-16 14:32:01
+22,78783048.0,[MRQL-94] Improve the configuration file to work with default cluster…,23.0,29.0,21.0,6.0,1.0,0.0,0.0,2016-07-26 02:34:16,2016-07-26 12:46:41,Leonidas Fegaras,2326374.0,1.0,2016-07-26 12:46:41
+23,79938996.0,[MRQL-93] Support query evaluation tracing and how-provenance,24.0,494.0,12.0,15.0,1.0,0.0,0.0,2016-08-03 16:41:01,2016-08-04 15:58:39,Leonidas Fegaras,2326374.0,1.0,2016-08-04 15:58:39
+24,80141460.0,[MRQL-95] Add support for Spark 2.0,25.0,274.0,132.0,8.0,1.0,0.0,0.0,2016-08-04 20:09:29,2016-08-05 13:15:47,Leonidas Fegaras,2326374.0,1.0,2016-08-05 13:15:47
+25,82631077.0,[MRQL-96] Develop a MRQL debugger,26.0,337.0,44.0,8.0,1.0,0.0,0.0,2016-08-24 22:50:53,2016-08-26 15:52:12,Leonidas Fegaras,2326374.0,1.0,2016-08-26 15:52:12
+26,87614291.0,[MRQL-97] Support for source-level debugging,27.0,228.0,99.0,6.0,1.0,0.0,0.0,2016-10-01 20:26:04,2016-10-02 18:16:07,Leonidas Fegaras,2326374.0,1.0,2016-10-02 18:16:07
+27,90111033.0,[MRQL-98] Improve Data Serialization in Spark Evaluation,28.0,239.0,70.0,26.0,1.0,0.0,0.0,2016-10-19 23:46:29,2016-10-20 14:18:15,Leonidas Fegaras,2326374.0,1.0,2016-10-20 14:18:15
+28,90286681.0,[MRQL-99] Import more Java String Functions,29.0,48.0,4.0,2.0,1.0,0.0,0.0,2016-10-20 21:41:44,2016-10-21 11:26:45,Leonidas Fegaras,2326374.0,1.0,2016-10-21 11:26:45
+29,96414060.0,[MRQL-90] Add support for Storm streaming,31.0,1584.0,10.0,23.0,1.0,0.0,0.0,2016-12-03 23:05:55,2016-12-04 13:48:33,Leonidas Fegaras,2326374.0,1.0,2016-12-04 13:48:33
+30,103180988.0,[MRQL-100] Fix a bug in group-by when the group-by key is a collection,32.0,2.0,2.0,1.0,1.0,0.0,0.0,2017-01-25 18:57:12,2017-01-26 16:21:15,Leonidas Fegaras,2326374.0,1.0,2017-01-26 16:21:15
+31,103376414.0,[MRQL-101] Fix memory materialization of lazy bags,33.0,79.0,90.0,5.0,1.0,0.0,0.0,2017-01-26 19:50:50,2017-01-27 12:52:07,Leonidas Fegaras,2326374.0,1.0,2017-01-27 12:52:07
+32,104664022.0,[MRQL-102] A suspicious use of an incrementer in a for loop,34.0,1.0,1.0,1.0,1.0,0.0,0.0,2017-02-04 15:16:34,2017-02-04 19:48:36,Leonidas Fegaras,2326374.0,1.0,2017-02-04 19:48:36

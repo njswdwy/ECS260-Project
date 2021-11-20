@@ -1,0 +1,4 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,19332634.0,AhoCorasickMatch UDF with unit tests,1.0,295.0,0.0,4.0,5.0,1.0,0.0,2014-08-05 10:01:38,2020-03-31 18:11:15,Russell Jurney,42149.0,0.0,
+1,21246125.0,Added UDF ZipBags which can zip and arbitrary number of bags into one,2.0,211.0,11.0,3.0,1.0,3.0,5.0,2014-09-15 17:12:26,2020-03-31 18:12:00,Aaron Josephs,3731655.0,0.0,
+2,25014172.0,Enhance InUDF to support tuple version and add java compatibility for datafu-pig,3.0,11.0,1.0,2.0,2.0,4.0,0.0,2014-11-25 15:10:19,2020-03-31 18:12:39,Yiqun Hu,8252407.0,0.0,

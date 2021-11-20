@@ -1,0 +1,3 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,27191323.0,JOHNZON-35,1.0,16.0,1.0,2.0,1.0,1.0,0.0,2015-01-12 12:41:58,2015-01-13 04:11:07,Prem Sangeeth,9133090.0,0.0,
+1,33090636.0,[JOHNZON-44] - The manifest neglects OSGi Import/Export information,2.0,20.0,0.0,5.0,1.0,3.0,0.0,2015-04-10 23:01:50,2015-04-11 19:52:13,Achim Nierbeck,405121.0,0.0,

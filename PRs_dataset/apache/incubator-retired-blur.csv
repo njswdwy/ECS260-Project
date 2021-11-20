@@ -1,0 +1,6 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,17447428.0,Didn't realize d3 was being used by blur-gui,1.0,2.0,2.0,1.0,1.0,0.0,0.0,2014-06-22 11:02:09,2014-06-22 11:04:21,Chris Rohr,51920.0,0.0,
+1,21702460.0,BlurOutputCommitter extends org.apache.hadoop.mapreduce.OutputCommitter,3.0,136.0,154.0,2.0,3.0,4.0,0.0,2014-09-24 09:42:42,2014-10-25 07:35:23,Dibyendu Bhattacharya,4491803.0,0.0,
+2,22738907.0,Fixed a potential memory leak in the caching code.,4.0,24.0,16.0,1.0,1.0,0.0,0.0,2014-10-14 20:05:18,2014-10-26 18:33:39,Chris Rohr,51920.0,0.0,
+3,23347977.0,Spark Blur Connector : https://issues.apache.org/jira/browse/BLUR-387,5.0,824.0,0.0,6.0,1.0,0.0,0.0,2014-10-26 06:15:54,2015-06-07 13:46:18,Dibyendu Bhattacharya,4491803.0,0.0,
+4,32086512.0,BLUR-423 : ./blur shell NoClassDefFoundError,6.0,0.0,0.0,0.0,0.0,1.0,0.0,2015-03-27 06:45:41,2015-08-12 08:15:30,Woocheol Choi,3107724.0,0.0,

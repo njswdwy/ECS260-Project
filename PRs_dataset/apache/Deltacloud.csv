@@ -1,0 +1,4 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,156175.0,Trunk,1.0,8576.0,0.0,110.0,15.0,1.0,0.0,2011-05-23 13:04:20,2011-05-30 19:33:24,Andre Dietisheim,25126.0,0.0,
+1,164745.0,Trunk,2.0,38435.0,19758.0,867.0,333.0,1.0,0.0,2011-05-30 19:33:56,2013-06-08 21:40:16,Andre Dietisheim,25126.0,0.0,
+2,416896.0,prepend deltacould path to prevent errors on require,3.0,2.0,0.0,1.0,1.0,7.0,0.0,2011-10-19 22:29:32,2011-11-12 23:38:11,Bulat Shakirzyanov,83289.0,0.0,

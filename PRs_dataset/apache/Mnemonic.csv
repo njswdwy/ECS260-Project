@@ -1,0 +1,78 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,64574122.0,add info for native code retrieval,1.0,29.0,2.0,1.0,1.0,1.0,0.0,2016-03-30 05:36:06,2016-03-30 17:39:32,Gordon King,10856796.0,0.0,
+1,64717890.0,Native computing featured,2.0,82.0,9.0,7.0,2.0,0.0,0.0,2016-03-31 00:19:30,2016-03-31 18:17:07,Gordon King,10856796.0,1.0,2016-03-31 18:17:07
+2,65028126.0,add native param conversion as well as test the webhook of Appache mi…,3.0,79.0,0.0,1.0,1.0,1.0,0.0,2016-04-02 04:49:26,2016-04-04 22:21:09,Gordon King,10856796.0,1.0,2016-04-04 22:21:09
+3,65318428.0,Initial version of a website,4.0,2769.0,0.0,56.0,4.0,0.0,0.0,2016-04-05 14:52:18,2016-04-06 00:25:53,Debo~ Dutta,877050.0,0.0,
+4,65353297.0,MNEMONIC-5 MNEMONIC-6 #resolve refactored package names,5.0,225.0,229.0,75.0,1.0,0.0,0.0,2016-04-05 18:38:11,2016-04-05 19:52:00,Gordon King,10856796.0,1.0,2016-04-05 19:52:00
+5,65394267.0,Initial version of the website,6.0,2746.0,1.0,48.0,1.0,0.0,0.0,2016-04-06 00:38:44,2016-04-06 02:56:26,Debo~ Dutta,877050.0,1.0,2016-04-06 02:56:26
+6,65533298.0,Minor design tweaks: elevator pitch shortening and active link colour changes,7.0,7.0,2.0,2.0,1.0,1.0,0.0,2016-04-06 20:46:00,2016-04-06 21:01:08,Alex Holden,5233309.0,1.0,2016-04-06 21:01:08
+7,65677264.0,correct the external link of pmalloc,8.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-04-07 18:30:59,2016-04-07 18:37:21,Gordon King,10856796.0,1.0,2016-04-07 18:37:21
+8,65853185.0,format codestyle & add Apache License,9.0,6873.0,6032.0,61.0,1.0,0.0,0.0,2016-04-08 21:58:38,2016-04-08 22:00:17,Gordon King,10856796.0,1.0,2016-04-08 22:00:17
+9,65857750.0,update javapoet dependency to remove customized one,10.0,1.0,2.0,2.0,1.0,0.0,0.0,2016-04-08 22:49:24,2016-04-08 22:49:57,Gordon King,10856796.0,1.0,2016-04-08 22:49:57
+10,65872214.0,MNEMONIC-12: Add .gitattributes to prevent CRLF and LF mismatches for source and text files,11.0,29.0,0.0,1.0,1.0,2.0,0.0,2016-04-09 05:56:43,2017-08-31 04:37:34,Rakesh Radhakrishnan,8215991.0,1.0,2017-08-31 04:37:34
+11,66208330.0,"MNEMONIC-11, MNEMONIC-18: enforce checksytle",12.0,525.0,278.0,39.0,1.0,0.0,0.0,2016-04-12 18:50:37,2016-04-12 18:51:32,Gordon King,10856796.0,1.0,2016-04-12 18:51:32
+12,66416982.0,"MNEMONIC-20: Formalize the names of annotations, classes and methods",13.0,307.0,302.0,33.0,1.0,0.0,0.0,2016-04-14 01:29:43,2016-04-14 01:38:03,Gordon King,10856796.0,0.0,
+13,66418202.0,"MNEMONIC-20: Formalize the names of annotations, classes and methods",14.0,309.0,302.0,33.0,2.0,0.0,0.0,2016-04-14 01:49:36,2016-04-14 01:51:09,Gordon King,10856796.0,1.0,2016-04-14 01:51:09
+14,66955076.0,initial polish,15.0,69.0,24.0,8.0,1.0,0.0,0.0,2016-04-19 03:22:18,2016-04-19 03:35:59,Gordon King,10856796.0,1.0,2016-04-19 03:35:59
+15,82654770.0,MNEMONIC-93  Add Readme.md about Dockerfile build and Usage,16.0,57.0,0.0,1.0,1.0,0.0,0.0,2016-08-25 04:11:45,2016-08-26 02:33:19,,21070776.0,0.0,
+16,82767097.0,Update mnemonic-checkstyle.xml,17.0,9.0,1.0,1.0,1.0,1.0,0.0,2016-08-25 18:12:28,2016-08-25 22:10:07,Jeffrey Ho,20668843.0,0.0,
+17,83186736.0,"MNEMONIC-60:Apply Transaction, Retrievable interfaces to class VolatileMemAllocator",18.0,430.0,1.0,5.0,4.0,0.0,0.0,2016-08-29 23:44:43,2016-08-31 21:50:23,,11467423.0,0.0,
+18,83547999.0,"MNEMONIC-60:Apply Transaction, Retrievable interfaces to class VolatileMemAllocator",19.0,435.0,5.0,5.0,1.0,0.0,0.0,2016-08-31 23:37:06,2016-08-31 23:38:08,,11467423.0,0.0,
+19,83707358.0,MNEMONIC-102: Rename allocatorservice to memoryservice,20.0,64.0,64.0,18.0,1.0,0.0,0.0,2016-09-01 21:08:09,2016-09-01 21:45:21,Chuan Yang,9068353.0,1.0,2016-09-01 21:45:21
+20,83729074.0,Build success but failed the test on DurablePersonBufferNGTest,21.0,281.0,0.0,3.0,1.0,0.0,0.0,2016-09-02 00:32:06,2016-09-27 17:08:23,Wei Li,4720913.0,0.0,
+21,83743612.0,Debug request,22.0,1583.0,197.0,49.0,30.0,0.0,0.0,2016-09-02 04:21:53,2016-09-27 17:08:05,Wei Li,4720913.0,0.0,
+22,86809678.0,MNEMONIC-114: nvml-vmem-service compilation warnings,23.0,3.0,1.0,1.0,1.0,0.0,0.0,2016-09-26 20:08:23,2016-09-26 21:12:44,,21373344.0,0.0,
+23,88615817.0,Add LinkHashMapRemoveNGTest,24.0,54.0,0.0,1.0,2.0,1.0,0.0,2016-10-10 06:48:06,2017-08-26 17:16:34,,17892581.0,0.0,
+24,106216157.0,MNEMONIC-191: Add Mnemonic Hadoop Mapreduce test case to runall script,25.0,9.0,0.0,1.0,1.0,0.0,0.0,2017-02-14 23:41:01,2017-02-15 00:24:11,,23391364.0,1.0,2017-02-15 00:24:11
+25,108282351.0,MNEMONIC-204: Fix issues with the pmalloc service on MacOS,26.0,2.0,0.0,1.0,1.0,0.0,0.0,2017-02-28 08:42:10,2017-02-28 19:49:00,Debo~ Dutta,877050.0,1.0,2017-02-28 19:49:00
+26,108398242.0,MNEMONIC-205: Adding Durable to resized memory allocations,27.0,45.0,16.0,3.0,1.0,0.0,0.0,2017-02-28 19:27:14,2017-02-28 22:42:08,Johnu George,2171903.0,1.0,2017-02-28 22:42:08
+27,108466962.0,MNEMONIC-200: Rewrite runall script in Python,28.0,87.0,82.0,3.0,1.0,0.0,0.0,2017-03-01 04:45:57,2017-03-01 06:36:52,,23391364.0,1.0,2017-03-01 06:36:52
+28,109330520.0,MNEMONIC-208: Adding PUT/GET/DELETE for durable maps.,29.0,1158.0,13.0,7.0,1.0,0.0,1.0,2017-03-06 19:29:44,2017-03-07 01:19:06,Johnu George,2171903.0,1.0,2017-03-07 01:19:06
+29,109412946.0,MNEMONIC-214: Make MneDurableInputSession rewind-able,30.0,7.0,6.0,1.0,1.0,0.0,0.0,2017-03-07 06:10:01,2017-03-07 20:16:45,,23391364.0,1.0,2017-03-07 20:16:45
+30,109794111.0,MNEMONIC-209: Implementing iterators for Maps,31.0,205.0,2.0,4.0,1.0,0.0,0.0,2017-03-08 22:00:39,2017-03-09 05:17:47,Johnu George,2171903.0,1.0,2017-03-09 05:17:47
+31,110489330.0,MNEMONIC-215: Cleanup of memory leaks in Linkedlist implementation,32.0,114.0,37.0,3.0,1.0,0.0,5.0,2017-03-13 20:20:36,2017-03-14 02:24:20,Johnu George,2171903.0,1.0,2017-03-14 02:24:20
+32,110550757.0,MNEMONIC-105: Adding Testcases for durable buffers and chunks,33.0,138.0,1.0,2.0,1.0,0.0,0.0,2017-03-14 05:29:22,2017-03-14 23:04:09,Johnu George,2171903.0,1.0,2017-03-14 23:04:09
+33,110732635.0,MNEMONIC-218 and MNEMONIC-219,34.0,67.0,6.0,2.0,1.0,0.0,2.0,2017-03-14 22:35:01,2017-03-15 00:37:01,,23391364.0,1.0,2017-03-15 00:37:01
+34,110929771.0,MNEMONIC-216 & MNEMONIC-220,35.0,472.0,16.0,13.0,1.0,0.0,0.0,2017-03-15 19:59:04,2017-03-15 20:17:50,,23391364.0,1.0,2017-03-15 20:17:50
+35,111624663.0,MNEMONIC-221: Implement get and set for durable array,36.0,808.0,0.0,5.0,1.0,0.0,1.0,2017-03-20 18:50:30,2017-03-20 22:31:08,Johnu George,2171903.0,1.0,2017-03-20 22:31:08
+36,111681930.0,[MNEMONIC-95] Initial template for DurableSet,37.0,488.0,0.0,4.0,1.0,1.0,0.0,2017-03-21 00:52:25,2017-03-21 05:22:41,Debo~ Dutta,877050.0,1.0,2017-03-21 05:22:41
+37,112088054.0,MNEMONIC-228: Implement iterators for durable arrays,38.0,83.0,1.0,2.0,1.0,0.0,0.0,2017-03-22 19:09:51,2017-03-22 20:59:55,Johnu George,2171903.0,1.0,2017-03-22 20:59:55
+38,113269727.0,MNEMONIC-233: Restore the resources before destroy of Generic Field,39.0,13.0,11.0,1.0,1.0,0.0,0.0,2017-03-29 18:57:38,2017-03-29 19:18:51,Johnu George,2171903.0,1.0,2017-03-29 19:18:51
+39,113274912.0,MNEMONIC-234: Reorder field destroy of a durable data structure,40.0,1.0,1.0,1.0,1.0,0.0,0.0,2017-03-29 19:24:06,2017-03-29 19:49:19,Johnu George,2171903.0,1.0,2017-03-29 19:49:19
+40,116213856.0,MNEMONIC-237: Incorrect offset for primitive type fields,41.0,33.0,29.0,1.0,1.0,0.0,0.0,2017-04-17 22:13:11,2017-04-17 22:36:42,Johnu George,2171903.0,1.0,2017-04-17 22:36:42
+41,116871471.0,MNEMONIC-239: Fix compilation error for boolean durable field types,42.0,1.0,1.0,1.0,1.0,0.0,0.0,2017-04-20 21:47:25,2017-04-20 22:27:56,Johnu George,2171903.0,1.0,2017-04-20 22:27:56
+42,118264071.0,MNEMONIC-254: Avoid loops in set functions for cyclic structures,43.0,4.0,0.0,1.0,1.0,0.0,0.0,2017-04-29 06:09:01,2017-05-01 18:23:59,Johnu George,2171903.0,1.0,2017-05-01 18:23:59
+43,118624822.0,MNEMONIC-255: Add Insert and Search functionality for balanced BST,44.0,1070.0,0.0,6.0,1.0,0.0,0.0,2017-05-02 19:09:43,2017-05-02 22:30:08,Johnu George,2171903.0,1.0,2017-05-02 22:30:08
+44,123907445.0,MNEMONIC-274 Add another Dockerfile for Ubuntu system,45.0,139.0,0.0,2.0,1.0,1.0,3.0,2017-06-05 03:19:22,2017-06-05 05:39:30,Yanhui Zhao,14990922.0,1.0,2017-06-05 05:39:30
+45,125047362.0,MNEMONIC-278 re-structure the folders of docker,46.0,14.0,88.0,5.0,1.0,0.0,6.0,2017-06-12 00:57:38,2017-06-23 23:32:30,Lan Lin,29208050.0,1.0,2017-06-23 23:32:30
+46,128080271.0,MNEMONIC-292: Set initial limit for ChunkBuffers,47.0,4.0,1.0,1.0,1.0,0.0,0.0,2017-06-29 06:50:59,2017-06-29 06:52:05,Johnu George,2171903.0,0.0,
+47,128502993.0,MNEMONIC-293:Provide a way to persist the Bytebuffers created out of a durable chunk,48.0,27.0,0.0,1.0,1.0,0.0,0.0,2017-07-01 22:45:56,2017-07-01 23:58:46,,23391364.0,1.0,2017-07-01 23:58:46
+48,128503534.0,MNEMONIC-280 Add overload methods to handle optional paramters,49.0,370.0,2.0,12.0,1.0,0.0,0.0,2017-07-01 23:14:19,2017-07-03 02:03:09,Yanhui Zhao,14990922.0,1.0,2017-07-03 02:03:09
+49,128713620.0,MNEMONIC-175 Rename the build-tools directory to bin,50.0,14.0,14.0,12.0,1.0,0.0,0.0,2017-07-04 01:59:48,2017-07-04 19:35:41,Yanhui Zhao,14990922.0,1.0,2017-07-04 19:35:41
+50,130266246.0,MNEMONIC-95: Durable Set Add/Remove/Contains implementation,51.0,225.0,30.0,4.0,1.0,0.0,0.0,2017-07-13 00:50:27,2017-07-13 06:43:59,Johnu George,2171903.0,1.0,2017-07-13 06:43:59
+51,130283852.0,MNEMONIC-281 Add test case to test the method handling optional param…,52.0,355.0,0.0,2.0,1.0,0.0,0.0,2017-07-13 04:22:32,2017-07-13 23:42:43,Yanhui Zhao,14990922.0,1.0,2017-07-13 23:42:43
+52,130478154.0,MNEMONIC-305: Implement Remove operation for Durable Trees,53.0,190.0,3.0,3.0,1.0,0.0,0.0,2017-07-13 22:07:58,2017-07-18 06:07:54,Johnu George,2171903.0,1.0,2017-07-18 06:07:54
+53,131420428.0,MNEMONIC-298:construct Java based volatile memory service class,54.0,362.0,0.0,4.0,1.0,0.0,0.0,2017-07-19 21:08:59,2017-07-19 22:34:24,,23391364.0,1.0,2017-07-19 22:34:24
+54,131879093.0,MNEMONIC-308:add test case for the init method,55.0,230.0,20.0,4.0,1.0,0.0,0.0,2017-07-22 00:25:24,2017-07-22 02:40:21,,23391364.0,1.0,2017-07-22 02:40:21
+55,133625569.0,MNEMONIC-297:Add more constructors for ParameterHolder,56.0,24.0,0.0,1.0,1.0,0.0,0.0,2017-08-02 05:27:36,2017-08-02 17:53:36,Lan Lin,29208050.0,1.0,2017-08-02 17:53:36
+56,135523920.0,MNEMONIC-332: The Logo in docker page deprecated,57.0,1.0,1.0,1.0,4.0,4.0,0.0,2017-08-14 03:38:26,2017-08-14 06:15:23,GanhuaZhang,28835833.0,0.0,
+57,135539544.0,MNEMONIC-332: The Logo in docker page deprecated,58.0,1.0,1.0,1.0,1.0,0.0,0.0,2017-08-14 07:09:35,2017-08-14 17:14:27,GanhuaZhang,28835833.0,1.0,2017-08-14 17:14:27
+58,137146036.0,MNEMONIC-299 and MNEMONIC-300,59.0,897.0,81.0,4.0,1.0,0.0,0.0,2017-08-23 07:17:23,2017-08-23 18:37:58,,23391364.0,1.0,2017-08-23 18:37:58
+59,137596348.0,MNEMONIC-348: Add test command to test configuration file,60.0,2.0,0.0,1.0,1.0,0.0,0.0,2017-08-25 03:59:27,2017-08-25 19:48:40,,23391364.0,1.0,2017-08-25 19:48:40
+60,137819949.0,MNEMONIC-353 Assign fixed version number to docker Centos build,61.0,1.0,1.0,1.0,1.0,1.0,0.0,2017-08-27 03:28:09,2017-08-29 03:55:14,Yanhui Zhao,14990922.0,1.0,2017-08-29 03:55:14
+61,138089590.0,MNEMONIC-304 Add suppot for Pair to ParameterHolder class,62.0,29.0,5.0,1.0,1.0,0.0,0.0,2017-08-29 04:45:43,2017-08-30 05:04:18,Yanhui Zhao,14990922.0,0.0,
+62,138330885.0,MNEMONIC-359: add module to source-assembly file,63.0,1.0,0.0,1.0,1.0,0.0,0.0,2017-08-30 03:43:40,2017-08-30 03:57:39,,23391364.0,1.0,2017-08-30 03:57:39
+63,138728077.0,Fixed MNEMONIC-361: Fails to generate Javadocs,64.0,21.0,7.0,3.0,1.0,0.0,0.0,2017-08-31 17:51:32,2017-08-31 18:33:16,Gordon King,10856796.0,1.0,2017-08-31 18:33:16
+64,138768690.0,Adding java docs to travis,65.0,12.0,5.0,4.0,1.0,0.0,2.0,2017-08-31 21:18:51,2017-09-01 02:11:16,Johnu George,2171903.0,1.0,2017-09-01 02:11:16
+65,138816687.0,MNEMONIC-304 Add suppot for Pair to ParameterHolder class,66.0,24.0,19.0,1.0,1.0,1.0,2.0,2017-09-01 05:11:16,2017-09-12 05:20:35,Yanhui Zhao,14990922.0,1.0,2017-09-12 05:20:35
+66,138973511.0,Fixed MNEMONIC-364: Add GPG failure handling in release script,67.0,2.0,1.0,1.0,1.0,0.0,0.0,2017-09-01 21:05:35,2017-09-01 21:34:01,Gordon King,10856796.0,1.0,2017-09-01 21:34:01
+67,140485878.0,MNEMONIC-344: The error message is not correct for failing test case,68.0,2.0,2.0,1.0,1.0,3.0,0.0,2017-09-12 04:27:29,2017-09-20 06:50:38,Jeffrey Ho,20668843.0,1.0,2017-09-20 06:50:38
+68,141230496.0,MNEMONIC-343: Add a switch option to select specific example to run,69.0,7.0,1.0,1.0,1.0,0.0,0.0,2017-09-15 05:19:48,2017-09-15 07:01:05,GanhuaZhang,28835833.0,1.0,2017-09-15 07:01:05
+69,141746109.0,"MNEMONIC-371: Add README.md for the project ""mnemonic-examples""",70.0,18.0,0.0,1.0,1.0,0.0,0.0,2017-09-19 02:45:26,2017-09-19 06:27:23,GanhuaZhang,28835833.0,1.0,2017-09-19 06:27:23
+70,141769825.0,MNEMONIC-320 Implement native method for durable object vectorization,71.0,275.0,1.0,5.0,1.0,0.0,0.0,2017-09-19 06:51:12,2017-09-19 21:07:10,Yanhui Zhao,14990922.0,1.0,2017-09-19 21:07:10
+71,144015553.0,MNEMONIC-375: Support expandable durable memory service,72.0,54.0,1.0,5.0,1.0,0.0,0.0,2017-09-30 06:04:07,2017-10-01 05:47:54,,23391364.0,1.0,2017-10-01 05:47:54
+72,144091995.0,MNEMONIC-321 Implement Java method for durable object vectorization,73.0,77.0,0.0,4.0,1.0,0.0,2.0,2017-10-01 22:38:43,2017-10-04 07:11:37,Yanhui Zhao,14990922.0,1.0,2017-10-04 07:11:37
+73,145321886.0,MNEMONIC-376: Support shrinkable durable memory service,74.0,72.0,7.0,5.0,1.0,0.0,2.0,2017-10-08 05:50:57,2017-10-10 05:31:10,,23391364.0,1.0,2017-10-10 05:31:10
+74,146700617.0,MNEMONIC-387 Compilation error in mnemonic-computing-services module,75.0,0.0,0.0,0.0,0.0,0.0,0.0,2017-10-16 05:44:02,2017-10-22 03:41:07,Yanhui Zhao,14990922.0,0.0,
+75,147970545.0,MNEMONIC-275 Implement a default function to sync data to the persisent storage,76.0,134.0,134.0,22.0,1.0,0.0,0.0,2017-10-22 01:21:55,2017-10-22 15:34:54,Jie Liu,4392094.0,1.0,2017-10-22 15:34:54
+76,147974245.0,MNEMONIC-387 Compilation error in mnemonic-computing-services module,77.0,31.0,37.0,3.0,1.0,0.0,0.0,2017-10-22 03:50:05,2017-10-27 05:31:08,Yanhui Zhao,14990922.0,1.0,2017-10-27 05:31:08

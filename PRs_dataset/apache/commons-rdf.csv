@@ -1,0 +1,28 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,32162856.0,Rewrite the way BlankNodes are dealt with to be centralised around RDFTermFactory,1.0,305.0,305.0,12.0,17.0,0.0,0.0,2015-03-28 10:59:29,2015-03-30 01:10:06,Peter Ansell,82365.0,1.0,2015-03-30 01:10:05
+1,32606139.0,Fix URL to coveralls badge.svg,2.0,2.0,1.0,1.0,1.0,0.0,0.0,2015-04-03 18:20:21,2015-04-05 22:30:00,Benedikt Ritter,1327662.0,0.0,
+2,32613442.0,COMMONSRDF-9: Bootstrap Commons site build,3.0,790.0,0.0,9.0,1.0,5.0,0.0,2015-04-03 20:15:04,2015-05-02 08:14:40,Benedikt Ritter,1327662.0,0.0,
+3,32613942.0,Cleanup AbstractGraphTest,4.0,1.0,2.0,1.0,2.0,1.0,0.0,2015-04-03 20:23:13,2015-04-05 23:05:21,Benedikt Ritter,1327662.0,0.0,
+4,33002579.0,COMMONSRDF-11 make simple subclassable,5.0,106.0,7.0,6.0,3.0,5.0,0.0,2015-04-09 22:25:51,2015-04-13 10:44:18,Stian Soiland-Reyes,253413.0,0.0,
+5,33005642.0,Update README.md - detail snapshot repository,6.0,37.0,7.0,1.0,1.0,1.0,0.0,2015-04-09 23:16:18,2015-04-10 14:09:37,Stian Soiland-Reyes,253413.0,1.0,2015-04-10 14:09:37
+6,33006223.0,Verify Graph.add() of foreign blank nodes,7.0,201.0,0.0,2.0,10.0,10.0,8.0,2015-04-09 23:26:57,2016-04-16 12:25:45,Stian Soiland-Reyes,253413.0,1.0,2016-04-16 12:25:45
+7,33031855.0,COMMONSRDF-12 Graph implements Iterable interface,8.0,133.0,4.0,2.0,3.0,3.0,0.0,2015-04-10 09:40:54,2015-04-13 09:02:15,Stian Soiland-Reyes,253413.0,0.0,
+8,33055086.0,COMMONSRDF-12 GraphUtils.iterate function,9.0,189.0,4.0,3.0,2.0,4.0,0.0,2015-04-10 15:07:57,2015-04-11 00:27:15,Stian Soiland-Reyes,253413.0,0.0,
+9,33917481.0,COMMONSRDF-6 Simplify BlankNode.internalIdentifier,10.0,156.0,148.0,8.0,6.0,0.0,5.0,2015-04-23 01:41:42,2015-04-29 10:00:32,Stian Soiland-Reyes,253413.0,1.0,2015-04-29 10:00:32
+10,34567633.0,Use constants defined on StandardCharsets,11.0,6.0,5.0,3.0,1.0,0.0,0.0,2015-05-01 21:07:44,2015-07-31 23:54:10,Benedikt Ritter,1327662.0,1.0,2015-07-31 23:54:10
+11,34569349.0,COMMONSRDF-20: Provide a mechanism for allowing the load of different RDF Term Factories,12.0,58.0,0.0,3.0,2.0,5.0,1.0,2015-05-01 21:34:05,2015-05-08 11:05:00,Benedikt Ritter,1327662.0,1.0,2015-05-08 11:05:00
+12,35209532.0,COMMONSRDF-14 define explicit hashCode,13.0,102.0,12.0,6.0,4.0,0.0,0.0,2015-05-12 09:49:29,2015-08-10 10:31:30,Stian Soiland-Reyes,253413.0,1.0,2015-08-10 10:31:30
+13,35214864.0,"COMMONSRDF-25 Remove mentions of ""local scope""",14.0,3.0,13.0,4.0,1.0,0.0,0.0,2015-05-12 10:58:20,2015-07-31 23:48:28,Stian Soiland-Reyes,253413.0,1.0,2015-07-31 23:48:28
+14,35215459.0,COMMONSRDF-21 No BlankNode requirements in createGraph(),15.0,0.0,5.0,1.0,1.0,0.0,0.0,2015-05-12 11:06:49,2015-07-31 23:51:12,Stian Soiland-Reyes,253413.0,1.0,2015-07-31 23:51:12
+15,41848140.0,"Coveralls API/plugin broke, requiring an update to the plugin",16.0,1.0,1.0,1.0,1.0,0.0,0.0,2015-08-07 00:01:48,2015-08-14 10:47:18,Peter Ansell,82365.0,1.0,2015-08-14 10:47:18
+16,64270567.0,"Add RDFSyntax, enumeration of RDF languages",17.0,301.0,0.0,3.0,3.0,7.0,0.0,2016-03-27 17:23:10,2016-04-01 15:11:11,Stian Soiland-Reyes,253413.0,1.0,2016-04-01 15:11:11
+17,65087407.0,Remove myself from .travis.yml file,18.0,0.0,1.0,1.0,1.0,0.0,0.0,2016-04-04 01:16:20,2016-04-04 01:40:59,Peter Ansell,82365.0,0.0,
+18,65795463.0,Add Quad and Dataset,19.0,1395.0,32.0,17.0,21.0,23.0,0.0,2016-04-08 14:35:39,2016-09-05 15:53:55,Stian Soiland-Reyes,253413.0,1.0,2016-09-05 15:53:55
+19,65804091.0,Added SimpleRDFTerm marker interface,20.0,28.0,11.0,6.0,1.0,1.0,0.0,2016-04-08 15:31:23,2016-04-11 14:19:47,Stian Soiland-Reyes,253413.0,1.0,2016-04-11 14:19:47
+20,66256704.0,Add RDFParserBuilder interface,21.0,1194.0,0.0,4.0,20.0,7.0,0.0,2016-04-13 02:18:56,2016-09-09 15:30:24,Stian Soiland-Reyes,253413.0,0.0,
+21,87124630.0,COMMONSRDF-36 Add JSONLD-Java integration,22.0,1913.0,0.0,23.0,64.0,3.0,0.0,2016-09-28 13:54:21,2016-10-03 16:40:13,Stian Soiland-Reyes,253413.0,1.0,2016-10-03 16:40:13
+22,87125379.0,COMMONSRDF-33 Add Jena integration,23.0,2902.0,1.0,38.0,129.0,17.0,19.0,2016-09-28 13:58:25,2016-10-07 14:22:06,Stian Soiland-Reyes,253413.0,0.0,
+23,87125597.0,COMMONSRDF-35 Add rdf4j integration,24.0,3617.0,53.0,38.0,103.0,4.0,136.0,2016-09-28 13:59:37,2016-10-07 15:01:08,Stian Soiland-Reyes,253413.0,1.0,2016-10-07 15:01:08
+24,90502227.0,COMMONSRDF-46 Rename RDFTermFactory to RDF,25.0,1091.0,1045.0,92.0,37.0,4.0,35.0,2016-10-23 02:07:33,2016-10-28 13:14:35,Stian Soiland-Reyes,253413.0,1.0,2016-10-28 13:14:35
+25,91168857.0,COMMONSRDF-7 RDFTerm/Triple/Quad are immutable,26.0,9108.0,9178.0,147.0,42.0,5.0,13.0,2016-10-27 10:01:40,2016-10-28 13:26:22,Stian Soiland-Reyes,253413.0,1.0,2016-10-28 13:26:22
+26,91405205.0,COMMONSRDF-47 RDFSyntax as an interface,27.0,426.0,87.0,6.0,11.0,4.0,27.0,2016-10-28 15:47:15,2017-02-16 11:56:28,Stian Soiland-Reyes,253413.0,1.0,2017-02-16 11:56:28

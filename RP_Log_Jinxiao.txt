@@ -1,0 +1,14 @@
+2021-11-16 15:10:52.957761apache/Airflow
+403Rate limit exceeded
+apache/Ambari
+apache/apex-core
+apache/APISIX
+403Rate limit exceeded
+apache/AsterixDB
+apache/Atlas
+apache/Aurora
+apache/incubator-batchee
+apache/Beam
+403Rate limit exceeded
+apache/Calcite
+apache/CarbonData

@@ -1,0 +1,317 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,28873543.0,Worked on issues reported by static code analysis.,1.0,102.0,117.0,36.0,1.0,0.0,0.0,2015-02-08 01:24:18,2015-02-08 18:06:48,Daniel Kuppitz,572377.0,1.0,2015-02-08 18:06:48
+1,28914554.0,Added ASL licence headers to files,2.0,15352.0,20.0,856.0,1.0,2.0,0.0,2015-02-09 11:53:58,2015-02-09 20:48:41,Ashish Paliwal,548559.0,1.0,2015-02-09 20:48:41
+2,28999785.0,moved namespace to org.apache,3.0,5282.0,5300.0,903.0,1.0,3.0,0.0,2015-02-10 11:34:08,2015-02-11 03:00:12,Ashish Paliwal,548559.0,0.0,
+3,29024554.0,added FilterByCountOptimizerStrategy,4.0,112.0,12.0,4.0,1.0,0.0,0.0,2015-02-10 17:02:10,2015-02-10 17:23:43,Daniel Kuppitz,572377.0,0.0,
+4,29063543.0,improved RangeByIsCountStrategy,5.0,272.0,8.0,8.0,5.0,0.0,0.0,2015-02-11 02:08:40,2015-02-11 02:50:15,Daniel Kuppitz,572377.0,1.0,2015-02-11 02:50:15
+5,29075478.0,namespace migration to org.apache,6.0,5347.0,5347.0,909.0,1.0,2.0,0.0,2015-02-11 08:56:49,2015-02-13 09:38:12,Ashish Paliwal,548559.0,0.0,
+6,29089072.0,added support for Contains.within and Contains.without,7.0,29.0,17.0,2.0,1.0,0.0,0.0,2015-02-11 13:04:25,2015-02-11 13:40:10,Daniel Kuppitz,572377.0,1.0,2015-02-11 13:40:10
+7,29098277.0,RangeByIsCountStrategy bugfixes,8.0,24.0,37.0,4.0,3.0,0.0,0.0,2015-02-11 15:13:02,2015-02-11 15:14:48,Daniel Kuppitz,572377.0,1.0,2015-02-11 15:14:48
+8,29111519.0,refactoring: com.tinkerpop -> com.apache.tinkerpop,9.0,5373.0,5373.0,911.0,1.0,2.0,0.0,2015-02-11 17:37:52,2015-02-11 18:01:46,Daniel Kuppitz,572377.0,0.0,
+9,29140432.0,Apache refactoring,10.0,5475.0,5475.0,926.0,3.0,2.0,0.0,2015-02-11 23:51:34,2015-02-12 12:08:54,Daniel Kuppitz,572377.0,0.0,
+10,29175337.0,Apache refactoring,11.0,5525.0,5505.0,930.0,7.0,0.0,0.0,2015-02-12 12:36:50,2015-02-12 13:01:36,Daniel Kuppitz,572377.0,1.0,2015-02-12 13:01:36
+11,29211911.0,lambda cleanup,12.0,41.0,46.0,1.0,1.0,0.0,0.0,2015-02-12 20:12:27,2015-02-12 20:14:08,Daniel Kuppitz,572377.0,1.0,2015-02-12 20:14:08
+12,29304710.0,worked on local barrier steps,13.0,668.0,234.0,28.0,6.0,0.0,0.0,2015-02-13 22:27:37,2015-02-13 22:41:18,Daniel Kuppitz,572377.0,1.0,2015-02-13 22:41:18
+13,29310635.0,minor fixes,14.0,18.0,19.0,5.0,2.0,0.0,0.0,2015-02-14 00:24:05,2015-02-14 00:57:53,Daniel Kuppitz,572377.0,1.0,2015-02-14 00:57:53
+14,29320930.0,Implemented RangeLocalStep,15.0,289.0,95.0,14.0,2.0,0.0,0.0,2015-02-14 14:45:51,2015-02-14 15:58:40,Daniel Kuppitz,572377.0,1.0,2015-02-14 15:58:40
+15,29376654.0,added `.hasNot(traversal)`,16.0,60.0,127.0,7.0,2.0,0.0,0.0,2015-02-16 14:31:22,2015-02-16 14:39:06,Daniel Kuppitz,572377.0,1.0,2015-02-16 14:39:06
+16,29401335.0,rewrote RangeLocalStep and SampleLocalStep (both steps now support Maps),17.0,116.0,22.0,3.0,3.0,0.0,0.0,2015-02-16 21:19:42,2015-02-16 21:24:46,Daniel Kuppitz,572377.0,1.0,2015-02-16 21:24:46
+17,29409808.0,Got rid of `LocalBarrierStep` and usages of the Java stream API in favor ...,18.0,136.0,83.0,10.0,2.0,0.0,0.0,2015-02-17 00:25:01,2015-02-17 14:40:55,Daniel Kuppitz,572377.0,1.0,2015-02-17 14:40:55
+18,29449496.0,Added performance tests for more complex steps,19.0,28.0,2.0,1.0,1.0,0.0,0.0,2015-02-17 15:18:03,2015-02-17 15:52:45,Daniel Kuppitz,572377.0,1.0,2015-02-17 15:52:45
+19,29456275.0,"Fixed a bug in `select()`, when it assumed that every map in a result is...",20.0,126.0,34.0,4.0,3.0,0.0,0.0,2015-02-17 16:34:49,2015-02-17 21:41:31,Daniel Kuppitz,572377.0,1.0,2015-02-17 21:41:31
+20,29530150.0,added `GroupCountReduceStrategy` which replaces a `GroupCountSideEffectStep` at the end of a `LocalStep` with a `GroupCountReduceStep`,21.0,154.0,22.0,11.0,2.0,0.0,0.0,2015-02-18 14:42:44,2015-02-19 19:08:37,Daniel Kuppitz,572377.0,0.0,
+21,29575507.0,Reducingbarrier,22.0,1422.0,1667.0,124.0,7.0,0.0,0.0,2015-02-18 23:51:13,2015-02-18 23:57:06,Daniel Kuppitz,572377.0,0.0,
+22,29576113.0,worked on M/R code for ReducingBarrierSteps,23.0,228.0,25.0,7.0,2.0,0.0,0.0,2015-02-19 00:02:01,2015-02-19 00:05:56,Daniel Kuppitz,572377.0,1.0,2015-02-19 00:05:56
+23,29576825.0,replaced null with Double.NaN in Min- and MaxStep,24.0,4.0,4.0,4.0,1.0,0.0,0.0,2015-02-19 00:15:53,2015-02-19 00:16:44,Daniel Kuppitz,572377.0,1.0,2015-02-19 00:16:44
+24,29635254.0,registered custom M/R implementation for MeanGlobalStep,25.0,0.0,0.0,0.0,2.0,0.0,0.0,2015-02-19 18:18:56,2015-02-19 18:43:04,Daniel Kuppitz,572377.0,0.0,
+25,29639337.0,fully distributed M/R for MeanGlobalStep,26.0,23.0,11.0,1.0,5.0,0.0,0.0,2015-02-19 19:09:42,2015-02-19 20:02:50,Daniel Kuppitz,572377.0,1.0,2015-02-19 20:02:50
+26,29717027.0,Implement profiling for nested traversals.,27.0,422.0,187.0,14.0,6.0,0.0,0.0,2015-02-20 18:05:24,2015-02-20 19:00:49,bobb,492786.0,1.0,2015-02-20 19:00:49
+27,29734823.0,fixed gremlin.sh - pass options to next gremlin.sh,28.0,2.0,1.0,1.0,1.0,0.0,0.0,2015-02-20 21:57:53,2015-02-20 22:04:12,Daniel Kuppitz,572377.0,1.0,2015-02-20 22:04:12
+28,29744480.0,Fix missing kryo registrations for AtomicLong and DependantMutibleMetrics,29.0,33.0,24.0,5.0,1.0,0.0,0.0,2015-02-21 00:52:01,2015-02-21 01:12:21,bobb,492786.0,1.0,2015-02-21 01:12:21
+29,29844040.0,tests for sideEffects (group and groupCount),30.0,49.0,14.0,2.0,2.0,0.0,0.0,2015-02-23 20:50:18,2015-02-25 14:59:50,Daniel Kuppitz,572377.0,1.0,2015-02-25 14:59:50
+30,30086724.0,Add unit test for ScriptEngineLambda,31.0,138.0,0.0,1.0,1.0,1.0,0.0,2015-02-26 15:27:51,2015-02-27 00:28:38,Matt Frantz,153273.0,1.0,2015-02-27 00:28:38
+31,30322402.0,Fix profiling of global nested steps.,32.0,20.0,0.0,3.0,1.0,0.0,0.0,2015-03-02 21:28:54,2015-03-02 21:56:50,bobb,492786.0,1.0,2015-03-02 21:56:49
+32,30352283.0,added more tests for reducer steps,33.0,50.0,37.0,4.0,3.0,0.0,0.0,2015-03-03 07:36:10,2015-03-03 11:56:07,Daniel Kuppitz,572377.0,1.0,2015-03-03 11:56:07
+33,30413606.0,Refactor Gremlin Server to enable easier OpProcessor extension.,34.0,100.0,160.0,5.0,1.0,0.0,0.0,2015-03-03 21:19:36,2015-03-03 22:08:03,bobb,492786.0,1.0,2015-03-03 22:08:03
+34,30421271.0,Pull request test,35.0,0.0,0.0,1.0,1.0,1.0,0.0,2015-03-03 22:51:22,2015-03-03 23:37:45,bobb,492786.0,0.0,
+35,30469248.0,Make SessionOpProcessor evalOp protected.,36.0,1.0,1.0,1.0,1.0,0.0,0.0,2015-03-04 14:28:40,2015-03-04 14:32:29,bobb,492786.0,1.0,2015-03-04 14:32:29
+36,30564990.0,Fix units on metrics duration for GraphSON,37.0,2.0,2.0,1.0,1.0,0.0,0.0,2015-03-05 15:18:22,2015-03-05 16:17:42,bobb,492786.0,1.0,2015-03-05 16:17:42
+37,30983232.0,optimized ScriptInputFormat and GraphSONInputFormat,38.0,14.0,13.0,2.0,2.0,0.0,0.0,2015-03-11 20:43:38,2015-03-12 10:36:01,Daniel Kuppitz,572377.0,1.0,2015-03-12 10:36:01
+38,31038323.0,worked on TODOs in publish-docs.sh,39.0,28.0,20.0,1.0,1.0,0.0,0.0,2015-03-12 14:05:38,2015-03-12 14:30:30,Daniel Kuppitz,572377.0,1.0,2015-03-12 14:30:30
+39,31532177.0,Enable RAT plugin on builds,40.0,28.0,0.0,2.0,1.0,0.0,0.0,2015-03-19 15:09:08,2015-03-19 15:12:44,Rob Vesse,2104864.0,1.0,2015-03-19 15:12:44
+40,31859688.0,shade plugin prototype config for Kryo,41.0,76.0,14.0,5.0,1.0,0.0,0.0,2015-03-24 19:06:30,2015-04-08 11:39:39,Dan LaRocque,260045.0,0.0,
+41,32065401.0,Apache Licensed Neo4j API for Tinkerpop3,42.0,0.0,0.0,0.0,0.0,0.0,0.0,2015-03-26 21:56:07,2015-05-26 20:40:55,Michael Hunger,67427.0,0.0,
+42,32067026.0,TINKERPOP3-602 Provide osgi metadata for tinkerpop core artifacts.,43.0,0.0,0.0,0.0,0.0,2.0,0.0,2015-03-26 22:17:39,2015-08-25 20:37:42,Łukasz Dywicki,199488.0,0.0,
+43,32096888.0,Added support to travers Elements without reloading it with its id,44.0,92.0,17.0,6.0,1.0,0.0,0.0,2015-03-27 10:36:08,2015-03-27 13:22:14,Pieter Martin,439356.0,1.0,2015-03-27 13:22:14
+44,32169438.0,TINKERPOP3-605 Cleanup of dependency management.,45.0,611.0,664.0,14.0,1.0,4.0,0.0,2015-03-28 19:08:32,2015-10-15 23:35:13,Łukasz Dywicki,199488.0,0.0,
+45,32588297.0,Traversalmetrics kryo serialization tests,46.0,24.0,6.0,2.0,2.0,0.0,0.0,2015-04-03 13:20:30,2015-04-03 13:31:07,bobb,492786.0,1.0,2015-04-03 13:31:07
+46,32787565.0,Use FastNoSuchElementException on TraverserSet.remove(),47.0,8.0,1.0,1.0,1.0,0.0,0.0,2015-04-07 17:43:54,2015-04-07 18:02:29,Jonathan Schneider,1697736.0,1.0,2015-04-07 18:02:29
+47,32788468.0,Make gremlin-groovy a provided dependency of tinkergraph-gremlin,48.0,1.0,0.0,1.0,2.0,3.0,0.0,2015-04-07 17:53:54,2015-04-23 10:20:08,Jonathan Schneider,1697736.0,1.0,2015-04-23 10:20:08
+48,32816706.0,"TINKERPOP3-615 cap(String, String...) to require at least one side effect key",49.0,12.0,11.0,5.0,1.0,0.0,0.0,2015-04-07 23:42:20,2015-04-08 14:45:49,Matt Frantz,153273.0,1.0,2015-04-08 14:45:49
+49,32989796.0,Fixes TINKERPOP3-600: invoke{Function|Method} should be varargs,50.0,2.0,2.0,1.0,1.0,1.0,0.0,2015-04-09 19:51:12,2015-04-10 19:54:43,Jim Lloyd,18069.0,1.0,2015-04-10 19:54:43
+50,33246032.0,Remove user defined IDs from vertices.,51.0,2.0,3.0,1.0,1.0,0.0,0.0,2015-04-14 10:51:10,2015-04-14 11:12:38,Bryn Cooke,747836.0,1.0,2015-04-14 11:12:38
+51,33253742.0,TINKERPOP3-630,52.0,1.0,1.0,1.0,1.0,0.0,0.0,2015-04-14 12:49:32,2015-04-14 13:15:16,Bryn Cooke,747836.0,1.0,2015-04-14 13:15:16
+52,33279021.0,TINKERPOP3-632 Enforce gremlin.tests env var in AbstractGremlinSuite,53.0,65.0,130.0,12.0,4.0,3.0,0.0,2015-04-14 17:13:51,2015-04-15 12:24:17,Matt Frantz,153273.0,1.0,2015-04-15 12:24:17
+53,33314923.0,TINKERPOP3-549 Path getLast/getList,54.0,227.0,3.0,4.0,2.0,1.0,0.0,2015-04-15 01:12:05,2015-04-17 20:38:10,Matt Frantz,153273.0,0.0,
+54,33580091.0,TINKERPOP3-639 selectList,55.0,1447.0,9.0,18.0,9.0,1.0,0.0,2015-04-17 20:37:41,2015-04-22 23:29:03,Matt Frantz,153273.0,0.0,
+55,33911508.0,TINKERPOP3-639 selectList (v4),56.0,1454.0,10.0,20.0,15.0,3.0,3.0,2015-04-22 23:28:45,2015-04-23 22:59:20,Matt Frantz,153273.0,0.0,
+56,34008937.0,TINKERPOP3-639 selectList (v5),57.0,1297.0,9.0,19.0,12.0,1.0,0.0,2015-04-24 00:11:13,2015-05-08 16:32:38,Matt Frantz,153273.0,0.0,
+57,34561888.0,Add `Profileable` interface to enable vendors to receive a `Step's MutableMetrics`.,58.0,146.0,42.0,7.0,3.0,6.0,0.0,2015-05-01 19:46:28,2015-05-04 15:38:23,bobb,492786.0,0.0,
+58,34920495.0,TINKERPOP3-667 Strategy sorting converted to top-sort,59.0,112.0,45.0,4.0,1.0,0.0,0.0,2015-05-07 14:24:03,2015-06-08 17:49:22,Bryn Cooke,747836.0,0.0,
+59,34977614.0,TINKERPOP3-670 tail step (v1),60.0,743.0,5.0,11.0,6.0,8.0,0.0,2015-05-08 03:16:38,2015-05-14 21:44:59,Matt Frantz,153273.0,0.0,
+60,35465521.0,TINKERPOP3-670 tail step (v2),61.0,636.0,9.0,13.0,8.0,5.0,0.0,2015-05-14 21:44:37,2015-05-15 21:16:09,Matt Frantz,153273.0,0.0,
+61,35476824.0,TINKERPOP3-682 JsonMessageSerializerV1d0 throws RuntimeException instead of SerializationException,62.0,2.0,2.0,1.0,1.0,0.0,0.0,2015-05-15 00:57:23,2015-05-15 10:36:16,Jason Plurad,4974160.0,1.0,2015-05-15 10:36:16
+62,35525778.0,TINKERPOP3-658 cap step not documented,63.0,15.0,0.0,1.0,1.0,0.0,0.0,2015-05-15 15:55:43,2015-06-08 17:49:38,,961683.0,0.0,
+63,35551612.0,TINKERPOP3-670 tail step (v3),64.0,638.0,9.0,13.0,9.0,7.0,0.0,2015-05-15 21:15:42,2015-05-16 00:29:24,Matt Frantz,153273.0,0.0,
+64,35561763.0,TINKERPOP3-670 tail step doc,65.0,57.0,0.0,1.0,3.0,1.0,0.0,2015-05-16 00:32:44,2015-05-16 01:03:35,Matt Frantz,153273.0,1.0,2015-05-16 01:03:35
+65,35572831.0,TINKERPOP3-686 WebSocket serialization fails for JSON,66.0,25.0,6.0,2.0,1.0,2.0,0.0,2015-05-16 15:37:21,2015-05-16 15:54:55,Jason Plurad,4974160.0,1.0,2015-05-16 15:54:55
+66,35658896.0,Profile/Metrics refactoring and test improvements.,67.0,57.0,18.0,6.0,1.0,0.0,0.0,2015-05-18 18:12:13,2015-06-08 17:47:11,bobb,492786.0,0.0,
+67,36601249.0,TINKERPOP3-711 Use Jackson in JsonMessageSerializerV1d0Test.java,68.0,75.0,78.0,4.0,1.0,0.0,0.0,2015-06-01 06:12:04,2015-06-01 10:39:09,Jason Plurad,4974160.0,1.0,2015-06-01 10:39:09
+68,36969769.0,TINKERPOP3-673: range/limit local with single element should eschew List,69.0,302.0,49.0,5.0,2.0,0.0,0.0,2015-06-04 19:34:36,2015-06-04 20:38:13,Matt Frantz,153273.0,1.0,2015-06-04 20:38:13
+69,37080518.0,TINKERPOP3-713 Remove dependency on groovy-console which contains creative commons licenses,70.0,38.0,9.0,4.0,2.0,1.0,0.0,2015-06-06 00:14:47,2015-06-09 15:10:26,,961683.0,0.0,
+70,37109059.0,Addition of javadoc displaying in gremlin console,71.0,853.0,2.0,8.0,13.0,8.0,0.0,2015-06-07 16:14:06,2016-06-02 11:37:08,Christos Oikonomou,5932880.0,0.0,
+71,37166211.0,TINKERPOP3-714 Exclude jsr305 jar in assemblies to prevent jsr305 cc license from ap…,72.0,6.0,2.0,2.0,1.0,0.0,0.0,2015-06-08 15:37:22,2015-06-15 19:58:17,,961683.0,0.0,
+72,37276923.0,"TinkerPop-713: use specific groovy dependencies, remove cc license on…",73.0,30.0,5.0,2.0,1.0,0.0,0.0,2015-06-09 17:13:19,2015-06-09 18:33:35,,961683.0,1.0,2015-06-09 18:33:35
+73,37285543.0,TINKERPOP-714 - remove jsr305 from standalone and job jar,74.0,6.0,2.0,2.0,1.0,10.0,0.0,2015-06-09 18:43:58,2015-07-09 19:26:08,,961683.0,0.0,
+74,37467303.0,fix for TINKERPOP3-722 Garbled characters in Gremlin Console help screen on Windows,75.0,10.0,0.0,1.0,1.0,0.0,0.0,2015-06-11 14:11:30,2015-06-11 14:39:57,Jason Plurad,4974160.0,1.0,2015-06-11 14:39:57
+75,37490737.0,TINKERPOP3-700 Path getSingle/getList improvements,76.0,163.0,14.0,5.0,4.0,0.0,0.0,2015-06-11 17:56:42,2015-06-11 18:11:15,Matt Frantz,153273.0,1.0,2015-06-11 18:11:15
+76,37526480.0,TINKERPOP3-723 constant step,77.0,230.0,0.0,10.0,2.0,0.0,0.0,2015-06-12 02:11:34,2015-06-12 12:06:36,Matt Frantz,153273.0,1.0,2015-06-12 12:06:36
+77,37586400.0,TINKERPOP3-725: add additional 'has' step examples,78.0,7.0,0.0,1.0,1.0,0.0,0.0,2015-06-12 17:32:20,2015-06-12 20:57:00,,961683.0,1.0,2015-06-12 20:57:00
+78,37622959.0,Added a contributor,79.0,5.0,0.0,1.0,1.0,0.0,0.0,2015-06-13 10:33:49,2015-06-14 14:48:30,Dylan Millikin,1415875.0,1.0,2015-06-14 14:48:30
+79,37688853.0,TINKERPOP3-697 Add hooks to MutableMetrics to manually set counts and duration.,80.0,24.0,9.0,2.0,2.0,0.0,0.0,2015-06-15 13:03:35,2015-06-16 11:37:29,bobb,492786.0,1.0,2015-06-16 11:37:29
+80,37700604.0,TINKERPOP3-727 doc update for __.in() and __.as(),81.0,1.0,1.0,1.0,1.0,2.0,0.0,2015-06-15 14:59:20,2015-06-15 15:47:57,Jason Plurad,4974160.0,0.0,
+81,37704800.0,TINKERPOP3-731 Arrow keys don't work for Gremlin console on Windows,82.0,2.0,1.0,1.0,1.0,0.0,0.0,2015-06-15 15:36:43,2015-06-15 20:08:27,Jason Plurad,4974160.0,1.0,2015-06-15 20:08:27
+82,37707350.0,TINKERPOP3-727 use of repeat() with in() throws error,83.0,1.0,1.0,1.0,1.0,0.0,0.0,2015-06-15 16:01:06,2015-06-15 16:47:05,Jason Plurad,4974160.0,1.0,2015-06-15 16:47:05
+83,37963971.0,TINKERPOP3-735: Add and/or tests to verify traversals can see path,84.0,47.0,0.0,4.0,1.0,0.0,0.0,2015-06-18 01:27:24,2015-06-18 01:42:44,Matt Frantz,153273.0,1.0,2015-06-18 01:42:44
+84,38145972.0,hadoop-gremlin compatible GraphSONLegacyReader based on LegacyGraphSONReader and GraphSONReader,85.0,2378.0,200.0,17.0,21.0,17.0,0.0,2015-06-19 20:43:16,2015-08-27 15:57:58,Edi Bice,1819450.0,0.0,
+85,38170422.0,TINKERPOP3-619: Add SelectTest cases for 'select should not throw',86.0,251.0,3.0,2.0,1.0,0.0,0.0,2015-06-20 16:26:06,2015-06-23 14:46:18,Matt Frantz,153273.0,1.0,2015-06-23 14:46:18
+86,38441827.0,Remove inconsistent profile timer tests.,87.0,0.0,25.0,1.0,1.0,0.0,0.0,2015-06-24 13:31:24,2015-06-24 13:39:36,bobb,492786.0,1.0,2015-06-24 13:39:36
+87,38794524.0,TINKERPOP3-755: HttpGremlinEndpointHandler transactions aren't being committed,88.0,4.0,1.0,1.0,1.0,1.0,0.0,2015-06-29 16:58:00,2015-06-29 19:15:25,Jason Plurad,4974160.0,1.0,2015-06-29 19:15:25
+88,39624656.0,TINKERPOP-714,89.0,4.0,0.0,1.0,1.0,0.0,0.0,2015-07-09 20:27:22,2015-10-01 18:17:12,,961683.0,0.0,
+89,40566377.0,TINKERPOP3-778 Added @GraphFactoryClass annotation ,90.0,222.0,7.0,3.0,1.0,0.0,0.0,2015-07-22 13:47:35,2015-07-22 15:52:31,Bryn Cooke,747836.0,1.0,2015-07-22 15:52:31
+90,40589396.0,TINKERPOP3-779: RFC for coalesce retain path,91.0,52.0,8.0,3.0,3.0,3.0,0.0,2015-07-22 17:20:24,2015-10-14 15:09:56,Matt Frantz,153273.0,0.0,
+91,40635611.0,TINKERPOP3-782 map(Traversal) should declare requirements of child,92.0,151.0,0.0,8.0,3.0,0.0,0.0,2015-07-23 04:11:52,2015-07-23 15:28:51,Matt Frantz,153273.0,0.0,
+92,40675134.0,Fix typo in javadoc,93.0,1.0,1.0,1.0,1.0,0.0,0.0,2015-07-23 14:03:51,2015-07-24 13:28:29,Bryn Cooke,747836.0,1.0,2015-07-24 13:28:29
+93,41346972.0,"RFC: Add ""For Committers"" documentation",94.0,42.0,0.0,1.0,1.0,1.0,0.0,2015-07-31 14:51:13,2015-08-10 10:53:14,Matt Frantz,153273.0,1.0,2015-08-10 10:53:14
+94,41568630.0,trivial patch to add extra feature requirement on EdgeTest.shouldGetPropertyKeysOnEdge(),95.0,1.0,0.0,1.0,1.0,0.0,0.0,2015-08-04 13:21:04,2015-08-04 13:40:17,Jason Brown,1398849.0,1.0,2015-08-04 13:40:17
+95,43807110.0,TINKERPOP3-750: Compare Number as BigDecimal,96.0,68.0,28.0,2.0,2.0,0.0,0.0,2015-08-31 20:36:14,2015-08-31 20:46:07,Matt Frantz,153273.0,1.0,2015-08-31 20:46:07
+96,45932370.0,Infinite loop in DistributionGeneratorTest,97.0,3.0,1.0,1.0,3.0,1.0,0.0,2015-09-24 18:29:03,2015-09-27 20:34:42,,7149043.0,0.0,
+97,46376890.0,Made correction to fix TINKERPOP3-855.,98.0,33.0,2.0,3.0,1.0,1.0,0.0,2015-09-30 09:05:20,2015-09-30 10:52:03,Dylan Millikin,1415875.0,1.0,2015-09-30 10:52:02
+98,46442551.0,tinkergraph and titan serialization,99.0,47.0,19.0,5.0,1.0,0.0,0.0,2015-09-30 19:04:05,2015-10-02 15:20:53,,13735333.0,0.0,
+99,46679798.0,Changed TinkerGraphSerializer to reuse existing Kryo instance,100.0,85.0,4.0,2.0,1.0,1.0,0.0,2015-10-02 20:40:44,2015-10-05 12:05:40,,13735333.0,1.0,2015-10-05 12:05:40
+100,46715011.0,TINKERPOP3-850: Reduce Graph.addVertex overload ambiguity,101.0,143.0,15.0,10.0,5.0,1.0,0.0,2015-10-03 22:41:57,2015-10-06 17:03:25,Matt Frantz,153273.0,0.0,
+101,46930527.0,TINKERPOP3-850 Reduce Graph.addVertex overload ambiguity (v1),102.0,157.0,15.0,10.0,5.0,3.0,0.0,2015-10-06 17:10:25,2015-10-06 21:41:34,Matt Frantz,153273.0,0.0,
+102,46953120.0,TINKERPOP3-867: TinkerGraphProvider.getBaseConfiguration creates temp dir,103.0,3.0,1.0,1.0,1.0,0.0,0.0,2015-10-06 20:26:32,2015-10-06 20:28:38,Matt Frantz,153273.0,1.0,2015-10-06 20:28:38
+103,46961922.0,TINKERPOP3-850: Reduce Graph.addVertex overload ambiguity (v2),104.0,154.0,14.0,9.0,4.0,10.0,0.0,2015-10-06 21:43:13,2015-10-16 00:29:53,Matt Frantz,153273.0,0.0,
+104,46976898.0,Persist spark,105.0,26.0,2.0,2.0,2.0,4.0,0.0,2015-10-07 01:01:08,2015-10-14 00:45:46,Russell Spitzer,413025.0,0.0,
+105,47563892.0,TINKERPOP3-843,106.0,250.0,758.0,23.0,2.0,4.0,2.0,2015-10-13 17:35:21,2015-10-14 15:15:09,Marko A. Rodriguez,148925.0,1.0,2015-10-14 15:15:09
+106,47591143.0,BulkLoaderVertexProgram for generalized batch loading across graphs,107.0,338.0,18.0,8.0,8.0,21.0,1.0,2015-10-13 21:29:22,2015-10-15 19:44:19,Daniel Kuppitz,572377.0,1.0,2015-10-15 19:44:19
+107,47850672.0,Enhance match()-step and where()-step documentation,108.0,15.0,1.0,1.0,2.0,1.0,0.0,2015-10-15 22:32:49,2015-10-15 23:17:17,Jean-Baptiste Musso,203476.0,1.0,2015-10-15 23:17:17
+108,47869720.0,Use Epoll based netty eventloop when possible,109.0,79.0,12.0,5.0,9.0,22.0,5.0,2015-10-16 04:20:15,2015-10-22 12:19:50,Ashish Nagavaram,2091845.0,1.0,2015-10-22 12:19:50
+109,47921334.0,TINKERPOP3-858 Cleanup after failed plugin install,110.0,142.0,23.0,3.0,2.0,7.0,2.0,2015-10-16 15:01:19,2015-10-17 23:22:05,Jason Plurad,4974160.0,1.0,2015-10-17 23:22:05
+110,47990552.0,"TINKERPOP3-895: Use ""as BinaryOperator"" and remove GBinaryOperator",111.0,24.0,10.0,6.0,1.0,3.0,0.0,2015-10-17 17:00:06,2015-10-19 19:11:23,Marko A. Rodriguez,148925.0,0.0,
+111,48122604.0,TINKERPOP3-863: Turn off bulking -- or is there something more general? (hope not).,112.0,757.0,108.0,24.0,4.0,5.0,0.0,2015-10-19 20:35:16,2015-10-20 17:48:34,Marko A. Rodriguez,148925.0,0.0,
+112,48197957.0,TINKERPOP3-885 Made Transaction.onReadWrite() a ThreadLocal setting,113.0,304.0,22.0,6.0,9.0,8.0,0.0,2015-10-20 13:09:28,2015-11-07 21:43:34,Dylan Millikin,1415875.0,0.0,
+113,48217483.0,Fix empty buffer return upon buffer capacity exceeded,114.0,62.0,17.0,2.0,2.0,8.0,0.0,2015-10-20 15:33:53,2015-10-21 18:38:59,,13735333.0,0.0,
+114,48235664.0,TINKERPOP3-898: Rename ConjuctionP and ConjuctionStep to ConnectiveP and ConnectiveStep,115.0,74.0,78.0,20.0,1.0,2.0,0.0,2015-10-20 17:59:00,2015-10-20 21:32:43,Marko A. Rodriguez,148925.0,1.0,2015-10-20 21:32:43
+115,48354992.0,"TINKERPOP3-861: Solve ""The Number Problem"" for Operator (and follow on operators)",116.0,421.0,106.0,8.0,8.0,4.0,0.0,2015-10-21 16:25:38,2015-10-22 18:02:22,Daniel Kuppitz,572377.0,1.0,2015-10-22 18:02:22
+116,48362547.0,TINKERPOP3-905 Harden time oriented tests in ResultQueueTest,117.0,26.0,12.0,2.0,1.0,3.0,0.0,2015-10-21 17:32:12,2015-10-22 12:23:38,stephen mallette,384249.0,1.0,2015-10-22 12:23:38
+117,48441836.0,TINKERPOP3-908 Use line breaks in documentation,118.0,1966.0,567.0,9.0,2.0,7.0,0.0,2015-10-22 10:38:26,2015-10-25 13:30:45,stephen mallette,384249.0,1.0,2015-10-25 13:30:45
+118,48652403.0,Getters for RepeatStep.emitTraversal / untilTraversal and LoopTraversal.maxLoops,119.0,12.0,0.0,2.0,2.0,5.0,0.0,2015-10-24 09:23:13,2015-10-25 13:59:10,Pieter Martin,439356.0,1.0,2015-10-25 13:59:10
+119,48653533.0,TINKERPOP3-903 - amend a test,120.0,43.0,1.0,1.0,1.0,5.0,0.0,2015-10-24 10:43:03,2015-10-27 11:11:38,stephen mallette,384249.0,1.0,2015-10-27 11:11:38
+120,48728318.0,added tests around single channel in session and sessionless requests,121.0,128.0,0.0,2.0,1.0,5.0,1.0,2015-10-26 11:34:38,2015-10-26 13:13:59,Dylan Millikin,1415875.0,1.0,2015-10-26 13:13:59
+121,48737500.0,TINKERPOP3-910 - In session transaction opened from sessionless request,122.0,148.0,0.0,6.0,3.0,5.0,2.0,2015-10-26 13:17:58,2015-10-28 09:32:37,stephen mallette,384249.0,1.0,2015-10-28 09:32:37
+122,48947665.0,TINKERPOP3-926: Renamed TinkerGraph public statics to common pattern used for other statics.,123.0,72.0,42.0,5.0,1.0,3.0,0.0,2015-10-27 23:37:41,2015-10-28 09:14:05,Marko A. Rodriguez,148925.0,1.0,2015-10-28 09:14:05
+123,48982984.0,TINKERPOP3-922 Created developer book.,124.0,333.0,251.0,5.0,1.0,3.0,0.0,2015-10-28 09:45:49,2015-10-28 16:07:16,stephen mallette,384249.0,1.0,2015-10-28 16:07:16
+124,49020272.0,TINKERPOP3-762: Allow mid-traversal V() (and E()),125.0,592.0,76.0,38.0,17.0,3.0,0.0,2015-10-28 15:17:32,2015-10-29 16:43:17,Daniel Kuppitz,572377.0,1.0,2015-10-29 16:43:17
+125,49056905.0,"TINKERPOP-857: Add GraphComputer.config(key,value)",126.0,50.0,12.0,5.0,4.0,2.0,0.0,2015-10-28 19:44:13,2015-10-29 15:02:23,Marko A. Rodriguez,148925.0,1.0,2015-10-29 15:02:23
+126,49071210.0,TINKERPOP3-918: ComputerVerificationStrategy is too restrictive,127.0,91.0,13.0,5.0,1.0,2.0,3.0,2015-10-28 21:42:27,2015-10-29 15:16:09,Marko A. Rodriguez,148925.0,1.0,2015-10-29 15:16:09
+127,49242556.0,TINKERPOP3-935; Added a missing table for the close op of the Session…,128.0,7.0,0.0,1.0,1.0,0.0,0.0,2015-10-30 08:27:19,2015-10-31 01:34:28,Dylan Millikin,1415875.0,1.0,2015-10-31 01:34:28
+128,49302111.0,TINKERPOP3-925: Use persisted SparkContext to persist an RDD across Spark jobs.,129.0,540.0,131.0,29.0,9.0,5.0,2.0,2015-10-30 17:57:34,2015-11-02 15:52:15,Marko A. Rodriguez,148925.0,1.0,2015-11-02 15:52:15
+129,49354317.0,TINKERPOP3-899: Bump to the latest version of Neo4j.,130.0,38.0,9.0,3.0,2.0,2.0,2.0,2015-10-31 17:26:00,2015-11-01 19:22:27,Marko A. Rodriguez,148925.0,1.0,2015-11-01 19:22:27
+130,49381191.0,TINKERPOP3-909: Improve steps that handle numeric data,131.0,167.0,112.0,22.0,9.0,5.0,0.0,2015-11-01 21:20:00,2015-11-04 12:43:41,Daniel Kuppitz,572377.0,1.0,2015-11-04 12:43:41
+131,49500983.0,TINKERPOP-911: Lets SparkGraphComputer Set ThreadLocal Properties,132.0,144.0,0.0,4.0,2.0,8.0,0.0,2015-11-02 23:25:41,2015-11-04 18:39:29,Russell Spitzer,413025.0,1.0,2015-11-04 18:39:29
+132,49581641.0,TINKERPOP3-904: BulkLoaderVertexProgram optimizations,133.0,162.0,22.0,6.0,7.0,4.0,1.0,2015-11-03 16:59:08,2015-11-04 19:11:49,Daniel Kuppitz,572377.0,1.0,2015-11-04 19:11:49
+133,49582823.0,TINKERPOP3-768: MatchStep in OLAP should be smart about current vertex.,134.0,115.0,15.0,3.0,2.0,3.0,0.0,2015-11-03 17:08:17,2015-11-04 13:54:38,Marko A. Rodriguez,148925.0,1.0,2015-11-04 13:54:38
+134,49724993.0,TINKERPOP3-913 Deprecate rebindings in favor of aliases,135.0,128.0,26.0,7.0,6.0,3.0,0.0,2015-11-04 18:16:56,2015-11-05 17:03:53,stephen mallette,384249.0,1.0,2015-11-05 17:03:53
+135,49773008.0,TINKERPOP3-931 modified the scopes of OpProcessor,136.0,7.0,4.0,2.0,1.0,1.0,0.0,2015-11-05 01:54:59,2015-11-05 01:58:20,Nghia Tran,954633.0,1.0,2015-11-05 01:58:20
+136,49850591.0,TINKERPOP3-914 Gremlin Console :remote to Gremlin Server supports alias,137.0,159.0,10.0,8.0,1.0,2.0,0.0,2015-11-05 16:57:41,2015-11-09 12:59:46,stephen mallette,384249.0,1.0,2015-11-09 12:59:46
+137,49974314.0,"TINKERPOP3-923 - Add the ""Getting Started"" Tutorial",138.0,590.0,0.0,13.0,7.0,3.0,0.0,2015-11-06 16:30:03,2015-11-09 13:01:32,stephen mallette,384249.0,1.0,2015-11-09 13:01:32
+138,50023115.0,TINKERPOP3-917: Add HadoopGraph.open(String),139.0,12.0,5.0,1.0,1.0,2.0,0.0,2015-11-07 01:02:36,2015-11-09 11:12:01,Daniel Kuppitz,572377.0,1.0,2015-11-09 11:12:01
+139,50040744.0,TINKERPOP3-885 Revision of #113,140.0,74.0,175.0,7.0,6.0,2.0,0.0,2015-11-07 17:34:16,2015-11-09 13:24:48,stephen mallette,384249.0,1.0,2015-11-09 13:24:48
+140,50050011.0,TINKERPOP3-886,141.0,87.0,5.0,5.0,5.0,15.0,2.0,2015-11-08 01:08:49,2015-11-24 00:13:50,,3527146.0,1.0,2015-11-24 00:13:50
+141,50329562.0,TINKERPOP3-953 Artifact equality is not evaluating properly,142.0,92.0,5.0,2.0,1.0,1.0,0.0,2015-11-10 23:52:43,2015-11-11 12:04:57,Nghia Tran,954633.0,1.0,2015-11-11 12:04:57
+142,50408172.0,TINKERPOP3-955 Registered HashMap$Node to GryoMapper.,143.0,47.0,1.0,2.0,1.0,12.0,0.0,2015-11-11 17:03:10,2015-11-11 20:48:49,stephen mallette,384249.0,1.0,2015-11-11 20:48:49
+143,50827180.0,TINKERPOP3-957: Improve speed of addV(),144.0,107.0,20.0,17.0,8.0,4.0,0.0,2015-11-16 15:53:32,2015-11-17 23:21:45,Ted Wilmes,4722637.0,1.0,2015-11-17 23:21:45
+144,50986265.0,TINKERPOP3-679: Debuggable Traversal,145.0,287.0,5.0,12.0,4.0,5.0,0.0,2015-11-17 18:40:34,2015-11-18 14:30:50,Marko A. Rodriguez,148925.0,1.0,2015-11-18 14:30:50
+145,51089836.0,Close Cluster executor once the cluster is closed (TINKERPOP3-972),146.0,3.0,0.0,1.0,1.0,8.0,0.0,2015-11-18 14:22:47,2015-11-18 23:51:06,Pierre Laporte,1159578.0,1.0,2015-11-18 23:51:06
+146,51300807.0,TINKERPOP3-978 Native GraphSON Serialization for Gremlin Server,147.0,298.0,39.0,18.0,5.0,4.0,2.0,2015-11-20 00:07:59,2015-11-30 22:01:48,stephen mallette,384249.0,1.0,2015-11-30 22:01:48
+147,51366521.0,initial travis setup,148.0,15.0,0.0,2.0,1.0,10.0,0.0,2015-11-20 15:03:25,2015-11-24 15:29:40,Dylan Millikin,1415875.0,1.0,2015-11-24 15:29:40
+148,51401964.0,Fix fo TINKERPOP3-945,149.0,25.0,7.0,6.0,1.0,7.0,0.0,2015-11-20 20:07:57,2015-11-30 14:40:53,Marvin Froeder,136590.0,1.0,2015-11-30 14:40:53
+149,51422072.0,TINKERPOP3-984,150.0,44.0,28.0,5.0,1.0,19.0,0.0,2015-11-20 23:28:15,2015-11-24 15:26:39,Marvin Froeder,136590.0,1.0,2015-11-24 15:26:39
+150,51439889.0,TINKERPOP3-928 Use directories to separate different books,151.0,99.0,91.0,24.0,7.0,3.0,0.0,2015-11-21 11:52:43,2015-11-22 05:59:27,stephen mallette,384249.0,1.0,2015-11-22 05:59:27
+151,51449372.0,Fixed feature check in shouldPersistDataOnClose(),152.0,1.0,1.0,1.0,1.0,2.0,0.0,2015-11-21 20:21:47,2015-11-23 16:34:27,Jonathan Ellithorpe,287279.0,1.0,2015-11-23 16:34:27
+152,51585159.0,"TINKERPOP3-970: ProfileStep should be off Traversal, not GraphTraversal",153.0,12.0,6.0,4.0,1.0,4.0,0.0,2015-11-23 21:47:34,2015-11-24 17:19:01,Marko A. Rodriguez,148925.0,1.0,2015-11-24 17:19:01
+153,51589597.0,TINKERPOP3-988 Change SparkGraphComputer executor,154.0,26.0,1.0,1.0,1.0,7.0,0.0,2015-11-23 22:24:33,2015-12-01 12:53:58,Dan LaRocque,260045.0,0.0,
+154,51590269.0,TINKERPOP3-941: Improve error message for wrong order().by() arguments,155.0,61.0,10.0,4.0,1.0,5.0,0.0,2015-11-23 22:30:24,2015-11-24 17:16:44,Marko A. Rodriguez,148925.0,1.0,2015-11-24 17:16:44
+155,51739572.0,TINKERPOP3-990 Removed mixed typing in VertexPropertyTest,156.0,13.0,13.0,3.0,2.0,5.0,0.0,2015-11-25 00:56:46,2015-11-30 15:06:20,Nghia Tran,954633.0,1.0,2015-11-30 15:06:20
+156,51811659.0,TINKERPOP3-952 Adding example of a property with list cardinality.,157.0,15.0,13.0,1.0,2.0,5.0,0.0,2015-11-25 15:54:53,2015-12-02 02:21:58,Ted Wilmes,4722637.0,1.0,2015-12-02 02:21:58
+157,52005597.0,TINKERPOP3-912 Improve the ability to embed Gremlin Server with Channelizer injection,158.0,94.0,29.0,5.0,5.0,2.0,0.0,2015-11-27 15:30:02,2015-11-30 16:11:59,stephen mallette,384249.0,1.0,2015-11-30 16:11:59
+158,52021468.0,TINKERPOP3-1000 Rollback the implicit transaction on multi threaded tests.,159.0,6.0,2.0,1.0,2.0,3.0,1.0,2015-11-27 19:48:49,2015-11-30 18:44:50,Pieter Martin,439356.0,1.0,2015-11-30 18:44:50
+159,52028487.0,TINKERPOP3-981 - Deprecate credentialsDbLocation setting for gremlin server simple auth.,160.0,329.0,34.0,8.0,1.0,2.0,0.0,2015-11-27 23:29:06,2015-11-30 22:03:23,stephen mallette,384249.0,1.0,2015-11-30 22:03:22
+160,52171449.0,use the GraphProvider to convert hardcoded ids,161.0,4.0,4.0,1.0,3.0,4.0,0.0,2015-11-30 20:01:30,2015-11-30 21:00:09,Pieter Martin,439356.0,1.0,2015-11-30 21:00:09
+161,52250103.0,TINKERPOP3-995 Add Authenticator.newSaslNegotiator(InetAddress),162.0,80.0,5.0,6.0,3.0,2.0,2.0,2015-12-01 12:10:23,2015-12-07 18:55:16,stephen mallette,384249.0,1.0,2015-12-07 18:55:16
+162,52267820.0,TINKERPOP3-1012 generalize BLVP vertex id types,163.0,2.0,2.0,1.0,1.0,4.0,0.0,2015-12-01 14:59:34,2015-12-01 18:32:05,Dan LaRocque,260045.0,1.0,2015-12-01 18:32:05
+163,52268108.0,TINKERPOP3-988 Change GraphComputer executors,164.0,97.0,3.0,3.0,1.0,4.0,0.0,2015-12-01 15:01:38,2015-12-02 01:17:57,Dan LaRocque,260045.0,1.0,2015-12-02 01:17:57
+164,52310284.0,TINKERPOP3-1013: Traverser tags as a safer way of using path labels,165.0,99.0,26.0,6.0,1.0,2.0,0.0,2015-12-01 20:21:17,2015-12-02 23:13:37,Marko A. Rodriguez,148925.0,1.0,2015-12-02 23:13:37
+165,52430559.0,TINKERPOP3-860 Bindings applied to the PluginAcceptor should appear to Gremlin Server,166.0,259.0,33.0,19.0,4.0,4.0,0.0,2015-12-02 17:53:09,2015-12-04 17:55:43,stephen mallette,384249.0,1.0,2015-12-04 17:55:43
+166,52441683.0,TINKERPOP3-1006 Random error during builds: shouldReloadClassLoaderWhileDoingEvalInSeparateThread(),167.0,35.0,25.0,2.0,1.0,3.0,0.0,2015-12-02 19:25:05,2015-12-03 19:24:25,stephen mallette,384249.0,1.0,2015-12-03 19:24:25
+167,52467364.0,TINKERPOP3-1011: HadoopGraph can't re-attach when the InputFormat is not a FileInputFormat,168.0,459.0,78.0,26.0,11.0,6.0,0.0,2015-12-02 22:57:34,2015-12-03 20:05:10,Marko A. Rodriguez,148925.0,0.0,
+168,52559515.0,"TINKERPOP3-982: valuesDecr, valuesIncr, keysDecr, and valuesDecr is lame.",169.0,168.0,104.0,10.0,4.0,3.0,0.0,2015-12-03 16:43:46,2015-12-03 20:05:24,Marko A. Rodriguez,148925.0,0.0,
+169,52715577.0,Additions to hadoop-gremlin conf files,170.0,145.0,30.0,4.0,1.0,6.0,1.0,2015-12-04 20:12:38,2016-09-15 10:59:08,,6702316.0,0.0,
+170,52870486.0,TINKERPOP-859 Moved logging setup to configuration in HadoopGremlinPlugin,171.0,29.0,29.0,6.0,3.0,5.0,0.0,2015-12-07 16:55:38,2015-12-09 16:27:59,stephen mallette,384249.0,1.0,2015-12-09 16:27:59
+171,52882362.0,TINKERPOP-1027: Merge view prior to writing graphRDD to output format/rdd,172.0,970.0,219.0,65.0,25.0,6.0,0.0,2015-12-07 18:32:18,2015-12-08 13:47:23,Marko A. Rodriguez,148925.0,1.0,2015-12-08 13:47:23
+172,53011370.0,TINKERPOP-1023: Add a spark variable in SparkGremlinPlugin like we do hdfs for HadoopGremlinPlugin,173.0,247.0,23.0,11.0,12.0,5.0,0.0,2015-12-08 17:26:25,2015-12-09 13:51:49,Marko A. Rodriguez,148925.0,1.0,2015-12-09 13:51:49
+173,53102969.0,TINKERPOP-1035 Improved consistency of transaction management in gremlin server.,174.0,97.0,19.0,7.0,1.0,2.0,0.0,2015-12-09 10:50:01,2015-12-09 16:32:09,stephen mallette,384249.0,1.0,2015-12-09 16:32:09
+174,53182479.0, TINKERPOP-1036 Support self-looping edges in GraphSONReader,175.0,85.0,3.0,3.0,13.0,25.0,2.0,2015-12-09 21:45:14,2016-01-12 21:10:57,,16109646.0,1.0,2016-01-12 21:10:57
+175,53186802.0,TINKERPOP-930 Added a strictTransactionManagement setting to Gremlin Server.,176.0,243.0,31.0,24.0,1.0,2.0,0.0,2015-12-09 22:20:14,2015-12-14 17:28:05,stephen mallette,384249.0,1.0,2015-12-14 17:28:05
+176,53350029.0,TINKERPOP-1019 Replaced all system.out.println and system.out.error with logger.,177.0,131.0,75.0,22.0,2.0,5.0,4.0,2015-12-11 03:29:17,2015-12-15 13:21:27,Nghia Tran,954633.0,1.0,2015-12-15 13:21:27
+177,53385330.0,TINKERPOP-954 Consistent test directory usage,178.0,209.0,81.0,18.0,5.0,2.0,0.0,2015-12-11 12:09:00,2015-12-14 21:05:08,stephen mallette,384249.0,1.0,2015-12-14 21:05:08
+178,53437371.0,TINKERPOP-891 Refactored the sandboxing abstractions for Gremlin Server,179.0,617.0,35.0,14.0,1.0,7.0,0.0,2015-12-11 20:01:38,2015-12-14 20:49:35,stephen mallette,384249.0,1.0,2015-12-14 20:49:35
+179,53850405.0,TINKERPOP-1045 Validate bindings on the server to ensure that they were String keys,180.0,100.0,22.0,8.0,1.0,5.0,0.0,2015-12-16 14:50:16,2015-12-21 23:15:17,stephen mallette,384249.0,1.0,2015-12-21 23:15:17
+180,53886454.0,TINKERPOP-1026 BVLP should store vertex IDs as String,181.0,173.0,24.0,8.0,7.0,7.0,1.0,2015-12-16 19:28:25,2015-12-18 18:04:18,Daniel Kuppitz,572377.0,1.0,2015-12-18 18:04:18
+181,53910958.0,Tinkerpop-1051,182.0,1.0,0.0,1.0,2.0,0.0,0.0,2015-12-16 22:53:42,2015-12-16 22:57:57,Jeremy Hanna,254887.0,0.0,
+182,53912393.0,TINKERPOP-1051 Add note in best practice docs about gremlin server heap setting,183.0,1.0,0.0,1.0,3.0,3.0,0.0,2015-12-16 23:07:17,2015-12-18 18:28:33,Jeremy Hanna,254887.0,1.0,2015-12-18 18:28:33
+183,54320815.0,TINKERPOP-983 - Provide a way to track open Graph instances in tests,184.0,137.0,25.0,5.0,4.0,4.0,0.0,2015-12-22 00:45:09,2015-12-30 16:30:53,Nghia Tran,954633.0,1.0,2015-12-30 16:30:53
+184,54512191.0,TINKERPOP-1065: fix some typos and clarify some wording.,185.0,34.0,29.0,2.0,4.0,1.0,1.0,2015-12-23 22:28:36,2015-12-30 16:28:00,Jeremy Hanna,254887.0,1.0,2015-12-30 16:28:00
+185,54646253.0,Update README.asciidoc with correct hyperlinks,187.0,5.0,5.0,1.0,1.0,1.0,0.0,2015-12-28 10:37:08,2015-12-28 11:47:45,,2787160.0,1.0,2015-12-28 11:47:45
+186,54748744.0,TINKERPOP-1055 Gremlin Console FileNotFoundException can be misleading,188.0,12.0,9.0,2.0,2.0,2.0,0.0,2015-12-29 18:48:29,2015-12-30 16:32:44,stephen mallette,384249.0,1.0,2015-12-30 16:32:44
+187,54796592.0,TINKERPOP-1064 Allow a ClassResolver to be added to GryoMapper construction,189.0,544.0,44.0,16.0,8.0,4.0,0.0,2015-12-30 12:28:13,2016-01-04 20:24:26,stephen mallette,384249.0,1.0,2016-01-04 20:24:26
+188,54969033.0,TINKERPOP-976 Fail earlier if invalid version is supplied in validate-distribution.sh,190.0,2.0,2.0,1.0,1.0,2.0,0.0,2016-01-04 12:13:28,2016-01-04 15:12:01,Daniel Kuppitz,572377.0,1.0,2016-01-04 15:12:01
+189,54971947.0,"TINKERPOP-938 Add a ""clear SNAPSHOT jars"" section to the process-docs.sh.",191.0,31.0,4.0,3.0,3.0,4.0,0.0,2016-01-04 12:53:49,2016-01-12 23:40:32,Daniel Kuppitz,572377.0,1.0,2016-01-12 23:40:31
+190,55278892.0,TINKERPOP-1033: Store sideEffects as a persisted RDD,192.0,1369.0,770.0,57.0,15.0,6.0,0.0,2016-01-06 23:14:15,2016-01-08 14:20:36,Marko A. Rodriguez,148925.0,1.0,2016-01-08 14:20:36
+191,55389770.0,TINKERPOP-1075: Profile duration of cap step seems broken.,193.0,21.0,16.0,2.0,1.0,3.0,0.0,2016-01-07 21:01:20,2016-01-11 15:45:09,bobb,492786.0,1.0,2016-01-11 15:45:09
+192,55483557.0,Tinkerpop 1078: Do not include TraversalMetrics cap in profile results.,194.0,61.0,17.0,7.0,2.0,0.0,0.0,2016-01-08 16:51:31,2016-01-08 16:51:57,bobb,492786.0,0.0,
+193,55486268.0,Do not include TraversalMetrics cap in profile results.,195.0,40.0,1.0,5.0,1.0,10.0,0.0,2016-01-08 17:14:55,2016-05-24 21:08:14,bobb,492786.0,0.0,
+194,55492533.0,TINKERPOP-1072: Allow the user to set persistence options using StorageLevel.valueOf(),196.0,63.0,10.0,8.0,1.0,2.0,1.0,2016-01-08 18:15:45,2016-01-12 14:29:28,Marko A. Rodriguez,148925.0,1.0,2016-01-12 14:29:28
+195,55673408.0,TINKERPOP-320 BulkDumperVertexProgram,197.0,236.0,0.0,8.0,5.0,2.0,0.0,2016-01-11 20:29:46,2016-01-13 12:28:51,Daniel Kuppitz,572377.0,1.0,2016-01-13 12:28:51
+196,55699191.0,TINKERPOP-1035 Better Consistency in Gremlin Server Transaction Management,198.0,370.0,80.0,14.0,7.0,2.0,0.0,2016-01-12 00:29:28,2016-01-12 15:14:52,stephen mallette,384249.0,1.0,2016-01-12 15:14:52
+197,55911498.0,TINKERPOP-1083: Traversal needs a hashCode() and equals() definition.,199.0,61.0,53.0,11.0,1.0,2.0,0.0,2016-01-13 15:27:10,2016-01-14 15:00:18,Marko A. Rodriguez,148925.0,1.0,2016-01-14 15:00:18
+198,55967513.0,TINKERPOP-824 Do we need runtime BigDecimal in more places?,200.0,40.0,8.0,4.0,1.0,2.0,0.0,2016-01-13 22:43:33,2016-01-14 12:21:14,Daniel Kuppitz,572377.0,1.0,2016-01-14 12:21:14
+199,56033839.0,TINKERPOP-943 Warn if Gremlin Server is running prior to generating docs,201.0,10.0,9.0,1.0,1.0,2.0,0.0,2016-01-14 13:19:33,2016-01-22 17:19:06,Daniel Kuppitz,572377.0,1.0,2016-01-22 17:19:06
+200,56117064.0,Fixed test name.,202.0,1.0,1.0,1.0,1.0,1.0,0.0,2016-01-15 00:51:08,2016-01-15 12:57:30,Jonathan Ellithorpe,287279.0,1.0,2016-01-15 12:57:30
+201,56239994.0,TINKERPOP-1086 Added gryo serializers for virtually all java.time classes.,203.0,442.0,1.0,4.0,1.0,3.0,0.0,2016-01-16 00:55:54,2016-01-19 11:30:22,stephen mallette,384249.0,1.0,2016-01-19 11:30:22
+202,56499624.0,TINKERPOP-1089: Order.shuffle implementation is too fragile,204.0,152.0,34.0,7.0,1.0,3.0,0.0,2016-01-19 17:38:17,2016-01-21 14:05:14,Marko A. Rodriguez,148925.0,1.0,2016-01-21 14:05:14
+203,56512806.0,TINKERPOP-997 - Feature and FeatureRequirement adjustments,205.0,28.0,9.0,6.0,2.0,6.0,0.0,2016-01-19 19:25:43,2016-01-22 19:04:42,stephen mallette,384249.0,1.0,2016-01-22 19:04:42
+204,56915427.0,TINKERPOP-818 Consider a P.type(),206.0,127.0,31.0,6.0,4.0,9.0,0.0,2016-01-22 17:15:42,2016-05-24 20:57:02,Daniel Kuppitz,572377.0,0.0,
+205,57796315.0,TINKERPOP-1041,207.0,88.0,12.0,7.0,8.0,6.0,6.0,2016-02-01 04:41:33,2016-02-02 21:38:38,Marvin Froeder,136590.0,0.0,
+206,58042159.0,TinkerFactory.createClassic -> createModern,208.0,1.0,1.0,1.0,1.0,3.0,0.0,2016-02-02 20:05:47,2016-02-09 15:05:18,Leifur Halldor Asgeirsson,5378335.0,0.0,
+207,58046588.0,TINKERPOP-1041,209.0,99.0,11.0,7.0,11.0,38.0,0.0,2016-02-02 20:40:34,2016-02-22 13:17:24,Marvin Froeder,136590.0,1.0,2016-02-22 13:17:24
+208,58362708.0,"TINKERPOP-962: Provide ""vertex query"" selectivity when importing data in OLAP.",210.0,1755.0,203.0,52.0,29.0,3.0,2.0,2016-02-04 22:53:14,2016-02-06 19:54:43,Marko A. Rodriguez,148925.0,1.0,2016-02-06 19:54:43
+209,58436927.0,TINKERPOP-1125 Use the existing Host iterator,211.0,4.0,1.0,2.0,2.0,12.0,0.0,2016-02-05 14:43:48,2016-02-12 23:16:31,Kieran Sherlock,2079812.0,1.0,2016-02-12 23:16:31
+210,58468424.0,TINKERPOP-1126,212.0,9.0,6.0,1.0,1.0,3.0,0.0,2016-02-05 18:49:21,2016-02-05 18:57:44,Kieran Sherlock,2079812.0,0.0,
+211,58469774.0,TINKERPOP-1126,213.0,33.0,13.0,3.0,3.0,1.0,0.0,2016-02-05 19:00:50,2016-02-12 23:16:31,Kieran Sherlock,2079812.0,1.0,2016-02-12 23:16:31
+212,58491038.0,TINKERPOP-1131: TraversalVertexProgram traverser management is inefficient memory-wise.,214.0,242.0,132.0,16.0,4.0,4.0,0.0,2016-02-05 22:05:33,2016-02-09 17:15:07,Marko A. Rodriguez,148925.0,1.0,2016-02-09 17:15:07
+213,58756572.0,TINKERPOP-971: TraversalSource should be fluent like GraphComputer,215.0,1601.0,1528.0,92.0,10.0,8.0,0.0,2016-02-09 14:47:32,2016-02-11 19:45:21,Marko A. Rodriguez,148925.0,1.0,2016-02-11 19:45:21
+214,58771265.0,TINKERPOP-916 Provide more robust SimpleClient implementations.,216.0,253.0,259.0,6.0,1.0,2.0,0.0,2016-02-09 16:25:32,2016-02-10 20:02:17,stephen mallette,384249.0,1.0,2016-02-10 20:02:17
+215,58780491.0,TINKERPOP-1138 Improve messaging on server timeouts,217.0,100.0,18.0,8.0,3.0,2.0,0.0,2016-02-09 17:27:03,2016-02-12 22:51:51,stephen mallette,384249.0,1.0,2016-02-12 22:51:51
+216,58781365.0,TINKERPOP-1106 Better handled commit and serialization errors in Gremlin Server.,218.0,23.0,15.0,1.0,1.0,2.0,0.0,2016-02-09 17:33:16,2016-02-12 23:42:56,stephen mallette,384249.0,1.0,2016-02-12 23:42:56
+217,58786303.0,Added another `edge()` method in `ScriptElementFactory`,219.0,5.0,0.0,2.0,1.0,9.0,0.0,2016-02-09 18:11:27,2016-02-09 18:46:16,Daniel Kuppitz,572377.0,0.0,
+218,58790879.0,TINKERPOP-1137 Deprecate ScriptElementFactory and make star graph globally available,220.0,38.0,31.0,6.0,8.0,5.0,0.0,2016-02-09 18:47:15,2016-02-11 12:33:08,Daniel Kuppitz,572377.0,1.0,2016-02-11 12:33:08
+219,58807750.0,clear graph after IoTest.shouldReadWriteSelfLoopingEdges test runs.,221.0,7.0,1.0,1.0,1.0,3.0,0.0,2016-02-09 20:58:50,2016-02-16 11:50:45,Pieter Martin,439356.0,0.0,
+220,58886966.0,attempt to fix Travis integration,222.0,2.0,1.0,1.0,8.0,0.0,0.0,2016-02-10 12:58:33,2016-02-11 15:22:03,Daniel Kuppitz,572377.0,0.0,
+221,58944362.0,TINKERPOP-1146 Use GraphProvider.clear() to auto-clear graphs created in tests,223.0,48.0,13.0,6.0,1.0,2.0,2.0,2016-02-10 19:56:10,2016-02-11 16:50:08,stephen mallette,384249.0,1.0,2016-02-11 16:50:08
+222,59063431.0,TINKERPOP-1039 Allowed for transaction management in sessions.,224.0,273.0,56.0,9.0,1.0,2.0,0.0,2016-02-11 17:16:28,2016-02-12 23:56:27,stephen mallette,384249.0,1.0,2016-02-12 23:56:27
+223,59171706.0,TINKERPOP-1135 Improved GraphSON support of java.time.* packages.,225.0,764.0,56.0,10.0,1.0,2.0,0.0,2016-02-12 13:15:56,2016-02-12 20:06:42,stephen mallette,384249.0,1.0,2016-02-12 20:06:42
+224,59223144.0,TINKERPOP-1148 Added ConcurrentBindings implementation for Gremlin ScriptEngine.,226.0,126.0,16.0,5.0,1.0,2.0,0.0,2016-02-12 20:00:29,2016-02-13 00:25:06,stephen mallette,384249.0,1.0,2016-02-13 00:25:06
+225,59241423.0,TINKERPOP-1140: TraversalVertexProgramStep in support of OLAP/OLTP conversions.,227.0,1243.0,460.0,58.0,15.0,3.0,0.0,2016-02-12 22:38:20,2016-02-13 15:35:06,Marko A. Rodriguez,148925.0,1.0,2016-02-13 15:35:06
+226,59254320.0,Tp31  - fix for gremlin server and console to open Neo4j 2.3.* databases,228.0,2.0,2.0,2.0,2.0,1.0,0.0,2016-02-13 01:43:38,2016-02-15 13:36:57,,11142058.0,1.0,2016-02-15 13:36:57
+227,59261401.0,slf4j-log4j12 / log4j is only required for testing (TINKERPOP-1151),229.0,1.0,0.0,1.0,1.0,5.0,0.0,2016-02-13 07:22:01,2016-02-19 23:44:23,Hendy Irawan,24123.0,0.0,
+228,59686176.0,TINKERPOP-1153 & TINKERPOP-1154: (Summary) Multi-OLAP compilation in a single Traversal (hardened),230.0,2350.0,984.0,123.0,25.0,11.0,0.0,2016-02-17 18:21:33,2016-02-19 16:26:41,Marko A. Rodriguez,148925.0,1.0,2016-02-19 16:26:41
+229,59836003.0,TINKERPOP-1165:Tooling Support: Compile with -parameters,231.0,3.0,0.0,1.0,1.0,7.0,0.0,2016-02-18 17:43:28,2016-02-23 13:29:40,bobb,492786.0,0.0,
+230,59878934.0,TINKERPOP-1168 Switch plugins in docs preprocessor,232.0,1912.0,1838.0,8.0,4.0,3.0,0.0,2016-02-18 23:08:07,2016-02-19 18:38:55,Daniel Kuppitz,572377.0,1.0,2016-02-19 18:38:55
+231,60024101.0,slf4j-log4j12 / log4j is only required for testing (TINKERPOP-1151) ,233.0,79.0,0.0,13.0,6.0,15.0,0.0,2016-02-19 23:44:04,2016-05-24 20:37:35,Hendy Irawan,24123.0,0.0,
+232,60206381.0,"TINKERPOP-937 Extracted ""provider docs"" to their own book.",234.0,968.0,861.0,7.0,3.0,4.0,0.0,2016-02-22 17:09:14,2016-02-25 14:56:18,stephen mallette,384249.0,1.0,2016-02-25 14:56:18
+233,60241183.0,TINKERPOP-1172 Fixed bug with driver connecting to an initially dead server.,235.0,86.0,47.0,4.0,1.0,2.0,0.0,2016-02-22 21:09:51,2016-02-25 14:51:10,stephen mallette,384249.0,1.0,2016-02-25 14:51:10
+234,60341810.0,TINKERPOP-1165:Tooling Support: Compile with -parameters,236.0,3.0,0.0,1.0,1.0,1.0,0.0,2016-02-23 13:49:25,2016-02-23 15:57:37,bobb,492786.0,1.0,2016-02-23 15:57:37
+235,60353670.0,TINKERPOP-1085 Added gremlin-archetypes and related submodules,237.0,1053.0,1.0,27.0,2.0,3.0,6.0,2016-02-23 15:09:12,2016-02-24 19:07:22,stephen mallette,384249.0,1.0,2016-02-24 19:07:22
+236,60437872.0,TINKERPOP-1107 Added interpreter mode for ScriptEngine,238.0,329.0,4.0,7.0,3.0,7.0,0.0,2016-02-24 00:48:37,2016-02-26 19:36:33,stephen mallette,384249.0,1.0,2016-02-26 19:36:32
+237,60441288.0,Fix HTTP keepalive support,239.0,18.0,2.0,4.0,5.0,2.0,0.0,2016-02-24 01:25:40,2016-02-24 18:06:14,Benjamin Anderson,141718.0,0.0,
+238,60552124.0,Fix HTTP keepalive support,240.0,1.0,1.0,1.0,1.0,2.0,0.0,2016-02-24 18:06:53,2016-02-24 20:16:12,Benjamin Anderson,141718.0,1.0,2016-02-24 20:16:12
+239,60568690.0,TINKERPOP-1147 Added serialization support for TraversalExplanation,241.0,87.0,7.0,9.0,1.0,2.0,0.0,2016-02-24 19:59:27,2016-02-26 19:14:37,stephen mallette,384249.0,1.0,2016-02-26 19:14:37
+240,60570507.0,TINKERPOP-958: split .profile() into ProfileSideEffectStep and ProfileStep (which is a MapStep).,242.0,413.0,127.0,22.0,9.0,15.0,0.0,2016-02-24 20:12:12,2016-03-04 18:21:34,bobb,492786.0,1.0,2016-03-04 18:21:34
+241,60875281.0,"TINKERPOP-1166, TINKERPOP-1164, TINKERPOP-1057, TINKERPOP-1162",243.0,2371.0,2811.0,96.0,46.0,8.0,0.0,2016-02-26 17:28:10,2016-03-01 14:26:14,Marko A. Rodriguez,148925.0,1.0,2016-03-01 14:26:14
+242,60976528.0,TINKERPOP-1179,244.0,1.0,1.0,1.0,1.0,14.0,0.0,2016-02-28 03:36:22,2016-04-27 17:58:18,Marvin Froeder,136590.0,0.0,
+243,61125947.0,TINKERPOP-1185 - only load/instantiate the plugins listed in plugins.txt,245.0,7.0,7.0,1.0,1.0,6.0,0.0,2016-02-29 18:58:19,2016-04-07 21:43:20,Blake Eggleston,658086.0,0.0,
+244,61138199.0,Make the GraphManager instance injectable into ServerGremlinExecutor,246.0,107.0,23.0,7.0,4.0,4.0,0.0,2016-02-29 20:20:42,2016-03-03 06:34:40,Mario Mueller,102154.0,0.0,
+245,61300752.0,TINKERPOP-1188: Semantics of BarrierSteps in TraversalParent global traversals is wrong.,247.0,204.0,287.0,22.0,6.0,3.0,0.0,2016-03-01 20:11:18,2016-03-02 13:30:16,Marko A. Rodriguez,148925.0,1.0,2016-03-02 13:30:16
+246,61326137.0,TINKERPOP-956 Connection errors tend to force a complete close of the channel,248.0,53.0,11.0,6.0,4.0,2.0,0.0,2016-03-01 23:21:28,2016-03-08 17:15:46,stephen mallette,384249.0,1.0,2016-03-08 17:15:46
+247,61480714.0,TINKERPOP-1160 Add timeout configuration for time to wait for connection close,249.0,191.0,9.0,8.0,7.0,2.0,0.0,2016-03-02 22:45:48,2016-03-08 19:40:58,stephen mallette,384249.0,1.0,2016-03-08 19:40:58
+248,61516475.0,Make the GraphManager instance injectable into ServerGremlinExecutor based on tp31,250.0,17.0,9.0,1.0,1.0,1.0,0.0,2016-03-03 06:33:30,2016-03-04 13:56:44,Mario Mueller,102154.0,1.0,2016-03-04 13:56:44
+249,61666467.0,TINKERPOP-1192 & TINKERPOP-1193 & TINKERPOP-951 & TINKERPOP-958: The future is now.,251.0,2256.0,1078.0,100.0,23.0,5.0,0.0,2016-03-04 04:39:16,2016-03-04 18:21:35,Marko A. Rodriguez,148925.0,1.0,2016-03-04 18:21:35
+250,61714089.0,TINKERPOP-1184 Fixed bug where session close was happening an extra time.,252.0,362.0,197.0,5.0,1.0,3.0,0.0,2016-03-04 13:51:45,2016-03-08 14:20:08,stephen mallette,384249.0,1.0,2016-03-08 14:20:08
+251,62202415.0,"When hosts configured incorrectly, causing problems not connect services",253.0,1.0,1.0,1.0,1.0,2.0,0.0,2016-03-09 09:45:56,2016-03-15 14:52:12,,2579094.0,0.0,
+252,62254865.0,TINKERPOP-1180: Add more optimized binary operators to Operator,254.0,11.0,5.0,6.0,1.0,2.0,2.0,2016-03-09 16:25:26,2016-03-11 14:49:40,Marko A. Rodriguez,148925.0,1.0,2016-03-11 14:49:40
+253,62281117.0,"TINKERPOP-1173: If no Serializer is provided in Configuration, use GryoSerializer by default (Spark)",255.0,21.0,2.0,4.0,1.0,2.0,0.0,2016-03-09 19:22:08,2016-03-14 19:16:55,Marko A. Rodriguez,148925.0,1.0,2016-03-14 19:16:55
+254,62303501.0,"TINKERPOP-1096 TINKERPOP-1097 Session Aliases, Console Sessions and Remote Console",256.0,548.0,193.0,23.0,15.0,2.0,0.0,2016-03-09 22:00:59,2016-03-10 13:24:18,stephen mallette,384249.0,1.0,2016-03-10 13:24:18
+255,62541391.0,"When hosts configured incorrectly, causing problems not connect services",257.0,7.0,2.0,2.0,1.0,1.0,0.0,2016-03-11 13:15:53,2016-03-16 06:45:40,,2579094.0,0.0,
+256,62552496.0,"TINKERPOP-1217: Repeated Logging of ""The HadoopPools has not been initialized, using the default pool""",258.0,4.0,1.0,1.0,1.0,3.0,0.0,2016-03-11 14:47:03,2016-03-17 23:25:47,Marko A. Rodriguez,148925.0,1.0,2016-03-17 23:25:47
+257,62562672.0,improve predicate doc,259.0,4.0,1.0,1.0,1.0,6.0,0.0,2016-03-11 15:57:36,2016-03-11 16:12:58,Jason Plurad,4974160.0,1.0,2016-03-11 16:12:58
+258,62797542.0,TINKERPOP-1069: Support Spark 1.6.0,260.0,4.0,8.0,5.0,2.0,3.0,0.0,2016-03-14 18:44:24,2016-03-17 13:19:24,Marko A. Rodriguez,148925.0,1.0,2016-03-17 13:19:24
+259,62902947.0,Update slf4j to 1.7.19,261.0,1.0,1.0,1.0,1.0,1.0,0.0,2016-03-15 13:13:28,2016-03-23 17:37:26,Hendy Irawan,24123.0,1.0,2016-03-23 17:37:26
+260,62903076.0,Update hadoop to 2.7.2,262.0,22.0,2.0,3.0,4.0,9.0,0.0,2016-03-15 13:14:37,2016-03-18 19:26:44,Hendy Irawan,24123.0,1.0,2016-03-18 19:26:44
+261,62903697.0,Update Maven plugins (mostly minor version updates),263.0,12.0,12.0,1.0,2.0,7.0,0.0,2016-03-15 13:19:26,2016-04-04 11:48:55,Hendy Irawan,24123.0,0.0,
+262,62971572.0,TINKERPOP-1209 & TINKERPOP-1210: OrderXXXStep Updates,264.0,463.0,392.0,22.0,5.0,3.0,0.0,2016-03-15 20:29:28,2016-03-17 13:18:11,Marko A. Rodriguez,148925.0,1.0,2016-03-17 13:18:11
+263,63020657.0,"When hosts configured incorrectly, causing problems not connect services",265.0,7.0,2.0,2.0,194.0,11.0,0.0,2016-03-16 06:45:35,2016-04-25 11:05:45,,2579094.0,0.0,
+264,63065373.0,TINKERPOP-1206 & TINKERPOP-1014: Bulk Traversers and Requirements Optimization,266.0,152.0,280.0,57.0,2.0,6.0,0.0,2016-03-16 13:38:50,2016-03-17 13:52:06,Marko A. Rodriguez,148925.0,1.0,2016-03-17 13:52:05
+265,63084119.0,TINKERPOP-1219: Create a test case that ensures the provider's compilation of g.V(x) and g.V().hasId(x) is identical,267.0,153.0,7.0,11.0,2.0,18.0,1.0,2016-03-16 15:30:33,2016-03-17 19:12:51,Marko A. Rodriguez,148925.0,1.0,2016-03-17 19:12:51
+266,63244244.0,TINKERPOP-1082 & TINKERPOP-1222: Hadoop Configuration Updates,268.0,316.0,228.0,42.0,7.0,3.0,0.0,2016-03-17 15:44:28,2016-03-19 15:48:22,Marko A. Rodriguez,148925.0,1.0,2016-03-19 15:48:22
+267,63305002.0,TINKERPOP-575 RemoteGraph,269.0,2428.0,332.0,52.0,74.0,5.0,0.0,2016-03-17 22:51:18,2016-03-18 13:31:00,stephen mallette,384249.0,1.0,2016-03-18 13:31:00
+268,63328586.0,TINKERPOP-732 - tree() serializing over GraphSON,270.0,244.0,6.0,8.0,3.0,1.0,0.0,2016-03-18 05:05:19,2016-03-18 06:03:02,Dylan Millikin,1415875.0,0.0,
+269,63331605.0,TINKERPOP-732 .tree() serialization in GraphSON,271.0,197.0,6.0,8.0,5.0,11.0,0.0,2016-03-18 06:04:10,2016-03-24 15:17:35,Dylan Millikin,1415875.0,1.0,2016-03-24 15:17:35
+270,63510871.0,append a note to the note on lambdas,272.0,1.0,1.0,1.0,1.0,1.0,0.0,2016-03-20 23:06:43,2016-03-21 00:27:26,Michael Pollmeier,506752.0,1.0,2016-03-21 00:27:26
+271,63563205.0,"TINKERPOP-1199:Use ""MicroMetrics"" as the mutator of the TraversalMetrics.",273.0,206.0,425.0,16.0,6.0,5.0,0.0,2016-03-21 13:27:24,2016-03-22 20:55:10,bobb,492786.0,1.0,2016-03-22 20:55:10
+272,63638885.0,TINKERPOP-1016 Replace junit-benchmarks with JMH,274.0,624.0,2.0,13.0,1.0,11.0,0.0,2016-03-21 21:55:31,2016-03-29 12:23:29,Ted Wilmes,4722637.0,0.0,
+273,63785766.0,TINKERPOP-1231: Get RemoteGraph to work with GraphComputer traversals (OLAP).,275.0,592.0,201.0,45.0,8.0,6.0,0.0,2016-03-22 20:18:03,2016-03-24 16:05:15,Marko A. Rodriguez,148925.0,1.0,2016-03-24 16:05:15
+274,64036025.0,TINKERPOP-1109 Make Gremlin Console better suited for system level installs,276.0,55.0,20.0,5.0,4.0,3.0,0.0,2016-03-24 13:49:39,2016-03-25 13:01:34,Daniel Kuppitz,572377.0,1.0,2016-03-25 13:01:34
+275,64201678.0,TINKERPOP-1236: SelectDenormalizationStrategy for select().by(starGraph) in OLAP.,277.0,343.0,5.0,10.0,8.0,5.0,0.0,2016-03-25 20:05:32,2016-03-29 00:25:10,Marko A. Rodriguez,148925.0,1.0,2016-03-29 00:25:10
+276,64241678.0,TINKERPOP-1163: GraphComputer's can have TraversalStrategies.,278.0,57.0,25.0,3.0,1.0,3.0,0.0,2016-03-26 16:12:36,2016-03-29 00:18:55,Marko A. Rodriguez,148925.0,1.0,2016-03-29 00:18:55
+277,64243500.0,Tinkerpop 968:Add first class support for an optional traversal,279.0,251.0,0.0,9.0,7.0,13.0,2.0,2016-03-26 17:20:05,2016-03-30 20:48:40,Pieter Martin,439356.0,1.0,2016-03-30 20:48:40
+278,64336253.0,Docker Integration,280.0,435.0,1.0,17.0,11.0,3.0,1.0,2016-03-28 15:52:41,2016-03-28 17:03:35,Daniel Kuppitz,572377.0,0.0,
+279,64344499.0,Docker Integration,281.0,435.0,1.0,17.0,13.0,3.0,0.0,2016-03-28 17:07:16,2016-03-30 13:37:13,Daniel Kuppitz,572377.0,1.0,2016-03-30 13:37:13
+280,64373453.0,TINKERPOP-1223: Allow jars in gremlin.distributedJars to be read from HDFS,282.0,126.0,8.0,4.0,5.0,2.0,7.0,2016-03-28 20:46:42,2016-03-29 19:01:56,Marko A. Rodriguez,148925.0,1.0,2016-03-29 19:01:56
+281,64475430.0,TINKERPOP-1234: program() step that takes arbitrary vertex programs,283.0,256.0,37.0,15.0,5.0,4.0,0.0,2016-03-29 14:34:31,2016-03-30 13:21:25,Marko A. Rodriguez,148925.0,1.0,2016-03-30 13:21:25
+282,64505517.0,TINKERPOP-1237: ProjectMap: For the Love of Die Faterland,284.0,323.0,10.0,14.0,2.0,2.0,2.0,2016-03-29 17:49:20,2016-03-29 19:03:46,Marko A. Rodriguez,148925.0,1.0,2016-03-29 19:03:46
+283,64691281.0,"TINKERPOP-1225: Do a ""rolling reduce"" for GroupXXXStep in OLAP.",285.0,555.0,157.0,16.0,22.0,4.0,0.0,2016-03-30 20:26:35,2016-03-31 20:53:26,Marko A. Rodriguez,148925.0,1.0,2016-03-31 20:53:26
+284,64852320.0,"TINKERPOP-1020 Provide --dryRun selectivity for ""half publishing"" docs.",286.0,119.0,40.0,5.0,3.0,9.0,0.0,2016-03-31 20:21:11,2016-04-20 20:44:18,Daniel Kuppitz,572377.0,1.0,2016-04-20 20:44:18
+285,65541685.0,Fix NPE in ObjectWritable.toString,287.0,1.0,1.0,1.0,1.0,2.0,0.0,2016-04-06 21:45:55,2016-04-06 21:55:12,Dan LaRocque,260045.0,0.0,
+286,65571474.0,Fix TINKERPOP-1252,288.0,4.0,6.0,1.0,1.0,4.0,0.0,2016-04-07 04:08:05,2016-04-07 18:32:32,Geoff Reedy,58229.0,0.0,
+287,65678360.0,Fix TINKERPOP-1252 (Supersedes #288),289.0,4.0,6.0,1.0,1.0,2.0,0.0,2016-04-07 18:38:36,2016-04-07 19:39:27,Geoff Reedy,58229.0,1.0,2016-04-07 19:39:27
+288,66619023.0,Pass SASL mechanism through to server,290.0,73.0,26.0,7.0,3.0,0.0,0.0,2016-04-15 10:07:44,2016-04-15 10:08:17,Mike Adamson,2841496.0,0.0,
+289,66619247.0,TINKERPOP-1263 Pass SASL mechanism through to server,291.0,18.0,15.0,3.0,2.0,13.0,0.0,2016-04-15 10:09:19,2016-04-20 20:52:12,Mike Adamson,2841496.0,0.0,
+290,67065013.0,TINKERPOP-1269 Additional SSL options for Driver,292.0,81.0,9.0,5.0,2.0,1.0,0.0,2016-04-19 18:18:34,2016-04-19 20:49:56,stephen mallette,384249.0,0.0,
+291,67251557.0,TINKERPOP-1269 More Configuration Options for SSL,293.0,200.0,45.0,9.0,5.0,2.0,0.0,2016-04-20 20:19:44,2016-04-21 11:04:29,stephen mallette,384249.0,1.0,2016-04-21 11:04:29
+292,67870925.0,"TINKERPOP-1267 Added option for ""none"" on remote timeouts.",294.0,74.0,11.0,5.0,2.0,2.0,1.0,2016-04-26 11:49:06,2016-05-02 14:13:54,stephen mallette,384249.0,1.0,2016-05-02 14:13:54
+293,68044411.0,TINKERPOP-1272 Added init-tp-spark.sh to console distribution.,295.0,16.0,1.0,5.0,1.0,3.0,0.0,2016-04-27 12:26:04,2016-04-27 19:06:25,stephen mallette,384249.0,1.0,2016-04-27 19:06:25
+294,68063400.0,TINKERPOP-1232: Write a tutorial demonstrating the 3 ways to write a Gremlin language variant.,296.0,10403.0,33.0,16.0,19.0,4.0,0.0,2016-04-27 14:31:36,2016-04-27 22:47:08,Marko A. Rodriguez,148925.0,1.0,2016-04-27 22:47:08
+295,68278315.0,TINKERPOP-1268 Interactive and Executor Mode for Console,297.0,252.0,107.0,9.0,9.0,4.0,3.0,2016-04-28 19:41:53,2016-05-02 18:10:24,stephen mallette,384249.0,1.0,2016-05-02 18:10:24
+296,68390755.0,TINKERPOP-1284: StarGraph does not handle self-loops correctly.,298.0,100.0,5.0,2.0,2.0,3.0,1.0,2016-04-29 15:36:53,2016-05-02 14:24:40,Marko A. Rodriguez,148925.0,1.0,2016-05-02 14:24:40
+297,68464554.0,TINKERPOP-946 Interrupting Traversals,299.0,425.0,18.0,20.0,10.0,6.0,0.0,2016-04-30 10:37:13,2016-05-04 15:04:15,stephen mallette,384249.0,1.0,2016-05-04 15:04:15
+298,68574701.0,TINKERPOP-1279: Add Iterable<V> parameter constructor to ConnectiveP subclasses,300.0,47.0,17.0,5.0,3.0,2.0,1.0,2016-05-02 15:22:20,2016-05-03 14:22:21,Marko A. Rodriguez,148925.0,1.0,2016-05-03 14:22:21
+299,68708671.0,"TINKERPOP-1120: If there is no view nor messages, don't create empty views/messages in SparkExecutor",301.0,84.0,54.0,7.0,6.0,9.0,0.0,2016-05-03 13:51:12,2016-05-04 18:55:36,Marko A. Rodriguez,148925.0,1.0,2016-05-04 18:55:36
+300,68750287.0,Bump SLF4J to 1.7.21,302.0,1.0,1.0,1.0,1.0,4.0,0.0,2016-05-03 18:15:48,2016-05-05 18:30:36,Mathias Bogaert,254434.0,0.0,
+301,68881983.0,Bump SLF4J to 1.7.21,303.0,7.0,7.0,3.0,3.0,1.0,0.0,2016-05-04 15:28:56,2016-05-04 15:32:06,Mathias Bogaert,254434.0,0.0,
+302,68938966.0,TINKERPOP-1286 Added recipes framework.,304.0,232.0,0.0,6.0,1.0,2.0,0.0,2016-05-04 21:58:43,2016-05-05 20:11:02,stephen mallette,384249.0,1.0,2016-05-05 20:11:02
+303,69031958.0,TINKERPOP-1288 & TINKERPOP-1290: VertexProgramInterceptor and GraphComputer TraversalStrategies,305.0,1053.0,142.0,23.0,16.0,4.0,3.0,2016-05-05 16:28:54,2016-05-06 16:09:08,Marko A. Rodriguez,148925.0,1.0,2016-05-06 16:09:08
+304,69087186.0,Bump SLF4J to 1.7.21 to fix memory leak.,306.0,9.0,9.0,3.0,1.0,1.0,0.0,2016-05-05 23:37:21,2016-05-06 20:55:09,Mathias Bogaert,254434.0,1.0,2016-05-06 20:55:09
+305,69231821.0,TINKERPOP-1295 Precompile ScriptInputFormat scripts once during initialization of ScriptRecordReader,307.0,7.0,1.0,1.0,1.0,3.0,0.0,2016-05-07 03:34:47,2016-05-10 20:58:23,Ted Wilmes,4722637.0,1.0,2016-05-10 20:58:23
+306,69541591.0,TINKERPOP-1297 Updated the gephi plugin to work on Gephi 0.9.x,308.0,64.0,73.0,5.0,1.0,5.0,0.0,2016-05-10 17:00:35,2016-05-16 16:08:30,stephen mallette,384249.0,1.0,2016-05-16 16:08:30
+307,69553193.0,Broaden catch for computePath.,309.0,1.0,1.0,1.0,1.0,4.0,0.0,2016-05-10 18:18:45,2016-05-12 11:06:50,Mathias Bogaert,254434.0,1.0,2016-05-12 11:06:50
+308,69562897.0,TINKERPOP-1293: Implement GraphFilterStrategy as a default registration for GraphComputer,310.0,719.0,139.0,9.0,4.0,4.0,2.0,2016-05-10 19:23:45,2016-05-12 12:45:10,Marko A. Rodriguez,148925.0,1.0,2016-05-12 12:45:10
+309,69708693.0,TINKERPOP-1300 Fixed many broken count asserts not being applied in test suite.,311.0,98.0,100.0,11.0,1.0,2.0,0.0,2016-05-11 17:12:18,2016-05-12 10:20:35,stephen mallette,384249.0,1.0,2016-05-12 10:20:35
+310,69890814.0,TINKERPOP-1281 & TINKERPOP-1282 & TINKERPOP-1299: OLAP chains and traverser propagation,312.0,610.0,151.0,14.0,5.0,3.0,0.0,2016-05-12 19:12:22,2016-05-16 13:27:58,Marko A. Rodriguez,148925.0,1.0,2016-05-16 13:27:58
+311,70032244.0,TINKERPOP-1088 Preserve Cardinality in Subgraph,313.0,52.0,11.0,4.0,1.0,2.0,0.0,2016-05-13 17:39:38,2016-05-24 18:48:22,stephen mallette,384249.0,1.0,2016-05-24 18:48:22
+312,70101961.0,TINKERPOP-1301 Provide Javadoc for ScriptInput/OutputFormat's,314.0,11.0,0.0,2.0,1.0,7.0,3.0,2016-05-14 19:41:04,2016-06-06 10:33:07,Lewis John McGibbney,1165719.0,0.0,
+313,70307173.0,Remove dashes from labels and property keys,315.0,26.0,20.0,9.0,3.0,12.0,0.0,2016-05-17 06:48:20,2016-07-08 20:44:08,Mathias Bogaert,254434.0,1.0,2016-07-08 20:44:07
+314,70679084.0,TINKERPOP-1305: HALTED_TRAVERSERS hold wrong information,316.0,413.0,125.0,26.0,7.0,6.0,0.0,2016-05-19 11:38:05,2016-05-21 04:12:15,Marko A. Rodriguez,148925.0,1.0,2016-05-21 04:12:15
+315,70893263.0,TINKERPOP-1003 Setting up latest/current links for bins and docs.,317.0,17.0,4.0,2.0,1.0,11.0,0.0,2016-05-20 17:56:29,2016-05-31 23:25:34,Lewis John McGibbney,1165719.0,0.0,

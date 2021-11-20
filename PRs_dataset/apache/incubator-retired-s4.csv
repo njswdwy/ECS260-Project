@@ -1,0 +1,3 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,976066.0,S4-7,1.0,211.0,189.0,7.0,2.0,0.0,0.0,2012-03-13 17:27:54,2012-03-14 17:01:42,Karthik Kambatla,648114.0,0.0,
+1,986074.0,S4-7 fixes,2.0,217.0,194.0,7.0,4.0,0.0,0.0,2012-03-14 22:12:51,2015-11-27 02:24:11,Karthik Kambatla,648114.0,0.0,

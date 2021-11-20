@@ -1,0 +1,8 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,23482630.0,PARQUET-120: Copy dev scripts and readme from parquet-mr.,1.0,430.0,0.0,2.0,1.0,0.0,0.0,2014-10-28 19:15:35,2014-10-28 19:59:51,Nong Li,242468.0,0.0,
+1,27303928.0,Add generic record reader.,2.0,513.0,7.0,9.0,1.0,0.0,0.0,2015-01-13 20:56:11,2015-01-16 23:16:44,Nong Li,242468.0,0.0,
+2,27307529.0,Add utility to dump the schema of a parquet file.,3.0,110.0,0.0,3.0,1.0,0.0,0.0,2015-01-13 21:44:14,2015-01-16 23:16:18,Nong Li,242468.0,0.0,
+3,27544717.0,PARQUET-169: Add support for reading nested and repeated data.,4.0,1224.0,101.0,18.0,1.0,6.0,9.0,2015-01-16 23:22:52,2016-01-29 18:08:26,Nong Li,242468.0,0.0,
+4,31774214.0,[WIP] Various OsX fixes,6.0,1600.0,2601.0,22.0,7.0,7.0,0.0,2015-03-23 21:08:48,2016-01-22 20:01:02,Kashif Rasul,8100.0,0.0,
+5,32529792.0,PARQUET-232: minor compilation issue,7.0,9.0,5.0,2.0,2.0,1.0,0.0,2015-04-02 16:56:32,2015-04-02 22:56:34,,11768329.0,0.0,
+6,32558801.0,PARQUET-233: Update README with how to contribute,8.0,13.0,5.0,2.0,1.0,0.0,0.0,2015-04-02 23:07:32,2016-01-11 00:25:40,Nong Li,242468.0,0.0,

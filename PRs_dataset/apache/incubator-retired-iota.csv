@@ -1,0 +1,34 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,69604775.0,Create test.txt,1.0,1.0,0.0,1.0,1.0,0.0,0.0,2016-05-11 01:58:08,2016-05-11 03:08:07,Scott Noteboom,7401312.0,0.0,
+1,69648829.0,Update test1.txt,2.0,2.0,1.0,1.0,1.0,0.0,0.0,2016-05-11 10:29:18,2016-05-11 10:29:47,Scott Noteboom,7401312.0,0.0,
+2,76068315.0,[IOTA-19] Improve comments on Default configuration for Fey,3.0,19.0,5.0,1.0,1.0,0.0,0.0,2016-07-02 16:05:11,2016-07-04 19:00:44,Barbara Gomes,13023284.0,1.0,2016-07-04 19:00:44
+3,76096718.0,Fixed the Build.scala file for Performers so that the build can be made,4.0,2.0,2.0,1.0,1.0,2.0,0.0,2016-07-03 19:41:24,2016-07-04 01:47:20,Shivansh Srivastava,12807854.0,1.0,2016-07-04 01:47:20
+4,76190131.0,[IOTA-21],5.0,213.0,115.0,5.0,6.0,14.0,0.0,2016-07-04 17:44:46,2016-07-05 20:30:12,Sandeep Purohit,8075390.0,1.0,2016-07-05 20:30:12
+5,76202402.0,[IOTA-22] [IOTA-23]Refactor the code to fix the jar name as specified in the README.md and migrated the project from spray to play,6.0,105.0,89.0,7.0,2.0,2.0,0.0,2016-07-04 22:01:54,2016-09-28 02:20:35,Shivansh Srivastava,12807854.0,0.0,
+6,76317446.0,Ignoring jars in folder Performer/fey/FeyJarRepo,7.0,3.0,0.0,1.0,1.0,0.0,0.0,2016-07-05 18:09:18,2016-07-05 20:32:22,Barbara Gomes,13023284.0,1.0,2016-07-05 20:32:22
+7,76435139.0,[IOTA-22] [IOTA-23] ,8.0,82.0,88.0,7.0,5.0,4.0,0.0,2016-07-06 13:49:52,2016-09-28 06:45:05,Shivansh Srivastava,12807854.0,0.0,
+8,76511574.0,[IOTA-24] Offer control-aware mailbox to Performers,9.0,44.0,11.0,5.0,2.0,0.0,0.0,2016-07-06 22:19:18,2016-07-08 01:05:40,Barbara Gomes,13023284.0,1.0,2016-07-08 01:05:40
+9,76686211.0,Display Routees on activeactors endpoint,10.0,38.0,5.0,8.0,3.0,0.0,0.0,2016-07-08 00:26:04,2016-07-08 01:06:49,Barbara Gomes,13023284.0,1.0,2016-07-08 01:06:49
+10,76828040.0,Refactoring printing Routees,11.0,8.0,8.0,2.0,2.0,0.0,0.0,2016-07-08 23:26:30,2016-07-11 18:50:44,Barbara Gomes,13023284.0,1.0,2016-07-11 18:50:44
+11,76995769.0,Implementing Monitor actor on Fey,12.0,306.0,77.0,13.0,4.0,0.0,0.0,2016-07-11 17:55:08,2016-07-11 18:50:44,Barbara Gomes,13023284.0,1.0,2016-07-11 18:50:44
+12,77514304.0,[IOTA-25] Support HTTP protocol for dynamic population of Fey jar repo,13.0,649.0,275.0,13.0,9.0,0.0,0.0,2016-07-14 19:47:16,2016-07-14 19:54:42,Barbara Gomes,13023284.0,1.0,2016-07-14 19:54:42
+13,77874175.0,[IOTA-27] Write initial test for fey-core,14.0,1294.0,42.0,20.0,12.0,0.0,0.0,2016-07-18 20:32:25,2016-07-18 20:43:35,Barbara Gomes,13023284.0,1.0,2016-07-18 20:43:35
+14,78246712.0,[IOTA-27] Write initial test for fey-core,15.0,1421.0,63.0,30.0,10.0,0.0,0.0,2016-07-21 01:51:31,2016-07-21 23:38:07,Barbara Gomes,13023284.0,1.0,2016-07-21 23:38:07
+15,78544150.0,[IOTA-28] Implement a GenericActor to be used as a JSON receiver on Fey-Core,16.0,837.0,86.0,20.0,10.0,0.0,0.0,2016-07-22 21:40:00,2016-09-28 01:19:22,Barbara Gomes,13023284.0,1.0,2016-09-28 01:19:22
+16,78995422.0,[IOTA-29],17.0,391.0,347.0,16.0,3.0,4.0,0.0,2016-07-27 09:50:34,2016-10-19 18:48:35,Shivansh Srivastava,12807854.0,0.0,
+17,80023275.0,IOTA 30 Remove the hardcoded configuration and remove compile time warnings,18.0,11.0,4.0,3.0,2.0,3.0,0.0,2016-08-04 06:10:47,2016-10-19 19:00:26,Sandeep Purohit,8075390.0,0.0,
+18,87044401.0,[IOTA-22] Resolved the conflicts and changed the jar name,19.0,10.0,7.0,2.0,2.0,1.0,0.0,2016-09-28 02:20:19,2016-09-29 02:05:57,Shivansh Srivastava,12807854.0,1.0,2016-09-29 02:05:57
+19,87062748.0,[IOTA-23] Rebased the Code and converted the spray Routes to the play Routes,20.0,94.0,105.0,7.0,7.0,6.0,0.0,2016-09-28 06:43:19,2016-10-19 18:44:16,Shivansh Srivastava,12807854.0,1.0,2016-10-19 18:44:16
+20,88501138.0,[IOTA-32] Fey - Define minimum number of actors when autoscaling,21.0,93.0,30.0,5.0,1.0,0.0,0.0,2016-10-07 20:16:24,2016-10-08 03:13:25,Barbara Gomes,13023284.0,1.0,2016-10-08 03:13:25
+21,92203235.0,[IOTA-33] - Upgrade aka version on Fey to 2.4.10,22.0,15.0,8.0,5.0,1.0,0.0,0.0,2016-11-03 17:33:41,2016-11-15 00:49:47,Barbara Gomes,13023284.0,1.0,2016-11-15 00:49:46
+22,92207323.0,Corrected the spell error in readme,23.0,1.0,1.0,1.0,1.0,0.0,0.0,2016-11-03 17:55:39,2016-11-15 00:50:18,Shivansh Srivastava,12807854.0,1.0,2016-11-15 00:50:18
+23,92223804.0,[IOTA-29] Removed the scalastyle Warnings,24.0,394.0,358.0,27.0,30.0,13.0,0.0,2016-11-03 19:29:12,2016-11-29 23:29:12,Shivansh Srivastava,12807854.0,1.0,2016-11-29 23:29:11
+24,93639010.0,minor spelling mistake,25.0,2.0,2.0,1.0,1.0,0.0,0.0,2016-11-14 20:13:39,2016-11-15 00:49:47,K L Bhanu,11479527.0,1.0,2016-11-15 00:49:47
+25,94114196.0,minor spelling corrections,26.0,10.0,10.0,1.0,4.0,1.0,0.0,2016-11-17 07:20:04,2016-11-29 23:27:36,K L Bhanu,11479527.0,1.0,2016-11-29 23:27:36
+26,95805631.0,[IOTA-34] - Global Watch Service,27.0,295.0,14.0,6.0,3.0,0.0,0.0,2016-11-30 00:37:07,2017-01-31 22:26:52,Barbara Gomes,13023284.0,1.0,2017-01-31 22:26:52
+27,104020836.0,[IOTA-36] Global Performers,28.0,671.0,25.0,10.0,11.0,0.0,0.0,2017-01-31 20:55:47,2017-01-31 22:29:15,Barbara Gomes,13023284.0,1.0,2017-01-31 22:29:14
+28,104264363.0,[IOTA-36] Fixing bug when checkpointing,29.0,4.0,0.0,1.0,1.0,0.0,0.0,2017-02-02 02:25:31,2017-02-09 19:47:58,Barbara Gomes,13023284.0,1.0,2017-02-09 19:47:58
+29,105162987.0,IOTA-37: Add files required for an Apache release.,30.0,345.0,0.0,5.0,3.0,0.0,0.0,2017-02-08 07:33:01,2017-02-09 19:48:59,Gunnar Tapper,13549394.0,1.0,2017-02-09 19:48:59
+30,105509071.0,[IOTA-39] - Adding build and run instructions,31.0,138.0,1.0,4.0,2.0,0.0,0.0,2017-02-09 20:40:39,2017-02-09 21:32:24,Barbara Gomes,13023284.0,1.0,2017-02-09 21:32:24
+31,118889426.0,Shared performer across orquestrations,33.0,396.0,43.0,7.0,2.0,0.0,0.0,2017-05-04 02:13:40,2017-05-04 02:45:48,Barbara Gomes,13023284.0,1.0,2017-05-04 02:45:48
+32,121072568.0,Fixing unit tests for shared performers,34.0,3.0,2.0,2.0,2.0,0.0,0.0,2017-05-17 14:31:19,2017-05-17 21:59:07,Barbara Gomes,13023284.0,1.0,2017-05-17 21:59:07

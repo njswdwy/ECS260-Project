@@ -1,0 +1,887 @@
+,pr_id,pr_title,pr_number,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_created_at,pr_closed_at,contributor,contributor_id,is_merged,pr_merged_at
+0,246752814.0,Fixing behavior of buffering in Create/Merge handles for invalid/wrong schema records,558.0,86.0,73.0,8.0,1.0,4.0,9.0,2019-01-22 21:08:00,2019-01-29 00:01:04,,2722167.0,1.0,2019-01-29 00:01:04
+1,247611732.0,Using immutable map instead of mutables to generate parameters,559.0,95.0,55.0,4.0,1.0,3.0,0.0,2019-01-25 09:35:08,2019-01-31 00:09:42,Kent Yao,8326978.0,1.0,2019-01-31 00:09:42
+2,249357797.0,Make HoodieDeltaStreamer hive-sync to CDH Hive Servers,563.0,274.0,630.0,10.0,1.0,3.0,4.0,2019-01-31 18:46:33,2019-02-16 06:05:35,Balaji Varadarajan,3021376.0,1.0,2019-02-16 06:05:35
+3,250604605.0,Table rollback for inflight compactions MUST not delete instant files at any time to avoid race conditions,565.0,97.0,18.0,6.0,1.0,4.0,12.0,2019-02-06 00:59:52,2019-02-12 02:30:22,Balaji Varadarajan,3021376.0,1.0,2019-02-12 02:30:22
+4,250920038.0,Updating new slack signup link,566.0,1.0,1.0,1.0,1.0,0.0,0.0,2019-02-06 21:51:17,2019-02-06 21:52:04,vinoth chandar,1179324.0,1.0,2019-02-06 21:52:04
+5,252040404.0,Fix Hoodie Record Reader to work with non-partitioned dataset ( ISSUE-561),569.0,36.0,8.0,3.0,1.0,0.0,0.0,2019-02-11 19:45:19,2019-02-12 02:29:24,Balaji Varadarajan,3021376.0,1.0,2019-02-12 02:29:24
+6,252607403.0,typo: bundle jar with unrecognized variables,570.0,3.0,3.0,3.0,1.0,7.0,0.0,2019-02-13 08:52:01,2019-02-21 00:32:58,Kent Yao,8326978.0,1.0,2019-02-21 00:32:58
+7,252791436.0,Create hoodie-presto bundle jar. fixes #567,571.0,226.0,0.0,3.0,1.0,4.0,5.0,2019-02-13 17:57:19,2019-02-25 03:49:03,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2019-02-25 03:49:03
+8,252792537.0,FIleSystem View to handle same fileIds across partitions correctly,572.0,388.0,120.0,20.0,1.0,7.0,16.0,2019-02-13 18:01:08,2019-03-01 18:49:05,Balaji Varadarajan,3021376.0,1.0,2019-03-01 18:49:05
+9,252874519.0,Close FSDataInputStream for meta file open in HoodiePartitionMetadata . Fixes issue #573,574.0,9.0,3.0,2.0,1.0,1.0,2.0,2019-02-13 22:42:20,2019-02-16 06:16:33,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2019-02-16 06:16:33
+10,252929973.0,"Upgrade various jar, gem versions for maintenance",575.0,26.0,31.0,3.0,1.0,3.0,0.0,2019-02-14 03:54:21,2019-03-01 18:14:01,vinoth chandar,1179324.0,1.0,2019-03-01 18:14:01
+11,252960873.0,handle no such element exception in HoodieSparkSqlWriter,576.0,14.0,4.0,2.0,1.0,2.0,7.0,2019-02-14 07:00:52,2019-02-16 06:11:49,Kent Yao,8326978.0,1.0,2019-02-16 06:11:49
+12,255501378.0,Replacing Apache commons-lang3 object serializer with Kryo serializer,582.0,180.0,129.0,9.0,2.0,0.0,0.0,2019-02-22 19:12:02,2019-02-22 20:53:35,,899843.0,0.0,
+13,255528868.0,Replacing Apache commons-lang3 object serializer with Kryo serializer,583.0,152.0,122.0,11.0,1.0,5.0,32.0,2019-02-22 20:52:45,2019-03-18 21:12:26,,899843.0,1.0,2019-03-18 21:12:26
+14,256015276.0,Handling duplicate record update for single partition (duplicates in single or different parquet files),584.0,15.0,8.0,3.0,1.0,9.0,3.0,2019-02-25 19:23:51,2019-03-11 03:15:19,,899843.0,1.0,2019-03-11 03:15:19
+15,256709233.0,Update RELEASE_NOTES for 0.4.5,587.0,60.0,0.0,1.0,1.0,0.0,0.0,2019-02-27 14:47:49,2019-02-27 14:47:58,vinoth chandar,1179324.0,1.0,2019-02-27 14:47:58
+16,257554160.0,Fix hive sync and deltastreamer issue in demo,593.0,14.0,7.0,5.0,1.0,2.0,5.0,2019-03-01 19:20:58,2019-03-13 23:14:33,Balaji Varadarajan,3021376.0,1.0,2019-03-13 23:14:33
+17,258575385.0,Fix avro doesn't have short and byte type.,595.0,5.0,1.0,1.0,1.0,1.0,0.0,2019-03-06 04:34:10,2019-03-07 00:09:26,Qi Chen,1736049.0,1.0,2019-03-07 00:09:26
+18,259563252.0,Fix quickstart documentation for querying via Presto,598.0,1.0,1.0,1.0,1.0,2.0,0.0,2019-03-08 18:21:11,2019-03-13 22:34:51,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2019-03-13 22:34:51
+19,260567898.0,"Fixing small file handling, inline compaction defaults ",599.0,22.0,10.0,5.0,1.0,5.0,5.0,2019-03-12 23:03:32,2019-04-03 17:56:11,vinoth chandar,1179324.0,1.0,2019-04-03 17:56:11
+20,260967787.0, Timeline Service with Incremental View Syncing support,600.0,8919.0,849.0,117.0,1.0,2.0,225.0,2019-03-13 22:56:32,2019-05-16 20:25:34,Balaji Varadarajan,3021376.0,1.0,2019-05-16 20:25:34
+21,261283957.0,HUDI-75: Add KEYS,601.0,68.0,0.0,1.0,1.0,0.0,0.0,2019-03-14 18:13:18,2019-03-18 14:46:26,Suneel Marthi,3137442.0,1.0,2019-03-18 14:46:26
+22,261384416.0,Removing docs folder from master branch,602.0,0.0,17358.0,136.0,1.0,0.0,0.0,2019-03-15 00:27:00,2019-03-15 01:19:31,vinoth chandar,1179324.0,1.0,2019-03-15 01:19:31
+23,261408936.0,[HUDI-63] Removed unused BucketedIndex code,603.0,29.0,166.0,7.0,6.0,11.0,6.0,2019-03-15 03:18:02,2019-03-20 04:29:07,ambition,20353043.0,0.0,
+24,261647064.0,Add compression codec configurations for HoodieParquetWriter.,604.0,16.0,2.0,3.0,1.0,3.0,2.0,2019-03-15 17:56:41,2019-03-18 14:48:22,Qi Chen,1736049.0,1.0,2019-03-18 14:48:22
+25,261742458.0,Add compression codec configurations documents for HoodieParquetWriter.,605.0,3.0,0.0,1.0,1.0,2.0,0.0,2019-03-16 02:39:31,2019-03-18 14:49:34,Qi Chen,1736049.0,1.0,2019-03-18 14:49:34
+26,262285733.0,add a script that shuts down demo cluster gracefully,606.0,8.0,0.0,1.0,1.0,0.0,0.0,2019-03-19 02:08:12,2019-03-19 18:01:08,Jing Chen,6878258.0,1.0,2019-03-19 18:01:08
+27,262784867.0,[HUDI-63] Removed unused BucketedIndex code,608.0,1.0,119.0,2.0,1.0,6.0,5.0,2019-03-20 09:34:50,2019-03-26 17:12:48,ambition,20353043.0,1.0,2019-03-26 17:12:48
+28,263301031.0,run_hive_sync tool must be able to handle case where there are multiple standalone jdbc jars in hive installation dir,609.0,5.0,5.0,1.0,1.0,0.0,0.0,2019-03-21 16:05:00,2019-03-21 16:58:21,Balaji Varadarajan,3021376.0,1.0,2019-03-21 16:58:21
+29,263464789.0,Major cleanup of docs structure/content,610.0,1480.0,1455.0,10.0,1.0,2.0,32.0,2019-03-22 02:22:41,2019-03-22 18:19:30,vinoth chandar,1179324.0,1.0,2019-03-22 18:19:30
+30,263743723.0,Refreshing site content,611.0,2108.0,3488.0,30.0,1.0,0.0,0.0,2019-03-22 19:55:51,2019-03-22 19:58:49,vinoth chandar,1179324.0,1.0,2019-03-22 19:58:49
+31,263789278.0,Fixing source schema and writer schema distinction in payloads,612.0,114.0,30.0,10.0,1.0,3.0,12.0,2019-03-22 23:29:03,2019-03-27 02:44:28,,2722167.0,1.0,2019-03-27 02:44:28
+32,264703303.0,Fixes HUDI-38: Reduce memory overhead of WriteStatus,616.0,112.0,23.0,9.0,1.0,2.0,3.0,2019-03-26 21:34:20,2019-03-28 17:33:00,vinoth chandar,1179324.0,1.0,2019-03-28 17:33:00
+33,264752800.0,Fixes HUDI-9 : Check precondition minInstantsToKeep > cleanerCommitsR…,617.0,31.0,21.0,4.0,1.0,0.0,1.0,2019-03-27 01:56:15,2019-03-27 18:02:18,vinoth chandar,1179324.0,1.0,2019-03-27 18:02:18
+34,264753170.0,fix Schema.parse to new Schema.Parser().parse,618.0,280.0,92.0,26.0,1.0,2.0,4.0,2019-03-27 01:58:45,2019-04-08 02:04:08,ambition,20353043.0,0.0,
+35,265128519.0,Fixed HUDI-87 : Remove schemastr from BaseAvroPayload,619.0,7.0,8.0,3.0,1.0,0.0,1.0,2019-03-27 22:49:29,2019-03-28 06:03:26,vinoth chandar,1179324.0,1.0,2019-03-28 06:03:26
+36,265155109.0,Fix HUDI-27 : Support num_cores > 1 for writing through spark,620.0,12.0,6.0,2.0,1.0,6.0,3.0,2019-03-28 01:24:58,2019-03-28 22:56:22,vinoth chandar,1179324.0,1.0,2019-03-28 22:56:22
+37,265915666.0,Follow up HUDI-27 : Call super.close() in HoodieWraperFileSystem::close(),621.0,3.0,2.0,1.0,1.0,3.0,0.0,2019-03-30 05:07:14,2019-04-03 04:31:42,vinoth chandar,1179324.0,1.0,2019-04-03 04:31:42
+38,266019667.0, [HUDI-61] Remove payload class dependency in SpillableMap,622.0,126.0,23.0,9.0,1.0,4.0,0.0,2019-03-31 14:54:06,2019-04-07 12:22:11,Arun Lakshman R,2631737.0,0.0,
+39,266336246.0,Hudi Test Suite,623.0,9002.0,103.0,116.0,1.0,12.0,43.0,2019-04-01 17:34:48,2019-11-03 21:50:51,,2722167.0,0.0,
+40,266337819.0,(WIP) Test suite documentation,624.0,1235.0,17891.0,191.0,15.0,1.0,0.0,2019-04-01 17:39:58,2019-04-02 02:45:10,,2722167.0,0.0,
+41,266339029.0,fix(spark): fix shading for spark bundle to include all hive's libraries unshaded,625.0,4.0,28.0,1.0,1.0,6.0,0.0,2019-04-01 17:44:06,2019-04-10 16:58:57,Liran Yogev,23477645.0,0.0,
+42,266467536.0,Adding documentation for hudi test suite,626.0,285.0,0.0,2.0,1.0,9.0,11.0,2019-04-02 02:45:35,2019-12-18 05:21:31,,2722167.0,0.0,
+43,266582789.0,[HUDI-66] FSUtils.getRelativePartitionPath does not handle repeated f…,627.0,38.0,1.0,2.0,1.0,1.0,0.0,2019-04-02 10:32:48,2019-04-04 00:37:04,Jing Chen,6878258.0,1.0,2019-04-04 00:37:04
+44,267179890.0,1. Minor changes to fix compaction 2. Adding 2 compaction policies 3. Adding a Hbase index property,629.0,246.0,7.0,7.0,1.0,0.0,0.0,2019-04-03 19:26:06,2019-04-04 00:38:18,,2722167.0,1.0,2019-04-04 00:38:18
+45,268126315.0,Performing commit archiving in batches to avoid keeping a huge chunk in memory,631.0,28.0,4.0,3.0,1.0,0.0,12.0,2019-04-07 18:14:16,2019-04-10 22:17:05,,2722167.0,1.0,2019-04-10 22:17:05
+46,268828496.0,Essential Hive packages missing in hoodie spark bundle,633.0,4.0,0.0,1.0,1.0,1.0,2.0,2019-04-09 17:07:25,2019-04-10 04:42:43,Balaji Varadarajan,3021376.0,1.0,2019-04-10 04:42:43
+47,268843737.0,Making DataSource/DeltaStreamer use defaults for combining,634.0,12.0,11.0,3.0,1.0,2.0,0.0,2019-04-09 17:55:13,2019-05-01 20:21:22,vinoth chandar,1179324.0,1.0,2019-05-01 20:21:22
+48,269263859.0,Add empty payload class to support deletes via apache spark,635.0,63.0,1.0,2.0,1.0,8.0,2.0,2019-04-10 17:47:02,2019-04-18 06:00:21,Liran Yogev,23477645.0,1.0,2019-04-18 06:00:21
+49,269836155.0,FIXES HUDI-98: Fix multiple issues when using build_local_docker_images for demo setup,636.0,5.0,8.0,4.0,1.0,0.0,0.0,2019-04-12 00:44:25,2019-04-15 17:10:06,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2019-04-15 17:10:06
+50,270511999.0,"[HUDI-12] Upgrade to Spark 2.4, Avro 1.8.2, Parquet 1.10.0... ",638.0,1519.0,1820.0,61.0,8.0,19.0,1.0,2019-04-15 13:15:57,2019-09-10 20:58:57,Mathew Wicks,5735406.0,0.0,
+51,271049350.0,Read and apply schema for each log block from the metadata header instead of the latest schema,640.0,52.0,2.0,2.0,1.0,0.0,0.0,2019-04-16 19:47:57,2019-04-17 00:20:04,,2722167.0,1.0,2019-04-17 00:20:04
+52,271096346.0,Add scala and kryo dependencies to hadoop bundle to fix HUDI-99,641.0,42.0,1.0,3.0,1.0,2.0,0.0,2019-04-16 22:28:11,2019-04-17 16:24:30,Balaji Varadarajan,3021376.0,0.0,
+53,271132806.0,Revert - Replacing Apache commons-lang3 object serializer with Kryo,642.0,122.0,155.0,11.0,1.0,1.0,0.0,2019-04-17 02:10:17,2019-04-17 16:23:38,,899843.0,1.0,2019-04-17 16:23:38
+54,271412227.0,Move to apachehudi dockerhub repository & use openjdk docker containers,644.0,37.0,39.0,19.0,1.0,1.0,0.0,2019-04-17 18:03:04,2019-04-17 23:37:59,Balaji Varadarajan,3021376.0,1.0,2019-04-17 23:37:59
+55,271428756.0,Fix Hive RT query failure in hoodie demo,645.0,6.0,0.0,1.0,1.0,0.0,0.0,2019-04-17 18:54:46,2019-04-17 23:36:33,Balaji Varadarajan,3021376.0,1.0,2019-04-17 23:36:33
+56,271512689.0,Fix DeltaStreamer args and layout in docker demo page,646.0,10.0,5.0,1.0,1.0,0.0,0.0,2019-04-18 00:30:48,2019-04-18 00:36:32,Balaji Varadarajan,3021376.0,1.0,2019-04-18 00:36:32
+57,271583262.0,"Revert ""Read and apply schema for each log block from the metadata header instead of the latest schema""",647.0,2.0,52.0,2.0,1.0,2.0,0.0,2019-04-18 07:45:08,2019-04-18 15:54:36,Balaji Varadarajan,3021376.0,1.0,2019-04-18 15:54:35
+58,272061250.0,Removing OLD MAGIC header ,648.0,10.0,125.0,3.0,1.0,0.0,0.0,2019-04-19 18:23:42,2019-04-26 03:47:18,,2722167.0,1.0,2019-04-26 03:47:17
+59,272110752.0,migrating kryo's dependency from twitter chill to plain kryo library,649.0,252.0,121.0,10.0,1.0,3.0,15.0,2019-04-19 22:59:23,2019-05-07 03:32:01,,899843.0,1.0,2019-05-07 03:32:01
+60,272537167.0,HUDI-105 : Fix up offsets not available on leader exception,650.0,22.0,1.0,1.0,5.0,7.0,10.0,2019-04-22 23:32:50,2019-05-24 02:32:32,leiline,20055281.0,1.0,2019-05-24 02:32:32
+61,272926977.0,Spark Stage retry handling,651.0,1660.0,963.0,53.0,1.0,6.0,65.0,2019-04-23 23:30:55,2019-05-21 21:49:52,Balaji Varadarajan,3021376.0,1.0,2019-05-21 21:49:52
+62,273486201.0,Fixes HUDI-85 : Interval tree based pruning for Bloom Index,653.0,1003.0,245.0,16.0,2.0,3.0,2.0,2019-04-25 11:32:43,2019-04-29 18:38:25,vinoth chandar,1179324.0,1.0,2019-04-29 18:38:25
+63,273955701.0,Fix to enable hoodie.datasource.read.incr.filters,655.0,2.0,1.0,1.0,1.0,0.0,0.0,2019-04-26 16:10:56,2019-04-26 18:14:07,Naoki Takezoe,1094760.0,1.0,2019-04-26 18:14:07
+64,274186005.0,Fix administering document,656.0,1.0,12.0,1.0,1.0,1.0,0.0,2019-04-28 15:00:34,2019-04-30 05:06:22,Naoki Takezoe,1094760.0,1.0,2019-04-30 05:06:22
+65,274687320.0,[HUDI-57] support orc file,657.0,915.0,3.0,10.0,2.0,4.0,32.0,2019-04-30 11:07:45,2019-12-12 03:12:33,ambition,20353043.0,0.0,
+66,275125092.0,Renaming HoodieWriteConfig to HoodieClientConfig,658.0,350.0,332.0,71.0,1.0,0.0,0.0,2019-05-01 19:11:52,2019-05-29 23:17:11,vinoth chandar,1179324.0,0.0,
+67,275134691.0,HUDI-101: added mevn-shade plugin with filters.,659.0,30.0,0.0,1.0,1.0,4.0,0.0,2019-05-01 19:47:35,2019-05-03 20:49:52,Abhishek Sharma,1076944.0,1.0,2019-05-03 20:49:52
+68,275200858.0,Rollback inflights when using Spark [Streaming] write,660.0,1.0,1.0,1.0,1.0,1.0,6.0,2019-05-02 00:22:28,2019-05-02 19:51:03,Balaji Varadarajan,3021376.0,1.0,2019-05-02 19:51:03
+69,275515925.0,Update Hudi usages section,662.0,5.0,0.0,1.0,1.0,1.0,1.0,2019-05-02 20:54:17,2019-05-02 21:49:49,Balaji Varadarajan,3021376.0,1.0,2019-05-02 21:49:49
+70,276036674.0,Updating Apache Hudi Website with latest changes in docs,664.0,57.0,51.0,5.0,1.0,3.0,0.0,2019-05-06 00:03:31,2019-05-06 21:54:11,Balaji Varadarajan,3021376.0,1.0,2019-05-06 21:54:11
+71,276042652.0,"Revert ""HUDI-101: added mevn-shade plugin with filters.""",665.0,0.0,30.0,1.0,1.0,5.0,0.0,2019-05-06 01:32:08,2019-05-06 01:39:40,Balaji Varadarajan,3021376.0,1.0,2019-05-06 01:39:39
+72,276055584.0,Add support for dynamic bloom filter to increase efficiency of bloom filter for static sizing,666.0,174.0,45.0,16.0,1.0,4.0,15.0,2019-05-06 03:55:05,2019-10-30 04:10:48,,2722167.0,0.0,
+73,276059045.0,Caching Avro Binary encoder/decoder to avoid creating new one for every record,667.0,9.0,3.0,1.0,1.0,0.0,0.0,2019-05-06 04:28:40,2019-05-06 18:28:09,,2722167.0,1.0,2019-05-06 18:28:09
+74,276740524.0,HUDI-101: added exclusion filters for signature files.,669.0,45.0,0.0,5.0,1.0,0.0,0.0,2019-05-07 19:25:00,2019-05-08 01:35:19,Abhishek Sharma,1076944.0,1.0,2019-05-08 01:35:19
+75,276822940.0,SparkUtil#initLauncher shoudn't raise when spark-defaults.conf doesn't exist,670.0,9.0,2.0,1.0,1.0,0.0,0.0,2019-05-08 01:25:21,2019-05-09 00:30:25,David Muto,4748863.0,1.0,2019-05-09 00:30:25
+76,277232733.0,Bucketized Bloom Filter checking,671.0,472.0,165.0,7.0,1.0,0.0,3.0,2019-05-09 03:24:40,2019-05-11 23:38:29,vinoth chandar,1179324.0,1.0,2019-05-11 23:38:29
+77,277795367.0,[HUDI-113]: Use Pair over # delimited string,672.0,75.0,72.0,6.0,1.0,3.0,12.0,2019-05-10 14:36:42,2019-05-21 20:07:33,David Muto,4748863.0,1.0,2019-05-21 20:07:33
+78,277829039.0,HUDI-96: Command line options instead of positional arguments,673.0,809.0,466.0,30.0,23.0,10.0,36.0,2019-05-10 16:12:10,2019-08-30 16:21:12,Abhishek Sharma,1076944.0,0.0,
+79,277896525.0,"Upgrade to Hive 2.x, MOR read query fixes and performance improvement",674.0,554.0,191.0,22.0,1.0,8.0,50.0,2019-05-10 20:13:59,2019-06-13 19:46:15,,2722167.0,1.0,2019-06-13 19:46:15
+80,278074460.0,Fix various errors found by long running delta-streamer tests,675.0,49.0,23.0,8.0,1.0,2.0,3.0,2019-05-12 19:17:14,2019-05-13 17:47:35,Balaji Varadarajan,3021376.0,1.0,2019-05-13 17:47:35
+81,278507042.0,converting map task memory from mb to bytes,678.0,2.0,1.0,1.0,1.0,0.0,0.0,2019-05-14 03:31:15,2019-05-14 04:23:31,,2722167.0,1.0,2019-05-14 04:23:31
+82,278523207.0,Minor CLI documentation change in delta-streamer,679.0,1.0,1.0,1.0,1.0,1.0,0.0,2019-05-14 05:19:01,2019-05-14 11:05:48,Balaji Varadarajan,3021376.0,1.0,2019-05-14 11:05:48
+83,278523787.0,Configurations update for releasing 0.4.6,680.0,46.0,7.0,2.0,1.0,2.0,0.0,2019-05-14 05:22:39,2019-05-14 05:25:46,Balaji Varadarajan,3021376.0,1.0,2019-05-14 05:25:46
+84,278651592.0,Include index performance numbers + updating site,682.0,77.0,120.0,5.0,1.0,0.0,0.0,2019-05-14 12:05:21,2019-05-14 12:10:41,vinoth chandar,1179324.0,1.0,2019-05-14 12:10:41
+85,278655429.0,Update release notes for 0.4.6 release,683.0,60.0,0.0,1.0,1.0,0.0,0.0,2019-05-14 12:16:45,2019-05-14 12:17:00,vinoth chandar,1179324.0,1.0,2019-05-14 12:17:00
+86,278919087.0,"Support nested types for recordKey, partitionPath and combineKey",684.0,12.0,4.0,3.0,1.0,1.0,0.0,2019-05-15 03:01:12,2019-05-18 14:14:59,Balaji Varadarajan,3021376.0,1.0,2019-05-18 14:14:59
+87,279298655.0,default implementation for HBase index qps allocator,685.0,461.0,30.0,7.0,3.0,6.0,43.0,2019-05-15 23:33:04,2019-05-25 01:43:47,Venkatesh Rudraraju,33071342.0,1.0,2019-05-25 01:43:47
+88,279328841.0,Downgrading fasterxml jackson to 2.6.7 to be spark compatible,686.0,1.0,1.0,1.0,1.0,2.0,0.0,2019-05-16 02:55:46,2019-05-16 20:53:56,vinoth chandar,1179324.0,1.0,2019-05-16 20:53:55
+89,281006765.0,Fixed HUDI-116 :  Handle duplicate record keys across partitions,687.0,82.0,90.0,5.0,1.0,1.0,1.0,2019-05-22 02:00:20,2019-05-25 01:32:50,vinoth chandar,1179324.0,1.0,2019-05-25 01:32:50
+90,281023076.0,fix maven pom,688.0,8.0,16.0,3.0,1.0,2.0,0.0,2019-05-22 03:47:31,2019-05-29 23:16:30,,1745057.0,1.0,2019-05-29 23:16:30
+91,281464372.0,[HUDI-25] Optimize HoodieInputFormat.listStatus for faster Hive Incremental queries,689.0,601.0,118.0,6.0,1.0,8.0,58.0,2019-05-23 06:49:49,2020-01-08 22:53:06,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2020-01-08 22:53:06
+92,281793443.0,Fixing default value for avro 1.7 which assumes NULL value instead of a jsonnode that is null,690.0,9.0,8.0,1.0,1.0,5.0,0.0,2019-05-23 21:37:44,2019-07-16 23:07:22,,2722167.0,0.0,
+93,281819638.0,"Allow users to set hoodie configs figs for Compactor, Cleaner and HDFSParquetImporter utility scripts",691.0,53.0,11.0,4.0,1.0,2.0,1.0,2019-05-23 23:36:12,2019-05-24 00:35:54,Balaji Varadarajan,3021376.0,1.0,2019-05-24 00:35:54
+94,281836269.0,HUDI-70 : Making DeltaStreamer run in continuous mode with concurrent compaction,692.0,1993.0,434.0,32.0,1.0,4.0,34.0,2019-05-24 01:24:25,2019-06-19 00:48:15,Balaji Varadarajan,3021376.0,1.0,2019-06-19 00:48:15
+95,282186629.0,HUDI-131 Zero File Listing in Compactor run,693.0,7.0,3.0,2.0,1.0,0.0,0.0,2019-05-24 23:52:34,2019-05-25 01:34:15,Balaji Varadarajan,3021376.0,1.0,2019-05-25 01:34:15
+96,282206923.0,Reduce logging in unit-test runs,694.0,25.0,16.0,8.0,1.0,1.0,0.0,2019-05-25 05:21:05,2019-05-25 06:43:55,Balaji Varadarajan,3021376.0,1.0,2019-05-25 06:43:55
+97,282658310.0,HUDI-134 - Disable inline compaction for Hoodie Demo,696.0,1.0,0.0,1.0,1.0,1.0,0.0,2019-05-28 03:45:35,2019-05-28 18:19:49,Balaji Varadarajan,3021376.0,1.0,2019-05-28 18:19:49
+98,282996850.0,HUDI-135 - Skip Meta folder when looking for partitions,698.0,126.0,21.0,3.0,1.0,1.0,8.0,2019-05-28 21:05:08,2019-05-29 00:37:12,Balaji Varadarajan,3021376.0,1.0,2019-05-29 00:37:12
+99,283018152.0,HUDI-136 - Only inflight commit timeline (.commit/.deltacommit) must be used when checking for sanity during compaction scheduling,699.0,3.0,2.0,1.0,1.0,2.0,0.0,2019-05-28 22:22:00,2019-05-28 23:54:22,Balaji Varadarajan,3021376.0,1.0,2019-05-28 23:54:21
+100,283055508.0,HUDI-138 - Meta Files handling also need to support consistency guard,700.0,481.0,166.0,21.0,1.0,3.0,18.0,2019-05-29 00:44:15,2019-07-14 05:02:56,Balaji Varadarajan,3021376.0,1.0,2019-07-14 05:02:56
+101,283061713.0,Release notes for 0.4.7,701.0,26.0,1.0,1.0,1.0,0.0,0.0,2019-05-29 01:28:31,2019-05-29 01:29:02,vinoth chandar,1179324.0,1.0,2019-05-29 01:29:02
+102,283208872.0,update codehaus.jackson modules to the same version 1.9.13,702.0,16.0,2.0,1.0,1.0,2.0,0.0,2019-05-29 11:09:08,2019-05-31 09:42:23,,1745057.0,0.0,
+103,283391166.0,"HUDI-139 Compaction running twice due to duplicate ""map"" transformation while finalizing compaction",703.0,2.0,5.0,1.0,1.0,2.0,0.0,2019-05-29 19:02:03,2019-05-29 22:12:31,Balaji Varadarajan,3021376.0,1.0,2019-05-29 22:12:31
+104,283870681.0,Add support for maven deploy plugin to make snapshot releases,706.0,15.0,1.0,2.0,2.0,0.0,0.0,2019-05-31 02:01:04,2019-05-31 04:35:14,vinoth chandar,1179324.0,1.0,2019-05-31 04:35:14
+105,283870950.0, fix jar problem when using spark-shell,707.0,1.0,0.0,1.0,2.0,0.0,0.0,2019-05-31 02:02:53,2019-06-02 13:28:22,Thinking Chen,12069428.0,0.0,
+106,283881165.0,Create hoodie-utilities-bundle to host the shaded jar,708.0,501.0,126.0,5.0,1.0,0.0,0.0,2019-05-31 03:09:16,2019-05-31 05:46:25,vinoth chandar,1179324.0,1.0,2019-05-31 05:46:25
+107,283882304.0,Update docs hoodie-utilities to hoodie-utilities-bundle,709.0,4.0,4.0,2.0,1.0,0.0,0.0,2019-05-31 03:16:36,2019-05-31 05:46:41,vinoth chandar,1179324.0,1.0,2019-05-31 05:46:41
+108,284235336.0,Move dependency repos to https urls,710.0,6.0,6.0,4.0,1.0,0.0,0.0,2019-06-01 02:22:48,2019-06-01 03:37:04,vinoth chandar,1179324.0,1.0,2019-06-01 03:37:04
+109,284238587.0,NOT FOR MERGING : Testing Https change in Travis CI,711.0,6.0,9.0,5.0,1.0,0.0,0.0,2019-06-01 03:24:28,2019-06-01 03:36:15,Balaji Varadarajan,3021376.0,0.0,
+110,284342440.0,fix spark-shell add jar problem,712.0,1.0,0.0,1.0,1.0,0.0,0.0,2019-06-02 13:27:13,2019-06-03 22:01:45,Thinking Chen,12069428.0,1.0,2019-06-03 22:01:45
+111,284396569.0,set codehaus.jackson modules to the same version 1.9.13,713.0,20.0,2.0,2.0,2.0,4.0,0.0,2019-06-03 02:41:02,2019-06-07 18:33:44,,1745057.0,1.0,2019-06-07 18:33:44
+112,285607600.0,LogFile comparator must handle log file names without write token for backwards compatibility,717.0,46.0,4.0,2.0,1.0,1.0,0.0,2019-06-06 01:20:06,2019-06-06 17:00:32,Balaji Varadarajan,3021376.0,1.0,2019-06-06 17:00:32
+113,285620252.0,Auto generated Slack Channel Notifications setup for Travis CI,718.0,9.0,4.0,1.0,1.0,1.0,4.0,2019-06-06 02:35:09,2019-06-07 13:46:01,Balaji Varadarajan,3021376.0,1.0,2019-06-07 13:46:01
+114,286012959.0,Replace Non-Compliant dnl.utils package with Apache 2.0 licensed alternative,719.0,17.0,24.0,2.0,1.0,1.0,0.0,2019-06-07 00:22:57,2019-06-07 05:33:35,Balaji Varadarajan,3021376.0,1.0,2019-06-07 05:33:35
+115,286357119.0,HUDI-124 : Changes related to License Compliance,720.0,13938.0,0.0,55.0,1.0,2.0,0.0,2019-06-07 23:09:40,2019-06-08 00:58:58,Balaji Varadarajan,3021376.0,1.0,2019-06-08 00:58:58
+116,286389967.0,HUDI-147 Compaction Inflight Rollback not deleting Marker directory,721.0,24.0,18.0,2.0,1.0,0.0,0.0,2019-06-08 08:46:26,2019-06-09 18:45:55,Balaji Varadarajan,3021376.0,1.0,2019-06-09 18:45:55
+117,286426564.0,HUDI-148 Small File selection logic for MOR must skip fileIds selected for pending compaction correctly,722.0,48.0,27.0,11.0,1.0,1.0,1.0,2019-06-08 19:44:04,2019-06-18 01:35:19,Balaji Varadarajan,3021376.0,1.0,2019-06-18 01:35:19
+118,286462513.0,HUDI-125 : Change License for all source files and update RAT configurations,723.0,5779.0,3967.0,513.0,1.0,1.0,0.0,2019-06-09 10:39:20,2019-06-09 18:41:56,Balaji Varadarajan,3021376.0,1.0,2019-06-09 18:41:56
+119,287242818.0,Close Hoodie Clients which are opened to properly shutdown embedded timeline service,725.0,52.0,42.0,2.0,1.0,0.0,0.0,2019-06-11 20:06:52,2019-06-12 03:22:15,Balaji Varadarajan,3021376.0,1.0,2019-06-12 03:22:15
+120,287298475.0,Introduce HoodieReadHandle abstraction into index,726.0,697.0,406.0,30.0,1.0,0.0,1.0,2019-06-11 23:34:12,2019-06-12 17:46:15,vinoth chandar,1179324.0,1.0,2019-06-12 17:46:15
+121,287325309.0,Ensure log files are consistently ordered when scanning,727.0,113.0,51.0,3.0,1.0,0.0,5.0,2019-06-12 02:30:22,2019-06-12 23:16:38,Balaji Varadarajan,3021376.0,1.0,2019-06-12 23:16:38
+122,287434002.0,adding support for complex keys,728.0,135.0,1.0,2.0,9.0,2.0,9.0,2019-06-12 10:02:59,2019-06-21 07:25:06,Jaimin Shah,17408818.0,1.0,2019-06-21 07:25:06
+123,287714523.0,Turn on embedded server for all client tests,729.0,21.0,257.0,9.0,1.0,1.0,0.0,2019-06-12 23:51:00,2019-06-13 01:14:56,Balaji Varadarajan,3021376.0,1.0,2019-06-13 01:14:56
+124,287729793.0,TestMergeOnReadTable must use embedded timeline server,730.0,2.0,56.0,2.0,1.0,0.0,0.0,2019-06-13 01:29:43,2019-06-13 02:08:11,Balaji Varadarajan,3021376.0,1.0,2019-06-13 02:08:11
+125,288012993.0,All Opened hoodie clients in tests needs to be closed,731.0,148.0,110.0,11.0,1.0,0.0,0.0,2019-06-13 16:51:52,2019-06-13 19:30:09,Balaji Varadarajan,3021376.0,1.0,2019-06-13 19:30:09
+126,288067731.0,Explicitly set jvm max memory setting to 4G,732.0,1.0,1.0,1.0,1.0,0.0,0.0,2019-06-13 19:37:39,2019-06-14 16:32:11,Balaji Varadarajan,3021376.0,0.0,
+127,288096766.0,Ci fixes,733.0,5.0,1.0,1.0,1.0,0.0,0.0,2019-06-13 21:07:50,2019-06-16 15:23:30,vinoth chandar,1179324.0,0.0,
+128,288482480.0,Allow Hudi to build against Hadoop 2.8.x versions,737.0,10.0,0.0,1.0,1.0,0.0,0.0,2019-06-14 20:54:20,2019-06-14 21:05:13,Aaron Tokhy,49795237.0,0.0,
+129,288489723.0,Reading baseCommitTime from the latest file slice as opposed to the tagged record value,738.0,6.0,9.0,1.0,1.0,0.0,1.0,2019-06-14 21:23:15,2019-06-17 23:46:17,,2722167.0,1.0,2019-06-17 23:46:17
+130,288490837.0,Support building Hoodie with Hadoop 2.8.x,739.0,6.0,0.0,1.0,1.0,5.0,0.0,2019-06-14 21:28:07,2019-06-27 05:31:50,Aaron Tokhy,49795237.0,0.0,
+131,288632885.0,Use travis_wait to avoid spurious timeouts,740.0,8.0,0.0,2.0,1.0,0.0,0.0,2019-06-16 15:37:34,2019-06-19 08:52:19,vinoth chandar,1179324.0,0.0,
+132,289129124.0,Add NOTE about Hive Incremental pull queries executed by Fetch operation,742.0,7.0,0.0,1.0,1.0,0.0,0.0,2019-06-18 06:52:18,2019-06-25 19:57:00,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2019-06-25 19:57:00
+133,289290237.0,Fail on archiving,743.0,13.0,0.0,2.0,5.0,0.0,0.0,2019-06-18 13:46:55,2019-06-18 13:47:18,Ron,9638893.0,0.0,
+134,289401096.0,Disable Notice Plugin,744.0,2.0,1.0,1.0,1.0,0.0,0.0,2019-06-18 18:30:26,2019-06-18 18:33:28,Balaji Varadarajan,3021376.0,1.0,2019-06-18 18:33:27
+135,289407382.0,Fail on single archive,745.0,19.0,3.0,2.0,6.0,0.0,0.0,2019-06-18 18:48:41,2019-06-18 18:56:35,Ron,9638893.0,0.0,
+136,289481859.0,Cleaning up pom and other dependencies,746.0,524.0,125.0,15.0,1.0,0.0,4.0,2019-06-18 22:57:41,2019-06-19 08:55:45,,2722167.0,1.0,2019-06-19 08:55:45
+137,289510587.0,Hoodie Hive to use log4j Logger instead of slf4j,747.0,17.0,19.0,5.0,1.0,0.0,0.0,2019-06-19 01:55:23,2019-06-19 08:48:21,Balaji Varadarajan,3021376.0,1.0,2019-06-19 08:48:21
+138,289543463.0,Add parquet-avro dependency in hoodie-spark and hoodie-timeline should not be fat-jar,748.0,4.0,57.0,3.0,1.0,0.0,0.0,2019-06-19 05:25:53,2019-06-19 05:34:07,Balaji Varadarajan,3021376.0,1.0,2019-06-19 05:34:07
+139,289563199.0,Adding support for optional skipping single archiving failures,750.0,18.0,4.0,2.0,1.0,4.0,3.0,2019-06-19 06:51:55,2019-06-21 05:54:47,Ron,9638893.0,1.0,2019-06-21 05:54:46
+140,289604436.0,"[HUDI-159] Clean up poms, unused deps and thinning bundles",751.0,916.0,1207.0,30.0,1.0,10.0,3.0,2019-06-19 08:58:07,2019-09-02 23:20:35,vinoth chandar,1179324.0,0.0,
+141,289882087.0,Reword confusing message and reducing the severity level,752.0,4.0,1.0,1.0,1.0,1.0,0.0,2019-06-19 21:15:31,2019-06-21 05:46:10,Balaji Varadarajan,3021376.0,1.0,2019-06-21 05:46:10
+142,289936877.0,"when column type is decimal, should add precision and scale",753.0,5.0,0.0,1.0,1.0,9.0,0.0,2019-06-20 02:01:10,2019-07-08 23:13:23,Thinking Chen,12069428.0,1.0,2019-07-08 23:13:23
+143,290294290.0,Ensure TableMetaClient and FileSystem instances have exclusive copy of Configuration,755.0,16.0,7.0,5.0,1.0,2.0,0.0,2019-06-20 16:43:24,2019-06-20 21:05:01,Balaji Varadarajan,3021376.0,1.0,2019-06-20 21:05:01
+144,290346443.0,Add maprfs to storage schemes,756.0,2.0,0.0,1.0,1.0,1.0,0.0,2019-06-20 19:35:11,2019-06-21 05:45:36,Balaji Varadarajan,3021376.0,1.0,2019-06-21 05:45:36
+145,291215005.0,Added preemptive check for 'spark.scheduler.mode',758.0,68.0,25.0,3.0,1.0,0.0,0.0,2019-06-24 16:48:43,2019-06-25 20:39:42,Ho Tien Vu,1747423.0,1.0,2019-06-25 20:39:42
+146,291326822.0,Fixing bugs found during running hoodie demo,760.0,29.0,7.0,3.0,1.0,2.0,0.0,2019-06-24 23:05:56,2019-06-29 00:49:24,Balaji Varadarajan,3021376.0,1.0,2019-06-29 00:49:24
+147,291327929.0,Update Hoodie Demo Documentation,761.0,12.0,2.0,1.0,1.0,0.0,0.0,2019-06-24 23:11:35,2019-06-25 04:24:57,Balaji Varadarajan,3021376.0,1.0,2019-06-25 04:24:57
+148,292160975.0,Support building Hoodie with Hadoop 2.8.x,762.0,6.0,0.0,1.0,1.0,1.0,0.0,2019-06-26 21:10:09,2019-06-27 05:30:39,Aaron Tokhy,49795237.0,1.0,2019-06-27 05:30:39
+149,292311882.0,[WIP] Temporary PR : Use customized KafkaAvroDecoder to handle input batch containing records with older schema version,763.0,53.0,1.0,1.0,1.0,1.0,0.0,2019-06-27 07:53:43,2021-09-07 21:03:35,Balaji Varadarajan,3021376.0,0.0,
+150,292629788.0,[WIP] Fix KafkaAvroSource to use the latest schema,765.0,81.0,1.0,4.0,1.0,8.0,3.0,2019-06-27 22:50:11,2020-04-25 16:56:21,,2146095.0,0.0,
+151,293171607.0,remove com.databricks:spark-avro to build spark avro schema by itself,770.0,539.0,191.0,7.0,1.0,21.0,1.0,2019-07-01 04:14:36,2020-01-13 03:12:09,Thinking Chen,12069428.0,0.0,
+152,293186547.0,fix error: java.lang.IllegalArgumentException: Can not create a Path from an empty string,771.0,14.0,3.0,2.0,1.0,2.0,5.0,2019-07-01 05:42:46,2019-07-25 04:34:46,Thinking Chen,12069428.0,0.0,
+153,293548828.0,HUDI-162 : File System view must be built with correct timeline actions,775.0,91.0,27.0,12.0,1.0,1.0,10.0,2019-07-02 01:20:16,2019-07-14 07:48:10,Balaji Varadarajan,3021376.0,1.0,2019-07-14 07:48:10
+154,295535036.0,Fix HUDI-170 Updating hoodie record before inserting it into ExternalSpillableMap,777.0,28.0,3.0,2.0,1.0,2.0,4.0,2019-07-08 23:50:08,2019-08-30 16:04:09,,899843.0,0.0,
+155,295714913.0,Fixed TableNotFoundException when write with structured streaming,778.0,5.0,5.0,1.0,1.0,3.0,2.0,2019-07-09 11:42:20,2019-07-12 16:17:17,Ho Tien Vu,1747423.0,1.0,2019-07-12 16:17:17
+156,296681546.0,[HUDI-172] Cleanup Maven POM/Classpath,780.0,1277.0,1152.0,15.0,1.0,15.0,15.0,2019-07-11 14:33:10,2019-07-26 11:33:14,Mathew Wicks,5735406.0,0.0,
+157,296839369.0,[HUDI-161] Remove --key-generator-class CLI arg in HoodieDeltaStreamer and use key generator class specified in datasource properties,781.0,62.0,22.0,5.0,1.0,1.0,0.0,2019-07-11 21:48:05,2019-07-12 20:45:50,Y Ethan Guo,2497195.0,1.0,2019-07-12 20:45:50
+158,296844085.0,HUDI-68  [WIP] Hoodie Demo automation,782.0,333.0,7.0,11.0,1.0,7.0,0.0,2019-07-11 22:05:32,2019-07-26 11:31:39,Balaji Varadarajan,3021376.0,0.0,
+159,296928605.0,Updating site with latest content from docs folder,783.0,39.0,178.0,9.0,1.0,0.0,0.0,2019-07-12 06:04:39,2019-07-12 06:04:54,vinoth chandar,1179324.0,1.0,2019-07-12 06:04:54
+160,297257363.0,Remove --key-generator-class CLI arg for DeltaStreamer,785.0,0.0,6.0,1.0,1.0,0.0,0.0,2019-07-12 23:58:27,2019-07-13 00:11:59,Y Ethan Guo,2497195.0,1.0,2019-07-13 00:11:58
+161,297459218.0,fix HoodieLogFileReader,787.0,11.0,3.0,1.0,1.0,1.0,0.0,2019-07-15 03:38:35,2019-07-15 20:25:56,,1745057.0,1.0,2019-07-15 20:25:56
+162,297649196.0,HUDI-168 Ensure getFileStatus calls for files getting written happens after close() is called,788.0,9.0,4.0,1.0,1.0,1.0,5.0,2019-07-15 14:32:09,2019-07-17 00:33:35,Balaji Varadarajan,3021376.0,1.0,2019-07-17 00:33:35
+163,297749918.0, Update docker_demo based on new bundling,790.0,24.0,22.0,1.0,1.0,1.0,1.0,2019-07-15 19:10:09,2019-08-29 04:18:53,vinoth chandar,1179324.0,0.0,
+164,297832756.0,HUDI-140 : GCS: Log File Reading not working due to difference in seek() behavior for EOF,791.0,39.0,4.0,3.0,1.0,1.0,0.0,2019-07-16 00:30:50,2019-07-19 19:38:29,Balaji Varadarajan,3021376.0,1.0,2019-07-19 19:38:29
+165,297837174.0,Fixing default value for avro 1.7 which assumes NULL value instead of a jsonnode that is null,792.0,7.0,7.0,1.0,1.0,1.0,0.0,2019-07-16 01:01:47,2019-07-17 10:25:54,,2722167.0,1.0,2019-07-17 10:25:54
+166,297892944.0,Allow HoodieWrapperFileSystem to wrap other proxy file-system implementations with no getScheme implementation,793.0,5.0,3.0,1.0,1.0,2.0,1.0,2019-07-16 06:28:26,2019-07-25 04:31:46,Balaji Varadarajan,3021376.0,1.0,2019-07-25 04:31:46
+167,298432662.0,Update writing_data for operations/deletes,794.0,35.0,0.0,1.0,1.0,0.0,0.0,2019-07-17 11:49:46,2019-07-17 13:01:49,vinoth chandar,1179324.0,1.0,2019-07-17 13:01:49
+168,298756085.0,HUDI-171 delete tmp file after split merge failure,795.0,17.0,13.0,1.0,1.0,4.0,14.0,2019-07-18 04:59:46,2019-08-06 00:24:30,Gary Li,23007841.0,1.0,2019-08-06 00:24:30
+169,299219852.0,manual stop JavaSparkContext,797.0,14.0,4.0,2.0,1.0,0.0,0.0,2019-07-19 07:36:08,2019-07-19 12:01:46,,1745057.0,1.0,2019-07-19 12:01:46
+170,299240343.0,HUDI-175 - add an option to   manually override the DeltaStreamer checkpoint,798.0,18.0,1.0,2.0,2.0,4.0,2.0,2019-07-19 08:44:05,2019-07-29 17:40:03,,1745057.0,1.0,2019-07-29 17:40:03
+171,299326074.0,HUDI-92 : Making deltastreamer with DistributedTestSource also run lo…,799.0,63.0,45.0,7.0,1.0,1.0,0.0,2019-07-19 13:04:55,2019-07-30 23:30:48,vinoth chandar,1179324.0,1.0,2019-07-30 23:30:48
+172,300980687.0,Cache RDD to avoid recomputing data ingestion and hbase puts actions,802.0,113.0,14.0,7.0,1.0,4.0,11.0,2019-07-25 04:52:16,2019-08-02 19:40:15,Venkatesh Rudraraju,33071342.0,1.0,2019-08-02 19:40:15
+173,301199854.0,[WIP] [Not For Merging] Demo automation with pom dep order fixes from PR-780,803.0,1610.0,1159.0,24.0,2.0,1.0,0.0,2019-07-25 15:33:16,2019-07-31 22:17:29,Balaji Varadarajan,3021376.0,0.0,
+174,301503923.0,"HUDI-159 : Simplify POM and thin bundles, with better compatibility",804.0,1610.0,1159.0,24.0,3.0,0.0,0.0,2019-07-26 11:29:32,2019-07-26 11:34:34,vinoth chandar,1179324.0,1.0,2019-07-26 11:34:34
+175,301606543.0,fix DeltaStreamer writeConfig,805.0,5.0,3.0,1.0,1.0,2.0,5.0,2019-07-26 16:27:04,2019-08-30 16:15:02,,1745057.0,0.0,
+176,301620169.0,HoodieDeltaStreamer: allow to commit when the records rdd is empty,806.0,16.0,6.0,1.0,1.0,1.0,0.0,2019-07-26 17:14:50,2019-08-30 16:14:45,,1745057.0,0.0,
+177,301890309.0,Add Balaji gpg key to KEYS file,807.0,60.0,0.0,1.0,1.0,0.0,0.0,2019-07-29 03:07:04,2019-07-29 13:41:43,Balaji Varadarajan,3021376.0,1.0,2019-07-29 13:41:43
+178,302315326.0,[HUDI-181] Fix the Bold markdown grammar issue of README file,808.0,1.0,1.0,1.0,1.0,0.0,0.0,2019-07-30 03:49:17,2019-07-30 10:47:54,vinoyang,2283778.0,1.0,2019-07-30 10:47:54
+179,302691339.0,HUDI-180 : Adding support for hive registration using metastore along with JDBC,809.0,151.0,37.0,3.0,1.0,8.0,0.0,2019-07-30 20:53:42,2019-08-30 19:38:51,,2722167.0,0.0,
+180,302711544.0,HUDI-176:  Generate Source Jars for bundle packages,810.0,5.0,0.0,5.0,1.0,0.0,0.0,2019-07-30 21:55:38,2019-07-31 01:17:15,Balaji Varadarajan,3021376.0,1.0,2019-07-31 01:17:15
+181,302724179.0,HUDI-182 : Adding HoodieCombineHiveInputFormat for COW tables,811.0,933.0,0.0,1.0,1.0,3.0,0.0,2019-07-30 22:45:17,2019-08-03 15:44:02,,2722167.0,1.0,2019-08-03 15:44:02
+182,303111281.0,HUDI-186 : Add missing Apache Links in hudi site,813.0,12.0,1.0,2.0,1.0,1.0,0.0,2019-07-31 20:20:16,2019-07-31 20:24:20,Balaji Varadarajan,3021376.0,1.0,2019-07-31 20:24:20
+183,303124097.0,HUDI-198 : Fix for realtime queries,814.0,1.0,15.0,1.0,1.0,10.0,0.0,2019-07-31 20:56:47,2019-08-02 23:06:34,,2722167.0,1.0,2019-08-02 23:06:34
+184,303126867.0,HUDI-186 Fix formatting for new content in Writing Data page. Update website to reflect new apache links,815.0,356.0,70.0,26.0,1.0,2.0,0.0,2019-07-31 21:05:38,2019-07-31 22:15:01,Balaji Varadarajan,3021376.0,1.0,2019-07-31 22:15:01
+185,303158365.0,[HUDI-121] Add lresende signing key to KEYS file,816.0,283.0,0.0,1.0,1.0,2.0,1.0,2019-07-31 23:09:13,2019-08-02 16:07:33,Luciano Resende,382917.0,0.0,
+186,303245304.0,Fix typo in hoodie-presto-bundle,818.0,3.0,3.0,1.0,1.0,4.0,0.0,2019-08-01 06:59:30,2019-08-01 15:51:58,Luke Zhu,21269549.0,1.0,2019-08-01 15:51:58
+187,303494971.0,Update Keys with anchee@apache.org,819.0,60.0,0.0,1.0,1.0,0.0,0.0,2019-08-01 18:05:36,2019-08-01 18:07:17,Anbu Cheeralan,494035.0,0.0,
+188,303495466.0,Update Keys with anchee@apache.org,820.0,60.0,0.0,1.0,1.0,0.0,0.0,2019-08-01 18:07:06,2019-08-01 19:30:03,Anbu Cheeralan,494035.0,1.0,2019-08-01 19:30:03
+189,303745358.0,HUDI-178 : Add keys for vinoth to KEYS file,821.0,49.0,0.0,1.0,1.0,0.0,0.0,2019-08-02 11:13:51,2019-08-02 12:25:45,vinoth chandar,1179324.0,1.0,2019-08-02 12:25:45
+190,303762747.0,HUDI-197 Hive Sync and othe CLIs using bundle picking sources jar instead of binary jar,822.0,3.0,3.0,3.0,1.0,1.0,0.0,2019-08-02 12:14:45,2019-08-02 16:07:46,Balaji Varadarajan,3021376.0,1.0,2019-08-02 16:07:46
+191,303766776.0,[HUDI-196] First draft of committership guidelines,823.0,38.0,6.0,4.0,1.0,2.0,7.0,2019-08-02 12:27:39,2019-08-07 11:37:55,vinoth chandar,1179324.0,1.0,2019-08-07 11:37:55
+192,303772397.0,HUDI-185 Replace local hudi logo with the one added to apache,824.0,26.0,26.0,25.0,1.0,0.0,0.0,2019-08-02 12:44:56,2019-08-02 16:36:59,Balaji Varadarajan,3021376.0,1.0,2019-08-02 16:36:59
+193,303869148.0,HUDI-149 - Remove platform dependencies and update NOTICE plugin,825.0,1452.0,456.0,29.0,1.0,5.0,0.0,2019-08-02 17:22:33,2019-08-05 15:57:17,Balaji Varadarajan,3021376.0,1.0,2019-08-05 15:57:17
+194,304581042.0,[HUDI-153] Use com.uber.hoodie.common.util.Option instead of Java and Guava Optional,826.0,769.0,769.0,128.0,1.0,1.0,4.0,2019-08-06 07:19:33,2019-08-07 18:54:01,vinoyang,2283778.0,1.0,2019-08-07 18:54:01
+195,305896148.0,HUDI-123 Rename code packages/constants to org.apache.hudi,830.0,3893.0,3597.0,546.0,1.0,1.0,13.0,2019-08-09 08:46:37,2019-08-12 00:48:17,Balaji Varadarajan,3021376.0,1.0,2019-08-12 00:48:17
+196,306189421.0,HUDI-201 Updated docs to reflect migration from com.uber.hoodie to org.apache.hudi,831.0,231.0,231.0,22.0,1.0,0.0,2.0,2019-08-10 06:29:11,2019-08-12 00:59:10,Balaji Varadarajan,3021376.0,1.0,2019-08-12 00:59:10
+197,306600996.0,HUDI-177 : Adding GPG Keys,832.0,38.0,0.0,1.0,1.0,0.0,0.0,2019-08-12 18:03:54,2019-08-12 19:49:11,,2722167.0,1.0,2019-08-12 19:49:11
+198,306687030.0,HUDI-204 : Make MOR rollback idempotent and disable rolling stats for small file selection…,833.0,52.0,65.0,2.0,1.0,0.0,0.0,2019-08-12 22:49:23,2019-08-14 00:13:31,Balaji Varadarajan,3021376.0,1.0,2019-08-14 00:13:31
+199,306756131.0,[HUDI-205] Let checkstyle ban Java and Guava Optional instead of using Option provided by Hudi,834.0,4.0,0.0,2.0,1.0,1.0,2.0,2019-08-13 05:56:17,2019-08-14 00:13:53,vinoyang,2283778.0,1.0,2019-08-14 00:13:53
+200,308045167.0,HUDI-212: Specify Charset to UTF-8 for IOUtils.toString,837.0,4.0,4.0,2.0,1.0,1.0,0.0,2019-08-16 11:44:48,2019-08-16 15:27:19,leesf,10128888.0,1.0,2019-08-16 15:27:19
+201,308264886.0,[HUDI-213] Add gem dependencies installation step for building doc description,838.0,5.0,1.0,1.0,1.0,1.0,0.0,2019-08-17 04:10:30,2019-08-21 12:43:07,vinoyang,2283778.0,1.0,2019-08-21 12:43:07
+202,308601968.0,[HUDI-62] Add index timer to HoodieWriteClient,841.0,32.0,2.0,2.0,1.0,2.0,0.0,2019-08-19 13:07:22,2019-08-27 16:32:07,,29517740.0,0.0,
+203,308634483.0,[HUDI-215] Mentioned github issue link for joining slack group in community.md,842.0,1.0,1.0,1.0,1.0,0.0,0.0,2019-08-19 14:21:44,2019-08-19 18:51:25,Pratyaksh Sharma,30863489.0,1.0,2019-08-19 18:51:25
+204,308860491.0,[HUDI-214] Introduce jekyll-multiple-languages plugin to support multiple languages,843.0,3626.0,191.0,44.0,1.0,4.0,0.0,2019-08-20 03:31:08,2019-08-23 18:38:09,vinoyang,2283778.0,1.0,2019-08-23 18:38:09
+205,309790366.0,[HUDI-68] Pom cleanup & demo automation,846.0,2047.0,1346.0,34.0,3.0,2.0,2.0,2019-08-22 05:46:03,2019-08-23 03:18:50,vinoth chandar,1179324.0,1.0,2019-08-23 03:18:50
+206,309808332.0,[HUDI-82] Adds Presto integration in Docker demo,847.0,590.0,0.0,17.0,1.0,0.0,8.0,2019-08-22 06:57:21,2019-08-23 02:40:36,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2019-08-23 02:40:36
+207,310115202.0,[HUDI-82] Add docs for Presto integration in Docker demo,848.0,190.0,1.0,1.0,1.0,0.0,2.0,2019-08-22 19:53:59,2019-08-23 02:42:29,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2019-08-23 02:42:29
+208,310330119.0,[HUDI-62] Added index handle times,849.0,31.0,2.0,2.0,1.0,5.0,3.0,2019-08-23 10:35:26,2019-09-16 18:11:33,,29517740.0,0.0,
+209,310681944.0,[HUDI-159]: Pom cleanup and removal of com.twitter.parquet,850.0,600.0,326.0,29.0,1.0,1.0,0.0,2019-08-25 12:41:55,2019-08-25 23:01:16,vinoth chandar,1179324.0,1.0,2019-08-25 23:01:15
+210,310695973.0,HUDI-128 Preparing POM for release and snapshot builds,851.0,6.0,62.0,3.0,1.0,2.0,0.0,2019-08-25 16:04:02,2019-08-26 15:52:37,Balaji Varadarajan,3021376.0,1.0,2019-08-26 15:52:36
+211,311151316.0,[HUDI-159] Precursor cleanup to reduce build warnings,852.0,110.0,87.0,13.0,1.0,0.0,0.0,2019-08-27 00:41:39,2019-08-27 02:41:01,vinoth chandar,1179324.0,1.0,2019-08-27 02:41:01
+212,311583053.0,[HUDI-174] Ignore duplicate of a compaction file,853.0,28.0,5.0,2.0,3.0,0.0,4.0,2019-08-27 21:52:00,2019-08-28 13:19:44,Alexander Filipchik,1406795.0,1.0,2019-08-28 13:19:44
+213,311587712.0,[HUDI-223] Adding a way to infer target schema from the dataset after the transformation,854.0,194.0,5.0,4.0,3.0,0.0,1.0,2019-08-27 22:07:55,2019-08-28 11:48:39,Alexander Filipchik,1406795.0,1.0,2019-08-28 11:48:39
+214,311720819.0,[HUDI-222] Rename main class path to org.apache.hudi.timeline.serviceTimelineService in run_server.sh,855.0,2.0,2.0,1.0,1.0,0.0,0.0,2019-08-28 08:15:44,2019-08-28 08:18:49,leesf,10128888.0,0.0,
+215,311724426.0,[HUDI-222] Rename main class path to org.apache.hudi.timeline.service.TimelineService in run_server.sh,856.0,3.0,3.0,1.0,2.0,3.0,0.0,2019-08-28 08:25:28,2019-08-28 20:59:35,leesf,10128888.0,1.0,2019-08-28 20:59:35
+216,311820295.0,HUDI-124 : Exclude jdk.tools from hadoop-common and update Notice files,858.0,251.0,485.0,26.0,1.0,0.0,0.0,2019-08-28 12:18:18,2019-08-28 23:20:47,Balaji Varadarajan,3021376.0,1.0,2019-08-28 23:20:47
+217,312200779.0,[HUDI-225] Create Hudi Timeline Server Fat Jar,861.0,1026.0,15.0,8.0,1.0,4.0,1.0,2019-08-29 08:28:26,2019-08-30 03:03:07,leesf,10128888.0,1.0,2019-08-30 03:03:07
+218,312448618.0,Add support for composite key,862.0,13.0,1.0,1.0,1.0,2.0,10.0,2019-08-29 18:51:14,2019-11-06 05:51:31,Alexander Filipchik,1406795.0,0.0,
+219,312500151.0, [HUDI-227] : DeltaStreamer Improvements : Commit empty input batch with progressing checkpoints and allow users to override configs through properties,863.0,77.0,20.0,4.0,1.0,2.0,9.0,2019-08-29 21:24:27,2019-08-30 16:13:35,Balaji Varadarajan,3021376.0,1.0,2019-08-30 16:13:35
+220,312543057.0,[HUDI-231] Support nested ordering fields,864.0,1.0,1.0,1.0,1.0,1.0,0.0,2019-08-30 00:56:27,2019-08-30 20:41:17,Alexander Filipchik,1406795.0,1.0,2019-08-30 20:41:17
+221,312577702.0,[HUDI-229] Fix mvn notice:generate issue in windows,865.0,2.0,2.0,1.0,1.0,0.0,1.0,2019-08-30 04:37:31,2019-08-30 07:16:26,leesf,10128888.0,1.0,2019-08-30 07:16:25
+222,312627361.0,HUDI-170 Updating hoodie record before inserting it into ExternalSpillableMap,866.0,22.0,3.0,2.0,1.0,1.0,1.0,2019-08-30 08:01:02,2019-08-30 16:03:38,Balaji Varadarajan,3021376.0,1.0,2019-08-30 16:03:38
+223,312651858.0,[HUDI-230] Add missing Apache License in some files,867.0,233.0,1.0,16.0,1.0,2.0,2.0,2019-08-30 09:12:15,2019-08-30 16:38:29,leesf,10128888.0,1.0,2019-08-30 16:38:29
+224,312858884.0,HUDI-180 : Adding support for hive registration using metastore along with JDBC,868.0,173.0,51.0,3.0,1.0,3.0,5.0,2019-08-30 19:31:40,2019-09-21 15:04:35,,2722167.0,1.0,2019-09-21 15:04:35
+225,312915087.0,[HUDI-164] Fixes incorrect averageBytesPerRecord,870.0,165.0,25.0,4.0,1.0,2.0,11.0,2019-08-31 00:21:03,2019-09-11 22:20:26,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2019-09-11 22:20:26
+226,313146938.0,[HUDI-217] Provide a unified resource management class to standardize the resource allocation and release for hudi client test cases,871.0,2429.0,2580.0,24.0,5.0,9.0,7.0,2019-09-02 07:32:33,2019-09-12 12:15:08,vinoyang,2283778.0,1.0,2019-09-12 12:15:08
+227,313333475.0,[HUDI-235] Fix scheduled compaction rollback in restore command,872.0,12.0,11.0,2.0,1.0,1.0,4.0,2019-09-02 17:19:14,2019-09-13 19:40:15,,2722167.0,1.0,2019-09-13 19:40:14
+228,313379470.0,[HUDI-159] Redesigning bundles for lighter-weight integrations,873.0,678.0,1371.0,60.0,2.0,0.0,15.0,2019-09-02 23:20:11,2019-09-11 18:08:29,vinoth chandar,1179324.0,1.0,2019-09-11 18:08:29
+229,313402015.0,[HUDI-143] Excluding javax.* from utilities and spark bundles,874.0,2.0,0.0,2.0,1.0,0.0,0.0,2019-09-03 02:48:14,2019-09-03 02:48:37,vinoth chandar,1179324.0,1.0,2019-09-03 02:48:37
+230,313451377.0,[HUDI-236] Failed to close stream,875.0,19.0,18.0,2.0,1.0,5.0,2.0,2019-09-03 07:08:55,2019-09-04 02:24:12,leesf,10128888.0,1.0,2019-09-04 02:24:12
+231,313638238.0,[HUDI-62] Index Lookup Timer added to HoodieWriteClient,876.0,34.0,3.0,2.0,1.0,16.0,14.0,2019-09-03 15:07:01,2019-09-16 18:12:53,,29517740.0,1.0,2019-09-16 18:12:53
+232,314367012.0,[HUDI-237] Translate quickstart page,878.0,36.0,42.0,1.0,1.0,3.0,13.0,2019-09-05 07:39:47,2019-09-06 22:15:31,leesf,10128888.0,1.0,2019-09-06 22:15:31
+233,314739953.0,[Minor] fix typo,880.0,1.0,1.0,1.0,1.0,0.0,0.0,2019-09-05 23:26:07,2019-09-06 15:31:31,leesf,10128888.0,1.0,2019-09-06 15:31:31
+234,315133943.0,[MINOR] Fix logging in HoodieSparkSqlWriter,882.0,1.0,1.0,1.0,1.0,0.0,0.0,2019-09-06 22:33:33,2019-09-07 14:51:13,Udit Mehrotra,8647012.0,1.0,2019-09-07 14:51:12
+235,316023561.0,[HUDI-240] Translate Use Cases page,884.0,37.0,45.0,1.0,1.0,3.0,22.0,2019-09-10 14:27:38,2019-09-14 16:07:16,leesf,10128888.0,1.0,2019-09-14 16:07:16
+236,316579556.0,HUDI-243 Rename HoodieInputFormat and HoodieRealtimeInputFormat to HoodieParquetInputFormat and HoodieParquetRealtimeInputFormat,885.0,31.0,27.0,10.0,1.0,0.0,0.0,2019-09-11 18:33:42,2019-09-11 21:03:02,Balaji Varadarajan,3021376.0,1.0,2019-09-11 21:03:02
+237,316664367.0,[HUDI-244] : Hive sync should escape partition field name,886.0,1.0,1.0,1.0,1.0,5.0,0.0,2019-09-11 22:48:58,2019-09-13 19:41:53,vinoth chandar,1179324.0,1.0,2019-09-13 19:41:53
+238,317196796.0,[HUDI-249] Update Release-notes. Add sign-artifacts to POM and release related scripts. Add missing license headers,887.0,1154.0,26.0,46.0,1.0,2.0,1.0,2019-09-13 06:52:51,2019-09-13 15:41:30,Balaji Varadarajan,3021376.0,1.0,2019-09-13 15:41:30
+239,317399044.0,[HUDI-235] Log files generated after pending compaction does not get deleted when using restoreToCommit,889.0,11.0,10.0,2.0,1.0,1.0,0.0,2019-09-13 16:27:56,2019-09-13 16:31:52,Balaji Varadarajan,3021376.0,0.0,
+240,317420313.0,[HUDI-250]  Ensure Hudi CLI wrapper works with non snapshot jars too,890.0,4.0,4.0,3.0,1.0,0.0,0.0,2019-09-13 17:36:56,2019-09-13 19:40:33,Balaji Varadarajan,3021376.0,1.0,2019-09-13 19:40:33
+241,317597743.0,[DOCS] : Add ApacheCon talk to powered_by page,892.0,59.0,48.0,5.0,1.0,0.0,0.0,2019-09-14 23:45:21,2019-09-15 02:11:33,vinoth chandar,1179324.0,1.0,2019-09-15 02:11:33
+242,317774936.0,[HUDI-252] Add Disclaimer and cleanup NOTICE and LICENSE files in hudi,893.0,457.0,1006.0,5.0,1.0,2.0,0.0,2019-09-16 08:49:23,2019-09-16 19:36:21,Balaji Varadarajan,3021376.0,0.0,
+243,318029284.0,[HUDI-252] Add Disclaimer and cleanup NOTICE and LICENSE files in hudi,895.0,457.0,1006.0,5.0,1.0,0.0,0.0,2019-09-16 19:33:41,2019-09-16 20:08:27,Balaji Varadarajan,3021376.0,1.0,2019-09-16 20:08:27
+244,318062875.0,Updating site to reflect recent doc changes,896.0,14798.0,599.0,55.0,1.0,7.0,9.0,2019-09-16 21:05:09,2019-09-20 14:11:46,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2019-09-20 14:11:46
+245,318100209.0,[HUDI-252] Identify packages which are under non-apache license in LICENSE file,897.0,11.0,10.0,1.0,1.0,1.0,0.0,2019-09-16 23:20:46,2019-09-17 04:56:13,Balaji Varadarajan,3021376.0,1.0,2019-09-17 04:56:13
+246,318259228.0,[HUDI-228] Contributing page updated to include JIRA guidelines,899.0,7.0,2.0,3.0,1.0,2.0,1.0,2019-09-17 10:01:58,2019-09-18 22:33:26,Pratyaksh Sharma,30863489.0,1.0,2019-09-18 22:33:26
+247,318288308.0,"[docs][chinese] update permalink for translated pages(quickstart.cn.md, use_cases.cn.md)",900.0,2.0,2.0,2.0,1.0,2.0,0.0,2019-09-17 11:18:22,2019-09-18 15:07:05,leesf,10128888.0,1.0,2019-09-18 15:07:05
+248,318299776.0,[HUDI-255] Translate Talks & Powered By page,901.0,9.0,10.0,1.0,1.0,3.0,4.0,2019-09-17 11:50:37,2019-09-22 13:46:07,leesf,10128888.0,1.0,2019-09-22 13:46:07
+249,318417105.0,[HUDI-257] Fix Bloom Index unit-test failures,902.0,4.0,0.0,2.0,1.0,1.0,0.0,2019-09-17 16:11:22,2019-09-17 16:41:16,Balaji Varadarajan,3021376.0,1.0,2019-09-17 16:41:16
+250,318481981.0,[HUDI-254]: Bundle and shade databricks/avro with spark bundle,903.0,6.0,1.0,2.0,1.0,0.0,0.0,2019-09-17 19:03:18,2019-09-17 19:38:52,vinoth chandar,1179324.0,1.0,2019-09-17 19:38:52
+251,318732996.0,#898 - Changes made to fix tjhe bug wuth the Hadoop version,904.0,32.0,32.0,28.0,1.0,0.0,0.0,2019-09-18 10:09:06,2019-09-18 10:10:11,Hariprasad,55284877.0,0.0,
+252,318969818.0,[HUDI-262] Update website to reflect change in InputFormat class name,906.0,7.0,7.0,3.0,1.0,0.0,0.0,2019-09-18 19:41:03,2019-09-18 19:50:02,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2019-09-18 19:50:02
+253,319128036.0,Adding mailmap to allow mapping of defunct emailIds to active emailIds,907.0,6.0,0.0,1.0,1.0,0.0,0.0,2019-09-19 07:10:36,2019-09-19 07:12:21,Balaji Varadarajan,3021376.0,1.0,2019-09-19 07:12:21
+254,319130268.0,Fix  mailmap to allow mapping of defunct emailIds to active emailIds,908.0,3.0,3.0,1.0,1.0,0.0,0.0,2019-09-19 07:17:40,2019-09-19 07:17:57,Balaji Varadarajan,3021376.0,1.0,2019-09-19 07:17:57
+255,319574358.0,HUDI-220 Translate root index page,911.0,9.0,8.0,1.0,2.0,5.0,6.0,2019-09-20 06:23:40,2019-09-22 14:06:24,vinoyang,2283778.0,1.0,2019-09-22 14:06:24
+256,319653321.0,[HUDI-251] JDBC incremental load to HUDI with DeltaStreamer,912.0,190.0,3.0,5.0,2.0,1.0,9.0,2019-09-20 10:13:29,2019-09-22 15:14:08,,29517740.0,0.0,
+257,319759976.0,[MINOR] Config from different bucket,914.0,1.0,1.0,1.0,3.0,1.0,0.0,2019-09-20 14:56:46,2019-09-22 13:47:23,Xing Pan,10269009.0,1.0,2019-09-22 13:47:23
+258,319904425.0,[HUDI-268] Shade and relocate Avro dependency in hadoop-mr-bundle,915.0,21.0,0.0,1.0,2.0,18.0,3.0,2019-09-20 22:59:02,2019-10-11 19:58:14,Udit Mehrotra,8647012.0,0.0,
+259,319944724.0,HUDI-267 Refactor bad method name HoodieTestUtils#initTableType and HoodieTableMetaClient#initializePathAsHoodieDataset,916.0,24.0,24.0,11.0,1.0,1.0,2.0,2019-09-21 08:57:43,2019-09-21 16:05:02,vinoyang,2283778.0,1.0,2019-09-21 16:05:02
+260,320056084.0,[HUDI-251] JDBC incremental load to HUDI with DeltaStreamer,917.0,443.0,46.0,9.0,2.0,11.0,21.0,2019-09-22 15:25:43,2019-10-17 08:02:25,,29517740.0,0.0,
+261,320089566.0,[HUDI-121] : Address comments during RC2 voting,918.0,3215.0,15249.0,113.0,1.0,5.0,32.0,2019-09-22 22:35:13,2019-09-30 22:42:16,Balaji Varadarajan,3021376.0,1.0,2019-09-30 22:42:16
+262,320097458.0,[MINOR] : Further updates to .mailmap for vinoth,919.0,3.0,0.0,1.0,1.0,0.0,0.0,2019-09-23 00:25:36,2019-09-23 00:26:05,vinoth chandar,1179324.0,1.0,2019-09-23 00:26:05
+263,320521555.0,[MINOR] Fix small file size default,920.0,1.0,1.0,1.0,1.0,0.0,0.0,2019-09-23 23:31:56,2019-09-23 23:32:04,vinoth chandar,1179324.0,1.0,2019-09-23 23:32:04
+264,320545889.0,[HUDI-269] Limit sync frequency,921.0,11.0,0.0,1.0,6.0,2.0,3.0,2019-09-24 01:42:05,2019-09-24 12:30:36,Xing Pan,10269009.0,1.0,2019-09-24 12:30:36
+265,320633323.0,HUDI-247 Unify the initialization of HoodieTableMetaClient in test for hoodie-client module,923.0,189.0,163.0,15.0,1.0,7.0,3.0,2019-09-24 07:52:26,2019-09-27 14:30:06,vinoyang,2283778.0,0.0,
+266,321093598.0,[minor][docs-chinese] Improve translation,924.0,2.0,2.0,1.0,1.0,1.0,0.0,2019-09-25 07:06:37,2019-09-26 02:01:35,leesf,10128888.0,1.0,2019-09-26 02:01:34
+267,321178544.0,[HUDI-256] Translate Comparison page,925.0,31.0,40.0,1.0,2.0,1.0,10.0,2019-09-25 10:40:17,2019-09-26 02:01:00,leesf,10128888.0,1.0,2019-09-26 02:01:00
+268,321208570.0,[HUDI-278] Translate Administering page,926.0,83.0,94.0,1.0,2.0,1.0,25.0,2019-09-25 11:58:20,2019-09-27 17:48:36,leesf,10128888.0,1.0,2019-09-27 17:48:36
+269,321244590.0,[HUDI-279] Fix regression in Schema Evolution due to PR-755,927.0,19.0,14.0,6.0,1.0,2.0,0.0,2019-09-25 13:22:44,2019-09-26 05:53:44,Balaji Varadarajan,3021376.0,1.0,2019-09-26 05:53:44
+270,321789786.0,[HUDI-265] Failed to delete tmp dirs created in unit tests,928.0,248.0,272.0,33.0,1.0,3.0,10.0,2019-09-26 15:48:08,2019-10-03 16:48:14,leesf,10128888.0,1.0,2019-10-03 16:48:14
+271,322393680.0,[HUDI-271] Create QuickstartUtils class towards simplifying quickstar…,929.0,206.0,0.0,1.0,1.0,3.0,15.0,2019-09-28 07:56:14,2019-09-30 22:22:20,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2019-09-30 22:22:19
+272,322646219.0,HUDI-247 Unify the re-initialization of HoodieTableMetaClient in test for hoodie-client module,930.0,142.0,141.0,14.0,1.0,0.0,0.0,2019-09-30 07:48:58,2019-09-30 12:38:53,vinoyang,2283778.0,1.0,2019-09-30 12:38:53
+273,323098596.0,HUDI-282 : Updating hive sync tool docs for hive metastore based operations,931.0,2.0,0.0,1.0,1.0,0.0,0.0,2019-10-01 05:58:07,2019-10-02 12:10:32,,2722167.0,1.0,2019-10-02 12:10:32
+274,323104208.0,HUDI-160 : Removing cdh support and hive 1.x mentions,932.0,3.0,7.0,1.0,1.0,1.0,0.0,2019-10-01 06:16:59,2019-10-02 11:57:09,,2722167.0,1.0,2019-10-02 11:57:08
+275,323576116.0,[HUDI-121] Fix bugs in Release Scripts found during RC creation,934.0,65.0,59.0,2.0,1.0,1.0,0.0,2019-10-02 04:33:30,2019-10-02 04:34:25,Balaji Varadarajan,3021376.0,1.0,2019-10-02 04:34:25
+276,323852722.0,[HUDI-287] Remove LICENSE and NOTICE files in hoodie child modules. ,935.0,7.0,2853.0,42.0,1.0,2.0,7.0,2019-10-02 17:04:34,2019-10-03 16:00:09,Balaji Varadarajan,3021376.0,1.0,2019-10-03 16:00:09
+277,324182089.0,[HUDI-285] Implement HoodieStorageWriter based on actual file type,936.0,72.0,3.0,2.0,1.0,1.0,0.0,2019-10-03 12:01:52,2019-10-04 14:45:17,leesf,10128888.0,1.0,2019-10-04 14:45:17
+278,324396254.0,[HUDI-291] Simplify quickstart documentation,937.0,140.0,168.0,1.0,1.0,9.0,15.0,2019-10-03 20:34:35,2019-10-10 12:12:46,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2019-10-10 12:12:45
+279,324483328.0,[HUDI-232] Implement sealing/unsealing for HoodieRecord class,938.0,117.0,0.0,11.0,1.0,0.0,0.0,2019-10-04 02:33:50,2019-10-07 17:56:47,leesf,10128888.0,1.0,2019-10-07 17:56:47
+280,324501709.0,[HUDI-121] Remove leftover notice file and replace com.uber.hoodie with org.apache.hudi ,939.0,21.0,207.0,28.0,1.0,2.0,0.0,2019-10-04 04:21:10,2019-10-04 16:18:58,Balaji Varadarajan,3021376.0,1.0,2019-10-04 16:18:58
+281,324633403.0,[HUDI-130] Paths written in compaction plan needs to be relative to base-path,940.0,600.0,104.0,25.0,1.0,6.0,22.0,2019-10-04 11:19:48,2019-10-23 09:52:25,Balaji Varadarajan,3021376.0,1.0,2019-10-23 09:52:25
+282,324903668.0,[HUDI-293] Remove KEYS file from github repository,941.0,0.0,275.0,1.0,1.0,1.0,0.0,2019-10-05 04:01:09,2019-10-05 05:39:08,Balaji Varadarajan,3021376.0,1.0,2019-10-05 05:39:08
+283,325007775.0,[HUDI-137] Fix state transitions for Hudi cleaning action,942.0,855.0,490.0,34.0,1.0,3.0,27.0,2019-10-06 07:09:08,2019-11-11 18:40:17,Balaji Varadarajan,3021376.0,1.0,2019-11-11 18:40:17
+284,325741477.0,HUDI-290 Normalize test class name of all test classes,943.0,27.0,27.0,20.0,1.0,15.0,3.0,2019-10-08 12:13:16,2019-10-19 15:42:47,vinoyang,2283778.0,0.0,
+285,325850528.0,[HOTFIX] Move to openjdk to get travis passing,944.0,2.0,1.0,1.0,1.0,2.0,0.0,2019-10-08 16:11:36,2019-10-08 19:06:48,vinoth chandar,1179324.0,1.0,2019-10-08 19:06:48
+286,325892470.0,[HUDI-296] Explore use of spotless to auto fix formatting errors,945.0,7351.0,9065.0,381.0,3.0,7.0,8.0,2019-10-08 18:00:56,2019-10-10 12:19:41,leesf,10128888.0,1.0,2019-10-10 12:19:40
+287,326029731.0,[docs][chinese] revert the PR(#900),946.0,3.0,3.0,2.0,1.0,0.0,1.0,2019-10-09 01:43:13,2019-10-09 01:52:16,leesf,10128888.0,1.0,2019-10-09 01:52:16
+288,326190843.0,[HUDI-292] Consume more entries from kafka than specified sourceLimit.,947.0,15.0,0.0,2.0,2.0,1.0,3.0,2019-10-09 10:54:23,2019-10-11 12:28:46,leesf,10128888.0,1.0,2019-10-11 12:28:46
+289,326511412.0,[MINOR] Add incubating to NOTICE and README.md,948.0,3.0,3.0,3.0,1.0,3.0,0.0,2019-10-10 01:33:18,2019-10-10 04:42:31,Balaji Varadarajan,3021376.0,1.0,2019-10-10 04:42:31
+290,326547765.0,HUDI-40 Support Parquet in delta streamer,949.0,224.0,5.0,6.0,1.0,14.0,13.0,2019-10-10 04:49:46,2019-10-17 04:12:00,Gary Li,23007841.0,1.0,2019-10-17 04:12:00
+291,326712555.0,Updating site to reflect recent doc changes,950.0,288.0,347.0,13.0,1.0,1.0,0.0,2019-10-10 12:36:05,2019-10-10 12:43:13,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2019-10-10 12:43:13
+292,326843008.0,HUDI-290 Normalize test class name of all test classes,951.0,27.0,27.0,20.0,1.0,6.0,0.0,2019-10-10 17:14:24,2019-10-23 03:19:11,vinoth chandar,1179324.0,1.0,2019-10-23 03:19:11
+293,327049924.0,[HUDI-301] fix path error when updating a non-partition MOR table,952.0,2.0,1.0,1.0,1.0,8.0,2.0,2019-10-11 06:30:59,2019-10-16 09:07:34,wenningd,31263084.0,1.0,2019-10-16 09:07:34
+294,327430910.0,[HUDI-121] Fix licensing issues found during RC voting by general incubator group,953.0,781.0,1608.0,19.0,1.0,1.0,21.0,2019-10-12 06:05:55,2019-10-16 09:09:03,Balaji Varadarajan,3021376.0,1.0,2019-10-16 09:09:03
+295,327516539.0,Update README.md,955.0,2.0,2.0,1.0,1.0,0.0,0.0,2019-10-13 02:18:13,2019-10-14 04:02:25,,6295975.0,1.0,2019-10-14 04:02:25
+296,327926935.0,"[HUDI-298] Fix issue with incorrect column mapping casusing bad data, during on-the-fly merge of Real Time tables",956.0,88.0,38.0,6.0,3.0,1.0,8.0,2019-10-14 18:45:16,2019-10-16 09:05:54,Udit Mehrotra,8647012.0,1.0,2019-10-16 09:05:54
+297,328034367.0,[HUDI-268] Provide mechanism to shade and relocate Avro dependency in hadoop-mr-bundle,957.0,30.0,0.0,2.0,1.0,1.0,2.0,2019-10-15 01:30:24,2019-10-16 09:08:13,Udit Mehrotra,8647012.0,1.0,2019-10-16 09:08:13
+298,328433770.0,[HUDI-273] Translate the Writing Data page into Chinese documentation,958.0,69.0,67.0,1.0,3.0,4.0,5.0,2019-10-15 19:43:18,2019-10-17 17:15:55,Y Ethan Guo,2497195.0,1.0,2019-10-17 17:15:55
+299,328708059.0,[docs][chinese] sync quickstart.md change to quickstart.cn.md,959.0,111.0,144.0,1.0,2.0,1.0,15.0,2019-10-16 11:24:37,2019-10-17 17:14:43,leesf,10128888.0,1.0,2019-10-17 17:14:43
+300,329510223.0,[HUDI-306] Support Glue catalog and other hive metastore implementations,961.0,56.0,63.0,4.0,3.0,14.0,1.0,2019-10-18 00:07:23,2019-11-12 01:27:32,Udit Mehrotra,8647012.0,1.0,2019-11-12 01:27:32
+301,329671508.0,[HUDI-251] JDBC incremental load to HUDI DeltaStreamer,962.0,90908.0,53411.0,1022.0,378.0,3.0,21.0,2019-10-18 10:32:47,2019-10-23 14:52:26,,29517740.0,0.0,
+302,329872172.0,Fix/pom,963.0,31.0,7.0,3.0,3.0,0.0,0.0,2019-10-18 18:28:48,2019-10-18 18:31:03,Gurudatt Kulkarni,5235591.0,0.0,
+303,330187917.0,[HUDI-283] : Ensure a sane minimum for merge buffer memory,964.0,16.0,6.0,2.0,1.0,0.0,0.0,2019-10-21 02:08:17,2019-10-21 04:00:04,vinoth chandar,1179324.0,1.0,2019-10-21 04:00:04
+304,330660288.0,[MINOR] Remove release notes and move confluent repository to hoodie …,965.0,4.0,483.0,3.0,1.0,1.0,0.0,2019-10-21 20:06:58,2019-10-21 21:16:07,Balaji Varadarajan,3021376.0,1.0,2019-10-21 21:16:07
+305,330824352.0,[MINOR] Move all repository declarations to parent pom,966.0,8.0,18.0,3.0,1.0,0.0,0.0,2019-10-22 06:22:04,2019-10-23 03:17:14,Gurudatt Kulkarni,5235591.0,1.0,2019-10-23 03:17:13
+306,331060148.0,[MINOR] Add backtick escape while syncing partition fields,967.0,1.0,1.0,1.0,1.0,0.0,0.0,2019-10-22 15:32:14,2019-10-23 03:16:17,Amit Prabhu,2487532.0,1.0,2019-10-23 03:16:17
+307,331488244.0,[HUDI-169] Speed up rolling back of instants,968.0,506.0,247.0,5.0,1.0,1.0,0.0,2019-10-23 11:23:23,2019-10-25 02:34:01,Balaji Varadarajan,3021376.0,1.0,2019-10-25 02:34:01
+308,331609501.0,[WIP] [HUDI-251] JDBC incremental load to HUDI DeltaStreamer,969.0,846.0,0.0,3.0,12.0,17.0,34.0,2019-10-23 15:30:12,2020-02-04 07:33:05,,29517740.0,0.0,
+309,331910015.0,[HUDI-126] Add a release download page to site,970.0,38.0,6.0,3.0,1.0,6.0,11.0,2019-10-24 08:02:16,2019-10-25 05:21:50,Balaji Varadarajan,3021376.0,1.0,2019-10-25 05:21:50
+310,332262624.0,[HUDI-313] Fix select count star error when querying a realtime table,972.0,20.0,0.0,1.0,2.0,3.0,10.0,2019-10-24 22:10:27,2019-11-01 04:54:28,wenningd,31263084.0,1.0,2019-11-01 04:54:28
+311,332346473.0,[HUDI-126] Updating site to add a release download page to site,973.0,348.0,388.0,50.0,1.0,0.0,0.0,2019-10-25 05:30:26,2019-10-25 05:33:13,Balaji Varadarajan,3021376.0,1.0,2019-10-25 05:33:13
+312,332348156.0,[MINOR] Add missing release file,974.0,708.0,388.0,51.0,2.0,0.0,0.0,2019-10-25 05:38:21,2019-10-25 05:39:08,Balaji Varadarajan,3021376.0,1.0,2019-10-25 05:39:08
+313,332747575.0,HUDI-286 Remove tags from Hudi official web site,975.0,1.0,67.0,14.0,1.0,0.0,0.0,2019-10-26 08:22:01,2019-10-26 15:25:19,vinoyang,2283778.0,1.0,2019-10-26 15:25:19
+314,332964378.0,[HUDI-106] Adding support for DynamicBloomFilter,976.0,1069.0,83.0,23.0,16.0,17.0,45.0,2019-10-28 06:08:26,2019-12-18 03:06:25,Sivabalan Narayanan,513218.0,1.0,2019-12-18 03:06:25
+315,333093677.0,[HUDI-221] Translate concept page,977.0,93.0,110.0,1.0,1.0,3.0,42.0,2019-10-28 12:34:02,2019-10-31 15:01:20,leesf,10128888.0,1.0,2019-10-31 15:01:20
+316,333246253.0,[HUDI-314] Fix multi partition keys error when querying a realtime table,978.0,66.0,15.0,2.0,2.0,2.0,7.0,2019-10-28 17:53:07,2019-11-03 02:49:05,wenningd,31263084.0,1.0,2019-11-03 02:49:05
+317,333346642.0,[MINOR] Fix vm crashes,979.0,1.0,0.0,1.0,1.0,0.0,0.0,2019-10-28 22:11:35,2019-10-28 23:25:08,leesf,10128888.0,1.0,2019-10-28 23:25:08
+318,333367498.0,Bump httpclient from 4.3.2 to 4.3.6,980.0,1.0,1.0,1.0,1.0,2.0,0.0,2019-10-28 23:26:19,2019-11-01 12:22:32,,49699333.0,1.0,2019-11-01 12:22:32
+319,333367507.0,Bump checkstyle from 8.8 to 8.18,981.0,1.0,1.0,1.0,1.0,0.0,0.0,2019-10-28 23:26:22,2019-11-01 12:06:04,,49699333.0,1.0,2019-11-01 12:06:04
+320,333367643.0,Bump spark.version from 2.1.0 to 2.4.4,982.0,1.0,1.0,1.0,1.0,2.0,0.0,2019-10-28 23:26:55,2019-11-01 12:53:08,,49699333.0,0.0,
+321,333367807.0,Bump hive.version from 2.3.1 to 3.1.2,983.0,1.0,1.0,1.0,1.0,6.0,0.0,2019-10-28 23:27:34,2019-11-01 12:52:47,,49699333.0,0.0,
+322,333880993.0,[MINOR] Fix no output in travis,984.0,4.0,1.0,1.0,1.0,0.0,0.0,2019-10-29 21:18:47,2019-10-30 04:17:45,leesf,10128888.0,1.0,2019-10-30 04:17:45
+323,334033529.0,[HUDI-275] Translate the Querying Data page into Chinese documentation,985.0,87.0,87.0,1.0,2.0,3.0,4.0,2019-10-30 05:30:57,2019-10-31 15:00:38,Y Ethan Guo,2497195.0,1.0,2019-10-31 15:00:38
+324,334037359.0,[HUDI-317] change quickstart page spark-shell command ,986.0,5.0,15.0,1.0,1.0,2.0,12.0,2019-10-30 05:46:05,2019-11-05 16:43:00,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2019-11-05 16:42:59
+325,334048879.0,[HUDI-321] Support bulkinsert in HDFSParquetImporter,987.0,47.0,25.0,2.0,1.0,7.0,8.0,2019-10-30 06:28:32,2019-11-03 06:12:45,Raymond Xu,2701446.0,1.0,2019-11-03 06:12:45
+326,334110530.0,[MINOR] Fix avro schema warnings in builds,988.0,25.0,16.0,4.0,1.0,1.0,0.0,2019-10-30 09:12:03,2019-11-01 04:49:39,Gurudatt Kulkarni,5235591.0,1.0,2019-11-01 04:49:39
+327,334678565.0,"[HUDI-312] Make docker hdfs cluster ephemeral. This is needed to fix flakiness in integration tests. Also, Fix DeltaStreamer hanging issue due to uncaught exception",989.0,16.0,17.0,6.0,1.0,6.0,2.0,2019-10-31 05:28:58,2019-11-01 18:50:00,Balaji Varadarajan,3021376.0,1.0,2019-11-01 18:50:00
+328,334865610.0,[MINOR] Fix annotation error in TestHiveSyncTool,990.0,2.0,1.0,1.0,1.0,1.0,0.0,2019-10-31 12:36:41,2019-10-31 14:59:36,leesf,10128888.0,1.0,2019-10-31 14:59:36
+329,335585057.0,Hudi Test Suite (Refactor) ,991.0,9425.0,100.0,110.0,4.0,26.0,96.0,2019-11-01 19:41:03,2019-12-03 05:54:58,,2722167.0,0.0,
+330,335999370.0,[MINOR] Add features and instructions to build Hudi in README,992.0,30.0,4.0,1.0,1.0,0.0,0.0,2019-11-03 07:13:45,2019-11-03 09:48:07,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2019-11-03 09:48:07
+331,336140797.0,[HUDI-324] TimestampKeyGenerator should support milliseconds,993.0,3.0,2.0,1.0,1.0,4.0,0.0,2019-11-04 06:53:31,2019-11-05 12:22:15,Gurudatt Kulkarni,5235591.0,1.0,2019-11-05 12:22:15
+332,336144313.0,[HUDI-151] Enable HiveOnSpark queries for RT tables,994.0,66.0,35.0,3.0,1.0,4.0,4.0,2019-11-04 07:10:50,2019-11-16 21:46:48,,2722167.0,1.0,2019-11-16 21:46:48
+333,336804036.0,[HUDI-253]: added validations for schema provider class,995.0,55.0,6.0,2.0,1.0,0.0,7.0,2019-11-05 14:24:32,2019-11-11 14:03:45,Pratyaksh Sharma,30863489.0,1.0,2019-11-11 14:03:44
+334,336958356.0,[HUDI-337] Fixes to ensure MOR incr pull provides consistent results,996.0,31.0,10.0,2.0,1.0,3.0,5.0,2019-11-05 19:55:57,2019-11-17 22:11:27,,2722167.0,1.0,2019-11-17 22:11:27
+335,337257952.0,[HUDI-302]: simplified countInstants() method in HoodieDefaultTimeline,997.0,1.0,1.0,1.0,1.0,0.0,1.0,2019-11-06 09:31:10,2019-11-06 20:56:09,Pratyaksh Sharma,30863489.0,1.0,2019-11-06 20:56:09
+336,337526067.0,Update to align with original Uber whitepaper,999.0,1.0,1.0,1.0,1.0,0.0,3.0,2019-11-06 19:04:00,2019-11-10 20:38:14,Jeff G,32751606.0,1.0,2019-11-10 20:38:14
+337,337985454.0,[HUDI-245]: replaced instances of getInstants() and reverse() with getReverseOrderedInstants(),1000.0,8.0,18.0,5.0,1.0,1.0,0.0,2019-11-07 11:15:09,2019-11-07 16:42:49,Pratyaksh Sharma,30863489.0,1.0,2019-11-07 16:42:49
+338,338215174.0,[HUDI-325] Fix Hive partition error for updated HDFS Hudi table,1001.0,13.0,2.0,2.0,1.0,7.0,6.0,2019-11-07 19:58:11,2019-11-27 05:18:40,wenningd,31263084.0,1.0,2019-11-27 05:18:40
+339,338631984.0,[chinese][docs] sync updates in quickstart page,1002.0,5.0,13.0,1.0,1.0,2.0,0.0,2019-11-08 11:20:54,2019-11-09 08:37:38,leesf,10128888.0,1.0,2019-11-09 08:37:38
+340,338706583.0,[HUDI-218] Adding Presto support to Integration Test,1003.0,88.0,2.0,5.0,2.0,2.0,6.0,2019-11-08 14:39:56,2019-11-11 14:21:50,Sivabalan Narayanan,513218.0,1.0,2019-11-11 14:21:50
+341,338746258.0,[HUDI-328] Adding delete api to HoodieWriteClient,1004.0,818.0,172.0,18.0,12.0,17.0,48.0,2019-11-08 16:09:04,2019-11-22 23:05:25,Sivabalan Narayanan,513218.0,1.0,2019-11-22 23:05:25
+342,338919550.0,"[HUDI-91][HUDI-12]Migrate to spark 2.4.4, migrate to spark-avro library instead of databricks-avro, add support for Decimal/Date types",1005.0,128.0,79.0,11.0,1.0,40.0,15.0,2019-11-09 01:10:16,2020-01-12 23:03:12,Udit Mehrotra,8647012.0,1.0,2020-01-12 23:03:12
+343,338956810.0,[HUDI-276] Translate the Configurations page into Chinese,1006.0,253.0,221.0,1.0,2.0,2.0,14.0,2019-11-09 08:04:34,2019-11-11 23:37:51,Y Ethan Guo,2497195.0,1.0,2019-11-11 23:37:51
+344,339569726.0,[HUDI-80] Leverage Commit metadata to figure out partitions to be cleaned for Cleaning by commits mode,1008.0,167.0,24.0,9.0,1.0,0.0,10.0,2019-11-11 18:55:36,2019-11-12 14:12:45,Balaji Varadarajan,3021376.0,1.0,2019-11-12 14:12:45
+345,339573927.0, [HUDI-308] Avoid Renames for tracking state transitions of all actions on dataset,1009.0,1123.0,405.0,47.0,1.0,4.0,112.0,2019-11-11 19:07:50,2019-12-16 05:26:31,Balaji Varadarajan,3021376.0,1.0,2019-12-16 05:26:31
+346,339666028.0,[HUDI-277] Translate the Performance page into Chinese,1010.0,20.0,23.0,1.0,2.0,2.0,1.0,2019-11-11 23:54:52,2019-11-13 05:46:12,Y Ethan Guo,2497195.0,1.0,2019-11-13 05:46:12
+347,339877642.0,update to upstream,1011.0,19.0,3.0,2.0,8.0,0.0,0.0,2019-11-12 12:11:15,2019-11-12 12:11:22,Liran Yogev,23477645.0,0.0,
+348,340200554.0,Migrate integration tests to spark 2.4.4,1012.0,19.0,19.0,9.0,1.0,1.0,0.0,2019-11-13 02:00:40,2019-11-14 00:53:25,Udit Mehrotra,8647012.0,1.0,2019-11-14 00:53:25
+349,340567316.0,[HUDI-329] Presto Containers for integration test must allow newly built local jars to override,1013.0,8.0,1.0,2.0,1.0,0.0,0.0,2019-11-13 16:58:31,2019-11-14 01:35:35,Balaji Varadarajan,3021376.0,1.0,2019-11-14 01:35:35
+350,340609852.0,[HUDI-330] add EmptyStatement java checkstyle rule,1014.0,5.0,3.0,2.0,1.0,0.0,0.0,2019-11-13 18:41:56,2019-11-13 22:11:12,lamberken,20113411.0,1.0,2019-11-13 22:11:12
+351,340755187.0,[HOTFIX] fix missing version of rat-plugin,1015.0,2.0,0.0,1.0,1.0,0.0,0.0,2019-11-14 02:18:17,2019-11-14 05:18:47,lamberken,20113411.0,1.0,2019-11-14 05:18:47
+352,340765805.0,[SITE][style] change footer text-align,1016.0,2.0,2.0,2.0,1.0,1.0,0.0,2019-11-14 03:10:29,2019-11-14 05:18:07,lamberken,20113411.0,1.0,2019-11-14 05:18:07
+353,341009680.0,[DOCS] Fixes to code styling & updating to latest site content,1018.0,1154.0,1255.0,70.0,2.0,0.0,0.0,2019-11-14 14:39:58,2019-11-14 14:49:00,vinoth chandar,1179324.0,1.0,2019-11-14 14:49:00
+354,341776038.0,[HUDI-339] Add support of Azure cloud storage,1019.0,9.0,0.0,2.0,7.0,2.0,7.0,2019-11-16 17:44:08,2019-11-17 22:29:25,b_rousseau,26170335.0,1.0,2019-11-17 22:29:25
+355,341878849.0,[doc][chinese] Translate the 404 page into chinese documentation,1020.0,2.0,2.0,1.0,1.0,0.0,0.0,2019-11-17 18:10:48,2019-11-17 23:07:43,lamberken,20113411.0,1.0,2019-11-17 23:07:43
+356,342174736.0,[HUDI-342] add pull request template for hudi project,1022.0,44.0,0.0,1.0,3.0,2.0,6.0,2019-11-18 14:09:55,2019-11-19 06:06:02,lamberken,20113411.0,1.0,2019-11-19 06:06:01
+357,342213271.0,[HOTFIX] Fix error configuration item of dockerfile-maven-plugin,1023.0,20.0,20.0,10.0,1.0,0.0,0.0,2019-11-18 15:25:49,2019-11-20 00:30:04,lamberken,20113411.0,1.0,2019-11-20 00:30:04
+358,342463998.0,[HUDI-345] Fix used deprecated function,1024.0,9.0,8.0,6.0,6.0,6.0,2.0,2019-11-19 03:08:32,2019-11-22 11:32:10,hongdd,17537134.0,1.0,2019-11-22 11:32:10
+359,342471236.0,[HUDI-346] Set allowMultipleEmptyLines property false for EmptyLineSeparator rule,1025.0,5.0,108.0,82.0,2.0,0.0,2.0,2019-11-19 03:40:46,2019-11-19 10:44:43,lamberken,20113411.0,1.0,2019-11-19 10:44:43
+360,342574797.0,Merge pull request #1 from apache/master,1026.0,0.0,0.0,0.0,1.0,0.0,0.0,2019-11-19 09:30:32,2019-11-19 09:37:28,Shahida R. Khan,49642390.0,0.0,
+361,342578433.0,Merge pull request #1 from apache/master,1027.0,0.0,0.0,0.0,1.0,2.0,0.0,2019-11-19 09:38:08,2019-11-19 12:00:27,Shahida R. Khan,49642390.0,0.0,
+362,342630724.0,[HOPSWORKS-1347][HOPSWORKS-34] Modify Hudi to work with Hopsworks,1028.0,106.0,988.0,19.0,1.0,0.0,0.0,2019-11-19 11:29:51,2019-11-19 11:30:02,Steffen Grohsschmiedt,4143920.0,0.0,
+363,342829846.0,[HUDI-348] Add Issue template for the project,1029.0,65.0,0.0,2.0,3.0,1.0,16.0,2019-11-19 18:42:03,2019-11-22 11:25:53,Gurudatt Kulkarni,5235591.0,1.0,2019-11-22 11:25:53
+364,342842206.0,[HUDI-333][Site] Add table of contents in relevant pages,1030.0,106.0,67.0,31.0,1.0,3.0,0.0,2019-11-19 19:10:36,2019-11-19 21:01:34,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2019-11-19 21:01:34
+365,343205567.0,[HUDI-350]: updated default value of config.getCleanerCommitsRetained() in javadocs,1031.0,4.0,3.0,1.0,1.0,0.0,2.0,2019-11-20 07:11:30,2019-11-20 14:50:05,Pratyaksh Sharma,30863489.0,1.0,2019-11-20 14:50:05
+366,343213331.0,[DOC] Add reload step,1032.0,8.0,1.0,1.0,1.0,4.0,0.0,2019-11-20 07:37:03,2019-11-20 22:40:28,hongdd,17537134.0,1.0,2019-11-20 22:40:28
+367,343370105.0,[doc][chinese] Translate the release page into chinese documentation,1033.0,48.0,5.0,6.0,2.0,3.0,11.0,2019-11-20 13:59:21,2019-11-21 01:19:00,lamberken,20113411.0,1.0,2019-11-21 01:19:00
+368,343733771.0,[DOCS] site update with recent doc changes,1035.0,1504.0,960.0,55.0,2.0,0.0,0.0,2019-11-20 21:34:20,2019-11-20 21:46:21,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2019-11-20 21:46:21
+369,343759811.0,[HUDI-353] Add hive style partitioning path,1036.0,72.0,26.0,8.0,1.0,7.0,4.0,2019-11-20 22:48:18,2019-12-09 20:29:54,wenningd,31263084.0,1.0,2019-12-09 20:29:54
+370,343896797.0,[HUDI-356][chinese] Sync translation and code in quickstart.cn and admin_guide.cn pages,1037.0,8.0,1.0,2.0,3.0,0.0,0.0,2019-11-21 08:09:56,2019-11-21 08:10:39,hongdd,17537134.0,0.0,
+371,343899802.0,[HUDI-356][chinese] Sync translation and code in quickstart.cn and admin_guide.cn pages,1038.0,14.0,7.0,2.0,2.0,1.0,2.0,2019-11-21 08:19:07,2019-11-22 06:59:31,hongdd,17537134.0,1.0,2019-11-22 06:59:31
+372,343940970.0,[HUDI-340]: made max events to read from kafka source configurable,1039.0,96.0,10.0,2.0,1.0,4.0,13.0,2019-11-21 09:59:57,2019-11-26 10:34:03,Pratyaksh Sharma,30863489.0,1.0,2019-11-26 10:34:03
+373,344266992.0,[HUDI-327] Add null/empty checks to key generators,1040.0,159.0,23.0,7.0,3.0,5.0,0.0,2019-11-21 22:39:51,2019-11-26 10:37:17,,8600774.0,1.0,2019-11-26 10:37:17
+374,344387913.0,[HUDI-359] Add hudi-env for hudi-cli module,1042.0,29.0,9.0,2.0,7.0,0.0,5.0,2019-11-22 07:32:22,2019-11-25 21:25:43,hongdd,17537134.0,1.0,2019-11-25 21:25:43
+375,344634690.0,[HUDI-358] Add Java-doc and importOrder checkstyle rule,1043.0,26.0,5.0,1.0,3.0,2.0,0.0,2019-11-22 18:02:51,2019-11-25 19:36:24,lamberken,20113411.0,1.0,2019-11-25 19:36:24
+376,344779440.0,[HUDI-361] Implement CSV metrics reporter,1044.0,160.0,4.0,7.0,3.0,7.0,0.0,2019-11-23 05:49:42,2020-04-26 02:05:15,ForwardXu,10494131.0,0.0,
+377,344788974.0,[HUDI-209] Implement JMX metrics reporter,1045.0,159.0,5.0,8.0,6.0,10.0,14.0,2019-11-23 08:27:52,2019-11-28 11:17:35,ForwardXu,10494131.0,1.0,2019-11-28 11:17:35
+378,344949830.0,Use commitimestamp2 instead of  commitimestamp1 in HoodieJavaStreamingApp,1046.0,11.0,16.0,1.0,2.0,1.0,0.0,2019-11-24 21:19:13,2019-11-25 10:49:14,Filippo Balicchia,1023535.0,1.0,2019-11-25 10:49:14
+379,345063260.0,[HUDI-362] Adds a check for the existence of field,1047.0,8.0,0.0,2.0,1.0,1.0,0.0,2019-11-25 07:30:42,2019-11-25 19:31:07,hongdd,17537134.0,1.0,2019-11-25 19:31:07
+380,345501372.0,[HUDI-364] Refactor hudi-hive based on new ImportOrder code style rule,1048.0,84.0,71.0,14.0,3.0,4.0,3.0,2019-11-26 01:57:39,2019-11-27 08:30:38,lamberken,20113411.0,1.0,2019-11-27 08:30:38
+381,345593758.0,[HUDI-355] Refactor hudi-common based on new comment and code style rules,1049.0,637.0,380.0,149.0,3.0,3.0,9.0,2019-11-26 08:04:38,2019-12-04 04:49:14,vinoyang,2283778.0,1.0,2019-12-04 04:49:14
+382,345696925.0,[HUDI-368]: code clean up in TestAsyncCompaction class,1050.0,34.0,55.0,1.0,1.0,1.0,13.0,2019-11-26 12:05:14,2019-12-10 21:52:42,Pratyaksh Sharma,30863489.0,1.0,2019-12-10 21:52:42
+383,345830605.0,[HUDI-357] Refactor hudi-cli based on new comment and code style rules,1051.0,98.0,26.0,27.0,1.0,0.0,0.0,2019-11-26 16:39:57,2019-11-30 19:12:42,Gurudatt Kulkarni,5235591.0,1.0,2019-11-30 19:12:42
+384,345977821.0,[HUDI-326] Add new index to suppport global update/delete,1052.0,97.0,1.0,2.0,1.0,7.0,0.0,2019-11-26 23:16:14,2019-12-10 19:42:53,,8600774.0,0.0,
+385,346048350.0,[HUDI-371] : Support CombineInputFormat for RT tables,1053.0,1226.0,573.0,17.0,3.0,3.0,0.0,2019-11-27 04:46:07,2020-04-10 22:26:39,,2722167.0,0.0,
+386,346140499.0,[HUDI-372] Support the shortName for Hudi DataSource,1054.0,34.0,1.0,3.0,6.0,5.0,4.0,2019-11-27 09:35:14,2019-11-30 16:02:34,lamberken,20113411.0,1.0,2019-11-30 16:02:34
+387,346193103.0,[HUDI-366] Refactor some module codes based on new ImportOrder code style rule,1055.0,765.0,598.0,94.0,2.0,1.0,0.0,2019-11-27 11:32:15,2019-11-27 13:32:44,lamberken,20113411.0,1.0,2019-11-27 13:32:44
+388,346275590.0,[HUDI-373] Refactor hudi-client based on new ImportOrder code style rule,1056.0,887.0,689.0,102.0,1.0,1.0,0.0,2019-11-27 14:42:13,2019-11-28 01:25:57,lamberken,20113411.0,1.0,2019-11-28 01:25:57
+389,346569518.0,    Hudi Test Suite,1057.0,9448.0,109.0,112.0,1.0,16.0,4.0,2019-11-28 08:05:10,2019-12-12 12:54:59,vinoyang,2283778.0,0.0,
+390,346571366.0,[Docs] Update Hudi Readme,1058.0,19.0,9.0,1.0,8.0,3.0,9.0,2019-11-28 08:10:53,2019-12-02 17:25:44,lamberken,20113411.0,1.0,2019-12-02 17:25:44
+391,346596928.0,[HUDI-374] Unable to generateUpdates in QuickstartUtils,1059.0,1.0,1.0,1.0,1.0,0.0,0.0,2019-11-28 09:19:19,2019-11-30 19:11:01,hongdd,17537134.0,1.0,2019-11-30 19:11:01
+392,347277219.0,[HUDI-294] Delete Paths written in Cleaner plan needs to be relative to partition-path,1062.0,425.0,35.0,11.0,4.0,3.0,3.0,2019-12-01 01:41:06,2019-12-03 18:11:03,leesf,10128888.0,1.0,2019-12-03 18:11:03
+393,347277415.0,[HUDI-370] Refactor hudi-common based on new ImportOrder code style rule,1063.0,1005.0,783.0,134.0,1.0,0.0,0.0,2019-12-01 01:45:08,2019-12-01 22:59:10,lamberken,20113411.0,1.0,2019-12-01 22:59:10
+394,347301528.0,[HUDI-209] Implement JMX metrics reporter,1064.0,614.0,20.0,9.0,2.0,0.0,0.0,2019-12-01 07:37:15,2019-12-15 05:37:31,ForwardXu,10494131.0,0.0,
+395,347339938.0,[DOCS] Add EMR to powered by page,1065.0,7.0,3.0,1.0,1.0,0.0,0.0,2019-12-01 15:20:58,2019-12-01 15:26:31,vinoth chandar,1179324.0,1.0,2019-12-01 15:26:31
+396,347389764.0,[checkstyle] Add ConstantName java checkstyle rule,1066.0,192.0,186.0,38.0,4.0,1.0,0.0,2019-12-02 00:20:47,2019-12-04 10:59:16,lamberken,20113411.0,1.0,2019-12-04 10:59:16
+397,347855254.0,[WIP] Parquet/HFile Log writer and reader,1068.0,1383.0,0.0,10.0,5.0,6.0,3.0,2019-12-02 18:22:15,2020-01-29 14:45:03,Sivabalan Narayanan,513218.0,0.0,
+398,347876039.0,[doc][chinese] Update and fix errors in chinese documentation,1069.0,30.0,30.0,11.0,5.0,1.0,10.0,2019-12-02 18:39:42,2019-12-05 07:23:19,Suxing Lee,9591097.0,1.0,2019-12-05 07:23:19
+399,347968299.0,[DOCS] Remove {#building-hudi} in reademe doc,1071.0,1.0,1.0,1.0,1.0,0.0,0.0,2019-12-02 20:42:16,2019-12-03 01:56:10,lamberken,20113411.0,1.0,2019-12-03 01:56:10
+400,347969509.0,[DOCS] Update build source link,1072.0,2.0,2.0,2.0,1.0,0.0,0.0,2019-12-02 20:45:17,2019-12-03 01:57:30,lamberken,20113411.0,1.0,2019-12-03 01:57:30
+401,348036899.0,[HUDI-377] Adding Delete() support to DeltaStreamer,1073.0,150.0,71.0,11.0,6.0,15.0,29.0,2019-12-02 23:44:35,2020-01-04 19:07:32,Sivabalan Narayanan,513218.0,1.0,2020-01-04 19:07:32
+402,348089260.0,[MINOR] Update some url from http to https in the README file,1074.0,2.0,2.0,1.0,1.0,0.0,0.0,2019-12-03 03:02:14,2019-12-03 09:35:28,leesf,10128888.0,1.0,2019-12-03 09:35:28
+403,348235072.0,[HUDI-114]: added option to overwrite payload implementation in hoodie.properties file,1075.0,128.0,38.0,13.0,1.0,10.0,6.0,2019-12-03 10:05:00,2020-01-10 06:34:41,Pratyaksh Sharma,30863489.0,1.0,2020-01-10 06:34:41
+404,348313681.0,[HUDI-365] Refactor hudi-cli based on new ImportOrder code style rule,1076.0,149.0,109.0,21.0,1.0,2.0,0.0,2019-12-03 12:55:06,2019-12-04 07:10:40,Gurudatt Kulkarni,5235591.0,1.0,2019-12-04 07:10:40
+405,348582101.0,[HUDI-335] : Improvements to DiskbasedMap,1077.0,451.0,22.0,6.0,6.0,13.0,4.0,2019-12-03 22:18:46,2020-01-17 18:48:05,Balajee Nagasubramaniam,47542891.0,0.0,
+406,348841925.0,[HUDI-378] Refactor the rest codes based on new ImportOrder code style rule,1078.0,57.0,47.0,10.0,1.0,1.0,3.0,2019-12-04 11:38:14,2019-12-05 09:25:04,lamberken,20113411.0,1.0,2019-12-05 09:25:04
+407,348865542.0,[HUDI-379] Refactor the codes based on new JavadocStyle code style rule,1079.0,434.0,433.0,137.0,1.0,1.0,4.0,2019-12-04 12:36:22,2019-12-06 04:59:29,lamberken,20113411.0,1.0,2019-12-06 04:59:29
+408,348894416.0,"[HUDI-118]: Options provided for passing properties to Cleaner, compactor and importer commands",1080.0,138.0,25.0,6.0,1.0,5.0,8.0,2019-12-04 13:39:54,2020-01-04 00:00:58,Pratyaksh Sharma,30863489.0,1.0,2020-01-04 00:00:58
+409,348916769.0,[HUDI-381] Refactor hudi-client based on new comment and code style r…,1081.0,80.0,45.0,56.0,1.0,1.0,0.0,2019-12-04 14:26:15,2019-12-06 06:34:06,ForwardXu,10494131.0,0.0,
+410,348930584.0,[HUDI-380]: updated ide setup on contributing.html page,1082.0,7.0,4.0,1.0,2.0,1.0,2.0,2019-12-04 14:53:26,2019-12-10 17:33:57,Pratyaksh Sharma,30863489.0,1.0,2019-12-10 17:33:57
+411,350291789.0,[HUDI-387] Fix NPE when create savepoint via hudi-cli,1085.0,15.0,6.0,2.0,1.0,1.0,0.0,2019-12-07 08:45:11,2019-12-10 16:00:54,lamberken,20113411.0,1.0,2019-12-10 16:00:54
+412,350292444.0,[MINOR] add *.log to .gitignore file,1086.0,1.0,0.0,1.0,1.0,0.0,0.0,2019-12-07 08:55:55,2019-12-07 17:51:29,lamberken,20113411.0,1.0,2019-12-07 17:51:29
+413,350331421.0,[DOCS] Add reInvent talk to powered_by page,1088.0,4.0,1.0,1.0,1.0,0.0,0.0,2019-12-07 17:49:28,2019-12-07 20:03:05,vinoth chandar,1179324.0,1.0,2019-12-07 20:03:04
+414,350422551.0,[MINOR] Beautify the cli banner,1089.0,15.0,11.0,1.0,5.0,1.0,0.0,2019-12-08 15:14:40,2019-12-09 21:24:43,lamberken,20113411.0,1.0,2019-12-09 21:24:42
+415,350758366.0,[HUDI-390] Add backtick character in hive queries to support hive identiter as tablename,1090.0,14.0,7.0,2.0,1.0,1.0,2.0,2019-12-09 14:54:24,2019-12-10 15:42:33,Nisheet Kumar,23367755.0,1.0,2019-12-10 15:42:33
+416,350781907.0,[HUDI-389] Fixing Index look up to return right partitions for a given key along with fileId with Global Bloom,1091.0,278.0,150.0,14.0,5.0,2.0,34.0,2019-12-09 15:40:10,2019-12-25 04:56:31,Sivabalan Narayanan,513218.0,1.0,2019-12-25 04:56:31
+417,351136326.0,[checkstyle] Unify LOG form,1092.0,514.0,493.0,100.0,1.0,0.0,0.0,2019-12-10 00:10:57,2019-12-10 11:23:39,lamberken,20113411.0,1.0,2019-12-10 11:23:39
+418,351154245.0,[MINOR] replace scala map add operator,1093.0,2.0,2.0,2.0,1.0,4.0,2.0,2019-12-10 01:28:08,2019-12-12 03:29:18,lamberken,20113411.0,1.0,2019-12-12 03:29:18
+419,351574161.0,[WIP] [HUDI-375] Refactor the configure framework of hudi project,1094.0,183.0,0.0,2.0,1.0,3.0,2.0,2019-12-10 20:01:41,2020-05-14 17:06:06,lamberken,20113411.0,0.0,
+420,351723260.0,[HUDI-210] Implement prometheus metrics reporter,1095.0,309.0,4.0,13.0,1.0,14.0,2.0,2019-12-11 04:44:32,2020-07-31 23:55:02,ForwardXu,10494131.0,0.0,
+421,351755046.0,[HUDI-398]Add set env for spark launcher,1096.0,72.0,2.0,2.0,5.0,4.0,5.0,2019-12-11 06:52:37,2019-12-14 06:13:01,hongdd,17537134.0,1.0,2019-12-14 06:13:00
+422,351788944.0,[MINOR] Remove redundant plus operator,1097.0,106.0,107.0,46.0,1.0,0.0,0.0,2019-12-11 08:36:28,2019-12-11 21:42:05,lamberken,20113411.0,1.0,2019-12-11 21:42:05
+423,352250449.0,[HUDI-401]Remove unnecessary use of spark in savepoint timeline,1098.0,100.0,16.0,8.0,2.0,3.0,0.0,2019-12-12 06:16:46,2019-12-16 05:35:31,hongdd,17537134.0,0.0,
+424,352400664.0,[HUDI-386] Refactor hudi scala checkstyle rules,1099.0,136.0,116.0,4.0,2.0,0.0,0.0,2019-12-12 12:56:04,2019-12-21 23:30:07,lamberken,20113411.0,1.0,2019-12-21 23:30:07
+425,352403703.0,[HUDI-289] Implement a test suite to support long running test for Hudi writing and querying end-end,1100.0,8633.0,64.0,102.0,1.0,45.0,64.0,2019-12-12 13:03:40,2020-07-31 04:21:17,vinoyang,2283778.0,1.0,2020-07-31 04:21:16
+426,352431408.0,[HUDI-391] Rename module name from hudi-bench to hudi-test-suite,1102.0,245.0,244.0,80.0,1.0,3.0,0.0,2019-12-12 14:05:30,2019-12-16 06:47:28,vinoyang,2283778.0,1.0,2019-12-16 06:47:28
+427,352552816.0,[MINOR] Unify Lists import,1103.0,3.0,2.0,1.0,3.0,0.0,0.0,2019-12-12 18:31:36,2019-12-13 05:42:19,lamberken,20113411.0,1.0,2019-12-13 05:42:19
+428,352721279.0,[HUDI-404] fix the error of compiling project.,1104.0,7.0,0.0,1.0,1.0,6.0,0.0,2019-12-13 04:55:37,2019-12-28 13:38:53,xurenhe,8967656.0,0.0,
+429,352775174.0,[HUDI-405] Remove HIVE_ASSUME_DATE_PARTITION_OPT_KEY config from DataSource,1105.0,0.0,8.0,4.0,1.0,16.0,7.0,2019-12-13 08:32:36,2020-01-06 22:25:39,lamberken,20113411.0,1.0,2020-01-06 22:25:39
+430,353242986.0,[HUDI-209] Implement JMX metrics reporter,1106.0,292.0,42.0,12.0,1.0,10.0,20.0,2019-12-15 05:45:43,2020-03-19 12:10:36,ForwardXu,10494131.0,1.0,2020-03-19 12:10:36
+431,353879185.0,[MINOR] add committers info,1107.0,38.0,2.0,2.0,1.0,0.0,0.0,2019-12-17 02:17:49,2019-12-17 05:34:33,leesf,10128888.0,1.0,2019-12-17 05:34:33
+432,353939797.0,[MINOR] Add slack invite icon on README,1108.0,1.0,0.0,1.0,2.0,0.0,0.0,2019-12-17 06:31:23,2019-12-17 07:15:04,lamberken,20113411.0,1.0,2019-12-17 07:15:04
+433,353960912.0,[HUDI-238] - Migrating to Scala 2.12,1109.0,169.0,170.0,15.0,1.0,14.0,32.0,2019-12-17 07:38:55,2020-02-04 07:33:46,Tadas Sugintas,121398.0,0.0,
+434,353966410.0,[HUDI-416] improve hint information for cli,1110.0,223.0,316.0,14.0,8.0,5.0,19.0,2019-12-17 07:55:54,2019-12-25 12:19:13,hongdd,17537134.0,1.0,2019-12-25 12:19:13
+435,354008991.0,[HUDI-331]Fix java docs for all public apis in HoodieWriteClient,1111.0,63.0,17.0,1.0,9.0,6.0,19.0,2019-12-17 09:45:44,2020-01-09 08:00:54,hongdd,17537134.0,1.0,2020-01-09 08:00:54
+436,354135762.0,[WIP] [HUDI-419] Basic Implementation of bootstrapping ,1112.0,2775.0,90.0,53.0,2.0,0.0,0.0,2019-12-17 14:30:11,2020-05-13 04:08:56,Balaji Varadarajan,3021376.0,0.0,
+437,354354320.0,[HUDI-415] Get commit time when Spark start,1113.0,4.0,3.0,1.0,1.0,8.0,4.0,2019-12-17 23:20:19,2019-12-20 06:19:07,Gary Li,23007841.0,1.0,2019-12-20 06:19:07
+438,354924924.0,[HUDI-438] Merge duplicated code fragment,1114.0,63.0,102.0,1.0,9.0,5.0,5.0,2019-12-19 03:26:25,2020-01-06 14:51:23,hongdd,17537134.0,1.0,2020-01-06 14:51:23
+439,355003674.0,[HUDI-392] Introduce DIstributedTestDataSource to generate test data,1115.0,9666.0,92.0,112.0,5.0,16.0,11.0,2019-12-19 08:03:45,2020-08-05 03:23:24,vinoyang,2283778.0,0.0,
+440,355555690.0,[HUDI-441] Rename WorkflowDagGenerator and some class names in test package,1117.0,94.0,62.0,8.0,1.0,0.0,0.0,2019-12-20 06:18:22,2019-12-20 18:35:22,vinoyang,2283778.0,1.0,2019-12-20 18:35:22
+441,355580197.0,[HUDI-442] Fix TestComplexKeyGenerator#testSingleValueKeyGenerator and testMultipleValueKeyGenerator NPE,1118.0,0.0,5.0,1.0,1.0,0.0,0.0,2019-12-20 07:20:53,2019-12-20 07:49:03,vinoyang,2283778.0,1.0,2019-12-20 07:49:02
+442,355645818.0,[HUDI-469] Fix: HoodieCommitMetadata only show first commit insert rows.,1119.0,2.0,1.0,1.0,1.0,3.0,9.0,2019-12-20 09:43:13,2020-01-11 00:17:12,Thinking Chen,12069428.0,1.0,2020-01-11 00:17:12
+443,355939057.0,[HUDI-440] Rework the hudi web site,1120.0,104001.0,59.0,693.0,40.0,11.0,36.0,2019-12-20 23:22:26,2020-01-07 04:28:13,lamberken,20113411.0,1.0,2020-01-07 04:28:13
+444,356088433.0,[HUDI-444] Refactor the codes based on scala codestyle NullChecker rule,1121.0,5.0,5.0,3.0,1.0,0.0,0.0,2019-12-22 13:56:48,2019-12-23 23:05:55,lamberken,20113411.0,1.0,2019-12-23 23:05:55
+445,356167256.0,[WIP] [HUDI-29]: Support hudi COW table to use *ANALYZE TABLE table_name COMMPUTE STATISTICS* to get table current rows,1122.0,124.0,1.0,2.0,1.0,3.0,3.0,2019-12-23 04:00:47,2020-02-26 18:40:04,Thinking Chen,12069428.0,0.0,
+446,356219826.0,[HUDI-311] : Support for AWS Database Migration Service in DeltaStreamer,1123.0,239.0,47.0,11.0,1.0,0.0,0.0,2019-12-23 07:41:54,2019-12-24 04:56:56,vinoth chandar,1179324.0,1.0,2019-12-24 04:56:56
+447,356458867.0,[MINOR] fix typo,1124.0,1.0,1.0,1.0,1.0,0.0,0.0,2019-12-23 21:39:19,2019-12-23 22:56:35,,59168059.0,0.0,
+448,356490478.0,[HUDI-464] : Use Hive Exec Core,1125.0,11.0,0.0,4.0,1.0,0.0,3.0,2019-12-24 01:17:59,2020-01-07 00:32:56,Abhishek Modi,6784567.0,1.0,2020-01-07 00:32:56
+449,356525017.0,Fix Error: java.lang.IllegalArgumentException: Can not create a Path from an empty string,1126.0,1.0,1.0,1.0,1.0,0.0,5.0,2019-12-24 05:24:35,2019-12-24 06:29:29,Thinking Chen,12069428.0,1.0,2019-12-24 06:29:29
+450,356545821.0,[MINOR] Set info servity for ImportOrder temporarily,1127.0,1.0,0.0,1.0,1.0,0.0,0.0,2019-12-24 07:10:51,2019-12-24 11:07:05,lamberken,20113411.0,1.0,2019-12-24 11:07:05
+451,356588146.0,[HUDI-453] Fix throw failed to archive commits error when writing data to MOR/COW table,1128.0,2.0,2.0,1.0,5.0,26.0,11.0,2019-12-24 10:03:04,2019-12-30 03:03:57,lamberken,20113411.0,1.0,2019-12-30 03:03:57
+452,356638484.0,[MINOR] fix typo,1129.0,1.0,1.0,1.0,1.0,1.0,0.0,2019-12-24 13:40:50,2019-12-24 22:48:16,wangxianghu,49835526.0,1.0,2019-12-24 22:48:15
+453,356648449.0,[HUDI-445]Refactor the codes based on scala codestyle BlockImportChecker rule,1130.0,90.0,39.0,13.0,1.0,9.0,2.0,2019-12-24 14:28:35,2019-12-25 12:27:29,小李,21102442.0,0.0,
+454,356727919.0,[MINOR] fix typo,1131.0,1.0,1.0,1.0,1.0,0.0,2.0,2019-12-25 03:46:12,2019-12-25 04:40:01,,31799535.0,1.0,2019-12-25 04:40:01
+455,356728821.0,[minor] Fix few typos in the java docs,1132.0,2.0,2.0,2.0,1.0,0.0,0.0,2019-12-25 03:56:47,2019-12-25 04:44:12,dengziming,26023240.0,1.0,2019-12-25 04:44:12
+456,356765708.0,[MINOR] fix typo,1133.0,1.0,1.0,1.0,1.0,0.0,0.0,2019-12-25 08:42:27,2019-12-25 08:54:39,wangxianghu,49835526.0,0.0,
+457,356769509.0,[MINOR] fix typo,1134.0,2.0,2.0,2.0,1.0,0.0,0.0,2019-12-25 09:07:19,2019-12-25 12:26:17,wangxianghu,49835526.0,1.0,2019-12-25 12:26:17
+458,356796219.0,[HUDI-233]Redo log statements using SLF4J,1135.0,369.0,332.0,119.0,1.0,4.0,0.0,2019-12-25 12:16:00,2019-12-26 01:52:22,,25893114.0,0.0,
+459,356799521.0,[MINOR]Optimize hudi-cli module,1136.0,142.0,176.0,17.0,8.0,3.0,2.0,2019-12-25 12:48:42,2020-01-04 17:05:51,SteNicholas,10048174.0,1.0,2020-01-04 17:05:51
+460,356815121.0,[MINOR]Optimize hudi-timeline-service module,1137.0,8.0,10.0,5.0,1.0,1.0,0.0,2019-12-25 15:15:52,2019-12-25 22:40:26,SteNicholas,10048174.0,1.0,2019-12-25 22:40:26
+461,356847829.0,[HUDI-470] Fix NPE when print result via hudi-cli,1138.0,2.0,2.0,2.0,1.0,3.0,0.0,2019-12-26 01:03:32,2019-12-26 07:40:38,lamberken,20113411.0,1.0,2019-12-26 07:40:38
+462,356849847.0,[MINOR]Optimize hudi-client module,1139.0,152.0,199.0,28.0,4.0,5.0,2.0,2019-12-26 01:33:31,2020-01-04 18:57:09,SteNicholas,10048174.0,1.0,2020-01-04 18:57:09
+463,356982980.0,[MINOR] Improve documentation around existing contribution guidelines,1141.0,193.0,84.0,4.0,2.0,3.0,18.0,2019-12-26 14:25:43,2019-12-27 15:33:54,vinoth chandar,1179324.0,1.0,2019-12-27 15:33:54
+464,356984542.0,[MINOR] typo fix,1142.0,1.0,1.0,1.0,1.0,0.0,0.0,2019-12-26 14:33:42,2019-12-26 17:03:43,yungthuis,59256868.0,1.0,2019-12-26 17:03:43
+465,357016511.0,[MINOR] Fix out of limits for results,1143.0,6.0,6.0,1.0,4.0,1.0,2.0,2019-12-26 17:18:19,2019-12-31 07:08:55,lamberken,20113411.0,1.0,2019-12-31 07:08:55
+466,357102136.0,[HUDI-455] Redo hudi-client log statements using SLF4J,1145.0,242.0,245.0,26.0,4.0,0.0,5.0,2019-12-27 02:00:21,2019-12-31 05:49:34,,38057507.0,1.0,2019-12-31 05:49:34
+467,357270901.0,[DOCS] Updating site based on latest content,1146.0,990.0,442.0,53.0,1.0,0.0,0.0,2019-12-27 16:10:32,2019-12-27 16:13:24,vinoth chandar,1179324.0,1.0,2019-12-27 16:13:24
+468,357378015.0,[MINOR] update HoodieTableType.java's Javadoc,1147.0,3.0,3.0,1.0,1.0,0.0,0.0,2019-12-28 02:57:27,2019-12-28 03:31:19,wangxianghu,49835526.0,0.0,
+469,357382599.0,[MINOR] Update the java doc of HoodieTableType,1148.0,3.0,3.0,1.0,1.0,2.0,0.0,2019-12-28 03:37:18,2019-12-29 01:57:20,wangxianghu,49835526.0,1.0,2019-12-29 01:57:20
+470,357396002.0,[HUDI-472] Introduce configurations and new modes of sorting for bulk_insert,1149.0,626.0,136.0,23.0,12.0,27.0,66.0,2019-12-28 05:37:52,2020-07-31 13:52:43,Y Ethan Guo,2497195.0,1.0,2020-07-31 13:52:43
+471,357489425.0,[HUDI-288]: Add support for ingesting multiple kafka streams in a single DeltaStreamer deployment,1150.0,1184.0,78.0,26.0,25.0,17.0,86.0,2019-12-28 13:55:58,2020-04-07 23:10:27,Pratyaksh Sharma,30863489.0,1.0,2020-04-07 23:10:27
+472,357607129.0,[HUDI-476] Add hudi-examples module,1151.0,1113.0,144.0,18.0,1.0,26.0,31.0,2019-12-29 03:58:21,2020-05-27 17:44:40,dengziming,26023240.0,1.0,2020-05-27 17:44:40
+473,357631252.0,[HUDI-454] Redo hudi-cli log statements using SLF4J,1152.0,22.0,20.0,8.0,1.0,5.0,5.0,2019-12-29 09:23:47,2020-01-04 02:01:15,ForwardXu,10494131.0,0.0,
+474,357632578.0,[HUDI-402] Code clean up in test classes and DataSourceUtils.java class,1153.0,320.0,619.0,62.0,1.0,0.0,0.0,2019-12-29 09:36:51,2019-12-31 19:10:50,Pratyaksh Sharma,30863489.0,1.0,2019-12-31 19:10:50
+475,357687544.0,[HUDI-406] Added default partition path in TimestampBasedKeyGenerator,1154.0,24.0,27.0,7.0,1.0,1.0,11.0,2019-12-29 13:55:05,2020-01-06 17:38:07,Pratyaksh Sharma,30863489.0,1.0,2020-01-06 17:38:07
+476,357893960.0,[MINOR] Fix error image display of committers on the official web site,1155.0,54.0,54.0,4.0,1.0,0.0,0.0,2019-12-29 23:57:25,2019-12-30 02:23:32,lamberken,20113411.0,1.0,2019-12-30 02:23:32
+477,357924546.0,[HUDI-482] Fix missing @Override annotation on methods,1156.0,42.0,0.0,23.0,3.0,0.0,2.0,2019-12-30 01:31:02,2019-12-31 03:44:57,lamberken,20113411.0,1.0,2019-12-31 03:44:57
+478,358040684.0,[HUDI-332]Add operation type (insert/upsert/bulkinsert/delete) to HoodieCommitMetadata,1157.0,179.0,12.0,10.0,5.0,23.0,19.0,2019-12-30 08:26:23,2020-03-03 18:10:30,hongdd,17537134.0,1.0,2020-03-03 18:10:30
+479,358101865.0,[MINOR]: alter some wrong params which bring fatal exception,1158.0,1.0,1.0,1.0,1.0,0.0,1.0,2019-12-30 12:44:11,2019-12-31 00:50:13,dengziming,26023240.0,1.0,2019-12-31 00:50:13
+480,358197487.0,[HUDI-479] Eliminate or Minimize use of Guava if possible,1159.0,429.0,217.0,46.0,1.0,12.0,32.0,2019-12-30 19:35:52,2020-03-28 07:11:32,Suneel Marthi,3137442.0,1.0,2020-03-28 07:11:32
+481,358292633.0,[HUDI-343]: Create a DOAP file for Hudi,1160.0,59.0,0.0,1.0,1.0,2.0,3.0,2019-12-31 07:07:05,2019-12-31 09:21:32,Suneel Marthi,3137442.0,1.0,2019-12-31 09:21:32
+482,358297641.0,[HUDI-457]Redo hudi-common log statements using SLF4J,1161.0,232.0,246.0,39.0,7.0,6.0,32.0,2019-12-31 07:36:20,2020-01-10 05:06:43,小李,21102442.0,1.0,2020-01-10 05:06:43
+483,358325088.0,"[HUDI-443]: Added slides from Hadoop Summit 2019, Bangalore. Also updated Adoptions",1162.0,7.0,3.0,1.0,1.0,1.0,0.0,2019-12-31 10:15:52,2019-12-31 17:02:52,Pratyaksh Sharma,30863489.0,1.0,2019-12-31 17:02:52
+484,358338968.0,[HUDI-460] Redo hudi-integ-test log statements using SLF4J,1163.0,246.0,237.0,3.0,1.0,7.0,0.0,2019-12-31 11:28:18,2020-01-04 02:09:36,wangxianghu,49835526.0,0.0,
+485,358390510.0,[MINOR] String format should use %n rather than \n,1164.0,5.0,5.0,1.0,1.0,2.0,0.0,2019-12-31 16:55:02,2020-01-02 05:56:51,lamberken,20113411.0,0.0,
+486,358414344.0,[HUDI-76] Add CSV Source support for Hudi Delta Streamer,1165.0,597.0,33.0,10.0,1.0,36.0,18.0,2019-12-31 20:00:24,2020-03-19 14:00:53,Y Ethan Guo,2497195.0,1.0,2020-03-19 14:00:53
+487,358434973.0,[HUDI-417] Refactor HoodieWriteClient so that commit logic can be shareable by both bootstrap and normal write operations,1166.0,451.0,336.0,2.0,1.0,0.0,0.0,2019-12-31 23:42:40,2020-01-07 04:11:49,Balaji Varadarajan,3021376.0,1.0,2020-01-07 04:11:49
+488,358436637.0,[HUDI-484] Fix NPE when reading IncrementalPull.sqltemplate in HiveIncrementalPuller,1167.0,28.0,1.0,2.0,5.0,6.0,7.0,2020-01-01 00:08:48,2020-01-05 07:53:47,lamberken,20113411.0,1.0,2020-01-05 07:53:47
+489,358477712.0,[HUDI-463] Redo hudi-utilities log statements using SLF4J,1168.0,166.0,153.0,26.0,1.0,6.0,3.0,2020-01-01 11:03:53,2020-01-04 01:47:20,ForwardXu,10494131.0,0.0,
+490,358505660.0,[MINOR] Fix error usage of String.format,1169.0,1.0,1.0,1.0,1.0,0.0,0.0,2020-01-01 17:44:40,2020-01-02 01:11:16,lamberken,20113411.0,1.0,2020-01-02 01:11:16
+491,358859817.0,HoodieCommitArchiveLog   annotation,1170.0,16.0,0.0,1.0,1.0,0.0,0.0,2020-01-03 03:15:36,2020-01-03 03:25:17,Trevor,33487819.0,0.0,
+492,358865526.0,[HUDI-492] Fix show env all in hudi-cli,1172.0,1.0,1.0,1.0,1.0,0.0,0.0,2020-01-03 03:59:35,2020-01-03 23:50:21,hongdd,17537134.0,1.0,2020-01-03 23:50:21
+493,358893043.0, add comments to HoodieLogFile,1173.0,45.0,28.0,28.0,11.0,0.0,0.0,2020-01-03 07:05:00,2020-01-03 07:07:20,Trevor,33487819.0,0.0,
+494,358953044.0,[HUDI-96]: Implemented command line options instead of positional arguments for CLI commands,1174.0,577.0,344.0,22.0,5.0,11.0,2.0,2020-01-03 11:09:36,2021-09-07 21:07:11,Pratyaksh Sharma,30863489.0,0.0,
+495,359118179.0,[HUDI-495] Update deprecated HBase API,1175.0,16.0,28.0,1.0,1.0,1.0,5.0,2020-01-03 20:47:30,2020-01-08 18:26:48,wenningd,31263084.0,1.0,2020-01-08 18:26:48
+496,359146597.0,[HUDI-430] Adding InlineFileSystem to support embedding any file format as an InlineFile,1176.0,1460.0,7.0,12.0,9.0,10.0,32.0,2020-01-03 22:46:33,2020-03-28 16:13:35,Sivabalan Narayanan,513218.0,1.0,2020-03-28 16:13:35
+497,359173114.0,[HUDI-463] Redo hudi-utilities log statements using SLF4J,1177.0,165.0,153.0,26.0,2.0,1.0,6.0,2020-01-04 02:00:22,2020-01-06 14:47:02,ForwardXu,10494131.0,1.0,2020-01-06 14:47:02
+498,359173231.0,[HUDI-454] Redo hudi-cli log statements using SLF4J,1178.0,17.0,21.0,7.0,4.0,0.0,4.0,2020-01-04 02:02:05,2020-01-07 01:21:40,ForwardXu,10494131.0,1.0,2020-01-07 01:21:40
+499,359174961.0,[HUDI-460] Redo hudi-integ-test log statements using SLF4J,1179.0,245.0,236.0,3.0,1.0,0.0,0.0,2020-01-04 02:28:23,2020-01-04 11:30:36,wangxianghu,49835526.0,0.0,
+500,359202796.0,[HUDI-461] Redo hudi-spark log statements using SLF4J,1180.0,39.0,35.0,7.0,2.0,0.0,0.0,2020-01-04 10:31:44,2020-01-06 14:11:01,ForwardXu,10494131.0,1.0,2020-01-06 14:11:01
+501,359208000.0,"Revert ""[HUDI-455] Redo hudi-client log statements using SLF4J""",1181.0,245.0,242.0,26.0,2.0,0.0,0.0,2020-01-04 11:57:12,2020-01-06 13:13:30,,38057507.0,1.0,2020-01-06 13:13:29
+502,359211165.0,[HUDI-460] Redo hudi-integ-test log statements using SLF4J,1182.0,20.0,11.0,3.0,1.0,0.0,0.0,2020-01-04 12:45:25,2020-01-04 12:47:02,wangxianghu,49835526.0,0.0,
+503,359211485.0,[HUDI-460] Redo hudi-integ-test log statements using SLF4J,1183.0,15.0,10.0,2.0,3.0,1.0,3.0,2020-01-04 12:50:21,2020-01-07 06:42:09,wangxianghu,49835526.0,1.0,2020-01-07 06:42:09
+504,359273822.0,[HUDI-462] Redo hudi-timeline-service log statements using SLF4J,1184.0,24.0,18.0,4.0,1.0,0.0,0.0,2020-01-05 05:45:02,2020-01-06 13:51:48,ForwardXu,10494131.0,1.0,2020-01-06 13:51:48
+505,359274494.0,[HUDI-500] Use enum method to replace switch case,1185.0,66.0,37.0,2.0,1.0,9.0,3.0,2020-01-05 06:00:12,2020-01-08 01:33:11,dengziming,26023240.0,0.0,
+506,359287355.0,[HUDI-501] Execute docker/setup_demo.sh in any directory,1186.0,971.0,1098.0,120.0,12.0,1.0,2.0,2020-01-05 10:02:59,2020-01-06 07:23:51,,3810322.0,0.0,
+507,359346802.0,[HUDI-499] Allow update partition path with GLOBAL_BLOOM,1187.0,131.0,3.0,4.0,1.0,10.0,20.0,2020-01-05 23:20:40,2020-02-05 17:33:34,Raymond Xu,2701446.0,1.0,2020-02-05 17:33:34
+508,359376152.0,[HUDI-502] provide a custom time zone definition for TimestampBasedKeyGenerator,1188.0,122.0,2.0,4.0,10.0,1.0,12.0,2020-01-06 03:32:42,2020-01-12 23:45:24,openopen2,23738217.0,1.0,2020-01-12 23:45:24
+509,359379307.0,[HUDI-376]: AWS Glue dependency issue for EMR 5.28.0,1189.0,10.0,1.0,3.0,5.0,3.0,0.0,2020-01-06 03:49:59,2020-01-08 00:01:15,Xing Pan,10269009.0,1.0,2020-01-08 00:01:15
+510,359416518.0,[HUDI-499] Add configuration docs,1190.0,10.0,2.0,2.0,1.0,2.0,0.0,2020-01-06 06:54:41,2020-03-07 02:43:24,Raymond Xu,2701446.0,1.0,2020-03-07 02:43:24
+511,359422694.0,[HUDI-503] Add hudi test suite documentation into the README file of the test suite module,1191.0,300.0,0.0,1.0,1.0,13.0,6.0,2020-01-06 07:18:39,2020-02-04 14:35:00,vinoyang,2283778.0,1.0,2020-02-04 14:35:00
+512,359433575.0,[HUDI-501] Execute docker/setup_demo.sh in any directory,1192.0,8.0,6.0,2.0,1.0,1.0,0.0,2020-01-06 07:52:51,2020-01-06 18:26:08,,3810322.0,1.0,2020-01-06 18:26:08
+513,359654744.0,"[MINOR] Add ""Hudi"" to list of protected trademarks",1193.0,60.0,53.0,51.0,1.0,2.0,0.0,2020-01-06 18:20:31,2020-01-06 18:21:27,vinoth chandar,1179324.0,1.0,2020-01-06 18:21:26
+514,359734277.0,[HUDI-326] Add support to delete records with only record_key,1194.0,157.0,12.0,12.0,1.0,5.0,16.0,2020-01-06 22:07:28,2020-01-16 01:01:30,,8600774.0,1.0,2020-01-16 01:01:30
+515,359859018.0,[HUDI-319] Add a new maven profile to generate unified Javadoc for all Java and Scala classes,1195.0,121.0,5.0,3.0,3.0,4.0,4.0,2020-01-07 07:19:37,2020-01-08 18:38:10,Y Ethan Guo,2497195.0,1.0,2020-01-08 18:38:10
+516,360019980.0,"[HUDI-508] Standardizing on ""Table"" instead of ""Dataset"" across code",1197.0,298.0,298.0,73.0,1.0,2.0,2.0,2020-01-07 14:40:00,2020-01-07 20:52:32,vinoth chandar,1179324.0,1.0,2020-01-07 20:52:32
+517,360225141.0,[MINOR] Remove old jekyll config file,1198.0,0.0,16.0,1.0,1.0,0.0,0.0,2020-01-08 00:02:08,2020-01-08 00:45:20,lamberken,20113411.0,1.0,2020-01-08 00:45:20
+518,360823471.0,[HUDI-514] A schema provider to get metadata through Jdbc,1199.0,288.0,2.0,7.0,7.0,0.0,0.0,2020-01-09 07:59:15,2020-01-09 07:59:44,openopen2,23738217.0,0.0,
+519,360827265.0,[HUDI-514] A schema provider to get metadata through Jdbc,1200.0,378.0,4.0,9.0,22.0,6.0,17.0,2020-01-09 08:11:49,2020-02-14 02:06:07,openopen2,23738217.0,1.0,2020-02-14 02:06:07
+520,360864662.0,[HUDI-248] CLI doesn't allow rolling back a Delta commit,1201.0,4.0,5.0,1.0,1.0,1.0,1.0,2020-01-09 09:46:37,2020-01-11 00:10:36,leesf,10128888.0,1.0,2020-01-11 00:10:36
+521,360981014.0,[HUDI-459] Redo hudi-hive log statements using SLF4J,1203.0,53.0,48.0,5.0,2.0,0.0,0.0,2020-01-09 14:14:57,2020-01-10 01:38:35,lamberken,20113411.0,1.0,2020-01-10 01:38:35
+522,361201149.0,[CLEAN] replace utf-8 constant with StandardCharsets.UTF_8,1204.0,5.0,4.0,2.0,1.0,0.0,0.0,2020-01-09 23:03:31,2020-01-11 00:23:31,lamberken,20113411.0,1.0,2020-01-11 00:23:30
+523,361208115.0,[HUDI-506] Optimize the new website based on feedback,1205.0,3808.0,160.0,40.0,1.0,4.0,0.0,2020-01-09 23:28:58,2020-01-12 08:52:25,lamberken,20113411.0,1.0,2020-01-12 08:52:25
+524,361320862.0,[HUDI-322] DeltaSteamer should pick checkpoints off only deltacommits…,1206.0,11.0,2.0,1.0,1.0,2.0,1.0,2020-01-10 07:52:12,2020-01-12 23:11:48,,16110876.0,1.0,2020-01-12 23:11:48
+525,361690315.0,[HUDI-458] Redo hudi-hadoop-mr log statements using SLF4J,1207.0,99.0,92.0,11.0,1.0,1.0,4.0,2020-01-11 03:39:30,2020-01-11 08:41:08,wangxianghu,49835526.0,0.0,
+526,361691721.0,[WIP] [HUDI-304] Bring back spotless plugin,1208.0,1505.0,1262.0,142.0,4.0,11.0,5.0,2020-01-11 04:03:15,2021-02-06 20:43:44,leesf,10128888.0,0.0,
+527,361699083.0,[CLEAN] Fix partition typo,1209.0,4.0,4.0,4.0,2.0,4.0,0.0,2020-01-11 06:03:34,2020-01-12 01:35:56,lamberken,20113411.0,1.0,2020-01-12 01:35:55
+528,361713162.0,[HUDI-458] Redo hudi-hadoop-mr log statements using SLF4J,1210.0,89.0,83.0,10.0,3.0,0.0,6.0,2020-01-11 09:31:58,2020-01-13 03:18:09,wangxianghu,49835526.0,1.0,2020-01-13 03:18:09
+529,361809623.0,[HUDI-521] Remove docs-tmp docs,1211.0,0.0,24877.0,178.0,1.0,0.0,0.0,2020-01-12 09:08:40,2020-01-12 09:52:12,lamberken,20113411.0,1.0,2020-01-12 09:52:12
+530,361812698.0,[HUDI-509] Renaming code in sync with cWiki restructuring,1212.0,907.0,822.0,92.0,5.0,4.0,13.0,2020-01-12 09:52:44,2020-01-17 07:58:48,vinoth chandar,1179324.0,1.0,2020-01-17 07:58:48
+531,361815255.0,[MAJOR] Remove docs && move docs-new to docs,1213.0,570.0,47604.0,443.0,1.0,7.0,0.0,2020-01-12 10:23:05,2020-01-13 04:23:31,lamberken,20113411.0,1.0,2020-01-13 04:23:31
+532,361847918.0,[HUDI-522] Use the same version of jcommander uniformly,1214.0,15.0,18.0,18.0,1.0,1.0,0.0,2020-01-12 16:36:52,2020-01-12 18:48:52,lamberken,20113411.0,1.0,2020-01-12 18:48:52
+533,361930512.0,[HUDI-524] Generate site content based on docs,1215.0,11486.0,46993.0,213.0,1.0,2.0,0.0,2020-01-13 04:53:59,2020-01-13 04:58:46,lamberken,20113411.0,1.0,2020-01-13 04:58:46
+534,361996993.0,[HUDI-525] lack of insert info in delta_commit inflight,1216.0,18407.0,6619.0,575.0,178.0,8.0,3.0,2020-01-13 08:39:58,2020-04-12 13:41:56,刘建辉,13215934.0,0.0,
+535,362062323.0,[HUDI-397] Normalize log print statement,1217.0,53.0,46.0,17.0,1.0,0.0,0.0,2020-01-13 11:15:27,2020-01-13 11:30:40,wangxianghu,49835526.0,0.0,
+536,362066446.0,[HUDI-526] add parition meta file in HoodieAppendHandle,1218.0,5.0,0.0,1.0,1.0,0.0,0.0,2020-01-13 11:24:04,2020-01-13 18:44:32,刘建辉,13215934.0,1.0,2020-01-13 18:44:32
+537,362070801.0,[HUDI-397] Normalize log print statement,1219.0,53.0,46.0,17.0,1.0,0.0,0.0,2020-01-13 11:34:03,2020-01-13 13:14:08,wangxianghu,49835526.0,0.0,
+538,362122406.0,[HUDI-397] Normalize log print statement,1220.0,0.0,0.0,0.0,0.0,7.0,0.0,2020-01-13 13:38:37,2020-01-14 01:33:29,wangxianghu,49835526.0,0.0,
+539,362300222.0,[HUDI-527] scalastyle-maven-plugin moved to pluginManagement,1221.0,34.0,23.0,3.0,1.0,0.0,0.0,2020-01-13 20:13:57,2020-01-17 18:46:11,Prashant Wason,58448203.0,1.0,2020-01-17 18:46:11
+540,362396632.0,[MINOR] Reuse random object,1222.0,4.0,2.0,2.0,1.0,0.0,0.0,2020-01-14 01:10:28,2020-01-14 02:26:05,lamberken,20113411.0,1.0,2020-01-14 02:26:05
+541,362396783.0,[HUDI-530] Fix conversion of Spark struct type to Avro schema,1223.0,46.0,11.0,7.0,1.0,3.0,0.0,2020-01-14 01:11:12,2020-01-14 08:27:57,Udit Mehrotra,8647012.0,1.0,2020-01-14 08:27:57
+542,362415247.0,[HUDI-397] Normalize log print statement,1224.0,53.0,51.0,18.0,1.0,5.0,0.0,2020-01-14 02:38:16,2020-04-23 06:29:36,wangxianghu,49835526.0,1.0,2020-04-23 06:29:36
+543,362434527.0,[MINOR] Adding util methods to assist in adding deletion support to Quick Start,1225.0,24.0,1.0,1.0,3.0,9.0,0.0,2020-01-14 04:14:03,2020-01-15 22:21:27,Sivabalan Narayanan,513218.0,1.0,2020-01-15 22:21:27
+544,362481379.0,[HUDI-238] Make Hudi support Scala 2.12,1226.0,261.0,153.0,19.0,2.0,8.0,2.0,2020-01-14 07:13:38,2020-01-17 22:02:22,wenningd,31263084.0,1.0,2020-01-17 22:02:22
+545,362728957.0,[MINOR] Refactor unnecessary boxing inside TypedProperties code,1227.0,8.0,8.0,1.0,1.0,0.0,0.0,2020-01-14 16:33:17,2020-01-15 03:27:53,lamberken,20113411.0,1.0,2020-01-15 03:27:53
+546,363006248.0,[HUDI-535] Ensure Compaction Plan is always written in .aux folder to avoid 0.5.0/0.5.1 reader-writer compatibility issues,1229.0,58.0,28.0,7.0,1.0,5.0,3.0,2020-01-15 08:04:26,2020-01-17 18:56:36,Balaji Varadarajan,3021376.0,1.0,2020-01-17 18:56:36
+547,363260731.0,[MINOR] Fix redundant judgment statement,1231.0,4.0,1.0,1.0,1.0,0.0,0.0,2020-01-15 17:46:53,2020-01-16 00:30:15,lamberken,20113411.0,1.0,2020-01-16 00:30:14
+548,363321056.0,[HUDI-529] Added cobertura coverage reporting support.,1232.0,126.0,2.0,10.0,2.0,7.0,0.0,2020-01-15 20:22:41,2020-03-04 01:36:35,Prashant Wason,58448203.0,0.0,
+549,363396295.0,"[HUDI-335] Improvements to DiskBasedMap used by ExternalSpillableMap,…",1233.0,454.0,22.0,6.0,1.0,0.0,4.0,2020-01-16 00:15:03,2020-01-16 00:45:46,Balajee Nagasubramaniam,47542891.0,1.0,2020-01-16 00:45:46
+550,363409075.0,[MINOR] Make constant fields final in HoodieTestDataGenerator,1234.0,38.0,37.0,9.0,1.0,1.0,0.0,2020-01-16 01:09:19,2020-01-16 04:42:30,Y Ethan Guo,2497195.0,1.0,2020-01-16 04:42:30
+551,363742447.0,[MINOR] Fix missing @Override annotation on BufferedRandomAccessFilemethod,1236.0,10.0,0.0,1.0,1.0,0.0,0.0,2020-01-16 16:43:55,2020-01-16 19:14:40,lamberken,20113411.0,1.0,2020-01-16 19:14:40
+552,363887459.0,"[HUDI-583] Code Cleanup, remove redundant code, and other changes",1237.0,452.0,587.0,69.0,1.0,7.0,25.0,2020-01-16 23:00:04,2020-02-02 10:03:45,Suneel Marthi,3137442.0,1.0,2020-02-02 10:03:45
+553,363999527.0,[HUDI-551] Abstract a test case class for DFS Source to make it extensible,1239.0,286.0,194.0,4.0,5.0,9.0,7.0,2020-01-17 07:06:51,2020-01-19 10:50:12,Y Ethan Guo,2497195.0,1.0,2020-01-19 10:50:12
+554,364029637.0,[HUDI-537] Introduce `repair overwrite-hoodie-props` CLI command,1241.0,38.0,0.0,1.0,1.0,0.0,0.0,2020-01-17 08:39:50,2020-01-17 09:21:45,vinoth chandar,1179324.0,1.0,2020-01-17 09:21:45
+555,364056561.0,[HUDI-544] Archived commits command code cleanup,1242.0,24.0,7.0,3.0,2.0,19.0,19.0,2020-01-17 09:50:34,2020-09-25 16:36:42,hongdd,17537134.0,1.0,2020-09-25 16:36:42
+556,364365538.0,[MINOR] Add toString method to TimelineLayoutVersion to make it more readable,1244.0,5.0,0.0,1.0,1.0,0.0,0.0,2020-01-18 00:09:04,2020-01-18 01:22:56,leesf,10128888.0,1.0,2020-01-18 01:22:56
+557,364375930.0,[MINOR] Replace Collection.size > 0 with Collection.isEmpty(),1245.0,23.0,24.0,18.0,1.0,2.0,0.0,2020-01-18 01:18:51,2020-01-21 06:40:52,lamberken,20113411.0,0.0,
+558,364410006.0,[HUDI-552] Fix the schema mismatch in Row-to-Avro conversion,1246.0,104.0,8.0,4.0,2.0,1.0,2.0,2020-01-18 09:36:09,2020-01-19 00:40:57,Y Ethan Guo,2497195.0,1.0,2020-01-19 00:40:56
+559,364437205.0,[MINOR] Fix PMC in DOAP],1247.0,1.0,1.0,1.0,1.0,1.0,0.0,2020-01-18 15:36:35,2020-01-18 16:03:29,Suneel Marthi,3137442.0,1.0,2020-01-18 16:03:29
+560,364452583.0,[Minor] Adding delete docs to QuickStart,1248.0,35.0,2.0,2.0,1.0,5.0,7.0,2020-01-18 18:40:27,2020-01-23 06:32:36,Sivabalan Narayanan,513218.0,1.0,2020-01-23 06:32:36
+561,364485923.0,[HUDI-555] Support for separate 0.5.0 site docs + instructions for future,1249.0,26723.0,58.0,113.0,2.0,1.0,0.0,2020-01-19 02:07:08,2020-01-19 02:08:18,vinoth chandar,1179324.0,1.0,2020-01-19 02:08:18
+562,364500283.0,[HUDI-557] Additional work for supporting multiple version docs,1250.0,385.0,874.0,90.0,4.0,8.0,2.0,2020-01-19 06:09:40,2020-01-20 05:06:29,lamberken,20113411.0,1.0,2020-01-20 05:06:29
+563,364500284.0,[HUDI-557] Additional job for supporting multiple version docs,1251.0,5.0,2.0,3.0,1.0,0.0,0.0,2020-01-19 06:09:40,2020-01-19 06:10:26,lamberken,20113411.0,0.0,
+564,364523769.0,[HUDI-556] Add license for PR#1233,1252.0,10.0,0.0,1.0,1.0,0.0,0.0,2020-01-19 11:16:06,2020-01-19 17:26:15,leesf,10128888.0,1.0,2020-01-19 17:26:15
+565,364526925.0,[WIP] [HUDI-558] Introduce ability to compress bloom filters while storing in parquet,1253.0,251.0,16.0,15.0,1.0,13.0,17.0,2020-01-19 11:57:06,2020-05-14 21:35:30,Balaji Varadarajan,3021376.0,0.0,
+566,364619917.0,[HUDI-559] : Make sure by default table layout version honors the configuration in hoodie.properties,1255.0,28.0,8.0,7.0,1.0,0.0,7.0,2020-01-20 02:55:35,2020-01-20 08:02:56,Balaji Varadarajan,3021376.0,1.0,2020-01-20 08:02:56
+567,364698498.0,[MINOR] Add KEYS,1256.0,58.0,0.0,1.0,1.0,0.0,0.0,2020-01-20 08:08:20,2020-01-20 08:14:37,leesf,10128888.0,0.0,
+568,364774507.0,Moving to 0.5.2-SNAPSHOT on master branch.,1257.0,27.0,27.0,27.0,1.0,0.0,0.0,2020-01-20 11:02:15,2020-01-20 18:51:34,leesf,10128888.0,1.0,2020-01-20 18:51:34
+569,364781760.0,Preparing for Release 0.5.1-incubating-rc1,1258.0,27.0,27.0,27.0,1.0,0.0,0.0,2020-01-20 11:19:36,2020-01-20 18:40:07,leesf,10128888.0,1.0,2020-01-20 18:40:07
+570,364989332.0,[MINOR] Download KEYS file when validating release candidate,1259.0,3.0,0.0,1.0,1.0,1.0,0.0,2020-01-20 20:20:18,2020-01-21 01:20:48,Balaji Varadarajan,3021376.0,1.0,2020-01-21 01:20:48
+571,365056138.0,[HUDI-510] Update site documentation in sync with cWiki,1260.0,222.0,224.0,10.0,1.0,4.0,13.0,2020-01-21 01:25:09,2020-01-21 20:11:27,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2020-01-21 20:11:27
+572,365062634.0,[HUDI-403] Adds guidelines on deployment/upgrading,1261.0,107.0,76.0,4.0,1.0,3.0,5.0,2020-01-21 02:03:49,2020-01-21 05:07:47,vinoth chandar,1179324.0,1.0,2020-01-21 05:07:47
+573,365075399.0,[MINOR] Upper toc_label,1262.0,1.0,1.0,1.0,1.0,0.0,0.0,2020-01-21 03:15:16,2020-01-21 04:36:52,lamberken,20113411.0,1.0,2020-01-21 04:36:52
+574,365079720.0,[MINOR] Update the javadoc of HoodieTableMetaClient#scanFiles,1263.0,9.0,1.0,1.0,2.0,1.0,5.0,2020-01-21 03:37:11,2020-01-21 07:50:41,wangxianghu,49835526.0,1.0,2020-01-21 07:50:41
+575,365140868.0,[HUDI-560] Remove legacy IdentityTransformer,1264.0,0.0,38.0,1.0,1.0,2.0,0.0,2020-01-21 07:49:47,2020-02-10 02:04:59,wangxianghu,49835526.0,1.0,2020-02-10 02:04:59
+576,365168816.0,[MINOR] Fix invalid maven repo address,1265.0,1.0,1.0,1.0,1.0,2.0,0.0,2020-01-21 09:07:45,2020-01-21 12:41:59,lamberken,20113411.0,1.0,2020-01-21 12:41:59
+577,365588119.0,[HUDI-403] Publish deployment guide for writing to Hudi using HoodieDeltaStreamer and Spark Data Source,1267.0,126.0,4.0,1.0,1.0,1.0,9.0,2020-01-21 23:47:05,2020-01-23 23:47:44,Balaji Varadarajan,3021376.0,1.0,2020-01-23 23:47:44
+578,365634611.0,[HUDI-569] Fix java.lang. NoClassDefFoundError in quickstart example,1268.0,9.0,4.0,2.0,1.0,4.0,0.0,2020-01-22 02:37:53,2020-01-22 05:27:28,lamberken,20113411.0,0.0,
+579,365684450.0,[MINOR] Change deploy_staging_jars script to take in scala version,1269.0,17.0,3.0,1.0,1.0,0.0,0.0,2020-01-22 06:18:54,2020-01-22 06:19:47,Balaji Varadarajan,3021376.0,1.0,2020-01-22 06:19:47
+580,365686531.0,[MINOR] Change deploy_staging_jars script to take in scala version,1270.0,1.0,1.0,1.0,1.0,0.0,0.0,2020-01-22 06:26:31,2020-01-22 06:28:30,Balaji Varadarajan,3021376.0,1.0,2020-01-22 06:28:30
+581,365843833.0,[MINOR] Add missing licenses,1271.0,72.0,0.0,4.0,1.0,0.0,0.0,2020-01-22 13:05:44,2020-01-22 13:06:45,leesf,10128888.0,1.0,2020-01-22 13:06:45
+582,365956760.0,[MINOR] Fix missing groupId / version property of dependency,1272.0,13.0,1.0,4.0,1.0,0.0,0.0,2020-01-22 16:47:27,2020-01-25 17:19:57,lamberken,20113411.0,1.0,2020-01-25 17:19:56
+583,365970012.0,[MINOR] Fix license issue,1273.0,51.0,51.0,3.0,1.0,1.0,0.0,2020-01-22 17:15:31,2020-01-22 18:03:50,leesf,10128888.0,1.0,2020-01-22 18:03:50
+584,366140951.0,[HUDI-571] Add 'commits show archived' command to CLI,1274.0,385.0,201.0,8.0,1.0,5.0,31.0,2020-01-23 01:25:53,2020-02-05 19:25:35,,2992755.0,1.0,2020-02-05 19:25:35
+585,366224127.0,[HUDI-549] update Github README instructions to build with Scala 2.12,1275.0,10.0,0.0,1.0,1.0,0.0,0.0,2020-01-23 07:41:04,2020-01-23 07:43:51,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2020-01-23 07:43:51
+586,366484791.0,[HUDI-576] Redraw hudi data lake architecture diagram on landing page,1276.0,0.0,0.0,1.0,1.0,2.0,0.0,2020-01-23 17:42:49,2020-01-26 08:05:24,lamberken,20113411.0,1.0,2020-01-26 08:05:24
+587,366572372.0,[HUDI-543] release notes for 0.5.1,1277.0,41.0,0.0,1.0,9.0,5.0,30.0,2020-01-23 21:19:38,2020-01-31 07:27:58,leesf,10128888.0,1.0,2020-01-31 07:27:58
+588,366717918.0,[HUDI-573] Refactoring getter to avoid double extrametadata in json representation of HoodieCommitMetadata,1278.0,6.0,6.0,1.0,1.0,2.0,3.0,2020-01-24 07:50:49,2020-02-20 17:52:04,,2722167.0,1.0,2020-02-20 17:52:03
+589,367169662.0,[HUDI-577] update docker demo page and quick start pages,1279.0,217.0,158.0,7.0,1.0,2.0,6.0,2020-01-26 00:41:45,2020-01-31 05:46:26,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2020-01-31 05:46:26
+590,367211103.0,[MINOR] Remove junit-dep dependency,1280.0,6.0,1.0,2.0,1.0,13.0,0.0,2020-01-26 12:09:31,2020-01-28 18:31:56,mzatt,59252744.0,1.0,2020-01-28 18:31:56
+591,367303672.0,[HUDI-578] Trim recordKeyFields and partitionPathFields in ComplexKeyGenerator,1281.0,16.0,2.0,2.0,2.0,2.0,0.0,2020-01-27 04:03:06,2020-01-30 00:26:26,leesf,10128888.0,1.0,2020-01-30 00:26:26
+592,367326907.0,[MINOR] Fix invalid issue url & quickstart url,1282.0,2.0,2.0,2.0,1.0,0.0,0.0,2020-01-27 06:09:01,2020-01-27 08:53:03,lamberken,20113411.0,1.0,2020-01-27 08:53:03
+593,367345136.0,[HUDI-579] Add border to table on hudi website,1283.0,33.0,13.0,7.0,2.0,1.0,0.0,2020-01-27 07:16:45,2020-01-28 18:14:37,lamberken,20113411.0,1.0,2020-01-28 18:14:37
+594,367755612.0,[HUDI-562] Added a few test cases for class org.apache.hudi.WriteStatus,1285.0,20.0,0.0,1.0,1.0,8.0,10.0,2020-01-27 23:28:42,2020-01-30 21:38:06,Prashant Wason,58448203.0,0.0,
+595,367757426.0,[HUDI-564] Added new test cases for HoodieLogFormat and HoodieLogFormatVersion.,1286.0,117.0,0.0,2.0,1.0,3.0,2.0,2020-01-27 23:35:13,2020-01-30 21:53:19,Prashant Wason,58448203.0,1.0,2020-01-30 21:53:19
+596,367759231.0,"[HUDI-566] Added new test cases for class HoodieTimeline, HoodieDefaultTimeline and HoodieActiveTimeline.",1287.0,279.0,1.0,2.0,1.0,2.0,27.0,2020-01-27 23:41:41,2020-02-05 02:55:05,Prashant Wason,58448203.0,1.0,2020-02-05 02:55:05
+597,368312918.0,[HUDI-117] Close file handle before throwing an exception due to append…,1288.0,134.0,1.0,2.0,1.0,2.0,3.0,2020-01-29 00:16:00,2020-01-29 23:28:52,Balajee Nagasubramaniam,47542891.0,1.0,2020-01-29 23:28:52
+598,368318137.0,[HUDI-92] Provide reasonable names for Spark DAG stages in Hudi.,1289.0,79.0,10.0,25.0,1.0,23.0,7.0,2020-01-29 00:37:47,2020-07-19 17:29:26,Prashant Wason,58448203.0,1.0,2020-07-19 17:29:26
+599,368636468.0,[HUDI-584] Relocate spark-avro dependency by maven-shade-plugin,1290.0,43.0,2.0,3.0,1.0,15.0,7.0,2020-01-29 16:00:39,2020-03-04 19:01:50,lamberken,20113411.0,1.0,2020-03-04 19:01:50
+600,368650607.0,[MINOR] Fix assigning to configuration more times,1291.0,21.0,24.0,3.0,1.0,0.0,0.0,2020-01-29 16:28:24,2020-01-29 22:18:36,lamberken,20113411.0,1.0,2020-01-29 22:18:36
+601,368992144.0,[MINOR] Remove the useless declaration of thrown exception statement,1292.0,66.0,87.0,36.0,1.0,0.0,0.0,2020-01-30 10:21:58,2020-01-31 12:45:49,mzatt,59252744.0,0.0,
+602,369142382.0,[HUDI-585] Optimize the steps of building with scala-2.12,1293.0,11.0,76.0,8.0,4.0,15.0,3.0,2020-01-30 15:38:38,2020-02-05 15:13:10,lamberken,20113411.0,1.0,2020-02-05 15:13:10
+603,369460281.0,[DOCS] Update site based on latest content for 0.5.1 release,1294.0,2443.0,499.0,61.0,1.0,1.0,0.0,2020-01-31 08:07:23,2020-01-31 08:11:55,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2020-01-31 08:11:55
+604,369471728.0,[DOCS] Update site,1295.0,34.0,34.0,6.0,1.0,0.0,0.0,2020-01-31 08:43:59,2020-01-31 08:45:25,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2020-01-31 08:45:25
+605,369561979.0,[MINOR] Add padding to code area in release page,1296.0,30.0,29.0,3.0,4.0,2.0,4.0,2020-01-31 12:36:35,2020-02-02 13:51:25,lamberken,20113411.0,1.0,2020-02-02 13:51:25
+606,369603839.0,[HUDI-591] Support Spark version upgrade,1297.0,58.0,5.0,7.0,2.0,2.0,0.0,2020-01-31 14:19:10,2020-02-04 02:03:52,vinoyang,2283778.0,1.0,2020-02-04 02:03:52
+607,369739383.0,[HUDI-587] Fixed generation of jacoco coverage reports.,1298.0,1.0,6.0,1.0,1.0,0.0,4.0,2020-01-31 19:35:58,2020-02-05 22:27:04,Prashant Wason,58448203.0,1.0,2020-02-05 22:27:04
+608,369834278.0,[HUDI-594] Increase test coverage for HoodieReadClient,1299.0,68.0,22.0,3.0,1.0,0.0,0.0,2020-02-01 01:26:19,2020-02-04 02:11:58,,2992755.0,1.0,2020-02-04 02:11:58
+609,370014805.0,[MINOR] Updated DOAP with 0.5.1 release,1300.0,5.0,0.0,1.0,1.0,1.0,2.0,2020-02-02 14:12:54,2020-02-02 14:13:26,Suneel Marthi,3137442.0,1.0,2020-02-02 14:13:26
+610,370016663.0,[MINOR] Updated DOAP with 0.5.1 release,1301.0,1.0,1.0,1.0,1.0,1.0,0.0,2020-02-02 14:33:02,2020-02-02 14:41:31,Suneel Marthi,3137442.0,1.0,2020-02-02 14:41:31
+611,370138000.0,"[HUDI-595] code cleanup, refactoring code out of PR# 1159",1302.0,172.0,224.0,24.0,1.0,3.0,11.0,2020-02-03 06:04:52,2020-02-04 13:52:04,Suneel Marthi,3137442.0,1.0,2020-02-04 13:52:04
+612,370153357.0,[HUDI-596] Close KafkaConsumer every time after we use it,1303.0,26.0,24.0,1.0,1.0,0.0,0.0,2020-02-03 06:57:54,2020-02-04 07:42:22,dengziming,26023240.0,1.0,2020-02-04 07:42:22
+613,370902826.0,[MINOR] Replace Thread.sleep with TimeUnit*,1304.0,42.0,24.0,18.0,1.0,2.0,0.0,2020-02-04 15:34:25,2020-02-06 00:20:40,lamberken,20113411.0,0.0,
+614,370941105.0,[MINOR] Remove the declaration of thrown RuntimeException,1305.0,23.0,39.0,8.0,1.0,2.0,0.0,2020-02-04 16:46:50,2020-02-05 15:23:20,lamberken,20113411.0,1.0,2020-02-05 15:23:20
+615,370980637.0,[HUDI-598] Update quick start page,1306.0,53.0,53.0,1.0,2.0,5.0,3.0,2020-02-04 18:14:59,2020-03-06 23:20:17,lamberken,20113411.0,1.0,2020-03-06 23:20:17
+616,371139621.0,[HUDI-570] Improve test coverage for FSUtils.java,1307.0,100.0,7.0,2.0,1.0,0.0,5.0,2020-02-05 01:24:55,2020-02-05 22:25:25,Balajee Nagasubramaniam,47542891.0,1.0,2020-02-05 22:25:25
+617,371190641.0,[WIP] [HUDI-561] partition path config,1308.0,48.0,1.0,2.0,4.0,4.0,0.0,2020-02-05 05:30:57,2020-02-22 03:54:15,liujinhui,25769285.0,0.0,
+618,371429665.0,[HUDI-592] Remove duplicated dependencies in the pom file of test suite module,1309.0,0.0,36.0,1.0,2.0,5.0,0.0,2020-02-05 15:17:52,2020-02-12 20:01:46,vinoyang,2283778.0,1.0,2020-02-12 20:01:46
+619,371645735.0,"[HUDI-601] Improve unit test coverage for HoodieAvroWriteSupport, HoodieRealtimeRecordReader, RealtimeCompactedRecordReader",1310.0,78.0,3.0,3.0,5.0,5.0,9.0,2020-02-06 00:05:16,2020-04-09 15:18:50,Abhishek Modi,6784567.0,0.0,
+620,371780479.0,[HUDI-602] Add some guidance about how to judge the scope of MINOR to the contribution guidance,1311.0,10.0,2.0,2.0,2.0,3.0,12.0,2020-02-06 08:59:48,2020-02-07 07:00:44,vinoyang,2283778.0,1.0,2020-02-07 07:00:44
+621,372660471.0,"[HUDI-571] Add ""compactions show archived"" command to CLI",1312.0,216.0,67.0,3.0,1.0,2.0,5.0,2020-02-08 01:03:26,2020-02-14 18:58:29,,2992755.0,1.0,2020-02-14 18:58:29
+622,372691356.0,[HUDI-542] Introduce a new pom module named hudi-writer-common,1314.0,68.0,0.0,4.0,1.0,4.0,0.0,2020-02-08 07:48:21,2020-02-08 08:20:34,vinoyang,2283778.0,1.0,2020-02-08 08:20:34
+623,372751779.0,[HUDI-108] Removing 2GB spark partition limitations in HoodieBloomIndex with spark 2.4.4,1315.0,13.0,59.0,1.0,1.0,2.0,0.0,2020-02-08 19:50:20,2020-02-18 19:12:21,Sivabalan Narayanan,513218.0,1.0,2020-02-18 19:12:21
+624,372948952.0,[HUDI-604] Update docker page,1316.0,174.0,105.0,1.0,1.0,1.0,0.0,2020-02-10 05:36:08,2020-03-06 23:20:49,lamberken,20113411.0,1.0,2020-03-06 23:20:49
+625,372961194.0,[HUDI-605] Avoid calculating the size of schema redundantly,1317.0,5.0,5.0,1.0,2.0,0.0,7.0,2020-02-10 06:24:47,2020-02-12 11:40:53,lamberken,20113411.0,1.0,2020-02-12 11:40:53
+626,373292649.0,[HUDI-571] CLI - add option to print additional commit metadata,1318.0,63.0,3.0,1.0,1.0,1.0,2.0,2020-02-10 18:44:49,2020-02-12 22:11:25,,2992755.0,1.0,2020-02-12 22:11:25
+627,373412647.0,[HUDI-582] Update NOTICE year,1319.0,1.0,1.0,1.0,1.0,0.0,0.0,2020-02-10 23:55:30,2020-02-11 14:19:32,Ricky S.,25396301.0,1.0,2020-02-11 14:19:32
+628,373420114.0,[HUDI-571] Add min/max headers on archived files,1320.0,64.0,10.0,4.0,1.0,2.0,14.0,2020-02-11 00:22:34,2020-03-06 23:43:26,,2992755.0,0.0,
+629,373473891.0,[HUDI-574] Fix CLI counts small file inserts as updates,1321.0,1.0,1.0,1.0,1.0,0.0,0.0,2020-02-11 04:57:14,2020-02-13 14:20:59,lamberken,20113411.0,1.0,2020-02-13 14:20:59
+630,373614428.0,[HUDI-478] Fix too many files with unapproved license when execute build_local_docker_images,1323.0,1.0,0.0,1.0,1.0,0.0,0.0,2020-02-11 11:47:47,2020-02-12 00:34:01,lamberken,20113411.0,1.0,2020-02-12 00:34:01
+631,374117504.0,[HUDI-606] Improve execute build_local_docker_images.sh script,1327.0,4.0,1.0,1.0,1.0,0.0,0.0,2020-02-12 05:35:36,2020-02-26 11:38:20,lamberken,20113411.0,1.0,2020-02-26 11:38:20
+632,374634327.0,[HUDI-607] Fix to allow creation/syncing of Hive tables partitioned by Date type columns,1330.0,100.0,1.0,2.0,1.0,1.0,5.0,2020-02-13 02:16:26,2020-03-01 18:42:59,Udit Mehrotra,8647012.0,1.0,2020-03-01 18:42:59
+633,374905652.0,[MINOR] Fix typo,1331.0,1.0,1.0,1.0,1.0,0.0,0.0,2020-02-13 14:41:49,2020-02-13 18:46:11,wangxianghu,49835526.0,1.0,2020-02-13 18:46:11
+634,375134243.0,[HUDI -409] Match header and footer block length to improve corrupted block detection,1332.0,36.0,4.0,3.0,1.0,1.0,8.0,2020-02-13 23:13:31,2020-03-03 21:26:55,Ramachandran M S,2144396.0,1.0,2020-03-03 21:26:55
+635,375147498.0,[HUDI-589][DOCS] Fix querying_data page,1333.0,73.0,58.0,1.0,1.0,3.0,24.0,2020-02-14 00:01:00,2020-03-02 19:09:42,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2020-03-02 19:09:42
+636,375217339.0,[HUDI-612] Fix return no data when using incremental query,1334.0,2.0,1.0,2.0,1.0,4.0,0.0,2020-02-14 05:20:16,2020-02-14 07:28:28,lamberken,20113411.0,0.0,
+637,375637949.0,[MINOR] Fix some typos,1336.0,5.0,5.0,2.0,1.0,0.0,0.0,2020-02-15 00:57:31,2020-02-15 01:49:26,wangxianghu,49835526.0,1.0,2020-02-15 01:49:26
+638,375681657.0,"[MINOR] Code Cleanup, remove redundant code",1337.0,148.0,170.0,18.0,1.0,1.0,2.0,2020-02-15 05:29:28,2020-02-15 14:03:29,Suneel Marthi,3137442.0,1.0,2020-02-15 14:03:29
+639,375781576.0,[HUDI-615]: Add Test cases for StringUtils.,1338.0,91.0,0.0,2.0,1.0,0.0,8.0,2020-02-16 03:13:50,2020-02-17 06:13:34,Suneel Marthi,3137442.0,1.0,2020-02-17 06:13:34
+640,376521996.0,[HUDI-617] Add support for types implementing CharSequence,1339.0,1.0,1.0,1.0,1.0,1.0,0.0,2020-02-18 10:01:09,2020-02-18 19:19:45,,51735639.0,1.0,2020-02-18 19:19:45
+641,376667767.0,[MINOR] Add javadoc to SchedulerConfGenerator and Code clean,1340.0,28.0,8.0,1.0,1.0,0.0,0.0,2020-02-18 15:03:35,2020-02-18 19:15:03,wangxianghu,49835526.0,1.0,2020-02-18 19:15:03
+642,376853012.0,[HUDI-626] Add exportToTable option to CLI,1341.0,288.0,13.0,6.0,1.0,5.0,14.0,2020-02-18 21:48:49,2020-03-06 16:53:24,,2992755.0,1.0,2020-03-06 16:53:24
+643,377544500.0,[HUDI-622]: Remove VisibleForTesting annotation and import from code,1343.0,6.0,49.0,18.0,2.0,2.0,0.0,2020-02-20 04:34:07,2020-02-20 07:17:54,Suneel Marthi,3137442.0,1.0,2020-02-20 07:17:54
+644,377808821.0,[HUDI-624]: Split some of the code from PR for HUDI-479,1344.0,130.0,141.0,31.0,1.0,0.0,5.0,2020-02-20 15:07:49,2020-02-21 06:22:22,Suneel Marthi,3137442.0,1.0,2020-02-21 06:22:22
+645,377937208.0,[HUDI-618] Adding unit tests for PriorityBasedFileSystemView,1345.0,635.0,29.0,2.0,3.0,0.0,1.0,2020-02-20 19:38:08,2020-02-26 18:55:03,Ramachandran M S,2144396.0,1.0,2020-02-26 18:55:03
+646,378195697.0,[HUDI-554] Cleanup package structure in hudi-client,1346.0,290.0,301.0,90.0,4.0,4.0,12.0,2020-02-21 09:51:41,2020-02-27 16:05:59,vinoth chandar,1179324.0,1.0,2020-02-27 16:05:59
+647,378480217.0,[HUDI-627] Aggregate code coverage and publish to codecov.io during CI,1347.0,43.0,7.0,7.0,1.0,7.0,7.0,2020-02-21 21:28:17,2020-02-27 21:54:21,Ramachandran M S,2144396.0,1.0,2020-02-27 21:54:21
+648,378542999.0,HUDI-597 Enable incremental pulling from defined partitions,1348.0,32.0,4.0,3.0,1.0,1.0,8.0,2020-02-22 02:56:39,2020-02-24 19:46:31,Gary Li,23007841.0,1.0,2020-02-24 19:46:31
+649,378556348.0,HUDI-611 Add Impala Guide to Doc,1349.0,59.0,0.0,2.0,1.0,1.0,0.0,2020-02-22 06:02:53,2020-02-23 02:19:26,Gary Li,23007841.0,1.0,2020-02-23 02:19:26
+650,378629898.0,[HUDI-629]: Replace Guava's Hashing with an equivalent in NumericUtils.java,1350.0,308.0,228.0,51.0,2.0,6.0,25.0,2020-02-22 20:45:33,2020-03-14 00:28:06,Suneel Marthi,3137442.0,1.0,2020-03-14 00:28:06
+651,378742142.0,[WIP] [HUDI-625] Fixing performance issues around DiskBasedMap & kryo,1351.0,307.0,63.0,12.0,1.0,8.0,1.0,2020-02-23 19:39:11,2020-02-26 05:16:55,vinoth chandar,1179324.0,0.0,
+652,379187192.0,[HUDI-625] Fixing performance issues around DiskBasedMap & kryo,1352.0,3.0,42.0,1.0,1.0,5.0,9.0,2020-02-24 19:45:27,2020-02-25 06:40:38,lamberken,20113411.0,1.0,2020-02-25 06:40:38
+653,379281817.0,[HUDI-632] Update documentation (docker_demo) to mention both commit and deltacommit files,1353.0,1.0,1.0,1.0,2.0,1.0,2.0,2020-02-24 23:22:36,2020-02-26 05:39:36,Vikrant Goel,1531138.0,1.0,2020-02-26 05:39:36
+654,379354635.0,[HUDI-581] NOTICE need more work as it missing content form included 3rd party ALv2 licensed NOTICE files,1354.0,82.0,1.0,1.0,2.0,10.0,7.0,2020-02-25 04:09:32,2020-03-08 03:08:35,Suneel Marthi,3137442.0,1.0,2020-03-08 03:08:35
+655,379396129.0,[HUDI-633] limit archive file block size by number of bytes,1355.0,95.0,4.0,5.0,1.0,3.0,6.0,2020-02-25 06:45:19,2020-03-06 23:41:49,,2992755.0,0.0,
+656,379592627.0,[HUDI-580] Fix incorrect license header in files,1356.0,46.0,120.0,60.0,1.0,0.0,0.0,2020-02-25 13:46:24,2020-02-25 16:54:27,lamberken,20113411.0,1.0,2020-02-25 16:54:27
+657,379637199.0,[HUDI-636] Fix could not get sources warnings while compiling,1357.0,13.0,0.0,1.0,1.0,3.0,2.0,2020-02-25 15:05:44,2020-02-27 05:36:48,lamberken,20113411.0,1.0,2020-02-27 05:36:48
+658,380149742.0,[HUDI-344][RFC-09] Hudi Dataset Snapshot Exporter,1358.0,85884.0,5194.0,345.0,109.0,3.0,0.0,2020-02-26 10:47:10,2020-02-27 03:09:46,openopen2,23738217.0,0.0,
+659,380629666.0,[HUDI-344][RFC-09] Hudi Dataset Snapshot Exporter,1360.0,496.0,0.0,3.0,7.0,13.0,38.0,2020-02-27 04:23:51,2020-03-10 01:17:52,openopen2,23738217.0,1.0,2020-03-10 01:17:52
+660,380862241.0,[HUDI-645] Provide a statement page to describe how to report security issues,1361.0,66.0,0.0,3.0,1.0,0.0,0.0,2020-02-27 13:50:49,2020-02-27 14:00:54,vinoyang,2283778.0,1.0,2020-02-27 14:00:54
+661,381134125.0,[WIP]HUDI-644 Implement checkpoint generator helper tool,1362.0,46.0,22.0,2.0,1.0,19.0,3.0,2020-02-28 00:04:47,2020-03-19 23:54:06,Gary Li,23007841.0,0.0,
+662,381170204.0,[HUDI-647] Change community.html page with new PPMC/committers,1363.0,3.0,2.0,1.0,1.0,1.0,0.0,2020-02-28 02:27:37,2020-02-28 03:58:33,vinoyang,2283778.0,1.0,2020-02-28 03:58:33
+663,382005433.0,[HUDI-599] Update release guide & release scripts due to the change of scala 2.12 build,1364.0,1.0,1.0,1.0,1.0,1.0,0.0,2020-03-01 06:26:28,2020-03-01 06:30:33,leesf,10128888.0,1.0,2020-03-01 06:30:33
+664,382005964.0,[MINOR] Fix cut_release_branch script missed a double quotation marks,1365.0,1.0,1.0,1.0,1.0,0.0,0.0,2020-03-01 06:33:53,2020-03-01 06:34:16,vinoyang,2283778.0,1.0,2020-03-01 06:34:16
+665,382624397.0,[HUDI-589] Follow on fixes to querying_data page,1366.0,45.0,45.0,1.0,1.0,0.0,0.0,2020-03-02 21:45:16,2020-03-02 22:04:52,vinoth chandar,1179324.0,1.0,2020-03-02 22:04:52
+666,382742980.0,MINOR add impala to matrix,1367.0,4.0,0.0,1.0,1.0,3.0,0.0,2020-03-03 04:53:36,2020-03-03 05:06:47,Gary Li,23007841.0,1.0,2020-03-03 05:06:47
+667,382743404.0,[HUDI-650] Modify handleUpdate path to validate partitionPath,1368.0,170.0,61.0,12.0,6.0,5.0,11.0,2020-03-03 04:55:24,2020-03-20 15:37:23,,2992755.0,1.0,2020-03-20 15:37:22
+668,382766627.0,[HUDI-553] Building/Running Hudi on higher java versions,1369.0,110.0,9.0,7.0,3.0,0.0,2.0,2020-03-03 06:23:02,2020-03-07 09:27:41,lamberken,20113411.0,1.0,2020-03-07 09:27:41
+669,383282798.0,[HUDI-653] Add JMX Report Config to Doc,1370.0,67.0,19.0,4.0,4.0,2.0,4.0,2020-03-04 01:09:39,2020-03-20 02:16:04,ForwardXu,10494131.0,1.0,2020-03-20 02:16:04
+670,383552765.0,[HUDI-652] Decouple HoodieReadClient and AbstractHoodieClient to break the inheritance chain,1372.0,88.0,94.0,5.0,3.0,0.0,4.0,2020-03-04 13:23:54,2020-03-06 17:59:35,vinoyang,2283778.0,1.0,2020-03-06 17:59:35
+671,383616222.0,[HUDI-646] Re-enable TestUpdateSchemaEvolution to reproduce CI error,1373.0,3.0,1.0,1.0,2.0,13.0,0.0,2020-03-04 14:59:53,2020-03-13 06:59:10,vinoth chandar,1179324.0,1.0,2020-03-13 06:59:10
+672,383628818.0,[HUDI-654] Rename hudi-hive to hudi-hive-sync,1374.0,13.0,13.0,27.0,1.0,2.0,0.0,2020-03-04 15:14:37,2020-03-06 14:13:17,lamberken,20113411.0,1.0,2020-03-06 14:13:17
+673,384450744.0,[HUDI-663] Fix HoodieDeltaStreamer offset not handled correctly,1377.0,1.0,1.0,1.0,1.0,15.0,10.0,2020-03-05 19:09:52,2020-03-22 17:31:49,lamberken,20113411.0,1.0,2020-03-22 17:31:49
+674,384458172.0,[HUDI-590] Cut doc version for 0.5.1 and update site,1378.0,28006.0,114.0,97.0,1.0,6.0,0.0,2020-03-05 19:27:45,2020-03-06 23:17:07,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2020-03-06 23:17:07
+675,385049683.0,[HUDI-670] Added test cases for TestDiskBasedMap.,1379.0,25.0,0.0,1.0,2.0,1.0,1.0,2020-03-06 22:29:50,2020-03-11 12:03:04,Prashant Wason,58448203.0,1.0,2020-03-11 12:03:04
+676,385050269.0,[HUDI-668] Added unit-tests for HUDI metrics.,1380.0,119.0,3.0,2.0,1.0,1.0,1.0,2020-03-06 22:31:54,2020-03-10 03:15:43,Prashant Wason,58448203.0,1.0,2020-03-10 03:15:42
+677,385078705.0,[HUDI-671] Added unit-test for HBaseIndex,1381.0,129.0,4.0,1.0,1.0,0.0,0.0,2020-03-07 00:46:11,2020-03-08 00:48:44,Prashant Wason,58448203.0,1.0,2020-03-08 00:48:44
+678,385126310.0,[MINOR] Update run_sync_tool.sh script path,1382.0,4.0,4.0,2.0,1.0,0.0,0.0,2020-03-07 09:38:00,2020-03-07 13:46:52,lamberken,20113411.0,1.0,2020-03-07 13:46:52
+679,385126578.0,[HUDI-673] Rename hudi-hive-bundle to hudi-hive-sync-bundle,1383.0,8.0,8.0,8.0,1.0,1.0,0.0,2020-03-07 09:41:18,2020-03-07 13:44:37,lamberken,20113411.0,1.0,2020-03-07 13:44:37
+680,385194567.0,[HUDI-680] Update Jackson databind to 2.6.7.3,1385.0,1.0,1.0,1.0,1.0,1.0,0.0,2020-03-07 21:22:35,2020-03-07 22:22:20,Aki Tanaka,1472546.0,1.0,2020-03-07 22:22:19
+681,385221182.0,[HUDI-676] Address issues towards removing use of WIP Disclaimer,1386.0,15.0,31.0,4.0,2.0,2.0,3.0,2020-03-08 03:28:49,2020-03-09 06:14:50,vinoyang,2283778.0,1.0,2020-03-09 06:14:50
+682,385227380.0,[WIP] [HUDI-674] Rename hudi-hadoop-mr-bundle to hudi-hive-bundle,1387.0,5.0,5.0,6.0,1.0,5.0,0.0,2020-03-08 05:12:07,2020-05-14 21:41:10,lamberken,20113411.0,0.0,
+683,385352245.0,[HUDI-681]Remove embeddedTimelineService from HoodieReadClient,1388.0,8.0,30.0,4.0,2.0,2.0,7.0,2020-03-09 02:07:23,2020-03-09 10:31:04,hongdd,17537134.0,1.0,2020-03-09 10:31:04
+684,385931772.0,[HUDI-687] Stop incremental reader when there is a pending compaction…,1389.0,0.0,0.0,0.0,0.0,4.0,0.0,2020-03-10 04:31:42,2020-03-11 03:01:16,,2992755.0,0.0,
+685,386077952.0,[HUDI-634] Cut 0.5.2 documentation and write release note,1390.0,7117.0,4.0,40.0,5.0,3.0,22.0,2020-03-10 11:26:09,2020-03-12 07:21:50,vinoyang,2283778.0,1.0,2020-03-12 07:21:50
+686,386226058.0,[HUDI-688] Paring down the NOTICE file to minimum required notices,1391.0,1.0,82.0,2.0,1.0,1.0,0.0,2020-03-10 16:07:35,2020-03-11 12:24:08,vinoth chandar,1179324.0,1.0,2020-03-11 12:24:08
+687,386269230.0,[HUDI-689] Change CLI command names to not have overlap,1392.0,4.0,4.0,2.0,1.0,2.0,0.0,2020-03-10 17:30:42,2020-03-11 23:29:54,,2992755.0,1.0,2020-03-11 23:29:54
+688,386333667.0,[WIP] Fixing delta streamer tests. ,1393.0,72.0,38.0,3.0,1.0,0.0,0.0,2020-03-10 19:54:50,2020-03-11 00:00:32,Sivabalan Narayanan,513218.0,0.0,
+689,386408872.0,[HUDI-656][Performance] Return a dummy Spark relation after writing the DataFrame,1394.0,54.0,1.0,2.0,1.0,3.0,0.0,2020-03-10 23:17:59,2020-03-12 03:27:47,Udit Mehrotra,8647012.0,1.0,2020-03-12 03:27:47
+690,386419134.0,[HUDI-667] Fixing delete tests for DeltaStreamer,1395.0,23.0,23.0,2.0,1.0,2.0,2.0,2020-03-10 23:59:59,2020-03-11 23:19:23,Sivabalan Narayanan,513218.0,1.0,2020-03-11 23:19:23
+691,386459316.0,[HUDI-687] Stop incremental reader on RO table before a pending compaction,1396.0,541.0,126.0,11.0,1.0,11.0,26.0,2020-03-11 03:08:50,2020-04-10 17:45:42,,2992755.0,1.0,2020-04-10 17:45:42
+692,386509236.0,[HUDI-692] Add delete savepoint for cli,1397.0,30.0,9.0,1.0,3.0,5.0,1.0,2020-03-11 06:35:02,2020-03-11 23:49:02,hongdd,17537134.0,1.0,2020-03-11 23:49:02
+693,386943088.0,[MINOR] Removing code which is duplicated from the base class.,1399.0,0.0,54.0,1.0,1.0,1.0,1.0,2020-03-11 22:06:43,2020-03-11 23:43:05,Prashant Wason,58448203.0,1.0,2020-03-11 23:43:05
+694,387118047.0,[WIP] optimization debian package manager tweaks,1400.0,0.0,0.0,0.0,0.0,4.0,0.0,2020-03-12 08:59:30,2020-10-08 15:29:04,Pratik Raj,12658912.0,0.0,
+695,387280076.0,[HUDI-694]Add unit test for SparkEnvCommand,1401.0,147.0,0.0,4.0,2.0,3.0,2.0,2020-03-12 14:34:39,2020-03-16 03:52:41,hongdd,17537134.0,1.0,2020-03-16 03:52:41
+696,387533903.0,[HUDI-407] Adding Simple Index,1402.0,1381.0,65.0,16.0,1.0,22.0,71.0,2020-03-13 00:29:54,2020-05-18 01:32:25,Sivabalan Narayanan,513218.0,1.0,2020-05-18 01:32:25
+697,387870302.0,[HUDI-710] Fixing failure in Staging Validation Script,1403.0,1.0,1.0,1.0,1.0,0.0,0.0,2020-03-13 16:31:21,2020-03-15 14:13:21,Balaji Varadarajan,3021376.0,1.0,2020-03-15 14:13:21
+698,388081727.0,[HUDI-344] Improve exporter tests,1404.0,151.0,226.0,3.0,2.0,5.0,4.0,2020-03-14 00:33:51,2020-03-15 12:24:31,Raymond Xu,2701446.0,1.0,2020-03-15 12:24:31
+699,388182004.0,[HUDI-344] Add partitioner param to Exporter,1405.0,178.0,58.0,2.0,3.0,2.0,6.0,2020-03-14 06:24:12,2020-03-18 11:24:05,Raymond Xu,2701446.0,1.0,2020-03-18 11:24:05
+700,388522902.0,[HUDI-713] Fix conversion of Spark array of struct type to Avro schema,1406.0,75.0,17.0,6.0,1.0,18.0,7.0,2020-03-15 01:59:52,2020-03-30 22:52:15,wenningd,31263084.0,1.0,2020-03-30 22:52:15
+701,388662038.0,Update the old hudi version to 0.5.2,1407.0,9.0,9.0,5.0,1.0,0.0,0.0,2020-03-15 10:56:17,2020-03-15 10:56:39,vinoyang,2283778.0,1.0,2020-03-15 10:56:39
+702,388748886.0,[HUDI-437] Support user-defined index,1408.0,107.0,0.0,4.0,2.0,2.0,1.0,2020-03-15 15:56:09,2020-03-18 02:27:41,leesf,10128888.0,1.0,2020-03-18 02:27:41
+703,388943791.0,[HUDI-714]Add javadoc and comments to hudi write method link,1409.0,64.0,26.0,9.0,2.0,3.0,9.0,2020-03-16 02:41:11,2020-05-16 12:36:52,wangxianghu,49835526.0,1.0,2020-05-16 12:36:52
+704,389063452.0,[HUDI-715]Fix duplicate key name in TableCommand,1410.0,1.0,1.0,1.0,1.0,0.0,0.0,2020-03-16 08:20:35,2020-03-16 09:19:58,hongdd,17537134.0,1.0,2020-03-16 09:19:57
+705,389098630.0,[HUDI-695]Add unit test for TableCommand,1411.0,170.0,1.0,3.0,5.0,5.0,2.0,2020-03-16 09:26:15,2020-03-17 06:15:31,hongdd,17537134.0,1.0,2020-03-17 06:15:31
+706,389427223.0,[HUDI-504] Restructuring and auto-generation of docs,1412.0,51.0,11.0,2.0,2.0,12.0,12.0,2020-03-16 18:33:03,2020-03-24 04:47:50,lamberken,20113411.0,1.0,2020-03-24 04:47:50
+707,389488132.0,"[HUDI-539] Add ""Config"" constructor to HoodieROTablePathFilter",1413.0,12.0,3.0,1.0,1.0,4.0,0.0,2020-03-16 20:49:10,2020-03-16 22:19:17,,8600774.0,1.0,2020-03-16 22:19:17
+708,389768317.0,[HUDI-437] Add user-defined index config,1414.0,11.0,3.0,4.0,3.0,0.0,2.0,2020-03-17 11:04:06,2020-03-19 12:04:45,leesf,10128888.0,1.0,2020-03-19 12:04:45
+709,389974527.0,[HUDI-539] Make ROPathFilter conf member serializable,1415.0,4.0,3.0,1.0,1.0,3.0,0.0,2020-03-17 17:27:08,2020-03-17 19:52:48,vinoth chandar,1179324.0,1.0,2020-03-17 19:52:48
+710,390039001.0,[HUDI-717] Fixed usage of HiveDriver for DDL statements for Hive 2.x,1416.0,101.0,10.0,3.0,1.0,2.0,9.0,2020-03-17 19:40:29,2020-04-03 23:23:06,Prashant Wason,58448203.0,1.0,2020-04-03 23:23:05
+711,390327326.0,[HUDI-720] NOTICE file needs to add more content based on the NOTICE files of the ASF projects that hudi bundles,1417.0,154.0,1.0,2.0,5.0,10.0,9.0,2020-03-18 09:43:06,2020-03-21 02:54:05,vinoyang,2283778.0,1.0,2020-03-21 02:54:05
+712,390888126.0,[HUDI-678] Make config package spark free,1418.0,110.0,81.0,9.0,6.0,6.0,11.0,2020-03-19 09:21:57,2020-03-26 15:30:27,leesf,10128888.0,1.0,2020-03-26 15:30:27
+713,391052343.0,[HUDI-400]check upgrade from old plan to new plan for compaction,1419.0,3.0,1.0,2.0,2.0,1.0,0.0,2020-03-19 14:55:47,2020-03-20 02:02:55,Mr. Zhao,49054376.0,0.0,
+714,391312673.0,[HUDI-724] Parallelize getSmallFiles for partitions,1421.0,37.0,24.0,6.0,1.0,7.0,11.0,2020-03-20 01:40:19,2020-03-30 07:14:39,,3358447.0,1.0,2020-03-30 07:14:39
+715,391316673.0,[HUDI-400]check upgrade from old plan to new plan for compaction,1422.0,3.0,1.0,2.0,1.0,1.0,0.0,2020-03-20 02:03:06,2020-03-20 07:13:18,Mr. Zhao,49054376.0,1.0,2020-03-20 07:13:18
+716,391399866.0,[HUDI-697]Add unit test for ArchivedCommitsCommand,1424.0,377.0,5.0,5.0,5.0,3.0,17.0,2020-03-20 08:03:03,2020-03-23 05:46:10,hongdd,17537134.0,1.0,2020-03-23 05:46:10
+717,391413007.0,[HUDI-725] Remove init log in the constructor of DeltaSync,1425.0,0.0,1.0,1.0,1.0,1.0,0.0,2020-03-20 08:41:02,2020-03-20 09:48:00,wangxianghu,49835526.0,1.0,2020-03-20 09:48:00
+718,391413593.0,[HUDI-726]Delete unused method in HoodieDeltaStreamer,1426.0,0.0,4.0,1.0,1.0,1.0,0.0,2020-03-20 08:42:41,2020-03-20 09:44:17,wangxianghu,49835526.0,1.0,2020-03-20 09:44:17
+719,391491859.0,[HUDI-727]: Copy default values of fields if not present when rewriting incoming record with new schema,1427.0,84.0,17.0,3.0,9.0,6.0,32.0,2020-03-20 11:53:48,2020-04-13 00:55:27,Pratyaksh Sharma,30863489.0,1.0,2020-04-13 00:55:27
+720,391584809.0,[HUDI-65]commitTime rename to instantTime,1428.0,902.0,911.0,77.0,2.0,1.0,0.0,2020-03-20 15:11:16,2020-03-20 17:06:19,Mr. Zhao,49054376.0,0.0,
+721,391644633.0,[HUDI-65]commitTime rename to instantTime,1429.0,902.0,911.0,77.0,2.0,0.0,0.0,2020-03-20 17:05:27,2020-03-20 17:55:15,Mr. Zhao,49054376.0,0.0,
+722,391798030.0,[hotfix] Improve code quality of HoodieAvroWriteSupport,1430.0,2.0,2.0,1.0,1.0,5.0,0.0,2020-03-21 01:30:20,2020-03-21 05:30:55,tison,18818196.0,0.0,
+723,391800591.0,[HUDI-65] commitTime rename to instantTime,1431.0,673.0,673.0,68.0,2.0,2.0,6.0,2020-03-21 01:55:57,2020-03-23 01:06:01,Mr. Zhao,49054376.0,1.0,2020-03-23 01:06:01
+724,391824738.0,[HUDI-716] Exception: Not an Avro data file when running HoodieCleanClient.runClean,1432.0,78.0,1.0,5.0,1.0,7.0,7.0,2020-03-21 06:57:54,2020-03-30 18:19:18,lamberken,20113411.0,1.0,2020-03-30 18:19:17
+725,391836047.0,[HUDI-728]: Implement custom key generator,1433.0,675.0,67.0,15.0,1.0,26.0,74.0,2020-03-21 09:20:33,2020-07-09 11:35:07,Pratyaksh Sharma,30863489.0,1.0,2020-07-09 11:35:07
+726,391838425.0,[HUDI-616]: fixed parquet files getting created on local FS,1434.0,2.0,1.0,1.0,1.0,0.0,0.0,2020-03-21 09:49:43,2020-03-22 14:19:47,Pratyaksh Sharma,30863489.0,1.0,2020-03-22 14:19:47
+727,391854813.0,"[MINOR] cleanup redundant comment and unused variable,  and fix typo",1435.0,1.0,5.0,3.0,4.0,2.0,2.0,2020-03-21 12:47:38,2020-03-22 03:12:07,Mr. Zhao,49054376.0,1.0,2020-03-22 03:12:07
+728,391929988.0,[HUDI-711] Refactor exporter main logic,1436.0,154.0,88.0,3.0,4.0,8.0,8.0,2020-03-21 23:27:38,2020-03-25 10:02:25,Raymond Xu,2701446.0,1.0,2020-03-25 10:02:25
+729,391974321.0,[MINOR]add omissive param desc on method doc and cleanup redundant code,1437.0,4.0,16.0,2.0,2.0,2.0,0.0,2020-03-22 08:52:14,2020-03-22 13:39:34,Mr. Zhao,49054376.0,1.0,2020-03-22 13:39:34
+730,392716336.0,[HUDI-731] Add ChainedTransformer,1440.0,314.0,46.0,8.0,2.0,8.0,27.0,2020-03-24 01:00:58,2020-04-01 15:21:32,Raymond Xu,2701446.0,1.0,2020-04-01 15:21:32
+731,393371777.0,[MINOR] Add Hudi Online Meetup,1441.0,14.0,1.0,2.0,2.0,0.0,4.0,2020-03-25 04:03:58,2020-03-25 05:36:27,leesf,10128888.0,1.0,2020-03-25 05:36:27
+732,393416330.0,[HUDI-734] Fix error: cannot create directory ‘test-content’: File exists,1442.0,1.0,1.0,1.0,1.0,1.0,0.0,2020-03-25 06:54:26,2020-03-25 08:25:46,lamberken,20113411.0,1.0,2020-03-25 08:25:46
+733,393527476.0,[MINOR] Update web site for 0.5.2 doc,1444.0,19209.0,327.0,53.0,1.0,1.0,2.0,2020-03-25 11:15:36,2020-03-25 14:28:57,vinoyang,2283778.0,1.0,2020-03-25 14:28:57
+734,393610583.0,[MINOR] Fix javadoc of InsertBucket,1445.0,1.0,1.0,1.0,1.0,1.0,0.0,2020-03-25 14:10:29,2020-03-25 14:25:48,wangxianghu,49835526.0,1.0,2020-03-25 14:25:48
+735,393857181.0,[MINOR] Add link for yields.io usage,1446.0,2.0,2.0,2.0,1.0,5.0,0.0,2020-03-25 22:22:47,2020-03-25 22:24:38,vinoth chandar,1179324.0,1.0,2020-03-25 22:24:38
+736,393908097.0,[MINOR] Update the release note url for 0.5.2,1447.0,6.0,6.0,6.0,1.0,0.0,0.0,2020-03-26 01:33:20,2020-03-26 02:05:36,vinoyang,2283778.0,1.0,2020-03-26 02:05:36
+737,393936895.0,[MINOR] Update DOAP with 0.5.2 Release,1448.0,5.0,0.0,1.0,1.0,0.0,3.0,2020-03-26 03:33:36,2020-03-26 03:37:33,Suneel Marthi,3137442.0,1.0,2020-03-26 03:37:33
+738,393985960.0,[HUDI-698]Add unit test for CleansCommand,1449.0,355.0,6.0,8.0,2.0,7.0,22.0,2020-03-26 06:41:49,2020-04-14 09:54:47,hongdd,17537134.0,1.0,2020-04-14 09:54:47
+739,394469097.0,[MINOR] Adding .codecov.yml to set exclusions for code coverage reports.,1450.0,46.0,0.0,1.0,1.0,5.0,4.0,2020-03-26 23:14:50,2020-03-30 19:47:06,Prashant Wason,58448203.0,0.0,
+740,394484654.0,[MINOR] Add error message when check arguments,1451.0,5.0,1.0,1.0,1.0,1.0,0.0,2020-03-27 00:12:51,2020-03-27 02:21:39,Raymond Xu,2701446.0,1.0,2020-03-27 02:21:39
+741,394529238.0,[HUDI-740]Fix can not specify the sparkMaster and code clean for SparkUtil,1452.0,103.0,59.0,5.0,5.0,6.0,17.0,2020-03-27 03:25:07,2020-04-08 13:33:15,hongdd,17537134.0,1.0,2020-04-08 13:33:15
+742,394573203.0,HUDI-644 kafka connect checkpoint provider,1453.0,277.0,0.0,3.0,1.0,10.0,23.0,2020-03-27 06:19:39,2020-04-04 01:57:35,Gary Li,23007841.0,1.0,2020-04-04 01:57:35
+743,394584045.0,MINOR update doc to include inc query on partitions,1454.0,64.0,4.0,4.0,1.0,1.0,2.0,2020-03-27 06:56:25,2020-03-29 03:28:49,Gary Li,23007841.0,1.0,2020-03-29 03:28:49
+744,394913950.0,[MINOR] Updated HoodieMergeOnReadTestUtils for future testing requirements.,1456.0,10.0,4.0,1.0,1.0,2.0,0.0,2020-03-27 18:41:45,2020-03-30 14:36:13,Prashant Wason,58448203.0,1.0,2020-03-30 14:36:13
+745,394915081.0,[HUDI-741] Added checks to validate Hoodie's schema evolution.,1457.0,1004.0,180.0,15.0,1.0,15.0,34.0,2020-03-27 18:44:27,2020-04-16 06:35:00,Prashant Wason,58448203.0,1.0,2020-04-16 06:35:00
+746,395028311.0,[HUDI-418] [HUDI-421] Bootstrap Index using HFile and File System View Changes with unit-test,1459.0,2093.0,107.0,38.0,2.0,6.0,12.0,2020-03-28 01:30:52,2020-05-28 17:36:24,Balaji Varadarajan,3021376.0,0.0,
+747,395055354.0,[HUDI-679] Make io package Spark free,1460.0,136.0,58.0,19.0,8.0,5.0,18.0,2020-03-28 06:36:29,2020-03-29 08:54:00,leesf,10128888.0,1.0,2020-03-29 08:54:00
+748,395064799.0,[HUDI-743]: Remove FileIOUtils.close(),1461.0,1.0,27.0,2.0,1.0,1.0,0.0,2020-03-28 08:27:06,2020-03-28 10:03:16,Suneel Marthi,3137442.0,1.0,2020-03-28 10:03:16
+749,395217955.0,[HUDI-744] Restructure hudi-common and clean up files under util packages,1462.0,541.0,538.0,269.0,3.0,1.0,0.0,2020-03-29 08:33:47,2020-03-29 17:58:50,vinoth chandar,1179324.0,1.0,2020-03-29 17:58:50
+750,395234723.0,[HUDI-732] Generate site to content folder,1463.0,2.0,92497.0,208.0,3.0,0.0,0.0,2020-03-29 11:17:44,2020-03-29 14:25:17,lamberken,20113411.0,1.0,2020-03-29 14:25:17
+751,395280116.0,[HUDI-745] CI should fail PRs with unapproved license files,1464.0,1.0,1.0,1.0,1.0,2.0,0.0,2020-03-29 16:33:22,2020-03-29 17:59:41,vinoth chandar,1179324.0,1.0,2020-03-29 17:59:41
+752,395320765.0,[HUDI-746]: Reduce build warnings < 10,1465.0,437.0,409.0,188.0,1.0,8.0,0.0,2020-03-29 21:04:27,2020-03-30 03:46:52,Suneel Marthi,3137442.0,1.0,2020-03-30 03:46:52
+753,395354805.0,[HUDI-742] Fix Java Math Exception,1466.0,18.0,1.0,2.0,1.0,8.0,6.0,2020-03-30 01:10:00,2020-03-31 04:56:21,Edwin Guo,8300535.0,1.0,2020-03-31 04:56:20
+754,395860455.0,[HUDI-748] Adding .codecov.yml to set exclusions for code coverage reports.,1468.0,44.0,0.0,1.0,1.0,2.0,10.0,2020-03-30 19:46:46,2020-04-03 23:25:02,Prashant Wason,58448203.0,1.0,2020-04-03 23:25:01
+755,395993161.0,[WIP][HUDI-686] Implement BloomIndexV2 that does not depend on memory caching,1469.0,1449.0,130.0,13.0,1.0,23.0,59.0,2020-03-31 00:53:44,2021-02-06 20:45:01,lamberken,20113411.0,0.0,
+756,396097155.0,[HUDI-751] Fix some coding issues reported by FindBugs,1470.0,57.0,41.0,31.0,1.0,0.0,0.0,2020-03-31 06:09:19,2020-03-31 13:19:33,Shaofeng Shi,5411805.0,1.0,2020-03-31 13:19:33
+757,396134239.0,[WIP][HUDI-752]Make CompactionAdminClient spark-free,1471.0,74.0,13.0,4.0,3.0,4.0,8.0,2020-03-31 07:33:45,2020-05-14 17:02:51,hongdd,17537134.0,0.0,
+758,396283012.0,[HUDI-754] Configure .asf.yaml for Hudi Github repository,1472.0,12.0,0.0,1.0,2.0,8.0,3.0,2020-03-31 11:56:34,2020-04-01 02:02:48,vinoyang,2283778.0,1.0,2020-04-01 02:02:48
+759,396642490.0,[HUDI-568] Improve unit test coverage,1473.0,335.0,23.0,5.0,1.0,1.0,11.0,2020-03-31 22:26:43,2020-04-09 17:15:35,Ramachandran M S,2144396.0,1.0,2020-04-09 17:15:35
+760,396647590.0,[HUDI-562] Enable testing at debug log level,1474.0,196.0,115.0,17.0,1.0,1.0,0.0,2020-03-31 22:37:48,2020-04-02 18:14:36,Ramachandran M S,2144396.0,1.0,2020-04-02 18:14:36
+761,396726653.0,[HUDI-426][WIP] Initial implementation for Bootstrapping data source,1475.0,436.0,17.0,3.0,10.0,2.0,0.0,2020-04-01 02:48:15,2020-06-04 00:02:06,Udit Mehrotra,8647012.0,0.0,
+762,396771929.0,[HUDI-757] Added hudi-cli command to export metadata of Instants.,1476.0,264.0,0.0,3.0,1.0,6.0,8.0,2020-04-01 05:39:27,2020-04-21 19:41:20,Prashant Wason,58448203.0,1.0,2020-04-21 19:41:20
+763,396935040.0,[HUDI-749] Fix hudi-timeline-server-bundle./run_server.sh start error,1477.0,1.0,1.0,1.0,2.0,0.0,4.0,2020-04-01 11:28:26,2020-04-01 14:19:55,Trevor,33487819.0,1.0,2020-04-01 14:19:55
+764,397412661.0,Fix label issue in .asf.yaml,1478.0,3.0,3.0,1.0,1.0,0.0,0.0,2020-04-02 07:49:26,2020-04-02 07:51:52,vinoyang,2283778.0,1.0,2020-04-02 07:51:52
+765,397743780.0,[HUDI-758] Modify Integration test to include incremental queries on MOR tables,1479.0,106.0,15.0,6.0,2.0,2.0,1.0,2020-04-02 18:23:31,2020-04-09 04:57:00,,2992755.0,1.0,2020-04-09 04:57:00
+766,398366863.0,[HUDI-316] : Hbase qps repartition writestatus,1484.0,398.0,84.0,5.0,1.0,16.0,31.0,2020-04-03 20:18:17,2020-11-02 16:33:28,Venkatesh Rudraraju,33071342.0,1.0,2020-11-02 16:33:28
+767,398457461.0,[HUDI-756] Organize Cleaning Action execution into a single package in hudi-client,1485.0,585.0,555.0,31.0,1.0,4.0,0.0,2020-04-04 03:00:38,2020-04-04 07:07:34,vinoth chandar,1179324.0,1.0,2020-04-04 07:07:34
+768,398913187.0,[HUDI-759] Integrate checkpoint provider with delta streamer,1486.0,146.0,63.0,7.0,1.0,9.0,41.0,2020-04-05 05:25:15,2020-04-14 21:51:05,Gary Li,23007841.0,1.0,2020-04-14 21:51:05
+769,399443089.0,[MINOR]clear up the redundant comment.,1489.0,1.0,2.0,1.0,1.0,0.0,0.0,2020-04-06 07:39:22,2020-04-06 08:31:55,Mr. Zhao,49054376.0,1.0,2020-04-06 08:31:55
+770,399732550.0,[HUDI-700]Add unit test for FileSystemViewCommand,1490.0,351.0,19.0,3.0,5.0,3.0,10.0,2020-04-06 15:38:42,2020-04-11 02:12:22,hongdd,17537134.0,1.0,2020-04-11 02:12:22
+771,400040019.0,[HUDI-761] Refactoring rollback and restore actions using the ActionExecutor abstraction,1492.0,907.0,520.0,20.0,1.0,4.0,2.0,2020-04-07 05:05:12,2020-04-13 15:29:19,vinoth chandar,1179324.0,1.0,2020-04-13 15:29:19
+772,400043062.0,[MINOR] remove Hive dependency from delta streamer,1493.0,11.0,26.0,2.0,1.0,2.0,0.0,2020-04-07 05:15:39,2020-04-08 01:27:42,Gary Li,23007841.0,0.0,
+773,400066878.0,Fix Compilation Issues + Port Bug Fixes,1494.0,54.0,61.0,28.0,1.0,0.0,0.0,2020-04-07 06:31:58,2020-04-07 06:33:52,Abhishek Modi,6784567.0,1.0,2020-04-07 06:33:52
+774,400615188.0,[HUDI-770] Organize upsert/insert API implementation under a single package,1495.0,2703.0,859.0,39.0,1.0,3.0,26.0,2020-04-08 04:00:07,2020-04-13 06:11:01,Balaji Varadarajan,3021376.0,1.0,2020-04-13 06:11:01
+775,400650562.0,[MINOR] Update community info,1496.0,7.0,4.0,2.0,1.0,0.0,0.0,2020-04-08 06:16:49,2020-04-08 07:55:16,lamberken,20113411.0,1.0,2020-04-08 07:55:16
+776,400894953.0,[MINOR] Fix typo in TimelineService,1497.0,1.0,1.0,1.0,1.0,0.0,0.0,2020-04-08 14:46:14,2020-04-09 01:14:51,Jiayi Liao,13514599.0,1.0,2020-04-09 01:14:51
+777,401138323.0,[HUDI-772] Make UserDefinedBulkInsertPartitioner configurable for DataSource,1500.0,134.0,2.0,4.0,1.0,4.0,19.0,2020-04-09 00:02:06,2020-04-20 15:38:19,Dongwook,3383164.0,1.0,2020-04-20 15:38:19
+778,401224178.0,"[HUDI-601] Improve unit test coverage for HoodieAvroWriteSupport, HoodieRealtimeRecordReader, RealtimeCompactedRecordReader",1501.0,78.0,3.0,3.0,1.0,1.0,0.0,2020-04-09 05:54:18,2020-04-09 15:18:03,Abhishek Modi,6784567.0,1.0,2020-04-09 15:18:03
+779,401567105.0,[WIP] [HUDI-778] Adding codecov bagde to readme file,1502.0,1.0,0.0,1.0,1.0,2.0,0.0,2020-04-09 18:02:23,2020-05-13 22:39:38,Ramachandran M S,2144396.0,0.0,
+780,401590464.0,[HUDI-371] : Supporting combine input format RT tables,1503.0,1045.0,372.0,15.0,1.0,3.0,0.0,2020-04-09 18:57:30,2020-04-21 03:40:07,,2722167.0,1.0,2020-04-21 03:40:07
+781,401718887.0,[HUDI-780] Migrate test cases to Junit 5,1504.0,522.0,282.0,26.0,2.0,14.0,2.0,2020-04-10 01:37:55,2020-04-15 19:35:01,Raymond Xu,2701446.0,1.0,2020-04-15 19:35:01
+782,401913506.0,[HUDI-738] Add validation to DeltaStreamer when filtetDupes is enabled on UPSERT mode,1505.0,18.0,12.0,4.0,1.0,1.0,0.0,2020-04-10 13:41:05,2020-04-10 15:58:56,Bhavani Sudha Saktheeswaran,2179254.0,1.0,2020-04-10 15:58:56
+783,402124492.0,[HUDI-782] Add support of Aliyun object storage service.,1506.0,3.0,0.0,2.0,1.0,2.0,0.0,2020-04-11 02:06:14,2020-04-12 02:06:31,Shen Hong,9527867.0,1.0,2020-04-12 02:06:31
+784,402272620.0,[HUDI-782] Add doc for oss filesystem,1507.0,123.0,0.0,2.0,1.0,0.0,0.0,2020-04-12 01:44:02,2020-04-12 01:46:57,Shen Hong,9527867.0,0.0,
+785,402273009.0,[HUDI-782] Add doc for OSS filesystem,1508.0,123.0,0.0,2.0,1.0,0.0,0.0,2020-04-12 01:49:35,2020-04-12 12:19:34,Shen Hong,9527867.0,1.0,2020-04-12 12:19:34
+786,402345952.0,[HUDI-525] lack of insert info in delta_commit inflight,1509.0,6.0,0.0,1.0,1.0,17.0,0.0,2020-04-12 14:22:23,2020-08-05 00:43:58,刘建辉,13215934.0,1.0,2020-08-05 00:43:58
+787,402432036.0,[HUDI-786] Disabling flaky test in InlineFileSystem,1510.0,2.0,1.0,1.0,1.0,0.0,0.0,2020-04-13 01:32:09,2020-04-13 02:38:57,Sivabalan Narayanan,513218.0,1.0,2020-04-13 02:38:57
+788,402510076.0,[HUDI-789]Adjust logic of upsert in HDFSParquetImporter,1511.0,217.0,60.0,2.0,7.0,4.0,15.0,2020-04-13 07:15:12,2020-04-21 06:21:31,hongdd,17537134.0,1.0,2020-04-21 06:21:31
+789,402879410.0,[HUDI-763] Add hoodie.table.base.file.format option to hoodie.properties file,1512.0,40.0,4.0,4.0,2.0,11.0,10.0,2020-04-13 22:52:56,2020-08-11 14:00:39,lamberken,20113411.0,0.0,
+790,403373115.0,[HUDI-793] Adding proper default to hudi metadata fields and proper handling to rewrite routine,1513.0,15.0,9.0,2.0,3.0,5.0,14.0,2020-04-14 19:31:36,2020-05-14 01:04:39,Alexander Filipchik,1406795.0,1.0,2020-05-14 01:04:39
+791,403428731.0,[HUDI-795] Ignoring missing aux folder,1515.0,21.0,3.0,1.0,3.0,2.0,6.0,2020-04-14 21:41:47,2020-04-22 16:47:32,Alexander Filipchik,1406795.0,1.0,2020-04-22 16:47:32
+792,403433309.0,[HUDI-784] Adressing issue with log reader on GCS,1516.0,4.0,4.0,1.0,3.0,0.0,5.0,2020-04-14 21:53:45,2020-05-07 20:05:33,Alexander Filipchik,1406795.0,1.0,2020-05-07 20:05:33
+793,403435198.0,[HUDI-799] Use appropriate FS when loading configs,1517.0,3.0,1.0,1.0,1.0,1.0,3.0,2020-04-14 21:59:03,2020-04-16 20:49:40,Alexander Filipchik,1406795.0,1.0,2020-04-16 20:49:40
+794,403442269.0,[HUDI-723] Register avro schema if infered from SQL transformation,1518.0,73.0,17.0,2.0,3.0,3.0,7.0,2020-04-14 22:19:47,2020-05-15 19:44:04,Alexander Filipchik,1406795.0,1.0,2020-05-15 19:44:04
+795,403935120.0,[HUDI-777] Update Deltastreamer param description for --target-table,1519.0,2.0,2.0,2.0,1.0,1.0,0.0,2020-04-15 19:02:56,2020-04-15 21:56:14,Iftach Schonbaum,28829551.0,1.0,2020-04-15 21:56:14
+796,404005946.0,[WIP][HUDI-797] Small performance improvement for rewriting records.,1520.0,61.0,8.0,2.0,1.0,7.0,2.0,2020-04-15 21:47:40,2020-05-29 22:08:04,Prashant Wason,58448203.0,0.0,
+797,404145032.0,[HUDI-798] Migrate to Mockito Jupiter for JUnit 5,1521.0,135.0,135.0,15.0,1.0,0.0,3.0,2020-04-16 06:28:53,2020-04-16 08:07:33,Raymond Xu,2701446.0,1.0,2020-04-16 08:07:33
+798,404177334.0,[HUDI-702]Add test for HoodieLogFileCommand,1522.0,246.0,7.0,3.0,1.0,5.0,11.0,2020-04-16 07:47:24,2020-04-29 10:47:28,hongdd,17537134.0,1.0,2020-04-29 10:47:27
+799,404495176.0,[MINOR] Fix broken README link,1523.0,2.0,2.0,2.0,1.0,0.0,0.0,2020-04-16 15:58:52,2020-04-16 18:21:41,lamberken,20113411.0,1.0,2020-04-16 18:21:41
+800,404684633.0,[HUDI-801] Adding a way to post process schema after it is fetched,1524.0,286.0,32.0,11.0,2.0,8.0,6.0,2020-04-16 20:11:26,2020-09-19 18:18:37,Alexander Filipchik,1406795.0,1.0,2020-09-19 18:18:37
+801,404728487.0,[MINOR] Fixing param parsing. It is array of array,1525.0,2.0,17.0,2.0,3.0,1.0,0.0,2020-04-16 21:02:30,2020-04-22 03:12:34,Alexander Filipchik,1406795.0,1.0,2020-04-22 03:12:34
+802,404908903.0,[HUDI-783] Add pyspark example in quickstart,1526.0,233.0,3.0,1.0,11.0,13.0,12.0,2020-04-17 04:04:01,2020-05-04 00:18:18,Edwin Guo,8300535.0,1.0,2020-05-04 00:18:18
+803,405120937.0,[MINOR] use Option and fix description in toString method,1527.0,9.0,21.0,3.0,2.0,3.0,1.0,2020-04-17 13:05:24,2020-04-18 04:51:38,,940936.0,1.0,2020-04-18 04:51:38
+804,405516759.0,[HUDI-800] fix Metrics getReporter().close() throws NPE when MetricsR…,1529.0,4.0,2.0,1.0,1.0,0.0,2.0,2020-04-18 15:36:25,2020-04-19 13:33:07,lw0090,8501994.0,1.0,2020-04-19 13:33:07
+805,405575235.0,[HUDI-809] Migrate CommonTestHarness to JUnit 5,1530.0,460.0,430.0,14.0,3.0,5.0,7.0,2020-04-18 23:25:22,2020-04-22 06:10:26,Raymond Xu,2701446.0,1.0,2020-04-22 06:10:26
+806,405748606.0,[HUDI-794]: implemented optional use of --config-folder option in HoodieDeltaStreamer,1532.0,257.0,111.0,6.0,1.0,1.0,4.0,2020-04-19 22:34:20,2020-05-15 05:49:07,Pratyaksh Sharma,30863489.0,0.0,
+807,406020072.0,Hudi 815,1533.0,142961.0,91571.0,1097.0,140.0,0.0,0.0,2020-04-20 12:00:48,2020-04-20 13:11:49,,37138788.0,0.0,
+808,406025430.0,[HUDI-815] fix typo,1534.0,2.0,2.0,2.0,1.0,0.0,0.0,2020-04-20 12:12:36,2020-04-20 12:22:35,,37138788.0,1.0,2020-04-20 12:22:35
+809,406036071.0,[MINOR]Remove reduntant code and fix typo in HoodieDefaultTimeline,1535.0,1.0,5.0,1.0,1.0,1.0,0.0,2020-04-20 12:34:26,2020-04-21 01:40:23,wangxianghu,49835526.0,1.0,2020-04-21 01:40:23
+810,406045624.0,[HUDI-816] Fix MAX_MEMORY_FOR_MERGE_PROP and MAX_MEMORY_FOR_COMPACTION_PROP do not work due to HUDI-678,1536.0,74.0,1.0,2.0,1.0,5.0,1.0,2020-04-20 12:54:16,2020-04-22 08:33:19,leesf,10128888.0,1.0,2020-04-22 08:33:19
+811,406099257.0,[HUDI-817] fixed building IndexFileFilter with a wrong condition in Hood…,1537.0,1.0,1.0,1.0,1.0,3.0,0.0,2020-04-20 14:28:45,2020-05-10 01:45:08,Carm,9296411.0,1.0,2020-05-10 01:45:08
+812,406149379.0,[HUDI-803]: added more test cases in TestHoodieAvroUtils.class,1538.0,97.0,13.0,2.0,9.0,13.0,5.0,2020-04-20 15:54:43,2020-05-20 16:04:44,Pratyaksh Sharma,30863489.0,1.0,2020-05-20 16:04:44
+813,406338242.0,[HUDI-819] Fix a bug with MergeOnReadLazyInsertIterable. ,1540.0,138.0,99.0,10.0,1.0,4.0,7.0,2020-04-20 22:36:32,2020-04-27 19:50:40,,2992755.0,1.0,2020-04-27 19:50:40
+814,406364381.0,[HUDI-843] Add ability to specify time unit for  TimestampBasedKeyGenerator,1541.0,60.0,13.0,2.0,5.0,3.0,4.0,2020-04-21 00:01:11,2020-05-14 20:37:59,Alexander Filipchik,1406795.0,1.0,2020-05-14 20:37:59
+815,406373606.0,[HUDI-820] cleaner repair command should only inspect clean metadata files,1542.0,29.0,9.0,3.0,1.0,5.0,5.0,2020-04-21 00:36:39,2020-05-11 01:25:55,Balaji Varadarajan,3021376.0,1.0,2020-05-11 01:25:55
+816,406423428.0,[HUDI-821]:Fix the wrong annotation of JCommander IStringConverter,1543.0,5.0,3.0,2.0,1.0,3.0,0.0,2020-04-21 04:01:34,2020-04-22 04:54:20,dengziming,26023240.0,0.0,
+817,406437980.0,[Minor] Update docs for oss_filesystem,1544.0,24.0,4.0,2.0,1.0,1.0,0.0,2020-04-21 04:58:04,2020-04-21 10:57:38,Shen Hong,9527867.0,1.0,2020-04-21 10:57:38
+818,406607425.0,[HUDI-823] fix typo,1545.0,3.0,3.0,2.0,1.0,0.0,0.0,2020-04-21 11:16:53,2020-04-21 11:31:39,,37138788.0,1.0,2020-04-21 11:31:39
+819,407044557.0,[MINOR]: Fix annotations in HoodieDeltaStreamer,1547.0,2.0,2.0,2.0,1.0,1.0,2.0,2020-04-22 04:51:46,2020-04-22 18:37:17,dengziming,26023240.0,1.0,2020-04-22 18:37:17
+820,407116506.0,[HUDI-785] Refactor compaction/savepoint execution based on ActionExecutor abstraction,1548.0,789.0,601.0,58.0,1.0,2.0,0.0,2020-04-22 08:00:53,2020-04-26 01:26:45,vinoth chandar,1179324.0,1.0,2020-04-26 01:26:45
+821,407166810.0,[HUDI-827] fix translation error,1551.0,1.0,1.0,1.0,1.0,2.0,0.0,2020-04-22 09:31:22,2020-04-22 15:33:35,,37138788.0,1.0,2020-04-22 15:33:35
+822,407399052.0,[HUDI-810] Migrate ClientTestHarness to JUnit 5,1553.0,1236.0,1247.0,36.0,4.0,6.0,0.0,2020-04-22 16:26:00,2020-04-28 15:38:17,Raymond Xu,2701446.0,1.0,2020-04-28 15:38:16
+823,407641925.0,[HUDI-704]Add test for RepairsCommand,1554.0,457.0,12.0,7.0,2.0,3.0,27.0,2020-04-23 02:23:26,2020-05-07 15:02:29,hongdd,17537134.0,1.0,2020-05-07 15:02:29
+824,407938226.0,[WIP] [HUDI-834] Concrete signature of HoodieRecordPayload#combineAndGetUpdateValue & HoodieRecordPayload#getInsertValue,1557.0,26.0,32.0,8.0,1.0,4.0,0.0,2020-04-23 13:53:30,2020-05-13 22:38:02,tison,18818196.0,0.0,
+825,408517484.0,[HUDI-796] Add deduping logic for upserts case,1558.0,191.0,36.0,5.0,17.0,28.0,27.0,2020-04-24 12:19:10,2020-09-18 11:37:52,Pratyaksh Sharma,30863489.0,1.0,2020-09-18 11:37:52
+826,408807645.0,[HUDI-838] Support schema from HoodieCommitMetadata for HiveSync,1559.0,199.0,57.0,6.0,1.0,2.0,9.0,2020-04-24 23:30:32,2020-05-07 23:33:09,Udit Mehrotra,8647012.0,1.0,2020-05-07 23:33:09
+827,408904908.0,Revise translation,1560.0,142961.0,91571.0,1097.0,140.0,0.0,0.0,2020-04-25 13:01:55,2020-04-25 13:03:06,,37138788.0,0.0,
+828,408904996.0,[MINOR] revise translation,1561.0,2.0,2.0,1.0,1.0,0.0,0.0,2020-04-25 13:02:34,2020-04-25 13:12:16,,37138788.0,1.0,2020-04-25 13:12:16
+829,408925081.0,[HUDI-837]: implemented custom deserializer for AvroKafkaSource,1562.0,214.0,3.0,8.0,5.0,11.0,22.0,2020-04-25 15:27:22,2021-03-14 07:56:51,Pratyaksh Sharma,30863489.0,0.0,
+830,409140753.0,[HUDI-73]: implemented vanilla AvroKafkaSource,1565.0,292.0,3.0,7.0,2.0,13.0,12.0,2020-04-26 19:11:07,2021-09-07 21:35:45,Pratyaksh Sharma,30863489.0,0.0,
+831,409150349.0,[HUDI-603]: DeltaStreamer can now fetch schema before every run in continuous mode,1566.0,252.0,57.0,9.0,1.0,19.0,31.0,2020-04-26 20:15:17,2020-10-07 03:34:04,Pratyaksh Sharma,30863489.0,1.0,2020-10-07 03:34:04
+832,409305506.0,[HUDI-840]Clean blank file created by HoodieLogFormatWriter,1567.0,83.0,53.0,3.0,1.0,7.0,3.0,2020-04-27 07:25:23,2020-09-29 15:02:16,hongdd,17537134.0,1.0,2020-09-29 15:02:16
+833,410461712.0,[HUDI-814] Migrate hudi-client tests to JUnit 5,1570.0,44.0,46.0,4.0,1.0,1.0,0.0,2020-04-29 02:58:30,2020-04-29 05:57:29,Raymond Xu,2701446.0,1.0,2020-04-29 05:57:29
+834,410920462.0,[HUDI-836] Implement datadog metrics reporter,1572.0,906.0,4.0,13.0,3.0,24.0,15.0,2020-04-29 19:55:10,2020-05-22 16:14:22,Raymond Xu,2701446.0,1.0,2020-05-22 16:14:22
+835,411050658.0,Mongo operation class,1573.0,41.0,0.0,1.0,1.0,0.0,0.0,2020-04-30 01:01:48,2020-04-30 01:04:44,,51349470.0,0.0,
+836,411067936.0,[HUDI-701]Add unit test for HDFSParquetImportCommand,1574.0,209.0,19.0,5.0,2.0,11.0,7.0,2020-04-30 01:49:50,2020-05-14 11:15:50,hongdd,17537134.0,1.0,2020-05-14 11:15:50
+837,411176071.0,[MINOR] Reorder HoodieTimeline#compareTimestamp arguments for better readability,1575.0,64.0,62.0,26.0,1.0,0.0,0.0,2020-04-30 06:21:07,2020-04-30 16:19:40,vinoth chandar,1179324.0,1.0,2020-04-30 16:19:40
+838,411261524.0,[HUDI-850] Avoid unnecessary listings in incremental cleaning mode,1576.0,85.0,48.0,3.0,1.0,4.0,14.0,2020-04-30 08:47:29,2020-05-02 04:37:22,Balaji Varadarajan,3021376.0,1.0,2020-05-02 04:37:22
+839,411324603.0,[HUDI-855] Run Auto Cleaner in parallel with ingestion,1577.0,207.0,178.0,11.0,2.0,1.0,19.0,2020-04-30 10:26:31,2020-06-28 09:04:51,Balaji Varadarajan,3021376.0,1.0,2020-06-28 09:04:51
+840,411809836.0,[HUDI-305] Add Hudi changes for Presto MOR query support,1578.0,79.0,2.0,4.0,1.0,5.0,2.0,2020-04-30 20:08:26,2020-05-04 18:27:16,,8600774.0,1.0,2020-05-04 18:27:16
+841,412026870.0,[HUDI-852] adding check for table name for Append Save mode ,1580.0,64.0,5.0,2.0,2.0,4.0,7.0,2020-05-01 07:49:12,2020-05-04 06:09:19,,6225845.0,1.0,2020-05-04 06:09:18
+842,412426074.0,[HUDI-902] Avoid exception when getSchemaProvider,1584.0,59.0,2.0,2.0,1.0,12.0,8.0,2020-05-02 09:30:52,2020-05-16 04:33:02,Raymond Xu,2701446.0,1.0,2020-05-16 04:33:02
+843,412620520.0,[MINOR]Fix typo in use case,1587.0,1.0,1.0,1.0,1.0,0.0,0.0,2020-05-03 15:32:48,2020-05-06 11:16:29,,37138788.0,1.0,2020-05-06 11:16:28
+844,412626287.0,[MINOR] fix typo in comparison document,1588.0,1.0,1.0,1.0,1.0,1.0,0.0,2020-05-03 16:13:13,2020-05-06 08:08:04,,37138788.0,1.0,2020-05-06 08:08:04
+845,412633900.0,[HUDI-813] Migrate hudi-utilities tests to JUnit 5,1589.0,192.0,214.0,17.0,1.0,1.0,2.0,2020-05-03 17:07:02,2020-05-04 04:43:43,Raymond Xu,2701446.0,1.0,2020-05-04 04:43:43
+846,412709898.0,[HUDI-812] Migrate hudi common tests to JUnit 5,1590.0,716.0,830.0,43.0,2.0,2.0,3.0,2020-05-04 02:27:06,2020-05-06 11:15:21,Raymond Xu,2701446.0,1.0,2020-05-06 11:15:21
+847,413183182.0,[HUDI-822] decouple Hudi related logics from HoodieInputFormat,1592.0,919.0,624.0,18.0,2.0,12.0,17.0,2020-05-04 21:02:22,2020-06-09 13:10:16,Gary Li,23007841.0,1.0,2020-06-09 13:10:16
+848,413238929.0,[WIP] [HUDI-839] Introducing rollback strategy using marker files,1593.0,945.0,396.0,33.0,2.0,1.0,1.0,2020-05-04 23:34:07,2020-06-28 05:30:25,vinoth chandar,1179324.0,0.0,
+849,413258457.0,[HUDI-862] Migrate HUDI site blogs from Confluence to Jeykll.,1594.0,755.0,9.0,32.0,4.0,13.0,3.0,2020-05-05 00:55:17,2020-05-13 04:04:13,Prashant Wason,58448203.0,1.0,2020-05-13 04:04:13
+850,413868567.0,[MINOR] Fix travis testing and silence unit tests,1595.0,22.0,21.0,11.0,1.0,5.0,0.0,2020-05-06 04:20:12,2020-05-08 08:13:24,Raymond Xu,2701446.0,0.0,
+851,414078140.0,[HUDI-863] get decimal properties from derived spark DataType,1596.0,11.0,15.0,2.0,1.0,11.0,0.0,2020-05-06 12:55:06,2020-05-18 11:28:27,,5725466.0,1.0,2020-05-18 11:28:27
+852,414280296.0,[WIP] Added a MultiFormatTimestampBasedKeyGenerator that allows for multipl…,1597.0,388.0,0.0,2.0,2.0,12.0,27.0,2020-05-06 19:08:59,2020-08-27 17:29:25,Allen Underwood,6650583.0,0.0,
+853,414923476.0,[WIP] Fix recursive type parameter,1601.0,1601.0,1180.0,92.0,4.0,0.0,0.0,2020-05-07 21:16:01,2020-05-13 00:20:08,tison,18818196.0,0.0,
+854,415001162.0,[HUDI-494] fix incorrect record size estimation,1602.0,125.0,155.0,8.0,1.0,28.0,13.0,2020-05-08 01:43:28,2020-06-09 03:29:30,Gary Li,23007841.0,1.0,2020-06-09 03:29:30
+855,415073884.0,[HUDI-836] Add configs for Datadog metrics reporter,1603.0,102.0,18.0,2.0,1.0,4.0,2.0,2020-05-08 06:37:51,2020-05-28 07:40:28,Raymond Xu,2701446.0,1.0,2020-05-28 07:40:28
+856,415286934.0,[HUDI-866] Make some classes that rely on JavaSparkContext to obtain Configuration spark-free.,1604.0,245.0,228.0,35.0,1.0,1.0,0.0,2020-05-08 15:17:51,2020-05-09 08:24:51,Shen Hong,9527867.0,0.0,
+857,415366313.0,[HUDI-894] : Adding ability to use hive metastore client for hive table registration instead of jdbc,1605.0,5.0,1.0,2.0,1.0,2.0,2.0,2020-05-08 18:24:44,2020-05-13 21:05:51,,2722167.0,0.0,
+858,415368533.0,[MINOR] Fix hardcoding of ports in TestHoodieJmxMetrics,1606.0,43.0,16.0,3.0,1.0,1.0,0.0,2020-05-08 18:30:10,2020-05-10 23:23:27,vinoth chandar,1179324.0,1.0,2020-05-10 23:23:27
+859,415460334.0,[HUDI-811] Restructure test packages,1607.0,106.0,80.0,36.0,4.0,2.0,2.0,2020-05-08 22:31:10,2020-05-13 22:37:04,Raymond Xu,2701446.0,1.0,2020-05-13 22:37:04
+860,415538222.0,[HUDI-869] Add support for alluxio,1608.0,4.0,1.0,2.0,4.0,3.0,4.0,2020-05-09 08:19:00,2020-05-13 13:00:35,liujinhui,25769285.0,1.0,2020-05-13 13:00:35
+861,415541738.0,[HUDI-870] Remove spark context in ClientUtils and HoodieIndex,1609.0,21.0,22.0,9.0,1.0,1.0,0.0,2020-05-09 08:50:05,2020-05-11 11:05:37,Shen Hong,9527867.0,1.0,2020-05-11 11:05:37
+862,415658333.0,[HUDI-705]Add unit test for RollbacksCommand,1611.0,204.0,7.0,3.0,2.0,5.0,1.0,2020-05-10 02:27:18,2020-05-18 06:04:07,hongdd,17537134.0,1.0,2020-05-18 06:04:07
+863,415803493.0,[HUDI-528] Handle empty commit in incremental pulling,1612.0,20.0,17.0,2.0,1.0,1.0,4.0,2020-05-11 00:09:14,2020-05-15 05:55:26,Gary Li,23007841.0,1.0,2020-05-15 05:55:26
+864,416054004.0,[HUDI-880] Replace some spark context by hadoop configuration in HoodieTable,1614.0,135.0,125.0,28.0,1.0,5.0,0.0,2020-05-11 11:47:51,2020-05-12 06:33:58,Shen Hong,9527867.0,1.0,2020-05-12 06:33:58
+865,416059726.0,MINOR Fix log content error,1615.0,1.0,1.0,1.0,1.0,0.0,0.0,2020-05-11 12:00:30,2020-05-11 15:14:44,liujinhui,25769285.0,1.0,2020-05-11 15:14:44
+866,416113047.0,[HUDI-786] Fixing read beyond inline length in InlineFS,1616.0,49.0,29.0,2.0,2.0,4.0,7.0,2020-05-11 13:41:15,2020-05-28 19:59:12,Sivabalan Narayanan,513218.0,1.0,2020-05-28 19:59:11
+867,416373019.0,[WIP] [HUDI-836] Implement Datadog metrics reporter,1617.0,902.0,4.0,13.0,1.0,0.0,0.0,2020-05-11 22:04:42,2020-05-11 23:09:11,Raymond Xu,2701446.0,0.0,
+868,416394981.0,[HUDI-884] Shade avro and parquet-avro in hudi-hive-sync-bundle,1618.0,28.0,2.0,2.0,1.0,5.0,0.0,2020-05-11 23:09:08,2020-05-12 18:40:32,Udit Mehrotra,8647012.0,1.0,2020-05-12 18:40:32
+869,416477171.0,[HUDI-896] Parallelize CI tests by modules,1619.0,13.0,6.0,2.0,1.0,14.0,0.0,2020-05-12 04:28:40,2020-06-21 02:17:28,Raymond Xu,2701446.0,0.0,
+870,416531049.0,[HUDI-881] Replace part of spark context by hadoop configuration in AbstractHoodieClient and HoodieReadClient,1620.0,11.0,7.0,4.0,1.0,1.0,0.0,2020-05-12 07:08:47,2020-05-12 16:33:30,Shen Hong,9527867.0,1.0,2020-05-12 16:33:30
+871,416541731.0,[HUDI-886] Replace jsc.hadoopConfiguration by hadoop configuration in hudi-client testcase,1621.0,78.0,78.0,12.0,1.0,1.0,0.0,2020-05-12 07:32:50,2020-05-12 15:51:32,Shen Hong,9527867.0,1.0,2020-05-12 15:51:32
+872,416583084.0,[HUDI-888] fix NullPointerException,1622.0,19.0,8.0,2.0,1.0,8.0,0.0,2020-05-12 08:53:14,2020-05-20 11:22:36,,5725466.0,1.0,2020-05-20 11:22:35
+873,416765997.0,[MINOR] Increase heap space for surefire,1623.0,1.0,0.0,1.0,1.0,5.0,0.0,2020-05-12 14:32:50,2020-05-16 08:11:58,Raymond Xu,2701446.0,1.0,2020-05-16 08:11:58
+874,416789084.0,[HUDI-706]Add unit test for SavepointsCommand,1624.0,361.0,35.0,5.0,3.0,6.0,9.0,2020-05-12 15:08:24,2020-05-19 10:36:02,hongdd,17537134.0,1.0,2020-05-19 10:36:02
+875,417065080.0,[MINOR] Point release page to downloads.apache.org directly,1626.0,5.0,5.0,2.0,1.0,2.0,0.0,2020-05-13 01:46:37,2020-05-13 01:49:03,vinoth chandar,1179324.0,1.0,2020-05-13 01:49:03
+876,417112491.0,[HUDI-889] Writer supports useJdbc configuration when hive synchronization is enabled,1627.0,7.0,1.0,3.0,2.0,0.0,0.0,2020-05-13 04:45:39,2020-05-13 16:20:14,,3898450.0,1.0,2020-05-13 16:20:14
+877,417284491.0,[HUDI-891] Improve websites for graduation required content,1628.0,21.0,4.0,2.0,1.0,1.0,0.0,2020-05-13 10:59:10,2020-05-13 14:56:38,lamberken,20113411.0,1.0,2020-05-13 14:56:38
+878,418848462.0,[HUDI-783] Added python3 to the spark_base docker image to support pyspark,1632.0,6.0,0.0,1.0,1.0,2.0,0.0,2020-05-15 22:04:02,2020-06-01 05:53:51,Vinoth Govindarajan,1142498.0,1.0,2020-06-01 05:53:51
+879,418897198.0,[HUDI-858] Allow multiple operations to be executed within a single commit,1633.0,84.0,6.0,5.0,1.0,7.0,7.0,2020-05-16 01:47:51,2020-05-19 02:27:25,Balaji Varadarajan,3021376.0,1.0,2020-05-19 02:27:25
+880,418898166.0,[HUDI-846][HUDI-848] Enable Incremental cleaning and embedded timeline-server by default,1634.0,56.0,24.0,8.0,1.0,3.0,1.0,2020-05-16 01:56:48,2020-05-20 12:29:44,Balaji Varadarajan,3021376.0,1.0,2020-05-20 12:29:44
+881,418911289.0,[MINOR] Remove logos on home page,1635.0,43.0,18.0,3.0,1.0,1.0,0.0,2020-05-16 04:06:50,2020-05-16 04:34:33,lamberken,20113411.0,1.0,2020-05-16 04:34:33
+882,418933092.0,[HUDI-895] Remove unnecessary listing .hoodie folder when using timeline server,1636.0,40.0,31.0,3.0,1.0,1.0,0.0,2020-05-16 08:09:00,2020-05-18 01:18:54,Balaji Varadarajan,3021376.0,1.0,2020-05-18 01:18:53
+883,419024325.0,HUDI-515 Resolve API conflict for Hive 2 & Hive 3,1638.0,39.0,8.0,2.0,1.0,6.0,0.0,2020-05-16 21:20:55,2020-06-08 21:18:40,wenningd,31263084.0,1.0,2020-06-08 21:18:39
+884,419168463.0,[MINOR] Fix apache-rat violations,1639.0,62.0,15.0,6.0,2.0,5.0,0.0,2020-05-17 20:24:42,2020-05-18 18:16:50,Joey,47344.0,1.0,2020-05-18 18:16:50
+885,419683567.0,[MINOR] Fix resource cleanup in TestTableSchemaEvolution,1640.0,5.0,4.0,2.0,2.0,3.0,4.0,2020-05-18 18:59:08,2020-05-20 12:07:31,Raymond Xu,2701446.0,1.0,2020-05-20 12:07:31
