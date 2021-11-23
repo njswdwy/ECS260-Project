@@ -16,4 +16,4 @@ for i in range(0, len(cleanedProjectList)):
     PRFrequency = round_school(cleanedProjectList['PR Number'][i] / months) 
     cleanedProjectList['Merge Frequency'][i] = PRFrequency
 
-cleanedProjectList.to_csv('cleaned_project_w_frequncy.csv', sep = ',', encoding = 'utf-8', index = True)
+cleanedProjectList.to_csv('Final_Project_List.csv', sep = ',', encoding = 'utf-8', index = True)
