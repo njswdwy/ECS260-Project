@@ -22,6 +22,7 @@ for i in range(0, len(cleanedProjectList)):
         cleanedProjectList = cleanedProjectList.drop(i)
 
 cleanedProjectList = cleanedProjectList.drop('Review Comment Number', 1)
+cleanedProjectList = cleanedProjectList.rename(columns={'Issue Comment Number': 'Comments Number'})
 cleanedProjectList = cleanedProjectList.reset_index(drop=True)
 
 
